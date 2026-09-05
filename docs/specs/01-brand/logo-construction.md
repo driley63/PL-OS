@@ -1,70 +1,29 @@
 # Logo Construction
 
-Status: Released
-Owner: Brand Working Group
-Version: 1.1.0
-Last updated: 2026-08-04
+Status: Owner-approved artwork
+Version: 2.0.0
+Last updated: 2026-09-04
 
-## Purpose
+## Canonical construction
 
-Defines proportional construction and optical refinement rules for the logo.
+Use the source SVGs in `assets/brand/plectara/source/`. The approved reconstruction retains the original concept PNG for provenance, but that PNG is not the source for subsequent exports.
 
-## Scope
+The construction combines four colored strands into a human figure. Narrow separation channels have a shared six-unit clearance in construction coordinates. Offsets are computed from neighboring boundaries with subpixel approximation; do not independently reposition strand edges. The larger intentional openings around the head and between the legs are not separation channels.
 
-- LifestyleIQ brand identity
-- Digital product implementation
-- Marketing and platform assets
-- Final vector logo masters and generated exports
+The Plectara lettering is recovered from the approved artwork as outlines. It is not live text or an installable typeface. UI and supporting copy remain Inter.
 
-## Requirements
+## Export rules
 
-- Rounded-square corner radius should remain approximately 22 to 24 percent of icon size.
-- The symbol should occupy approximately 68 to 72 percent of the app icon canvas.
-- Clear space is X, where X equals the leaf width in the final mark.
-- The leaf and human figure must remain visually balanced at 16, 24, 32, 48, 64, 180, 512, and 1024 px.
-- Monochrome variants must use one foreground color and one transparent or solid background. Accent strokes, gradients, and semi-transparent overlays are not allowed in true monochrome assets.
-- Horizontal lockups must use approved vector wordmark outlines for production exports, not live text.
+- Preserve aspect ratio, colors, transparent channels, and head placement.
+- Use the checked-in generator for symbol and derivative exports.
+- Reuse `plectara-wordmark.svg` without retracing it during normal builds.
+- Use a fully opaque, unrounded square for iOS and legacy launcher sources.
+- Keep the Android foreground inside its adaptive safe area.
+- Single-color variants must contain only one foreground fill.
+- SVGs must not contain embedded bitmaps or external font dependencies.
 
-## Optical Refinement Gates
+## Review
 
-- Check whether the leaf visually overpowers the human figure in the full-color icon.
-- Check whether internal strokes remain intentional at favicon sizes.
-- Confirm the figure reads as a positive lifestyle gesture rather than a generic abstract curve.
-- Confirm safe area against rounded iOS masks, Android adaptive icon masks, favicons, social avatars, and wearable icons.
-- Confirm the icon remains recognizable without the wordmark.
+Inspect color and monochrome versions on light and dark backgrounds. At 32 px and above, evaluate the weave; at 16 px, evaluate recognition of the silhouette, not preservation of every gap. Any future geometry change requires a new review.
 
-## Placeholder Review
-
-The current placeholder assets were reviewed on 2026-08-04. The review found that the concept is directionally aligned, but the current SVGs are not production masters.
-
-Primary blockers:
-
-- The monochrome icon still contains a teal accent stroke.
-- The horizontal lockup uses live text.
-- The leaf and vein detail need small-size refinement.
-- A production asset inventory does not exist yet.
-
-## Implementation Guidance
-
-- Use `assets/brand/logos/optical-refinement-review.md` as the source review until final vector masters are approved.
-- Generate production exports only after the source SVGs pass the optical refinement gates.
-- Record any final geometry or wordmark changes in release notes.
-
-## Acceptance Criteria
-
-- Reviewers can distinguish placeholder assets from production masters.
-- Final logo assets pass small-size, safe-area, monochrome, and lockup checks.
-- Engineers can generate platform outputs from approved source files.
-- The standard maps to LIQ OS Core.
-
-## References
-
-- adr/0001-adopt-lifestyleiq-name.md
-- adr/0002-establish-brand-philosophy.md
-- adr/0003-reserve-purple-for-ai.md
-- adr/0004-adopt-green-teal-gradient.md
-
-## Version History
-
-- v1.1.0: Adds optical refinement gates and placeholder review findings.
-- v1.0.0: Initial repository baseline.
+The previous leaf-mark placeholder review applies only to archived files in `assets/brand/logos/`. It is not an unresolved approval gate for the approved Plectara master.

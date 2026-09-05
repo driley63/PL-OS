@@ -1,5 +1,7 @@
 # Logo Assets
 
+> Historical assets and naming explorations. The current owner-approved Plectara master and exports are in [`../plectara/`](../plectara/README.md). The legacy files below are retained, but are not used by the PL-OS site.
+
 The SVG files in `source/` are implementation placeholders based on the approved direction. Replace them with production vector masters after final optical refinement.
 
 ## Source Files

@@ -17,7 +17,7 @@ Defines integration boundaries for Product Architecture.
 
 ## Requirements
 
-- Integration Boundaries must support the LifestyleIQ philosophy.
+- Integration Boundaries must support the Plectara philosophy.
 - Integration Boundaries must be consistent with approved brand and design tokens where relevant.
 - Integration Boundaries must identify affected platforms, users, and maintainers.
 

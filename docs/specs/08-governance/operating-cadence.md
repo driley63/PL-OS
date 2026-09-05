@@ -17,7 +17,7 @@ Defines operating cadence for Governance Operations.
 
 ## Requirements
 
-- Operating Cadence must support the LifestyleIQ philosophy.
+- Operating Cadence must support the Plectara philosophy.
 - Operating Cadence must be consistent with approved brand and design tokens where relevant.
 - Operating Cadence must identify affected platforms, users, and maintainers.
 

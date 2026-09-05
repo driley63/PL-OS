@@ -7,7 +7,7 @@ Last updated: 2026-08-04
 
 ## Purpose
 
-Defines app shell, navigation, route labels, hierarchy, and wayfinding standards for LifestyleIQ mobile, web, prototype, and documentation examples.
+Defines app shell, navigation, route labels, hierarchy, and wayfinding standards for Plectara mobile, web, prototype, and documentation examples.
 
 ## Scope
 
@@ -23,7 +23,7 @@ Defines app shell, navigation, route labels, hierarchy, and wayfinding standards
 - Primary product navigation must stay stable across high-frequency health workflows.
 - Health-sensitive routes must avoid exposing private health details in visible route labels, URLs, or browser titles.
 - Navigation state must be understandable without color alone.
-- Platform conventions may be used when they do not conflict with LIQ OS navigation hierarchy or privacy rules.
+- Platform conventions may be used when they do not conflict with PL-OS navigation hierarchy or privacy rules.
 
 ## Shell Regions
 

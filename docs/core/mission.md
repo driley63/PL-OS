@@ -1,13 +1,13 @@
 # Mission
 
 Status: Released
-Owner: LIQ OS Maintainers
+Owner: PL-OS Maintainers
 Version: 1.0.0
 Last updated: 2026-08-02
 
 ## Purpose
 
-Defines why LifestyleIQ and LIQ OS exist.
+Defines why Plectara and PL-OS exist.
 
 ## Scope
 
@@ -18,8 +18,8 @@ Defines why LifestyleIQ and LIQ OS exist.
 
 ## Requirements
 
-- LifestyleIQ must help users understand how daily habits affect health.
-- LIQ OS must make product decisions reusable and traceable.
+- Plectara must help users understand how daily habits affect health.
+- PL-OS must make product decisions reusable and traceable.
 
 ## Implementation Guidance
 

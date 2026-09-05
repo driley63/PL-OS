@@ -1,18 +1,22 @@
-# Volume 02 - Design Language Specification v1.5.0
+# Volume 02 - Design Language Specification v2.0.0
 
-Status: Released
+Status: Approved for v2.0.0
 Owner: Design System Working Group
-Version: 1.5.0
-Last updated: 2026-08-19
+Version: 2.0.0
+Last updated: 2026-09-04
+
+## Plectara color migration
+
+Apply the v2.0.0 [semantic color roles](plectara-color-migration.md) to existing components. Shapes, spacing, type scale, motion, interaction, and Capture-first behavior remain unchanged. The [preview](plectara-component-preview.md) and [contrast results](plectara-contrast-report.md) document the local implementation.
 
 ## Purpose
 
-Defines the visual and interaction system that LifestyleIQ product screens inherit. This volume translates the released Brand Identity standards into practical UI rules for layout, components, data visualization, motion, accessibility, and state handling.
+Defines the visual and interaction system that Plectara product screens inherit. This volume translates the released Brand Identity standards into practical UI rules for layout, components, data visualization, motion, accessibility, and state handling.
 
 ## Scope
 
-- LifestyleIQ product ecosystem
-- LIQ OS implementation guidance
+- Plectara product ecosystem
+- PL-OS implementation guidance
 - Future Flutter, web, and documentation artifacts
 - Mobile app, web app, design files, and reusable component libraries
 - Product surfaces that show health logs, summaries, trends, recommendations, and AI insights
@@ -44,7 +48,7 @@ Volume 02 does not define brand identity, medical claims, AI recommendation poli
 ## Requirements
 
 - Standards must map to implementation or reviewable behavior.
-- Changes must remain consistent with LIQ OS Core.
+- Changes must remain consistent with PL-OS Core.
 - Domain-specific behavior must consider accessibility, privacy, and user trust.
 - Product UI must use Volume 01 color, typography, and token rules.
 - Widgets and shortcuts must use released tokens and components while prioritizing Capture actions over charts, scores, and summaries.
@@ -107,7 +111,7 @@ A Design Language component or pattern is complete when it defines:
 
 ## Version History
 
-- Unreleased: Adds Capture-first compact surface and widget design requirements.
+- v1.7.0: Adds Capture-first compact surface and widget design requirements.
 - v1.5.0: Adds cross-volume alignment review for UI Pattern Expansion dependencies.
 - v1.5.0: Adds prototype-facing UI pattern standards for app shell, navigation, page templates, lists, tables, overlays, feedback, search, filters, sorting, progress, and disclosure.
 - v1.2.0: Adds implementable Design Language standards and release checklist.

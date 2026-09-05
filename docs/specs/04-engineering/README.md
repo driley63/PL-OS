@@ -1,12 +1,12 @@
 # Volume 04 - Engineering Standards
 
-Volume 04 defines how LifestyleIQ engineering teams should build, test, release, observe, secure, and maintain product software.
+Volume 04 defines how Plectara engineering teams should build, test, release, observe, secure, and maintain product software.
 
 ## Status
 
 - Current milestone: v1.4.0 released
 - Owner: Engineering Working Group
-- Dependencies: LIQ OS Core, Brand Identity v1.1.0, Design Language v1.2.0, Product Experience v1.3.0, and AI Principles baseline
+- Dependencies: PL-OS Core, Brand Identity v2.0.0, Design Language v2.0.0 (existing component baseline), Product Experience, and AI Principles
 - Release type: minor release because this work adds implementation-ready engineering standards without changing released product, brand, or design decisions
 
 ## Purpose

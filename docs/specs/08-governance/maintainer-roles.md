@@ -17,7 +17,7 @@ Defines maintainer roles for Governance Operations.
 
 ## Requirements
 
-- Maintainer Roles must support the LifestyleIQ philosophy.
+- Maintainer Roles must support the Plectara philosophy.
 - Maintainer Roles must be consistent with approved brand and design tokens where relevant.
 - Maintainer Roles must identify affected platforms, users, and maintainers.
 

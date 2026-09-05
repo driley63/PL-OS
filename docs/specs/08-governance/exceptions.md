@@ -17,7 +17,7 @@ Defines exceptions for Governance Operations.
 
 ## Requirements
 
-- Exceptions must support the LifestyleIQ philosophy.
+- Exceptions must support the Plectara philosophy.
 - Exceptions must be consistent with approved brand and design tokens where relevant.
 - Exceptions must identify affected platforms, users, and maintainers.
 

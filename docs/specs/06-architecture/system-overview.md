@@ -17,7 +17,7 @@ Defines system overview for Product Architecture.
 
 ## Requirements
 
-- System Overview must support the LifestyleIQ philosophy.
+- System Overview must support the Plectara philosophy.
 - System Overview must be consistent with approved brand and design tokens where relevant.
 - System Overview must identify affected platforms, users, and maintainers.
 

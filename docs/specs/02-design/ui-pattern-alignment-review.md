@@ -5,6 +5,10 @@ Owner: Design System Working Group
 Version: 1.5.0
 Last updated: 2026-08-04
 
+## Current brand authority
+
+This review records the v1.5.0 baseline. For current identity and color implementation, use [Plectara color migration](plectara-color-migration.md) and the [approved brand kit](../01-brand/plectara-brand-kit.md). The former gradient and LIQ OS lockup are historical; PL-OS now uses Plectara's identity. Existing layout and interaction conclusions remain applicable.
+
 ## Purpose
 
 Documents the v1.5.0 UI Pattern Expansion review against released Brand Identity v1.1.0, Product Experience v1.3.0, Engineering Standards v1.4.0, and the current documentation-site brand patch v1.4.1. This review makes prototype-facing UI dependencies explicit for release traceability.
@@ -15,7 +19,7 @@ Documents the v1.5.0 UI Pattern Expansion review against released Brand Identity
 - Released Brand Identity color, typography, logo, token, AI color, accessibility, and governance rules
 - Released Product Experience workflow intent, health-language, consent, reports, insights, onboarding, settings, notifications, and user-research rules
 - Released Engineering Standards routing, state, data model, testing, accessibility, security, privacy, observability, performance, and release rules
-- Current documentation-site brand patch behavior for the LIQ OS MkDocs site
+- Current documentation-site brand patch behavior for the PL-OS MkDocs site
 
 ## Review Outcome
 
@@ -67,7 +71,7 @@ The review adds one clarification: UI Pattern Expansion owns reusable presentati
 
 | Site brand patch behavior | UI Pattern Expansion relationship | Review decision |
 | --- | --- | --- |
-| MkDocs uses the LIQ OS lockup, LifestyleIQ favicon, and released brand tokens | Documentation site branding remains an implementation of released Brand and Design standards | Aligned |
+| MkDocs uses the PL-OS lockup, Plectara favicon, and released brand tokens | Documentation site branding remains an implementation of released Brand and Design standards | Aligned |
 | Site CSS avoids Google font fetches and uses platform fallbacks | UI Pattern Expansion continues to defer typography values to Brand Identity | Aligned |
 | MkDocs theming is constrained by the static documentation framework | UI pattern standards do not assume MkDocs-specific classes or limitations for product UI | Aligned |
 | Placeholder-derived logo assets are documented as non-production | Product UI patterns do not require final logo artwork to proceed with prototype structure | Aligned |

@@ -1,11 +1,12 @@
 # Releases
 
-Release folders contain immutable release notes, manifests, checklists, and migration guidance for each published LIQ OS version.
+Release folders contain immutable release notes, manifests, checklists, and migration guidance for each published operating-system version (historically LIQ OS, now PL-OS). Unpublished preparation is explicitly labeled.
 
 ## Release Index
 
 | Version | Status | Purpose |
 | --- | --- | --- |
+| [v2.0.0](v2.0.0/README.md) | Approved release | Plectara rebrand, PL-OS name, approved assets, accessible component colors |
 | v1.0.0 | Released baseline | Initial LIQ OS repository and baseline specs |
 | v1.0.1 | Released patch | Documentation publishing and deployment hardening |
 | v1.1.0 | Released minor | Volume 01 Brand Identity implementation standards |
@@ -15,3 +16,4 @@ Release folders contain immutable release notes, manifests, checklists, and migr
 | v1.4.1 | Released patch | Documentation site brand application |
 | v1.5.0 | Released minor | Volume 02 UI Pattern Expansion |
 | v1.6.0 | Released minor | Volume 05 AI Principles implementation standards |
+| v1.7.0 | Released minor | Capture-first Product Experience and compact surface standards |

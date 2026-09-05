@@ -17,7 +17,7 @@ Defines website for Marketing and Communications.
 
 ## Requirements
 
-- Website must support the LifestyleIQ philosophy.
+- Website must support the Plectara philosophy.
 - Website must be consistent with approved brand and design tokens where relevant.
 - Website must identify affected platforms, users, and maintainers.
 

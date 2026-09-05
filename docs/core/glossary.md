@@ -1,13 +1,13 @@
 # Glossary
 
 Status: Released
-Owner: LIQ OS Maintainers
+Owner: PL-OS Maintainers
 Version: 1.0.0
 Last updated: 2026-08-02
 
 ## Purpose
 
-Defines shared vocabulary for LIQ OS contributors.
+Defines shared vocabulary for PL-OS contributors.
 
 ## Scope
 

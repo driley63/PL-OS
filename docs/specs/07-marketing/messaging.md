@@ -17,7 +17,7 @@ Defines messaging for Marketing and Communications.
 
 ## Requirements
 
-- Messaging must support the LifestyleIQ philosophy.
+- Messaging must support the Plectara philosophy.
 - Messaging must be consistent with approved brand and design tokens where relevant.
 - Messaging must identify affected platforms, users, and maintainers.
 

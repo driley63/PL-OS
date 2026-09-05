@@ -5,6 +5,10 @@ Owner: Design System Working Group
 Version: 1.2.0
 Last updated: 2026-08-04
 
+## Current palette authority
+
+This is the historical v1.2.0 alignment review. Its old primitive names and gradient allowance are superseded by [Plectara color migration](plectara-color-migration.md) and Brand Identity v2.0.0. The new flat palette, generated CSS/Flutter adapters, and [contrast report](plectara-contrast-report.md) are current. Foundation-token ownership and component rules below still apply.
+
 ## Purpose
 
 Documents the Volume 02 review against released Volume 01 Brand Identity tokens. This review makes token dependencies explicit before v1.2.0 is promoted from draft to released.

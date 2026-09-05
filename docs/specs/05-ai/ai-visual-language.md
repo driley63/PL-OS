@@ -7,7 +7,7 @@ Last updated: 2026-08-04
 
 ## Purpose
 
-Defines how AI involvement, confidence, evidence, uncertainty, generated content, and AI-specific states are visually represented in LifestyleIQ product surfaces.
+Defines how AI involvement, confidence, evidence, uncertainty, generated content, and AI-specific states are visually represented in Plectara product surfaces.
 
 ## Scope
 

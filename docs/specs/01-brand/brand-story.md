@@ -7,17 +7,17 @@ Last updated: 2026-08-02
 
 ## Purpose
 
-Defines the narrative that LifestyleIQ is centered on daily life, not just data collection.
+Defines the narrative that Plectara is centered on daily life, not just data collection.
 
 ## Scope
 
-- LifestyleIQ brand identity
+- Plectara brand identity
 - Digital product implementation
 - Marketing and platform assets
 
 ## Requirements
 
-- LifestyleIQ turns everyday signals into understandable patterns.
+- Plectara turns everyday signals into understandable patterns.
 - The brand should emphasize healthier life, practical understanding, and user agency.
 - AI is the engine, not the identity.
 
@@ -31,7 +31,7 @@ Defines the narrative that LifestyleIQ is centered on daily life, not just data 
 
 - The rule can be implemented in design and code.
 - A reviewer can detect compliant and non-compliant usage.
-- The standard maps to LIQ OS Core.
+- The standard maps to PL-OS Core.
 
 ## References
 

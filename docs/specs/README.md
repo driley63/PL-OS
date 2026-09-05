@@ -1,6 +1,6 @@
 # Specifications
 
-Specifications are implementation-oriented standards. They turn LIQ OS Core and accepted ADRs into concrete guidance for brand, design, product, engineering, AI, architecture, marketing, and governance work.
+Specifications are implementation-oriented standards. They turn PL-OS Core and accepted ADRs into concrete guidance for brand, design, product, engineering, AI, architecture, marketing, and governance work.
 
 ## Volumes
 

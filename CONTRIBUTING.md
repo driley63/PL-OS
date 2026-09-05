@@ -1,6 +1,6 @@
 # Contributing
 
-LIQ OS accepts changes through a governed documentation workflow. Treat every edit as a product change, even when the change looks like copy.
+PL-OS accepts changes through a governed documentation workflow. Treat every edit as a product change, even when the change looks like copy.
 
 ## Contribution Types
 
@@ -20,7 +20,7 @@ LIQ OS accepts changes through a governed documentation workflow. Treat every ed
 
 ## Review Standard
 
-A change is ready when it is clear, versioned, traceable, accessible, implementation-ready, and consistent with LIQ OS Core.
+A change is ready when it is clear, versioned, traceable, accessible, implementation-ready, and consistent with PL-OS Core.
 
 ## Language Standard
 

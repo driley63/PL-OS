@@ -7,7 +7,7 @@ Last updated: 2026-08-04
 
 ## Purpose
 
-Defines health-sensitive product language for LifestyleIQ workflows, insights, reports, errors, notifications, and consent surfaces.
+Defines health-sensitive product language for Plectara workflows, insights, reports, errors, notifications, and consent surfaces.
 
 ## Scope
 

@@ -1,0 +1,9 @@
+{
+  "name": "PL-OS",
+  "product": "Plectara",
+  "version": "2.0.0",
+  "date": "2026-09-04",
+  "status": "approved-release",
+  "included_adrs": ["ADR-0011", "ADR-0012"],
+  "changes": ["plectara-name", "owner-approved-woven-person-vectors", "pl-os-display-name", "muted-brand-palette", "component-semantic-colors", "brand-and-platform-asset-kit", "legacy-token-compatibility"]
+}

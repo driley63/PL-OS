@@ -7,7 +7,7 @@ Last updated: 2026-08-04
 
 ## Purpose
 
-Defines reusable page templates for LifestyleIQ product screens so rapid prototypes, design files, and future implementation work share the same structure before backend details are finalized.
+Defines reusable page templates for Plectara product screens so rapid prototypes, design files, and future implementation work share the same structure before backend details are finalized.
 
 ## Scope
 

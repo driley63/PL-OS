@@ -2,11 +2,11 @@
 
 Status: Draft
 Date opened: 2026-08-03
-Owner: LIQ OS Maintainers
+Owner: PL-OS Maintainers
 
 ## Problem
 
-LIQ OS standards need a direct path to implementation.
+PL-OS standards need a direct path to implementation.
 
 ## Proposal
 

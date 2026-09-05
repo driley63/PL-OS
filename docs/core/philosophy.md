@@ -1,9 +1,9 @@
 # Product Philosophy
 
 Status: Released
-Owner: LIQ OS Maintainers
-Version: 1.0.0
-Last updated: 2026-08-19
+Owner: PL-OS Maintainers
+Version: 1.7.0
+Last updated: 2026-08-20
 
 ## Purpose
 
@@ -21,12 +21,12 @@ Codifies "Translating daily habits into a plan towards optimal health."
 - Daily habit data must be translated into useful plans.
 - Recommendations must be understandable and practical.
 - The system must avoid implying diagnosis.
-- Repeated observations should become easier to capture as LifestyleIQ learns the user's routine.
+- Repeated observations should become easier to capture as Plectara learns the user's routine.
 - Insights should explain relationships between captured behavior, learned habits, and how the user feels.
 
 ## Product Pillars
 
-LifestyleIQ product decisions should be evaluated through three connected pillars:
+Plectara product decisions should be evaluated through three connected pillars:
 
 | Pillar | Meaning | Product role |
 | --- | --- | --- |
@@ -36,11 +36,12 @@ LifestyleIQ product decisions should be evaluated through three connected pillar
 
 Capture feeds Habits. Habits give context to Insights. Insights create the user value that makes Capture worth doing.
 
-LifestyleIQ should adapt to the user faster than the user adapts to LifestyleIQ. The product should not force people to redesign their routines around the app; it should learn recurring behavior, reduce repeated effort, and make the next useful capture easier to reach.
+Plectara should adapt to the user faster than the user adapts to Plectara. The product should not force people to redesign their routines around the app; it should learn recurring behavior, reduce repeated effort, and make the next useful capture easier to reach.
 
 ## Implementation Guidance
 
 - Use the philosophy when evaluating scope.
+- Use the One Sentence Test as the gate for feature proposals: "How does this help users understand how their lifestyle affects how they feel?"
 - Reject features that increase tracking without improving understanding.
 - Treat every additional step in recurring capture as a cost against the product's value.
 - Prefer adaptive product behavior over configuration-heavy setup when the user can still retain control.
@@ -56,5 +57,6 @@ LifestyleIQ should adapt to the user faster than the user adapts to LifestyleIQ.
 
 ## Version History
 
-- Unreleased: Adds Capture, Habits, and Insights as the product pillars for LifestyleIQ UX decisions.
+- v1.7.0: Adds the One Sentence Test as a product philosophy gate.
+- v1.7.0: Adds Capture, Habits, and Insights as the product pillars for Plectara UX decisions.
 - v1.0.0: Initial repository baseline.

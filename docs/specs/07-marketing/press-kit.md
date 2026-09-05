@@ -17,7 +17,7 @@ Defines press kit for Marketing and Communications.
 
 ## Requirements
 
-- Press Kit must support the LifestyleIQ philosophy.
+- Press Kit must support the Plectara philosophy.
 - Press Kit must be consistent with approved brand and design tokens where relevant.
 - Press Kit must identify affected platforms, users, and maintainers.
 

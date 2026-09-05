@@ -2,7 +2,7 @@
 
 ## Steps
 
-1. Check LIQ OS Core alignment.
+1. Check PL-OS Core alignment.
 2. Review affected specs.
 3. Check accessibility and privacy implications.
 4. Verify release notes when required.
@@ -12,4 +12,4 @@
 
 - The change can be reviewed from repository content.
 - Related specs, ADRs, RFCs, assets, and release notes are updated.
-- The change is consistent with LIQ OS Core.
+- The change is consistent with PL-OS Core.

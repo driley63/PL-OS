@@ -1,45 +1,23 @@
 # Logo System
 
-Status: Released baseline
-Owner: Brand Working Group
-Version: 1.0.0
-Last updated: 2026-08-02
+Status: Owner-approved artwork
+Version: 2.0.0
+Approval: 2026-09-04
 
-## Purpose
+Plectara's approved mark is a woven human figure with teal, jade, copper, and slate strands, a circular head, and the restored outlined wordmark. The owner approved the final lettering and consistent strand spacing.
 
-Defines primary, dark-mode, monochrome, horizontal, vertical, and icon-only usage.
+## Variants
 
-## Scope
+| Variant | Use |
+| --- | --- |
+| Full-color horizontal | Light-background website headers, documents, presentations |
+| Reversed horizontal | Dark backgrounds; white lettering and jade head |
+| Ink or white monochrome | One-color reproduction |
+| Stacked | Portrait placements with room for the full mark |
+| Standalone symbol | Brand identification without lettering |
+| Opaque square app icon | Platform-masked launcher and store exports |
+| Rounded avatar | Social profiles and informal brand tiles |
 
-- LifestyleIQ brand identity
-- Digital product implementation
-- Marketing and platform assets
+The canonical artwork and all derivatives are in `assets/brand/plectara/`. See the [brand kit](plectara-brand-kit.md) for downloads. The PL-OS documentation system uses the Plectara identity rather than introducing a separate product logo.
 
-## Requirements
-
-- Primary logo: gradient icon, dark wordmark, light background.
-- Dark mode: gradient icon, white wordmark, transparent background.
-- Icon-only: approved for app icons, favicons, social avatars, wearables, notifications, and compact AI badges.
-
-## Implementation Guidance
-
-- Use approved tokens and assets.
-- Do not introduce one-off styling without an RFC.
-- Update asset inventories and release notes when changing source assets.
-
-## Acceptance Criteria
-
-- The rule can be implemented in design and code.
-- A reviewer can detect compliant and non-compliant usage.
-- The standard maps to LIQ OS Core.
-
-## References
-
-- adr/0001-adopt-lifestyleiq-name.md
-- adr/0002-establish-brand-philosophy.md
-- adr/0003-reserve-purple-for-ai.md
-- adr/0004-adopt-green-teal-gradient.md
-
-## Version History
-
-- v1.0.0: Initial repository baseline.
+The logo identifies the product, not AI authorship. AI badges must still follow the dedicated AI visual language. Legacy LifestyleIQ and Patternara explorations are historical assets, not approved alternatives.

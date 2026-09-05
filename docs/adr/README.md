@@ -1,6 +1,6 @@
 # Architecture Decision Records
 
-ADRs are permanent records of important LIQ OS decisions. They explain why standards exist and preserve the alternatives considered.
+ADRs are permanent records of important PL-OS decisions (historically LIQ OS). They explain why standards exist and preserve the alternatives considered.
 
 ## Index
 
@@ -14,6 +14,9 @@ ADRs are permanent records of important LIQ OS decisions. They explain why stand
 - ADR-0008: Adopt MkDocs for the documentation site
 - ADR-0009: Adopt `docs/` as the canonical documentation source
 - ADR-0010: Hybrid local findings with optional LLM narrative
+
+- [ADR-0011: Adopt Plectara and the woven-person identity](0011-adopt-plectara.md) — supersedes the product-name and gradient decisions in ADR-0001/0004
+- [ADR-0012: Rename the operating system PL-OS](0012-rename-operating-system-pl-os.md) — supersedes the display name in ADR-0005
 
 ## Rule
 

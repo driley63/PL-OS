@@ -1,5 +1,5 @@
-site_name: LIQ OS
-site_description: LifestyleIQ Operating System specifications
+site_name: PL-OS — Plectara Operating System
+site_description: Plectara brand, component library, and product specifications
 repo_url: https://github.com/driley63/LIQ-OS
 repo_name: driley63/LIQ-OS
 docs_dir: docs
@@ -8,8 +8,8 @@ strict: true
 theme:
   name: material
   language: en
-  logo: assets/brand/liq-os-logo-horizontal.svg
-  favicon: assets/brand/lifestyleiq-icon.svg
+  logo: assets/brand/plectara-horizontal.svg
+  favicon: assets/brand/plectara-avatar.svg
   font: false
   features:
     - navigation.sections
@@ -21,12 +21,18 @@ theme:
   palette:
     - scheme: default
       primary: teal
-      accent: light green
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
     - scheme: slate
       primary: teal
-      accent: light green
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 extra_css:
-  - stylesheets/lifestyleiq.css
+  - stylesheets/plectara.css
 markdown_extensions:
   - admonition
   - attr_list
@@ -67,6 +73,10 @@ nav:
           - Logo Construction: specs/01-brand/logo-construction.md
           - Logo Usage: specs/01-brand/logo-usage.md
           - Color System: specs/01-brand/color-system.md
+          - Plectara Brand Kit: specs/01-brand/plectara-brand-kit.md
+          - Component Color Migration: specs/02-design/plectara-color-migration.md
+          - Component Color Preview: specs/02-design/plectara-component-preview.md
+          - Color Contrast Checks: specs/02-design/plectara-contrast-report.md
           - Typography: specs/01-brand/typography.md
           - Design Tokens: specs/01-brand/design-tokens.md
           - Iconography: specs/01-brand/iconography.md
@@ -159,6 +169,8 @@ nav:
       - ADR-0008: adr/0008-adopt-mkdocs.md
       - ADR-0009: adr/0009-adopt-docs-canonical-publishing.md
       - ADR-0010: adr/0010-hybrid-local-findings-optional-llm.md
+      - ADR-0011: adr/0011-adopt-plectara.md
+      - ADR-0012: adr/0012-rename-operating-system-pl-os.md
   - RFCs:
       - Overview: rfc/README.md
   - Playbook:
@@ -174,3 +186,5 @@ nav:
       - v1.4.1: releases/v1.4.1/README.md
       - v1.5.0: releases/v1.5.0/README.md
       - v1.6.0: releases/v1.6.0/README.md
+      - v1.7.0: releases/v1.7.0/README.md
+      - v2.0.0: releases/v2.0.0/README.md

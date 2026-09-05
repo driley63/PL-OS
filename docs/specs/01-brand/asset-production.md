@@ -1,9 +1,9 @@
 # Asset Production
 
-Status: Released
+Status: Approved for PL-OS v2.0.0
 Owner: Brand Working Group
-Version: 1.1.0
-Last updated: 2026-08-04
+Version: 2.0.0
+Last updated: 2026-09-04
 
 ## Purpose
 
@@ -11,7 +11,7 @@ Defines required asset export sets for app, web, social, and presentation use.
 
 ## Scope
 
-- LifestyleIQ brand identity
+- Plectara brand identity
 - Digital product implementation
 - Marketing and platform assets
 - App store, favicon, launcher, social, press, and documentation assets
@@ -30,13 +30,13 @@ Defines required asset export sets for app, web, social, and presentation use.
 
 | Path | Role |
 | --- | --- |
-| `assets/brand/logos/source/` | Hand-reviewed SVG masters and placeholder masters |
-| `assets/brand/logos/generated/` | Generated PNG, favicon, and platform outputs when checked in |
-| `assets/brand/logos/platform/ios/` | iOS `AppIcon.appiconset` outputs when checked in |
-| `assets/brand/logos/platform/android/` | Android adaptive and legacy icon outputs when checked in |
-| `assets/brand/logos/inventory.md` | Asset inventory when production exports exist |
+| `assets/brand/plectara/source/` | Owner-approved SVG masters and outlined lettering |
+| `assets/brand/plectara/png/` | Generated PNG, favicon, and platform outputs when checked in |
+| `assets/brand/plectara/platform/ios/` | iOS `AppIcon.appiconset` outputs when checked in |
+| `assets/brand/plectara/platform/android/` | Android adaptive and legacy icon outputs when checked in |
+| `assets/brand/plectara/inventory.json` | Asset inventory when production exports exist |
 
-Generated directories may be absent until production assets are created. Their absence is acceptable only when the release notes identify assets as placeholders.
+The approved Plectara output set is present and reproducible. Archived placeholders remain separately in `assets/brand/logos/`; they must not be used as new production sources.
 
 ## Required Export Set
 
@@ -48,7 +48,7 @@ Generated directories may be absent until production assets are created. Their a
 | PWA manifest | 192 and 512 px PNG |
 | iOS app icon | Complete `AppIcon.appiconset`, generated from unmasked 1024 px source |
 | Android launcher | Adaptive foreground/background plus legacy PNG densities |
-| Social avatar | 512 and 1024 px square PNG |
+| Social avatar | 1024 px rounded avatar; square icons also provided at 512 and 1024 px |
 | Press kit | SVG, 1024 px PNG, and monochrome variants |
 
 ## Inventory Requirements

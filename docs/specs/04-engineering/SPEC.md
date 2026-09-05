@@ -11,7 +11,7 @@ Defines engineering conventions for Flutter architecture, design-system implemen
 
 ## Scope
 
-- LifestyleIQ product ecosystem
+- Plectara product ecosystem
 - Mobile app, web app, shared packages, documentation, and future platform implementations
 - Engineering behavior that affects health data, user trust, accessibility, product quality, and release reproducibility
 
@@ -38,7 +38,7 @@ Volume 04 does not define brand identity, visual design rules, product workflow 
 ## Requirements
 
 - Standards must map to implementation or reviewable behavior.
-- Changes must remain consistent with LIQ OS Core.
+- Changes must remain consistent with PL-OS Core.
 - Product implementation must respect released Brand Identity, Design Language, and Product Experience standards.
 - Health data handling must include privacy, security, consent, and deletion considerations.
 - Shared packages must expose stable contracts, versioning, migration notes, and test coverage.
@@ -51,7 +51,7 @@ Volume 04 does not define brand identity, visual design rules, product workflow 
 
 | Area | Depends on |
 | --- | --- |
-| LIQ OS governance | `docs/core/SPEC.md` |
+| PL-OS governance | `docs/core/SPEC.md` |
 | Brand tokens and assets | `docs/specs/01-brand/SPEC.md` |
 | Design-system behavior | `docs/specs/02-design/SPEC.md` |
 | Product workflows | `docs/specs/03-product/SPEC.md` |

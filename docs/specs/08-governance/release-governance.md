@@ -17,7 +17,7 @@ Defines release governance for Governance Operations.
 
 ## Requirements
 
-- Release Governance must support the LifestyleIQ philosophy.
+- Release Governance must support the Plectara philosophy.
 - Release Governance must be consistent with approved brand and design tokens where relevant.
 - Release Governance must identify affected platforms, users, and maintainers.
 

@@ -1,0 +1,473 @@
+{
+  "version": "2.0.0",
+  "owner": "Plectara product owner / Brand Working Group",
+  "approved": "2026-09-04",
+  "source": "tooling/build-plectara-brand.py; source/plectara-wordmark.svg; assets/tokens/",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2907,
+      "sha256": "e232a1aae5872eac5e3a99ab252e4a9dd4dc82d6f8b3689e6a678d91d9c99cbe"
+    },
+    {
+      "path": "contrast-report.md",
+      "bytes": 3918,
+      "sha256": "ffc02347eb57eec8ad63e5dcf5197ebc9356d067ecbeb51870574eb9f8f179ed"
+    },
+    {
+      "path": "flutter/lifestyleiq_colors.dart",
+      "bytes": 950,
+      "sha256": "e0fc782bf489091ee7c7b5f974034dd92d10a2effda6f18031bc7cb603384734"
+    },
+    {
+      "path": "flutter/plectara_colors.dart",
+      "bytes": 2470,
+      "sha256": "2b19b021446ed0a56f2f1d0c88a44bde71b69e653ae96f5434674dbd8938156f"
+    },
+    {
+      "path": "fonts/Inter-variable.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "bytes": 4376,
+      "sha256": "5dd548d31a85f756e01d63e00d7faf1e324103ed3e9102fcbbabf2cc2db6dd39"
+    },
+    {
+      "path": "icons/favicon.ico",
+      "bytes": 3429,
+      "sha256": "a20a6b157d9db744ec9f19fd0a0e8ff22d40a4cb363f5967e4c58c38cc3149df"
+    },
+    {
+      "path": "icons/plectara-1024.png",
+      "bytes": 41073,
+      "sha256": "6fc844e8ac8418d93fa727c20e6455ddbfa94b904e7e4a31816508a45bc7e4a4"
+    },
+    {
+      "path": "icons/plectara-120.png",
+      "bytes": 3820,
+      "sha256": "79d3991b3ac53a508bf3df8347d644bdff918c8008b9ff876ec5c933c890ed7a"
+    },
+    {
+      "path": "icons/plectara-144.png",
+      "bytes": 4680,
+      "sha256": "ec3b43d714698671243889e9a167e946af7ea377aab0dddd7a4eb65d5787a75c"
+    },
+    {
+      "path": "icons/plectara-152.png",
+      "bytes": 5026,
+      "sha256": "ee550b9f8b7e8deacb63a2887f79f37cf33356f94814fae95e28d07af6db1022"
+    },
+    {
+      "path": "icons/plectara-16.png",
+      "bytes": 346,
+      "sha256": "80f99b678f026732b1eca2bb0493b6b130a83ea73e3b6ad1f1715e85e2b751fa"
+    },
+    {
+      "path": "icons/plectara-180.png",
+      "bytes": 6058,
+      "sha256": "b33be26cb3d49e05905dabac327d8fc2dd736cff58954596b9c7901fe3b9ec3b"
+    },
+    {
+      "path": "icons/plectara-192.png",
+      "bytes": 6497,
+      "sha256": "e47e4b4a978cb4314b4dd6c487e5bc6267991ab25d1c4492c487aefc51450be7"
+    },
+    {
+      "path": "icons/plectara-2048.png",
+      "bytes": 89788,
+      "sha256": "e7116f91c37f4a159cda93957c5829f78e194ec30c31c32f6832483012ecf33a"
+    },
+    {
+      "path": "icons/plectara-24.png",
+      "bytes": 578,
+      "sha256": "21f11f3fae2352da572464e98529f82b637998840e82e9c8cd644e7e1522d141"
+    },
+    {
+      "path": "icons/plectara-256.png",
+      "bytes": 8994,
+      "sha256": "b7956d5e1b96b3117fe80e2e48ec633ebe2b954c0d2d04cafe7cb94d13ff4440"
+    },
+    {
+      "path": "icons/plectara-32.png",
+      "bytes": 799,
+      "sha256": "22a7bf6080345e8f43232561d58864a5a08891dc305c162bedb326ddb4cedada"
+    },
+    {
+      "path": "icons/plectara-48.png",
+      "bytes": 1322,
+      "sha256": "780d8e2e63f98dd197f0815c6e3f1f5ac1f9e7de1f3a2b29f23cc393cf7ae1c8"
+    },
+    {
+      "path": "icons/plectara-512.png",
+      "bytes": 19079,
+      "sha256": "bef0975186d64ebeb8af557b1888ff617c535412c8661eb0f0943cba34ec35a4"
+    },
+    {
+      "path": "icons/plectara-64.png",
+      "bytes": 1863,
+      "sha256": "fd9027681e1cff3291c27e6d64b7effbc8cb6419d723566f7c8185aac63fa3a1"
+    },
+    {
+      "path": "icons/plectara-72.png",
+      "bytes": 2078,
+      "sha256": "3b1b8e96a5c73f105761448dc6f2a4d33ee21ac83b7bc81ef41aa3fa32773438"
+    },
+    {
+      "path": "icons/plectara-96.png",
+      "bytes": 2949,
+      "sha256": "9a4f23c063e6c8dfa3f2eaf9fc41822a5e9a5d88d69ca85d76591a97caf8c0d5"
+    },
+    {
+      "path": "icons/site.webmanifest",
+      "bytes": 420,
+      "sha256": "c304b664eb2df6b9ebfe032f6a920f6f9d62e98f5dab10ca366183456586f614"
+    },
+    {
+      "path": "platform/android/res/drawable-hdpi/plectara_foreground.png",
+      "bytes": 3795,
+      "sha256": "34b2752b8c24db35f24a3b8e483582b5ac68c48c11f0b8a9b969d4bce73be6ba"
+    },
+    {
+      "path": "platform/android/res/drawable-mdpi/plectara_foreground.png",
+      "bytes": 2419,
+      "sha256": "4958b9eca5daeb7955a441f9e6301dddfa23f67170277c92a5e0806afae6de54"
+    },
+    {
+      "path": "platform/android/res/drawable-xhdpi/plectara_foreground.png",
+      "bytes": 5305,
+      "sha256": "9e666291daf0319f73ba7b56d0e0fc2eed649c16fc54cfd4cf06474cebb1feb5"
+    },
+    {
+      "path": "platform/android/res/drawable-xxhdpi/plectara_foreground.png",
+      "bytes": 8662,
+      "sha256": "3db422ef137890815783b7eb00afb58dfa6caf89c777b75af921e0e1b0337713"
+    },
+    {
+      "path": "platform/android/res/drawable-xxxhdpi/plectara_foreground.png",
+      "bytes": 12135,
+      "sha256": "2bab0ee2c1e953af2056f5dce34738a601e3f1e3bcc60541df82481cb7957028"
+    },
+    {
+      "path": "platform/android/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 212,
+      "sha256": "961efa2f8f3352e0ce161282edde4e5b9ab01b1b9c2eafae0d094718ac37a4bb"
+    },
+    {
+      "path": "platform/android/res/mipmap-hdpi/ic_launcher.png",
+      "bytes": 2078,
+      "sha256": "3b1b8e96a5c73f105761448dc6f2a4d33ee21ac83b7bc81ef41aa3fa32773438"
+    },
+    {
+      "path": "platform/android/res/mipmap-mdpi/ic_launcher.png",
+      "bytes": 1322,
+      "sha256": "780d8e2e63f98dd197f0815c6e3f1f5ac1f9e7de1f3a2b29f23cc393cf7ae1c8"
+    },
+    {
+      "path": "platform/android/res/mipmap-xhdpi/ic_launcher.png",
+      "bytes": 2949,
+      "sha256": "9a4f23c063e6c8dfa3f2eaf9fc41822a5e9a5d88d69ca85d76591a97caf8c0d5"
+    },
+    {
+      "path": "platform/android/res/mipmap-xxhdpi/ic_launcher.png",
+      "bytes": 4680,
+      "sha256": "ec3b43d714698671243889e9a167e946af7ea377aab0dddd7a4eb65d5787a75c"
+    },
+    {
+      "path": "platform/android/res/mipmap-xxxhdpi/ic_launcher.png",
+      "bytes": 6497,
+      "sha256": "e47e4b4a978cb4314b4dd6c487e5bc6267991ab25d1c4492c487aefc51450be7"
+    },
+    {
+      "path": "platform/android/res/values/plectara_colors.xml",
+      "bytes": 73,
+      "sha256": "849f12c78f0bef97d5761a6fc463a63bb600cc4205b90feaa01b4c40141d240f"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/Contents.json",
+      "bytes": 2206,
+      "sha256": "cd7f8a70176335b1f701432c6a9859dd2698bc7ad5dbf7ba58daf59b0a92047f"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/ipad-20-1x.png",
+      "bytes": 444,
+      "sha256": "e5b9edbcb90423c34346a09862b35a8f05f6d914815431cc37914ec76203e8eb"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/ipad-20-2x.png",
+      "bytes": 1001,
+      "sha256": "7408d3ec3e2a1cba2ea9f5c73641561ab01748fa7d603f2ad3a6c9d393413a72"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/ipad-29-1x.png",
+      "bytes": 690,
+      "sha256": "b04e0ed31a96330b4146df372ad7c0943e7d96f59fc3a76fa36fd40f1f191ac8"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/ipad-29-2x.png",
+      "bytes": 1546,
+      "sha256": "783e287cfb934ac3a788c16131859e6067d69b3298dce3d783dc5bc880d27fc8"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/ipad-40-1x.png",
+      "bytes": 1001,
+      "sha256": "7408d3ec3e2a1cba2ea9f5c73641561ab01748fa7d603f2ad3a6c9d393413a72"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/ipad-40-2x.png",
+      "bytes": 2239,
+      "sha256": "090fb9b181729c0cf60223e599e67697ed497659eb0d8acc6fd5fc54b4baa048"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/ipad-76-1x.png",
+      "bytes": 2145,
+      "sha256": "d969fea8726bb107af61b5a3b98274aa46bbc1c55c2d1d724baef68be8fb848a"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/ipad-76-2x.png",
+      "bytes": 4707,
+      "sha256": "989eed8727858c4ceca66d1954318f4ceb6369ce8e34daa47d78318b00727433"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/ipad-83.5-2x.png",
+      "bytes": 5256,
+      "sha256": "1626088ec9a3bd9f510ec3d094b9f67979d3b177aaaded53b2c92be86493315f"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/iphone-20-2x.png",
+      "bytes": 1001,
+      "sha256": "7408d3ec3e2a1cba2ea9f5c73641561ab01748fa7d603f2ad3a6c9d393413a72"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/iphone-20-3x.png",
+      "bytes": 1643,
+      "sha256": "24a10b6bb71beab824475e76fef0700a25af83485e9e1314c30e7f9f650f22e6"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/iphone-29-2x.png",
+      "bytes": 1546,
+      "sha256": "783e287cfb934ac3a788c16131859e6067d69b3298dce3d783dc5bc880d27fc8"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/iphone-29-3x.png",
+      "bytes": 2444,
+      "sha256": "68e33bee7035ee9d97a55356a7224365fb8c493b70a3ef90eaa260a5b691a8ed"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/iphone-40-2x.png",
+      "bytes": 2239,
+      "sha256": "090fb9b181729c0cf60223e599e67697ed497659eb0d8acc6fd5fc54b4baa048"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/iphone-40-3x.png",
+      "bytes": 3568,
+      "sha256": "6277cdc1fba53a42d28d5bde120d0f1fe84c072b2f117ddb84312ec08e8b07f9"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/iphone-60-2x.png",
+      "bytes": 3568,
+      "sha256": "6277cdc1fba53a42d28d5bde120d0f1fe84c072b2f117ddb84312ec08e8b07f9"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/iphone-60-3x.png",
+      "bytes": 5738,
+      "sha256": "03c5317266b50fab9be82000a18e29c7722c884a4966e2927d14acb1d912b771"
+    },
+    {
+      "path": "platform/ios/AppIcon.appiconset/marketing-1024.png",
+      "bytes": 38537,
+      "sha256": "a09aa7d8480bb23e70f3581f8fc6bc849c21c14b1d07713bc00699418df4c873"
+    },
+    {
+      "path": "png/plectara-android-foreground.png",
+      "bytes": 2419,
+      "sha256": "4958b9eca5daeb7955a441f9e6301dddfa23f67170277c92a5e0806afae6de54"
+    },
+    {
+      "path": "png/plectara-app-icon.png",
+      "bytes": 41073,
+      "sha256": "6fc844e8ac8418d93fa727c20e6455ddbfa94b904e7e4a31816508a45bc7e4a4"
+    },
+    {
+      "path": "png/plectara-avatar.png",
+      "bytes": 54672,
+      "sha256": "9d873eb2fce2965167aa190664098e69f063bbd0a5d2df8b76cefa56ba7c42b6"
+    },
+    {
+      "path": "png/plectara-brand-board.png",
+      "bytes": 90362,
+      "sha256": "1c578584ef63693b75c1925a032c9c00334d4af53024513f69cf6feb5cc85dd7"
+    },
+    {
+      "path": "png/plectara-horizontal-ink.png",
+      "bytes": 31264,
+      "sha256": "52bc3004ad254207de9605b178df8a52052cfa2844a7b4a696a60de6f35fc09a"
+    },
+    {
+      "path": "png/plectara-horizontal-preview.png",
+      "bytes": 30577,
+      "sha256": "8d814760a77e4fe63e29b30f83435fb054e074ea47c0e7b692dc482d16d432bf"
+    },
+    {
+      "path": "png/plectara-horizontal-reversed.png",
+      "bytes": 27794,
+      "sha256": "ff42b292bf6067fe205e0f4468b3ddd80591290f8e506dc1ad7fb6eb05608504"
+    },
+    {
+      "path": "png/plectara-horizontal-white.png",
+      "bytes": 23076,
+      "sha256": "94e42188e5996619d8b4c0510e377d7bebf298a9f5744e3345a7545c2ea0b632"
+    },
+    {
+      "path": "png/plectara-horizontal.png",
+      "bytes": 31861,
+      "sha256": "2446efad66ae4dd1e9cfb8d5c422ae2f23f963f90d25e230932a171c81351182"
+    },
+    {
+      "path": "png/plectara-social-banner.png",
+      "bytes": 41102,
+      "sha256": "08895b87e38a382794e1e35e06cfc0afbc2d285de6a2d22c0fc05213a4b322f3"
+    },
+    {
+      "path": "png/plectara-social-card.png",
+      "bytes": 43947,
+      "sha256": "85e95501e28b82bfbd71fe95e381ed5038c3141b2e1a195a2ad6d70b34f5bfba"
+    },
+    {
+      "path": "png/plectara-stacked.png",
+      "bytes": 35104,
+      "sha256": "09d9f848fad5934665d8bfc6bbf2beb8405f28e6d87049292f8da6d87f804acf"
+    },
+    {
+      "path": "png/plectara-symbol-ink.png",
+      "bytes": 23051,
+      "sha256": "3d9cee4f8321627b70162261226bc1fa1c80e20dd786343f5e667d554e506e6d"
+    },
+    {
+      "path": "png/plectara-symbol-white.png",
+      "bytes": 17149,
+      "sha256": "7da9c221b013df44969544d849ab3d93f596e945cacebe5aa02fda64c8abb45f"
+    },
+    {
+      "path": "png/plectara-symbol.png",
+      "bytes": 22952,
+      "sha256": "9cf7793af7126892b4d4f4432a4d56ed8a810783768341857fa1aee7212b44b7"
+    },
+    {
+      "path": "reference/approved-woven-person.png",
+      "bytes": 1047095,
+      "sha256": "fefa76c7db20ea8c1a9f30861b84961b20253582d8172bc911d76f35c1b43528"
+    },
+    {
+      "path": "source/plectara-android-foreground.svg",
+      "bytes": 21436,
+      "sha256": "70071a2e3315ccb853450301d8f65d9ba2f59db5e9db17a39941da5547bc8c69"
+    },
+    {
+      "path": "source/plectara-app-icon.svg",
+      "bytes": 21491,
+      "sha256": "d406534b7e060287287fb3589fc8e427ff4e340d1fd5a7922182ac2af89aff2d"
+    },
+    {
+      "path": "source/plectara-avatar.svg",
+      "bytes": 21500,
+      "sha256": "8b568d4440b6202034a7a52d34cfb0bf3bffc85f66292ac25c23990449d46be7"
+    },
+    {
+      "path": "source/plectara-brand-board.svg",
+      "bytes": 153793,
+      "sha256": "9e9e880873beb61a682f6ba8c705913fe42c3b8b6e7fb1a20529add07c5b725f"
+    },
+    {
+      "path": "source/plectara-horizontal-ink.svg",
+      "bytes": 33775,
+      "sha256": "0e5ee9b7747edf953bfbf975010d4512102539bf52411ec4428737b43b2f2999"
+    },
+    {
+      "path": "source/plectara-horizontal-preview.svg",
+      "bytes": 33822,
+      "sha256": "47c2b364bb85bd6dfd703f2eb7865e12ab05ee740de4374b312fe0bcda55d149"
+    },
+    {
+      "path": "source/plectara-horizontal-reversed.svg",
+      "bytes": 33775,
+      "sha256": "4a1f60aaf2ab6ad41962cf654489013899f2e67cd1c7cc3100be9b2b5e25521b"
+    },
+    {
+      "path": "source/plectara-horizontal-white.svg",
+      "bytes": 33775,
+      "sha256": "8d83a7ed579ac5a3f079af7beccb937d6059361686c22ff27baf7240006bab43"
+    },
+    {
+      "path": "source/plectara-horizontal.svg",
+      "bytes": 33775,
+      "sha256": "e9f49c956954ab2744e615e508621179130419550b2f927855cb69e8449d985e"
+    },
+    {
+      "path": "source/plectara-social-banner.svg",
+      "bytes": 52255,
+      "sha256": "bcfba12a8e5d42ee8ec643136085a75d8b4cd10fe02b3cd016ff79bc2357e28d"
+    },
+    {
+      "path": "source/plectara-social-card.svg",
+      "bytes": 52262,
+      "sha256": "8061a9f34a958b59a6178eb6c178b41e72f814326c4a89938e25596a258f4bad"
+    },
+    {
+      "path": "source/plectara-stacked.svg",
+      "bytes": 33778,
+      "sha256": "1965c172d8b82c4d25db9f7ef645684bfa002695b76f9fef83bc76f1d2d59830"
+    },
+    {
+      "path": "source/plectara-symbol-ink.svg",
+      "bytes": 21433,
+      "sha256": "6c868dddbd510f0cbbd348dc423ea621a24b27ff14cee5734f61fad1bcd99425"
+    },
+    {
+      "path": "source/plectara-symbol-white.svg",
+      "bytes": 21433,
+      "sha256": "6d80cc12690ee086847975bc89a3f1fca941b7584d4d147a830e051f1155ef36"
+    },
+    {
+      "path": "source/plectara-symbol.svg",
+      "bytes": 21433,
+      "sha256": "894a9cdc92e2f813427997bc00042568362f8120dcfc0b462fc1147c6a44201d"
+    },
+    {
+      "path": "source/plectara-wordmark.svg",
+      "bytes": 12469,
+      "sha256": "9efe4635dba90182e12502d35bfa166b0a9a123c56f161867a70cc72f83018ca"
+    },
+    {
+      "path": "tokens/color.tokens.json",
+      "bytes": 4569,
+      "sha256": "48d65eebc2c08837de0774540c932f02466e6e325bb368638880c94745bc12ff"
+    },
+    {
+      "path": "tokens/radius.tokens.json",
+      "bytes": 77,
+      "sha256": "8e5a4e530d0ec00584a31f180f7931ab78269cfc3834279ed8497cbae4321df9"
+    },
+    {
+      "path": "tokens/spacing.tokens.json",
+      "bytes": 173,
+      "sha256": "5165b4f948e0cab568389bb2337a1f921662fde9742993da6a4e90de092b2c18"
+    },
+    {
+      "path": "tokens/typography.tokens.json",
+      "bytes": 630,
+      "sha256": "f19e4b33b7523e33d15cfcd5f9f523bf544d51a607c31e55af4b6c24b8849ca4"
+    },
+    {
+      "path": "web/lifestyleiq-tokens.css",
+      "bytes": 91,
+      "sha256": "39a7c7b324c7aef1ee6f0d55330f65487cbc04ad17109ee72a1b111a0f28ec69"
+    },
+    {
+      "path": "web/plectara-tokens.css",
+      "bytes": 4348,
+      "sha256": "4d9727fdc60354bddfa6960c3a62b6408ea08ae3f96d5d458c8c0532e461bac8"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Volume 07 - Marketing and Communications
 
-        Defines how LifestyleIQ communicates publicly without weakening trust or overclaiming.
+        Defines how Plectara communicates publicly without weakening trust or overclaiming.
 
         ## Status
 

@@ -7,7 +7,7 @@ Last updated: 2026-08-04
 
 ## Purpose
 
-Defines search, filter, sort, and query-state standards for LifestyleIQ product surfaces that help users browse health logs, timelines, insights, reports, settings, and support content.
+Defines search, filter, sort, and query-state standards for Plectara product surfaces that help users browse health logs, timelines, insights, reports, settings, and support content.
 
 ## Scope
 

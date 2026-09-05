@@ -7,18 +7,18 @@ Last updated: 2026-08-02
 
 ## Purpose
 
-Defines how LifestyleIQ communicates publicly without weakening trust or overclaiming.
+Defines how Plectara communicates publicly without weakening trust or overclaiming.
 
 ## Scope
 
-- LifestyleIQ product ecosystem
-- LIQ OS implementation guidance
+- Plectara product ecosystem
+- PL-OS implementation guidance
 - Future Flutter, web, and documentation artifacts
 
 ## Requirements
 
 - Standards must map to implementation or reviewable behavior.
-- Changes must remain consistent with LIQ OS Core.
+- Changes must remain consistent with PL-OS Core.
 - Domain-specific behavior must consider accessibility, privacy, and user trust.
 
 ## Implementation Guidance

@@ -17,7 +17,7 @@ Defines what AI-assisted recommendations may suggest, what they must explain, an
 
 ## Requirements
 
-- Recommendations must be optional, evidence-appropriate, user-controlled, and scoped to LifestyleIQ product boundaries.
+- Recommendations must be optional, evidence-appropriate, user-controlled, and scoped to Plectara product boundaries.
 - Recommendations must explain the supporting evidence, uncertainty, and limitation when personalized.
 - Recommendations must avoid diagnosis, treatment, medication changes, urgent clinical triage, or professional-care replacement.
 - Recommendations must not create blame, shame, fear, or unsupported urgency.

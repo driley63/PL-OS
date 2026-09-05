@@ -17,7 +17,7 @@ Defines positioning for Marketing and Communications.
 
 ## Requirements
 
-- Positioning must support the LifestyleIQ philosophy.
+- Positioning must support the Plectara philosophy.
 - Positioning must be consistent with approved brand and design tokens where relevant.
 - Positioning must identify affected platforms, users, and maintainers.
 

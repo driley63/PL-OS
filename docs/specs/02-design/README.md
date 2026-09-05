@@ -1,13 +1,17 @@
 # Volume 02 - Design Language
 
-Volume 02 defines the visual and interaction system that LifestyleIQ product screens and compact capture surfaces inherit.
+Volume 02 defines the visual and interaction system that Plectara product screens and compact capture surfaces inherit.
 
 ## Status
 
-- Current milestone: v1.5.0 released
+- Current milestone: v2.0.0 brand migration over the v1.7.0 component baseline
 - Owner: Design System Working Group
-- Dependency: Volume 01 Brand Identity v1.1.0
-- Release type: minor release because this work adds prototype-facing UI pattern standards without changing released brand, product, or engineering decisions
+- Dependency: Volume 01 Brand Identity v2.0.0
+- Release type: major brand migration; the v1.7.0 Capture-first component baseline remains intact
+
+## Plectara migration
+
+The [color migration](plectara-color-migration.md) changes theme roles, not the component library. Review the [live samples](plectara-component-preview.md) in both themes.
 
 ## Purpose
 
@@ -49,7 +53,7 @@ The Design Language translates Brand Identity into product UI rules. It establis
 
 ## Acceptance Criteria
 
-- A designer can produce consistent LifestyleIQ screens without private context.
+- A designer can produce consistent Plectara screens without private context.
 - An engineer can map UI decisions to tokens, components, and reviewable behavior.
 - Reviewers can identify when a UI change needs an exception, RFC, ADR, or release note.
 - Screens remain usable for daily, repeated health workflows across mobile and web.

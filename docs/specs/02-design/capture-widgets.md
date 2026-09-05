@@ -1,19 +1,19 @@
 # Capture Widgets
 
-Status: Draft
+Status: Released
 Owner: Design System Working Group
-Version: 1.7.0-draft
-Last updated: 2026-08-19
+Version: 1.7.0
+Last updated: 2026-08-20
 
 ## Purpose
 
-Defines design standards for LifestyleIQ widgets, shortcuts, wearable surfaces, and other compact entry points where the primary user goal is Capture.
+Defines design standards for Plectara widgets, shortcuts, wearable surfaces, and other compact entry points where the primary user goal is Capture.
 
 ## Scope
 
 - Home screen widgets, lock screen widgets, watch complications, shortcut surfaces, and compact launch surfaces
 - One-tap Capture, guided Capture entry, adaptive suggestions, pinned actions, and recent confirmation states
-- Mobile, wearable, and platform-constrained surfaces that connect to the LifestyleIQ app
+- Mobile, wearable, and platform-constrained surfaces that connect to the Plectara app
 
 ## Philosophy
 
@@ -25,7 +25,7 @@ Compact surfaces should help users record what just happened with the least inte
 
 - Every visible action must either capture immediately, open a focused Capture flow, or route to a clearly named Capture entry point.
 - Widgets must prioritize high-frequency repeated actions over summaries, charts, scores, or broad navigation.
-- Adaptive suggestions must use the released LifestyleIQ design system, not a separate visual language.
+- Adaptive suggestions must use the released Plectara design system, not a separate visual language.
 - User-pinned actions must remain stable and visually distinguishable from adaptive suggestions without relying on color alone.
 - AI Purple must not be used for adaptive Capture unless the surface explicitly communicates AI-generated behavior.
 - Success, undo, edit, loading, unavailable, and permission-limited states must be defined where platform capabilities allow.
@@ -35,7 +35,7 @@ Compact surfaces should help users record what just happened with the least inte
 
 | Region | Purpose | Guidance |
 | --- | --- | --- |
-| Brand or context label | Identifies LifestyleIQ or the active context | Keep compact and subordinate to actions |
+| Brand or context label | Identifies Plectara or the active context | Keep compact and subordinate to actions |
 | Stable anchors | Persistent actions such as Sleep or general Capture | Use for universal or user-pinned behaviors |
 | Adaptive Capture area | Contextual suggestions based on repeated behavior | Keep tappable, concise, and easy to scan |
 | Recent confirmation | Shows that the last capture succeeded when space allows | Keep brief and make correction reachable |
@@ -78,7 +78,7 @@ Design should distinguish three user-facing states:
 | Favorite Capture | User-saved or accepted as a shortcut | Stable enough to find and edit |
 | Habit | Learned repeated behavior | Eligible for adaptive placement and contextual promotion |
 
-The user should never need to understand an internal model to use these states. Product language may use Favorite Capture when the user controls the shortcut and Habit when LifestyleIQ is explaining that it has learned a recurring behavior.
+The user should never need to understand an internal model to use these states. Product language may use Favorite Capture when the user controls the shortcut and Habit when Plectara is explaining that it has learned a recurring behavior.
 
 ## Layout Guidance
 
@@ -117,4 +117,4 @@ The user should never need to understand an internal model to use these states. 
 
 ## Version History
 
-- v1.7.0-draft: Adds Capture-first widget and adaptive surface design standards.
+- v1.7.0: Adds Capture-first widget and adaptive surface design standards.

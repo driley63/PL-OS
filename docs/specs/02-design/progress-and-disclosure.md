@@ -7,7 +7,7 @@ Last updated: 2026-08-04
 
 ## Purpose
 
-Defines progress, loading, skeleton, stepper, accordion, disclosure, and progressive-detail standards for LifestyleIQ product interfaces.
+Defines progress, loading, skeleton, stepper, accordion, disclosure, and progressive-detail standards for Plectara product interfaces.
 
 ## Scope
 

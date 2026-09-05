@@ -7,7 +7,7 @@ Last updated: 2026-08-04
 
 ## Purpose
 
-Defines standards for lists, rows, tables, grouped collections, and timeline-like data displays in LifestyleIQ product interfaces.
+Defines standards for lists, rows, tables, grouped collections, and timeline-like data displays in Plectara product interfaces.
 
 ## Scope
 

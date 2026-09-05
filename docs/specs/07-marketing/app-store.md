@@ -17,7 +17,7 @@ Defines app store for Marketing and Communications.
 
 ## Requirements
 
-- App Store must support the LifestyleIQ philosophy.
+- App Store must support the Plectara philosophy.
 - App Store must be consistent with approved brand and design tokens where relevant.
 - App Store must identify affected platforms, users, and maintainers.
 

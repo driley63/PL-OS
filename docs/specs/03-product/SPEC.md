@@ -1,9 +1,9 @@
-# Volume 03 - Product Experience Specification v1.3.0
+# Volume 03 - Product Experience Specification v1.7.0
 
 Status: Released
 Owner: Product Working Group
-Version: 1.3.0
-Last updated: 2026-08-19
+Version: 1.7.0
+Last updated: 2026-08-20
 
 ## Purpose
 
@@ -11,7 +11,7 @@ Defines the user experience model for daily capture, habit learning, analysis, r
 
 ## Scope
 
-- LifestyleIQ product ecosystem
+- Plectara product ecosystem
 - Daily capture, habit learning, health timelines, insights, reports, onboarding, settings, consent, notifications, and research
 - Mobile app, web app, documentation examples, and future product design artifacts
 - Product surfaces that interpret health behavior, summarize patterns, or ask for sensitive user input
@@ -32,6 +32,7 @@ Volume 03 does not define brand identity, component styling, AI model policy, da
 
 - Reduce effort before adding instruction.
 - Capture first on high-frequency surfaces; understanding belongs in deeper product views.
+- Every feature proposal must pass the One Sentence Test: "How does this help users understand how their lifestyle affects how they feel?"
 - Show evidence before interpretation.
 - Keep health guidance cautious, plain, and user-controlled.
 - Design for repeated daily use, not only first-run success.
@@ -42,7 +43,7 @@ Volume 03 does not define brand identity, component styling, AI model policy, da
 | Pillar | User promise | Product responsibility |
 | --- | --- | --- |
 | Capture | I can record what happened without breaking my routine | Minimize friction, support correction, and preserve trust |
-| Habits | LifestyleIQ learns what is normal for me | Surface repeated captures, respect user control, and avoid judgment |
+| Habits | Plectara learns what is normal for me | Surface repeated captures, respect user control, and avoid judgment |
 | Insights | I can see what may influence how I feel | Explain evidence, confidence, limitations, and optional next steps |
 
 These pillars are sequential but not separate. Capture creates the raw observations. Habits identify what repeats and make capture easier. Insights use those observations and habits to explain patterns without reducing the user to a generic score.
@@ -50,8 +51,9 @@ These pillars are sequential but not separate. Capture creates the raw observati
 ## Requirements
 
 - Standards must map to implementation or reviewable behavior.
-- Changes must remain consistent with LIQ OS Core.
+- Changes must remain consistent with PL-OS Core.
 - Product UI must use released Brand Identity and Design Language standards.
+- Feature proposals must identify which product pillar they strengthen, whether they reduce friction, whether they increase user understanding, and whether they align with the North Star that Plectara should disappear into the user's routine.
 - Widgets, shortcuts, and other high-frequency entry points must prioritize frictionless Capture over dashboard-style consumption.
 - Product claims must identify evidence, source, timeframe, confidence, and limitations when relevant.
 - Health-sensitive experiences must avoid blame, shame, diagnosis, or unsupported certainty.
@@ -111,6 +113,7 @@ A Product Experience pattern is complete when it defines:
 
 ## Version History
 
-- Unreleased: Adds Capture, Habits, and Insights as Product Experience pillars.
+- v1.7.0: Adds the One Sentence Test to Product Experience feature review.
+- v1.7.0: Adds Capture, Habits, and Insights as Product Experience pillars.
 - v1.3.0: Adds implementable Product Experience standards and release checklist.
 - v1.0.0: Initial repository baseline.

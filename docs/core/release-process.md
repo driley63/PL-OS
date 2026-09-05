@@ -1,13 +1,13 @@
 # Release Process
 
 Status: Released
-Owner: LIQ OS Maintainers
+Owner: PL-OS Maintainers
 Version: 1.0.0
 Last updated: 2026-08-02
 
 ## Purpose
 
-Defines how official LIQ OS releases are assembled.
+Defines how official PL-OS releases are assembled.
 
 ## Scope
 

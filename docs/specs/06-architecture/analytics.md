@@ -17,7 +17,7 @@ Defines analytics for Product Architecture.
 
 ## Requirements
 
-- Analytics must support the LifestyleIQ philosophy.
+- Analytics must support the Plectara philosophy.
 - Analytics must be consistent with approved brand and design tokens where relevant.
 - Analytics must identify affected platforms, users, and maintainers.
 

@@ -17,7 +17,7 @@ Defines release topology for Product Architecture.
 
 ## Requirements
 
-- Release Topology must support the LifestyleIQ philosophy.
+- Release Topology must support the Plectara philosophy.
 - Release Topology must be consistent with approved brand and design tokens where relevant.
 - Release Topology must identify affected platforms, users, and maintainers.
 

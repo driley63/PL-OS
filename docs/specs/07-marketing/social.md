@@ -17,7 +17,7 @@ Defines social for Marketing and Communications.
 
 ## Requirements
 
-- Social must support the LifestyleIQ philosophy.
+- Social must support the Plectara philosophy.
 - Social must be consistent with approved brand and design tokens where relevant.
 - Social must identify affected platforms, users, and maintainers.
 

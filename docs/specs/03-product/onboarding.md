@@ -28,7 +28,7 @@ Defines first-run onboarding behavior for expectation setting, account setup, pe
 
 | Stage | Goal | Requirement |
 | --- | --- | --- |
-| Welcome | Set expectation | Explain LifestyleIQ in plain language without dense policy copy |
+| Welcome | Set expectation | Explain Plectara in plain language without dense policy copy |
 | Account setup | Establish identity and access | Collect only required account information |
 | Goal context | Understand user intent | Keep goals editable and avoid clinical promises |
 | Data setup | Configure logs or integrations | Explain why each data source matters |
@@ -53,7 +53,7 @@ Defines first-run onboarding behavior for expectation setting, account setup, pe
 
 ## Acceptance Criteria
 
-- Users understand what LifestyleIQ does before sharing sensitive data.
+- Users understand what Plectara does before sharing sensitive data.
 - Permissions and consent are requested with context and alternatives.
 - Required setup remains minimal.
 - Onboarding can recover from interruption.

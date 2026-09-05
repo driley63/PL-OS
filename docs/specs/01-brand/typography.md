@@ -5,13 +5,17 @@ Owner: Brand Working Group
 Version: 1.0.0
 Last updated: 2026-08-02
 
+## Approved logo lettering
+
+The Plectara wordmark is separately approved outlined artwork recovered from the original concept. Use its SVG master; do not substitute Inter or type the name to recreate the logo. Inter remains the UI and supporting-copy family below.
+
 ## Purpose
 
 Defines the approved Inter-based type scale and fallback strategy.
 
 ## Scope
 
-- LifestyleIQ brand identity
+- Plectara brand identity
 - Digital product implementation
 - Marketing and platform assets
 
@@ -32,7 +36,7 @@ Defines the approved Inter-based type scale and fallback strategy.
 
 - The rule can be implemented in design and code.
 - A reviewer can detect compliant and non-compliant usage.
-- The standard maps to LIQ OS Core.
+- The standard maps to PL-OS Core.
 
 ## References
 

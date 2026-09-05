@@ -17,7 +17,7 @@ Defines web app for Product Architecture.
 
 ## Requirements
 
-- Web App must support the LifestyleIQ philosophy.
+- Web App must support the Plectara philosophy.
 - Web App must be consistent with approved brand and design tokens where relevant.
 - Web App must identify affected platforms, users, and maintainers.
 

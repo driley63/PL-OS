@@ -17,7 +17,7 @@ Defines claims and evidence for Marketing and Communications.
 
 ## Requirements
 
-- Claims And Evidence must support the LifestyleIQ philosophy.
+- Claims And Evidence must support the Plectara philosophy.
 - Claims And Evidence must be consistent with approved brand and design tokens where relevant.
 - Claims And Evidence must identify affected platforms, users, and maintainers.
 

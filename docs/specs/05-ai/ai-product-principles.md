@@ -7,7 +7,7 @@ Last updated: 2026-08-04
 
 ## Purpose
 
-Defines product-facing principles for AI-assisted LifestyleIQ experiences.
+Defines product-facing principles for AI-assisted Plectara experiences.
 
 ## Scope
 
@@ -17,7 +17,7 @@ Defines product-facing principles for AI-assisted LifestyleIQ experiences.
 
 ## Requirements
 
-- AI must support the LIQ OS philosophy by helping users translate daily habits into understandable, optional next steps.
+- AI must support the PL-OS philosophy by helping users translate daily habits into understandable, optional next steps.
 - AI involvement must be visible when output is personalized, generated, inferred, summarized, ranked, or recommended by a model.
 - AI must show evidence and uncertainty before asking the user to act.
 - AI must not diagnose, prescribe, create unsupported urgency, or imply clinical certainty.

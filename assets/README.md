@@ -1,6 +1,10 @@
 # Assets
 
-This folder stores source assets, generated export placeholders, and design-token files. Source assets should be treated as canonical. Generated files should identify their source.
+This folder stores approved Plectara source assets, generated exports, design tokens, and clearly separated historical explorations. Source assets should be treated as canonical. Generated files should identify their source.
+
+## Current Plectara kit
+
+Use `brand/plectara/` for the owner-approved logo, outlined wordmark, platform icons, social graphics, inventory, and downloadable ZIP. Use `web/plectara-tokens.css` and `flutter/plectara_colors.dart` for new color integrations.
 
 ## Structure
 
@@ -12,4 +16,4 @@ This folder stores source assets, generated export placeholders, and design-toke
 - `flutter`: Flutter asset and token examples
 - `web`: web manifest, favicon, and CSS token examples
 
-Replace placeholder assets with production masters when final vector artwork is approved.
+The files in `brand/logos/` are historical placeholders and naming explorations. They are retained for provenance, not used by the current site.

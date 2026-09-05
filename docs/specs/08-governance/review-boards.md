@@ -17,7 +17,7 @@ Defines review boards for Governance Operations.
 
 ## Requirements
 
-- Review Boards must support the LifestyleIQ philosophy.
+- Review Boards must support the Plectara philosophy.
 - Review Boards must be consistent with approved brand and design tokens where relevant.
 - Review Boards must identify affected platforms, users, and maintainers.
 

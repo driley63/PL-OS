@@ -2,11 +2,11 @@
 
 Status: Draft
 Date opened: 2026-08-03
-Owner: LIQ OS Maintainers
+Owner: PL-OS Maintainers
 
 ## Problem
 
-LifestyleIQ needs a consistent information hierarchy for health data, AI explanations, reports, and dense app screens.
+Plectara needs a consistent information hierarchy for health data, AI explanations, reports, and dense app screens.
 
 ## Proposal
 

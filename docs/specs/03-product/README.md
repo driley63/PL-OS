@@ -1,17 +1,17 @@
 # Volume 03 - Product Experience
 
-Volume 03 defines how LifestyleIQ turns user health context into daily capture workflows, learned habits, timelines, insights, reports, settings, consent, and research-informed product behavior.
+Volume 03 defines how Plectara turns user health context into daily capture workflows, learned habits, timelines, insights, reports, settings, consent, and research-informed product behavior.
 
 ## Status
 
-- Current milestone: v1.3.0 released
+- Current milestone: v1.7.0 released
 - Owner: Product Working Group
-- Dependencies: Volume 01 Brand Identity v1.1.0 and Volume 02 Design Language v1.2.0
-- Release type: minor release because this work adds implementation-ready product behavior standards without changing released brand or design-system decisions
+- Dependencies: Volume 01 Brand Identity v1.1.0, Volume 02 Design Language v1.7.0, and Volume 05 AI Principles v1.6.0
+- Release type: minor release because this work adds Capture-first, Adaptive Capture, Habit evolution, and feature-review standards without changing released brand or AI policy decisions
 
 ## Purpose
 
-Product Experience translates the LIQ OS philosophy into user-facing behavior. It defines how the product should help people capture daily context, learn repeated habits, understand patterns, review evidence, manage consent, and receive guidance without overstating certainty or increasing health anxiety.
+Product Experience translates the PL-OS philosophy into user-facing behavior. It defines how the product should help people capture daily context, learn repeated habits, understand patterns, review evidence, manage consent, and receive guidance without overstating certainty or increasing health anxiety.
 
 ## Product Pillars
 

@@ -13,5 +13,5 @@
 
 - The change can be reviewed from repository content.
 - Related specs, ADRs, RFCs, assets, and release notes are updated.
-- The change is consistent with LIQ OS Core.
+- The change is consistent with PL-OS Core.
 - Amplify response headers continue to upgrade insecure resource requests and restrict unnecessary browser capabilities.

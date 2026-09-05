@@ -1,11 +1,5 @@
-# Logo Misuse Examples
+# Logo misuse
 
-Do not:
+Do not stretch the mark, redraw the wordmark, change individual strand colors, widen or narrow its separation channels, add gradients/shadows, or use the old leaf icon.
 
-- Stretch or compress the logo.
-- Rotate the logo.
-- Change the gradient colors.
-- Add drop shadows, outer glows, bevels, or outlines.
-- Place the logo on a busy background.
-- Recreate the wordmark manually.
-- Crop the icon or violate clear space.
+Use approved light, reversed, and monochrome exports instead. See [logo usage](../logo-usage.md).

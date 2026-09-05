@@ -1,0 +1,83 @@
+@import "./plectara-tokens.css";
+
+@font-face {
+  font-family: Inter;
+  src: url("../assets/fonts/Inter-variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --liq-radius-default: .5rem;
+  --liq-radius-prominent: .75rem;
+  --liq-shadow-subtle: 0 .2rem .8rem rgba(25, 45, 56, .08);
+  --liq-font-text: Inter, "SF Pro Text", "SF Pro Display", Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --liq-font-code: "SFMono-Regular", "Roboto Mono", Consolas, "Liberation Mono", Menlo, monospace;
+  --md-text-font: var(--liq-font-text);
+  --md-code-font: var(--liq-font-code);
+}
+
+[data-md-color-scheme] {
+  --md-default-bg-color: var(--plectara-color-background);
+  --md-default-fg-color: var(--plectara-color-text);
+  --md-default-fg-color--light: var(--plectara-color-text-secondary);
+  --md-default-fg-color--lighter: var(--plectara-color-text-secondary);
+  --md-default-fg-color--lightest: var(--plectara-color-divider);
+  --md-primary-fg-color: var(--plectara-ink);
+  --md-primary-fg-color--light: var(--plectara-slate);
+  --md-primary-fg-color--dark: var(--plectara-ink);
+  --md-accent-fg-color: var(--plectara-color-link);
+  --md-typeset-a-color: var(--plectara-color-link);
+  --md-code-bg-color: var(--plectara-color-surface-muted);
+  --md-code-fg-color: var(--plectara-color-text);
+  --md-footer-bg-color: var(--plectara-ink);
+  --md-footer-bg-color--dark: var(--plectara-ink);
+}
+
+body { color: var(--md-default-fg-color); font-family: var(--liq-font-text); }
+.md-header {
+  background: var(--plectara-color-surface);
+  box-shadow: 0 1px 0 var(--plectara-color-divider);
+  color: var(--plectara-color-text);
+}
+.md-header__button, .md-header__title, .md-search__input { color: var(--plectara-color-text); }
+.md-header__button.md-logo { display: block; margin: .2rem auto .2rem 0; padding: .12rem; }
+.md-header__button.md-logo img, .md-header__button.md-logo svg { display: block; height: 2rem; max-width: 8.75rem; width: auto; }
+.md-header__title { display: none; }
+[data-md-color-scheme="slate"] .md-logo img { content: url("../assets/brand/plectara-horizontal-reversed.svg"); }
+.md-search__form { background-color: var(--plectara-color-surface-muted); border: 1px solid var(--plectara-color-border); border-radius: 999px; }
+.md-search__input::placeholder { color: var(--plectara-color-text-secondary); opacity: 1; }
+.md-search__form:hover { background-color: var(--plectara-color-surface); }
+.md-main, .md-content, .md-sidebar { background: var(--md-default-bg-color); }
+.md-typeset h1, .md-typeset h2, .md-typeset h3 { color: var(--md-default-fg-color); font-weight: 650; letter-spacing: -.015em; }
+.md-typeset a:not(.md-button) { text-decoration-color: currentColor; text-underline-offset: .16em; }
+.md-typeset a:not(.md-button):hover { color: var(--plectara-color-link); text-decoration: underline; }
+.md-typeset .md-button { border-color: var(--plectara-color-primary); border-radius: var(--liq-radius-default); color: var(--plectara-color-link); font-weight: 650; min-height: 2.5rem; }
+.md-typeset .md-button:hover, .md-typeset .md-button:focus-visible { background-color: var(--plectara-color-selected); border-color: var(--plectara-color-primary); color: var(--plectara-color-text); }
+.md-typeset .md-button--primary { background-color: var(--plectara-button-primary-background); border-color: var(--plectara-button-primary-background); color: var(--plectara-button-primary-label); }
+.md-typeset .md-button--primary:hover, .md-typeset .md-button--primary:focus-visible { background-color: var(--plectara-button-primary-hover); border-color: var(--plectara-button-primary-hover); color: var(--plectara-button-primary-label); }
+.md-typeset :focus-visible, .md-header :focus-visible, .md-nav__link:focus-visible { outline: 3px solid var(--plectara-focus-ring); outline-offset: 3px; }
+.md-nav__link--active, .md-nav__link:is(:focus, :hover) { color: var(--plectara-color-link); }
+.md-typeset table:not([class]) { border-radius: var(--liq-radius-default); box-shadow: 0 0 0 1px var(--plectara-color-divider); overflow: hidden; }
+.md-typeset table:not([class]) th { background: var(--plectara-ink); color: #fff; }
+.md-typeset code { border-radius: .25rem; }
+.md-typeset .admonition, .md-typeset details { border-color: var(--plectara-color-border); border-radius: var(--liq-radius-prominent); box-shadow: var(--liq-shadow-subtle); }
+.md-typeset .admonition-title, .md-typeset summary { background-color: var(--plectara-color-selected); }
+.md-footer { background: var(--plectara-ink); }
+::selection { background: var(--plectara-color-primary); color: var(--plectara-color-on-primary); }
+
+/* Preview uses the same semantic aliases as component consumers. */
+.plectara-preview { padding: 1rem; border: 1px solid var(--plectara-card-border); border-radius: var(--liq-radius-prominent); background: var(--plectara-card-background); }
+.plectara-preview .md-button { margin: .25rem .25rem .25rem 0; }
+.plectara-preview label { display: block; font-weight: 650; margin: 1rem 0 .4rem; }
+.plectara-preview input { display: block; width: 100%; padding: .6rem .8rem; min-height: 44px; border: 1px solid var(--plectara-input-border); border-radius: var(--liq-radius-default); background: var(--plectara-input-background); color: var(--plectara-input-text); font: inherit; }
+.plectara-preview input::placeholder { color: var(--plectara-color-text-secondary); opacity: 1; }
+.plectara-preview .secondary { color: var(--plectara-color-text-secondary); }
+.plectara-preview .success { color: var(--plectara-color-success); }
+.plectara-preview .warning { color: var(--plectara-color-warning); }
+.plectara-preview .critical { color: var(--plectara-color-critical); }
+.plectara-preview .ai { color: var(--plectara-color-ai); }
+@media screen and (max-width: 44.9375em) {
+  .md-header__button.md-logo img, .md-header__button.md-logo svg { height: 1.85rem; max-width: 7.75rem; }
+}

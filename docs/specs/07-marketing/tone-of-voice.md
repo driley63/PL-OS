@@ -17,7 +17,7 @@ Defines tone of voice for Marketing and Communications.
 
 ## Requirements
 
-- Tone Of Voice must support the LifestyleIQ philosophy.
+- Tone Of Voice must support the Plectara philosophy.
 - Tone Of Voice must be consistent with approved brand and design tokens where relevant.
 - Tone Of Voice must identify affected platforms, users, and maintainers.
 

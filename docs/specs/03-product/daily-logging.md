@@ -2,8 +2,8 @@
 
 Status: Released
 Owner: Product Working Group
-Version: 1.3.0
-Last updated: 2026-08-19
+Version: 1.7.0
+Last updated: 2026-08-20
 
 ## Purpose
 
@@ -57,13 +57,13 @@ Adaptive suggestions should feel helpful, not deterministic. The product should 
 
 ## Favorites and Habits
 
-LifestyleIQ should treat repeated capture as an evolution path:
+Plectara should treat repeated capture as an evolution path:
 
 | Stage | Meaning | Product behavior |
 | --- | --- | --- |
 | New capture | The user records something normally | Do not ask for setup too early |
 | Favorite capture | The user saves or accepts a shortcut for repeated use | Make it easy to access and edit |
-| Learned habit | LifestyleIQ recognizes a recurring pattern | Surface it contextually while preserving user control |
+| Learned habit | Plectara recognizes a recurring pattern | Surface it contextually while preserving user control |
 | Dormant habit | The pattern stops being useful | Reduce prominence without judgment |
 
 Favorites are user-declared. Habits are learned patterns. A learned habit may appear in Adaptive Capture, but the user must be able to pin, hide, rename, edit defaults, or remove it from high-frequency surfaces.
@@ -130,6 +130,6 @@ Widget capture behavior should follow the same patterns as the product:
 
 ## Version History
 
-- Unreleased: Adds one-tap, guided, freeform, Adaptive Capture, and Habit evolution standards.
+- v1.7.0: Adds one-tap, guided, freeform, Adaptive Capture, and Habit evolution standards.
 - v1.3.0: Adds daily logging entry patterns, states, streak rules, and review criteria.
 - v1.0.0: Initial repository baseline.

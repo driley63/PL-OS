@@ -7,7 +7,7 @@ Last updated: 2026-08-04
 
 ## Purpose
 
-Defines the spacing scale, gutters, section rhythm, density rules, and review criteria for LifestyleIQ product interfaces.
+Defines the spacing scale, gutters, section rhythm, density rules, and review criteria for Plectara product interfaces.
 
 ## Scope
 

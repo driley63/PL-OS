@@ -17,7 +17,7 @@ Defines mobile app for Product Architecture.
 
 ## Requirements
 
-- Mobile App must support the LifestyleIQ philosophy.
+- Mobile App must support the Plectara philosophy.
 - Mobile App must be consistent with approved brand and design tokens where relevant.
 - Mobile App must identify affected platforms, users, and maintainers.
 

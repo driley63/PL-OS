@@ -7,7 +7,7 @@ Last updated: 2026-08-04
 
 ## Purpose
 
-Defines responsive layout rules, grid structure, content widths, and screen organization for LifestyleIQ product surfaces.
+Defines responsive layout rules, grid structure, content widths, and screen organization for Plectara product surfaces.
 
 ## Scope
 

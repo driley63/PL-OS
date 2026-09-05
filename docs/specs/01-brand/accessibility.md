@@ -11,7 +11,7 @@ Defines accessibility expectations for brand use.
 
 ## Scope
 
-- LifestyleIQ brand identity
+- Plectara brand identity
 - Digital product implementation
 - Marketing and platform assets
 
@@ -31,7 +31,7 @@ Defines accessibility expectations for brand use.
 
 - The rule can be implemented in design and code.
 - A reviewer can detect compliant and non-compliant usage.
-- The standard maps to LIQ OS Core.
+- The standard maps to PL-OS Core.
 
 ## References
 

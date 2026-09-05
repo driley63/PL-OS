@@ -1,6 +1,6 @@
 # Playbook
 
-The playbook explains how to operate LIQ OS day to day. Specifications define what is true. The playbook explains how to work.
+The playbook explains how to operate PL-OS day to day. Specifications define what is true. The playbook explains how to work.
 
 ## Guides
 

@@ -1,14 +1,14 @@
-# LIQ OS Core Specification v1.0.0
+# PL-OS Core Specification v1.0.0
 
 Status: Released
 Release date: 2026-08-02
-Owner: LIQ OS Maintainers
+Owner: PL-OS Maintainers
 
 ## 1. Purpose
 
-LIQ OS exists to create a single source of truth for LifestyleIQ's product, brand, design, engineering, AI, and governance decisions. It prevents product drift by making important decisions explicit, versioned, and traceable.
+PL-OS exists to create a single source of truth for Plectara's product, brand, design, engineering, AI, and governance decisions. It prevents product drift by making important decisions explicit, versioned, and traceable.
 
-LifestyleIQ is a personal health intelligence platform. It helps users understand how daily habits affect their health by using structured tracking, pattern discovery, AI-assisted analysis, and practical recommendations.
+Plectara is a personal health intelligence platform. It helps users understand how daily habits affect their health by using structured tracking, pattern discovery, AI-assisted analysis, and practical recommendations.
 
 ## 2. Philosophy
 
@@ -30,7 +30,7 @@ This statement is not a public marketing slogan by default. It is the internal c
 
 ## 4. Governance Model
 
-LIQ OS content moves through five statuses:
+PL-OS content moves through five statuses:
 
 - Draft
 - Review
@@ -42,7 +42,7 @@ Significant changes begin as RFCs. Accepted decisions become ADRs. Specification
 
 ## 5. Change Model
 
-LIQ OS uses semantic versioning:
+PL-OS uses semantic versioning:
 
 - Patch: editorial corrections, clarifications, and non-behavioral fixes.
 - Minor: additive standards that do not break existing implementation guidance.
@@ -64,7 +64,7 @@ RFCs create space for review before a decision is locked. They should describe t
 
 ## 9. Quality Bar
 
-Every LIQ OS addition must be:
+Every PL-OS addition must be:
 
 - Clear enough for a future contributor to apply without extra oral history.
 - Traceable to a principle, ADR, RFC, or release.
@@ -75,7 +75,7 @@ Every LIQ OS addition must be:
 
 ## 10. Non-Negotiables
 
-- LifestyleIQ is not a diagnostic medical device.
+- Plectara is not a diagnostic medical device.
 - AI assists understanding and decision-making; it does not replace professional medical advice.
 - Users own and control their personal health data.
 - Recommendations must be explainable.

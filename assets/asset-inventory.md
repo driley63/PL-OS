@@ -1,5 +1,13 @@
 # Asset Inventory
 
+## Current — approved Plectara v2.0.0
+
+The approved kit is `assets/brand/plectara/`. Its `inventory.json` records every deliverable and SHA-256 checksum; `README.md` maps source, export, sizes, and intended uses. Artwork approval: 2026-09-04. Owner: Plectara product owner / Brand Working Group.
+
+Current site header/favicon use the Plectara SVGs in `docs/assets/brand/`. Current color adapters use `assets/tokens/color.tokens.json`, `assets/web/plectara-tokens.css`, and `assets/flutter/plectara_colors.dart`. Typography, spacing, and radius source files are unchanged.
+
+## Historical inventory — not the current site assets
+
 | Asset | Type | Status | Source | Notes |
 | --- | --- | --- | --- | --- |
 | lifestyleiq-icon.svg | SVG | Placeholder | assets/brand/logos/source | Replace after final vector refinement |

@@ -1,4 +1,4 @@
-# LIQ OS vX.Y.Z Release Notes
+# PL-OS vX.Y.Z Release Notes
 
 Date:
 Status:

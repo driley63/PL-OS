@@ -35,7 +35,7 @@ The review adds one clarification: Product Experience owns workflow intent, evid
 
 | Brand rule | Product Experience usage | Review decision |
 | --- | --- | --- |
-| LifestyleIQ is calm, positive, scientific, human, and trustworthy | Health language, onboarding, reports, and notifications | Aligned; product copy uses calm, non-blaming, evidence-first language |
+| Plectara is calm, positive, scientific, human, and trustworthy | Health language, onboarding, reports, and notifications | Aligned; product copy uses calm, non-blaming, evidence-first language |
 | Product surfaces use semantic tokens before primitive values | Product workflows reference released Design Language and Brand Identity standards | Aligned; Volume 03 defines behavior, not new visual tokens |
 | AI Purple is reserved for AI-generated and model-assisted behavior | AI insights, AI explanations, confidence, and AI-specific product states | Aligned; Volume 03 requires AI labeling and prohibits unsupported AI decoration |
 | Inter and platform fallbacks remain the UI type strategy | Product copy and report standards defer typography to Brand and Design volumes | Aligned; no competing typeface or type scale is introduced |
@@ -72,7 +72,7 @@ The review adds one clarification: Product Experience owns workflow intent, evid
 
 ## Acceptance Criteria
 
-- Reviewers can trace product workflow rules back to user goals and released LIQ OS dependencies.
+- Reviewers can trace product workflow rules back to user goals and released PL-OS dependencies.
 - Health-sensitive copy distinguishes facts, interpretations, suggestions, limitations, and claims.
 - AI-assisted experiences identify evidence, confidence, limitations, and model involvement where relevant.
 - Consent, notification, export, and deletion behavior preserve user agency.

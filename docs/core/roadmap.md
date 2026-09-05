@@ -1,13 +1,13 @@
 # Core Roadmap
 
 Status: Released
-Owner: LIQ OS Maintainers
+Owner: PL-OS Maintainers
 Version: 1.0.0
 Last updated: 2026-08-02
 
 ## Purpose
 
-Defines the ordered evolution of LIQ OS after the initial baseline.
+Defines the ordered evolution of PL-OS after the initial baseline.
 
 ## Scope
 

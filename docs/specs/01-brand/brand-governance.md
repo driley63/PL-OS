@@ -11,7 +11,7 @@ Defines how brand changes are reviewed and released.
 
 ## Scope
 
-- LifestyleIQ brand identity
+- Plectara brand identity
 - Digital product implementation
 - Marketing and platform assets
 - Design tokens, production assets, and release records

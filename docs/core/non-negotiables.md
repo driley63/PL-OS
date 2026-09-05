@@ -1,7 +1,7 @@
 # Non-Negotiables
 
 Status: Released
-Owner: LIQ OS Maintainers
+Owner: PL-OS Maintainers
 Version: 1.0.0
 Last updated: 2026-08-02
 
@@ -20,7 +20,7 @@ Defines stable boundaries that require extraordinary review to change.
 
 ## Requirements
 
-- LifestyleIQ must not present itself as a diagnostic device.
+- Plectara must not present itself as a diagnostic device.
 - AI must not replace professional medical advice.
 - Users must control their personal health data.
 

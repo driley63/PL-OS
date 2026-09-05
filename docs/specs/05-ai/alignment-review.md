@@ -19,7 +19,7 @@ Documents the Volume 05 review against released Brand Identity v1.1.0, released 
 
 ## Review Outcome
 
-Volume 05 is aligned with Brand Identity v1.1.0, Design Language v1.5.0, Product Experience v1.3.0, and Engineering Standards v1.4.0. No released Brand, Design, Product, Engineering, or LIQ OS Core values need to change for v1.6.0.
+Volume 05 is aligned with Brand Identity v1.1.0, Design Language v1.5.0, Product Experience v1.3.0, and Engineering Standards v1.4.0. No released Brand, Design, Product, Engineering, or PL-OS Core values need to change for v1.6.0.
 
 The review adds one clarification: AI Principles own model-assisted behavior, safety boundaries, evidence, confidence, prompt/context rules, evaluation gates, and AI-specific user meaning, while Product Experience remains authoritative for workflow intent and Engineering remains authoritative for implementation mechanics.
 
@@ -36,7 +36,7 @@ The review adds one clarification: AI Principles own model-assisted behavior, sa
 
 | Brand rule | AI Principles usage | Review decision |
 | --- | --- | --- |
-| LifestyleIQ is calm, positive, scientific, human, and trustworthy | AI copy, failure states, recommendations, and explanations use evidence-first, non-alarming language | Aligned |
+| Plectara is calm, positive, scientific, human, and trustworthy | AI copy, failure states, recommendations, and explanations use evidence-first, non-alarming language | Aligned |
 | AI Purple is reserved for AI-generated and model-assisted behavior | AI visual language restricts AI Purple to model involvement, confidence, and AI-specific affordances | Aligned |
 | Product surfaces use semantic tokens before primitive values | AI visual standards defer to released Brand and Design tokens | Aligned; no new primitive colors or typography values are introduced |
 | Brand system does not define medical claims | AI safety boundaries and recommendation policy define claim limits and review triggers | Aligned |
@@ -83,7 +83,7 @@ The review adds one clarification: AI Principles own model-assisted behavior, sa
 
 ## Acceptance Criteria
 
-- Reviewers can trace AI rules back to released Brand, Design, Product, Engineering, and LIQ OS Core dependencies.
+- Reviewers can trace AI rules back to released Brand, Design, Product, Engineering, and PL-OS Core dependencies.
 - AI-assisted experiences identify evidence, confidence, limitations, and model involvement where relevant.
 - AI output does not override product workflow intent, health-language limits, consent behavior, or user agency.
 - Sensitive prompt, context, evaluation, log, and feedback behavior has clear privacy and safety review triggers.

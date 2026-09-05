@@ -17,7 +17,7 @@ Defines deprecation governance for Governance Operations.
 
 ## Requirements
 
-- Deprecation Governance must support the LifestyleIQ philosophy.
+- Deprecation Governance must support the Plectara philosophy.
 - Deprecation Governance must be consistent with approved brand and design tokens where relevant.
 - Deprecation Governance must identify affected platforms, users, and maintainers.
 

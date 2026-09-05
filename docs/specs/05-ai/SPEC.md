@@ -7,12 +7,12 @@ Last updated: 2026-08-04
 
 ## Purpose
 
-Defines AI behavior standards for model-assisted insights, explanations, recommendations, prompts, context, evaluation, safety boundaries, human review, privacy, visual labeling, and failure states across LifestyleIQ product surfaces.
+Defines AI behavior standards for model-assisted insights, explanations, recommendations, prompts, context, evaluation, safety boundaries, human review, privacy, visual labeling, and failure states across Plectara product surfaces.
 
 ## Scope
 
-- LifestyleIQ product ecosystem
-- LIQ OS implementation guidance
+- Plectara product ecosystem
+- PL-OS implementation guidance
 - Mobile app, web app, documentation examples, evaluation assets, and future AI service implementations
 - AI-assisted surfaces that interpret health logs, timelines, correlations, reports, summaries, recommendations, or user goals
 - AI-adjacent behavior where rules, retrieval, summaries, or automation may be mistaken for model-generated guidance
@@ -40,7 +40,7 @@ Volume 05 does not define brand identity, general UI component styling, product 
 ## Requirements
 
 - Standards must map to implementation or reviewable behavior.
-- Changes must remain consistent with LIQ OS Core.
+- Changes must remain consistent with PL-OS Core.
 - AI-assisted behavior must identify model involvement where a user could reasonably interpret output as personalized, generated, inferred, or recommended.
 - Health-sensitive AI output must expose source data, timeframe, confidence, limitations, and safe next action where relevant.
 - AI must not diagnose, prescribe, claim causation without reviewed evidence, create unsupported urgency, or replace professional medical advice.
@@ -55,7 +55,7 @@ Volume 05 does not define brand identity, general UI component styling, product 
 
 | Area | Depends on |
 | --- | --- |
-| LIQ OS governance | `docs/core/SPEC.md` |
+| PL-OS governance | `docs/core/SPEC.md` |
 | Brand tokens and AI color | `docs/specs/01-brand/SPEC.md` and `docs/specs/01-brand/design-tokens.md` |
 | AI visual treatment and UI states | `docs/specs/02-design/SPEC.md` and `docs/specs/02-design/ui-pattern-alignment-review.md` |
 | Product workflow intent and health language | `docs/specs/03-product/SPEC.md` and `docs/specs/03-product/health-language.md` |
@@ -91,7 +91,7 @@ An AI behavior, prompt, model-assisted workflow, or generated output pattern is 
 - Product, design, and engineering teams can apply AI rules consistently across mobile and web.
 - Reviewers can identify when a change needs an exception, RFC, ADR, release note, safety review, privacy review, or human-review gate.
 - AI-assisted surfaces can be checked against evidence, confidence, recommendation, prompt, context, evaluation, safety, privacy, visual-language, and failure-state standards.
-- AI standards can evolve without breaking released Brand, Design, Product, Engineering, or LIQ OS Core constraints.
+- AI standards can evolve without breaking released Brand, Design, Product, Engineering, or PL-OS Core constraints.
 
 ## References
 

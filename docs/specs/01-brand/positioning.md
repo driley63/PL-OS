@@ -7,11 +7,11 @@ Last updated: 2026-08-02
 
 ## Purpose
 
-Defines LifestyleIQ as a personal health intelligence platform.
+Defines Plectara as a personal health intelligence platform.
 
 ## Scope
 
-- LifestyleIQ brand identity
+- Plectara brand identity
 - Digital product implementation
 - Marketing and platform assets
 
@@ -31,7 +31,7 @@ Defines LifestyleIQ as a personal health intelligence platform.
 
 - The rule can be implemented in design and code.
 - A reviewer can detect compliant and non-compliant usage.
-- The standard maps to LIQ OS Core.
+- The standard maps to PL-OS Core.
 
 ## References
 

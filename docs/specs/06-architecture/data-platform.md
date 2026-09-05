@@ -17,7 +17,7 @@ Defines data platform for Product Architecture.
 
 ## Requirements
 
-- Data Platform must support the LifestyleIQ philosophy.
+- Data Platform must support the Plectara philosophy.
 - Data Platform must be consistent with approved brand and design tokens where relevant.
 - Data Platform must identify affected platforms, users, and maintainers.
 

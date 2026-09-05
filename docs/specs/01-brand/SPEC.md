@@ -1,16 +1,16 @@
-# Volume 01 - Brand Identity Specification v1.1.0
+# Volume 01 - Brand Identity Specification v2.0.0
 
-Status: Released
+Status: Approved for v2.0.0
 Owner: Brand Working Group
-Last updated: 2026-08-04
+Last updated: 2026-09-04
 
 ## Purpose
 
-This specification defines the canonical LifestyleIQ brand identity and the rules required to implement it consistently. It converts approved brand decisions into versioned standards for product design, web design, Flutter implementation, marketing, app store assets, and future asset production.
+This specification defines the canonical Plectara brand identity and the rules required to implement it consistently. It converts approved brand decisions into versioned standards for product design, web design, Flutter implementation, marketing, app store assets, and future asset production.
 
 ## Brand Foundation
 
-LifestyleIQ is a personal health intelligence platform. It helps users understand how daily habits affect their health by uncovering patterns, identifying likely triggers, and recommending practical improvements.
+Plectara is a personal health intelligence platform. It helps users understand how daily habits affect their health by uncovering patterns, identifying likely triggers, and recommending practical improvements.
 
 The approved philosophy is:
 
@@ -18,7 +18,7 @@ The approved philosophy is:
 
 ## Personality
 
-LifestyleIQ should feel intelligent, calm, positive, scientific, optimistic, human, data-driven, premium, and trustworthy.
+Plectara should feel intelligent, calm, positive, scientific, optimistic, human, data-driven, premium, and trustworthy.
 
 It should not feel clinical, hospital-like, cold, sterile, overly technical, extreme, or trend-driven.
 
@@ -38,15 +38,15 @@ The brand system does not define product features, medical claims, clinical poli
 
 ## Logo System
 
-The approved logo direction is a green to teal rounded-square icon containing a white lifestyle figure and leaf symbol, paired with a LifestyleIQ wordmark. The icon must work as an iOS app icon, Android launcher icon, favicon, social avatar, wearable icon, and standalone product symbol.
+The approved logo is a woven human figure in teal, jade, copper, and slate, paired with the restored outlined Plectara wordmark. The owner approved the final geometry, uniform separation channels, and lettering on 2026-09-04. The icon must work as an iOS app icon, Android launcher icon, favicon, social avatar, wearable icon, and standalone product symbol.
 
 Production logo files must be treated as source-controlled assets. Teams must not redraw, trace, approximate, or manually recreate the mark from screenshots.
 
 ## Color System
 
-The signature brand expression is the Fresh Lime to Evergreen gradient. Purple is reserved primarily for AI-generated insights and machine-learning behavior.
+The signature brand expression is the flat-color woven-person identity on ivory or ink. Purple is reserved primarily for AI-generated insights and machine-learning behavior.
 
-Evergreen, Fresh Lime, Deep Navy, and AI Purple are canonical primitive colors. Product surfaces should use semantic tokens instead of primitive values when a semantic role exists.
+Teal, jade, copper, ink, slate, and ivory form the canonical brand palette. AI Purple remains a separately reserved primitive. Product surfaces should use semantic tokens instead of primitive values when a semantic role exists.
 
 ## Typography System
 
@@ -84,6 +84,8 @@ A Volume 01 change is complete when:
 - Reviewers can classify the change as patch, minor, or major.
 
 ## Version History
+
+- v2.0.0: Adopts the approved Plectara identity, restored outlined lettering, and light/dark semantic palette; preserves the component and UI typography systems.
 
 - v1.1.0: Adds implementation-ready color, token, asset, logo usage, and governance standards.
 - v1.0.0: Initial approved baseline.

@@ -1,0 +1,36 @@
+{
+  "name": "LIQ OS",
+  "version": "1.7.0",
+  "date": "2026-08-20",
+  "status": "released-minor",
+  "included_adrs": [
+    "ADR-0001",
+    "ADR-0002",
+    "ADR-0003",
+    "ADR-0004",
+    "ADR-0005",
+    "ADR-0006",
+    "ADR-0007",
+    "ADR-0008",
+    "ADR-0009",
+    "ADR-0010"
+  ],
+  "included_rfcs": [
+    "RFC-0001",
+    "RFC-0002",
+    "RFC-0003",
+    "RFC-0004",
+    "RFC-0005"
+  ],
+  "changes": [
+    "capture-habits-insights-product-pillars",
+    "one-sentence-feature-proposal-test",
+    "capture-first-widget-and-compact-surface-standards",
+    "one-tap-guided-and-freeform-capture-behavior",
+    "adaptive-capture-context-and-user-control",
+    "favorite-capture-and-learned-habit-evolution",
+    "capture-to-insight-evidence-relationship",
+    "widget-privacy-accessibility-and-recovery-states",
+    "mkdocs-v1-7-release-navigation"
+  ]
+}

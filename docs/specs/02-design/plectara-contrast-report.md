@@ -1,0 +1,70 @@
+# Plectara color contrast checks
+
+Generated from color.tokens.json. Tests declared text pairs at 4.5:1 and required control/focus boundaries at 3:1. This is a palette check, not a complete product accessibility audit. Decorative dividers, logo strands, and disabled states are not included.
+
+| Theme | Pair | Contrast | Minimum | Result |
+| --- | --- | --- | --- | --- |
+| light | onPrimary / primary | 4.79:1 | 4.5:1 | Pass |
+| light | onPrimary / primaryHover | 6.64:1 | 4.5:1 | Pass |
+| light | text / background | 13.43:1 | 4.5:1 | Pass |
+| light | textSecondary / background | 5.06:1 | 4.5:1 | Pass |
+| light | link / background | 6.26:1 | 4.5:1 | Pass |
+| light | success / background | 5.69:1 | 4.5:1 | Pass |
+| light | warning / background | 5.64:1 | 4.5:1 | Pass |
+| light | critical / background | 5.32:1 | 4.5:1 | Pass |
+| light | info / background | 5.63:1 | 4.5:1 | Pass |
+| light | ai / background | 5.66:1 | 4.5:1 | Pass |
+| light | border / background | 3.41:1 | 3.0:1 | Pass |
+| light | focus / background | 4.51:1 | 3.0:1 | Pass |
+| light | text / surface | 14.25:1 | 4.5:1 | Pass |
+| light | textSecondary / surface | 5.36:1 | 4.5:1 | Pass |
+| light | link / surface | 6.64:1 | 4.5:1 | Pass |
+| light | success / surface | 6.04:1 | 4.5:1 | Pass |
+| light | warning / surface | 5.98:1 | 4.5:1 | Pass |
+| light | critical / surface | 5.64:1 | 4.5:1 | Pass |
+| light | info / surface | 5.97:1 | 4.5:1 | Pass |
+| light | ai / surface | 6.01:1 | 4.5:1 | Pass |
+| light | border / surface | 3.62:1 | 3.0:1 | Pass |
+| light | focus / surface | 4.79:1 | 3.0:1 | Pass |
+| light | text / surfaceMuted | 12.57:1 | 4.5:1 | Pass |
+| light | textSecondary / surfaceMuted | 4.73:1 | 4.5:1 | Pass |
+| light | link / surfaceMuted | 5.86:1 | 4.5:1 | Pass |
+| light | success / surfaceMuted | 5.33:1 | 4.5:1 | Pass |
+| light | warning / surfaceMuted | 5.28:1 | 4.5:1 | Pass |
+| light | critical / surfaceMuted | 4.98:1 | 4.5:1 | Pass |
+| light | info / surfaceMuted | 5.27:1 | 4.5:1 | Pass |
+| light | ai / surfaceMuted | 5.30:1 | 4.5:1 | Pass |
+| light | border / surfaceMuted | 3.19:1 | 3.0:1 | Pass |
+| light | focus / surfaceMuted | 4.22:1 | 3.0:1 | Pass |
+| dark | onPrimary / primary | 6.17:1 | 4.5:1 | Pass |
+| dark | onPrimary / primaryHover | 7.45:1 | 4.5:1 | Pass |
+| dark | text / background | 13.43:1 | 4.5:1 | Pass |
+| dark | textSecondary / background | 8.44:1 | 4.5:1 | Pass |
+| dark | link / background | 7.45:1 | 4.5:1 | Pass |
+| dark | success / background | 7.55:1 | 4.5:1 | Pass |
+| dark | warning / background | 8.59:1 | 4.5:1 | Pass |
+| dark | critical / background | 7.86:1 | 4.5:1 | Pass |
+| dark | info / background | 8.11:1 | 4.5:1 | Pass |
+| dark | ai / background | 6.77:1 | 4.5:1 | Pass |
+| dark | border / background | 5.42:1 | 3.0:1 | Pass |
+| dark | focus / background | 6.17:1 | 3.0:1 | Pass |
+| dark | text / surface | 10.81:1 | 4.5:1 | Pass |
+| dark | textSecondary / surface | 6.79:1 | 4.5:1 | Pass |
+| dark | link / surface | 6.00:1 | 4.5:1 | Pass |
+| dark | success / surface | 6.08:1 | 4.5:1 | Pass |
+| dark | warning / surface | 6.91:1 | 4.5:1 | Pass |
+| dark | critical / surface | 6.32:1 | 4.5:1 | Pass |
+| dark | info / surface | 6.52:1 | 4.5:1 | Pass |
+| dark | ai / surface | 5.45:1 | 4.5:1 | Pass |
+| dark | border / surface | 4.36:1 | 3.0:1 | Pass |
+| dark | focus / surface | 4.96:1 | 3.0:1 | Pass |
+| dark | text / surfaceMuted | 8.93:1 | 4.5:1 | Pass |
+| dark | textSecondary / surfaceMuted | 5.61:1 | 4.5:1 | Pass |
+| dark | link / surfaceMuted | 4.95:1 | 4.5:1 | Pass |
+| dark | success / surfaceMuted | 5.02:1 | 4.5:1 | Pass |
+| dark | warning / surfaceMuted | 5.71:1 | 4.5:1 | Pass |
+| dark | critical / surfaceMuted | 5.22:1 | 4.5:1 | Pass |
+| dark | info / surfaceMuted | 5.39:1 | 4.5:1 | Pass |
+| dark | ai / surfaceMuted | 4.50:1 | 4.5:1 | Pass |
+| dark | border / surfaceMuted | 3.60:1 | 3.0:1 | Pass |
+| dark | focus / surfaceMuted | 4.10:1 | 3.0:1 | Pass |

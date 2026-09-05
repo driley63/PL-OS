@@ -7,7 +7,7 @@ Last updated: 2026-08-04
 
 ## Purpose
 
-Defines how LifestyleIQ UI components are named, grouped, governed, and reviewed.
+Defines how Plectara UI components are named, grouped, governed, and reviewed.
 
 ## Scope
 

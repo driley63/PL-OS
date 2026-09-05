@@ -2,8 +2,8 @@
 
 Status: Released
 Owner: Product Working Group
-Version: 1.3.0
-Last updated: 2026-08-19
+Version: 1.7.0
+Last updated: 2026-08-20
 
 ## Purpose
 
@@ -93,6 +93,6 @@ Every interpretive insight should answer:
 
 ## Version History
 
-- Unreleased: Connects insights to the Capture and Habits product pillars.
+- v1.7.0: Connects insights to the Capture and Habits product pillars.
 - v1.3.0: Adds insight types, evidence requirements, confidence rules, and user controls.
 - v1.0.0: Initial repository baseline.

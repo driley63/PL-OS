@@ -7,7 +7,7 @@ Last updated: 2026-08-04
 
 ## Purpose
 
-Defines standards for modals, dialogs, sheets, banners, toasts, confirmations, and inline feedback in LifestyleIQ product interfaces.
+Defines standards for modals, dialogs, sheets, banners, toasts, confirmations, and inline feedback in Plectara product interfaces.
 
 ## Scope
 

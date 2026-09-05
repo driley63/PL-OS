@@ -1,17 +1,17 @@
 # Volume 05 - AI Principles
 
-Volume 05 defines how LifestyleIQ uses AI to explain health patterns, support user decisions, communicate uncertainty, protect sensitive data, and remain inside safe product boundaries.
+Volume 05 defines how Plectara uses AI to explain health patterns, support user decisions, communicate uncertainty, protect sensitive data, and remain inside safe product boundaries.
 
 ## Status
 
 - Current milestone: v1.6.0 released
 - Owner: AI Working Group
-- Dependencies: LIQ OS Core, Brand Identity v1.1.0, Design Language v1.5.0, Product Experience v1.3.0, and Engineering Standards v1.4.0
+- Dependencies: PL-OS Core, Brand Identity v1.1.0, Design Language v1.5.0, Product Experience v1.3.0, and Engineering Standards v1.4.0
 - Release type: minor release because this work adds implementation-ready AI behavior standards without changing released brand, design, product, or engineering decisions
 
 ## Purpose
 
-AI Principles translate the LIQ OS philosophy into rules for model-assisted product behavior. They define how insights are generated, explained, evaluated, constrained, reviewed, labeled, and recovered when AI output is uncertain, unsafe, unavailable, or incomplete.
+AI Principles translate the PL-OS philosophy into rules for model-assisted product behavior. They define how insights are generated, explained, evaluated, constrained, reviewed, labeled, and recovered when AI output is uncertain, unsafe, unavailable, or incomplete.
 
 ## Principles
 
@@ -43,4 +43,4 @@ AI Principles translate the LIQ OS philosophy into rules for model-assisted prod
 - Designers can represent AI involvement, confidence, evidence, and failure states consistently.
 - Engineers can identify prompt, context, logging, evaluation, privacy, and safety requirements.
 - Reviewers can reject unsupported health claims, unsafe recommendations, hidden AI behavior, or missing evidence.
-- AI behavior remains traceable to released Product, Design, Engineering, Brand, and LIQ OS Core standards.
+- AI behavior remains traceable to released Product, Design, Engineering, Brand, and PL-OS Core standards.

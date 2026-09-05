@@ -20,7 +20,7 @@ Describe the change in plain language.
 
 ## Review Checklist
 
-- [ ] The change is consistent with LIQ OS Core.
+- [ ] The change is consistent with PL-OS Core.
 - [ ] Affected specs, ADRs, RFCs, and release notes are updated.
 - [ ] Token or asset changes include implementation guidance.
 - [ ] Accessibility, privacy, and user-safety implications are addressed.

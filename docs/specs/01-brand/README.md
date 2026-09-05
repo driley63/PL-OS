@@ -1,27 +1,27 @@
 # Volume 01 - Brand Identity
 
-Volume 01 defines the approved LifestyleIQ brand identity and the implementation rules needed to apply it consistently across product, web, app stores, marketing, and internal documentation.
+Volume 01 defines the approved Plectara brand identity and the implementation rules needed to apply it consistently across product, web, app stores, marketing, and internal documentation.
 
 ## Status
 
-- Current release: v1.1.0
+- Current version: v2.0.0, approved release
 - Owner: Brand Working Group
-- Review path: Pull request review by LIQ OS maintainers
-- Release type: minor release because this work adds implementation standards without changing the approved brand direction
+- Review path: Pull request review by PL-OS maintainers
+- Release type: major brand migration; component structure remains unchanged
 
 ## Approved Baseline
 
-- Product name: LifestyleIQ
-- Operating system: LIQ OS
+- Product name: Plectara
+- Operating system: PL-OS
 - Philosophy: "Translating daily habits into a plan towards optimal health."
-- Signature gradient: Fresh Lime to Evergreen
+- Identity: woven person; teal, jade, copper, slate, ink, and ivory
 - AI color: Purple reserved for AI-generated insights
 - Primary typeface: Inter
 - Brand tone: intelligent, calm, positive, scientific, optimistic, human, data-driven, premium, and trustworthy
 
 ## Current Release
 
-v1.1.0 turns the baseline direction into released implementation standards. It focuses on brand decisions that teams need before creating production app icons, launch assets, UI tokens, Figma libraries, marketing pages, and code exports.
+v2.0.0 adopts the owner-approved Plectara artwork and semantic colors. The [brand kit](plectara-brand-kit.md) includes SVG masters, outlined lettering, platform icons, social assets, and regeneration instructions.
 
 ## Document Map
 
@@ -31,7 +31,7 @@ v1.1.0 turns the baseline direction into released implementation standards. It f
 - `logo-system.md`: approved mark architecture and asset roles
 - `logo-construction.md`: construction rules and optical refinement requirements
 - `logo-usage.md`: clear space, minimum sizes, backgrounds, and misuse rules
-- `color-system.md`: primitive colors, semantic roles, gradients, and AI color reservation
+- `color-system.md`: primitive colors, theme-specific semantic roles, and AI color reservation
 - `typography.md`: Inter usage, type scale, fallback policy, and wordmark separation
 - `design-tokens.md`: token taxonomy, naming rules, platform mappings, and change controls
 - `iconography.md`: icon style, stroke, metaphor, and AI icon rules

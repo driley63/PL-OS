@@ -1,8 +1,52 @@
 # Changelog
 
-All notable changes to LIQ OS are recorded in this file.
+All notable changes to PL-OS (formerly LIQ OS) are recorded in this file.
 
 The format follows Keep a Changelog conventions and the project uses semantic versioning for published operating system releases.
+
+## [v2.0.0] - 2026-09-04
+
+### Changed
+
+- Adopt Plectara and PL-OS for current product and operating-system naming; preserve the LIQ-OS repository slug and historical records.
+- Apply owner-approved woven-person artwork with consistent gaps and restored outlined lettering.
+- Replace the legacy lime gradient with the Plectara palette and theme-specific component colors.
+- Preserve the existing component language, typography, spacing, radii, and interaction standards.
+
+### Added
+
+- SVG/PNG logo set, platform icons, social assets, and downloadable brand kit.
+- CSS and Flutter color adapters with legacy compatibility names.
+- Light/dark component preview and 64 passing palette contrast checks.
+- ADR-0011, ADR-0012, migration guidance, and a local v2.0.0 manifest.
+
+Publication uses the existing repository and Amplify deployment workflow. No repository rename or legal registration is included.
+
+## [v1.7.0] - 2026-08-20
+
+### Added
+
+- Capture-first standards for home screen widgets, lock screen widgets, shortcuts, wearable surfaces, and compact launch surfaces.
+- One-tap, guided, and freeform Capture behavior with success, correction, unavailable, and permission-limited states.
+- Adaptive Capture rules based on frequency, recency, time, context, sequence, and user control.
+- Capture, Habits, and Insights as the connected LifestyleIQ Product Experience pillars.
+- The One Sentence Test as a required feature-proposal gate.
+- Release notes, manifest, and checklist for v1.7.0.
+
+### Changed
+
+- Design Language now requires compact surfaces to prioritize Capture over dashboards, scores, charts, and summaries.
+- Product Experience now defines the evolution from new captures to Favorite Captures, learned habits, and dormant habits.
+- Product Philosophy now requires features to increase user understanding while fitting naturally into the user's routine.
+- Insights guidance now explicitly connects evidence and interpretation to captured observations and learned habits.
+
+### Deprecated
+
+- None.
+
+### Removed
+
+- None.
 
 ## [v1.0.1] - 2026-08-03
 

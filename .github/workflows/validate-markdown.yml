@@ -7,6 +7,9 @@ on:
       - "mkdocs.yml"
       - "requirements-docs.txt"
       - "amplify.yml"
+      - "assets/**"
+      - "docs/stylesheets/**"
+      - "tooling/**"
       - ".github/workflows/validate-markdown.yml"
   push:
     branches:
@@ -49,3 +52,12 @@ jobs:
 
       - name: Build MkDocs site
         run: mkdocs build --strict
+
+      - name: Install brand validation dependencies
+        run: pip install -r tooling/requirements-brand.txt
+
+      - name: Validate approved brand assets and color contrast
+        run: |
+          python tooling/build-plectara-tokens.py
+          python tooling/validate-brand.py
+          git diff --exit-code -- assets/tokens assets/web assets/flutter docs/stylesheets/plectara-tokens.css docs/specs/02-design/plectara-contrast-report.md assets/brand/plectara/contrast-report.md

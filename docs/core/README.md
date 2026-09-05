@@ -1,6 +1,6 @@
-# LIQ OS Core
+# PL-OS Core
 
-LIQ OS Core is the constitution for LifestyleIQ's operating system. It defines why the system exists, how decisions become standards, how releases are cut, and what cannot be compromised.
+PL-OS Core is the constitution for Plectara's operating system. It defines why the system exists, how decisions become standards, how releases are cut, and what cannot be compromised.
 
 ## Contents
 
@@ -22,4 +22,4 @@ LIQ OS Core is the constitution for LifestyleIQ's operating system. It defines w
 
 ## Authority
 
-If two LIQ OS documents conflict, Core wins unless an approved ADR explicitly supersedes the relevant section.
+If two PL-OS documents conflict, Core wins unless an approved ADR explicitly supersedes the relevant section.

@@ -17,7 +17,7 @@ Defines audit trail for Governance Operations.
 
 ## Requirements
 
-- Audit Trail must support the LifestyleIQ philosophy.
+- Audit Trail must support the Plectara philosophy.
 - Audit Trail must be consistent with approved brand and design tokens where relevant.
 - Audit Trail must identify affected platforms, users, and maintainers.
 
