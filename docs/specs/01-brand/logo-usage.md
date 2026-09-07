@@ -1,7 +1,8 @@
 # Logo Usage
 
-Status: Approved for PL-OS v2.0.0
+Status: Approved for PL-OS v2.1.0
 Owner: Brand Working Group
+Last updated: 2026-09-07
 
 ## Sources and spacing
 
@@ -19,7 +20,17 @@ Allow one head diameter of clear space around the standalone symbol and half a h
 | Horizontal print lockup | 35 mm minimum width; proof the actual output |
 | App icon master | Opaque 1024 × 1024 square |
 
-Use the full-color/ink-lettered mark on ivory or white. Use the reversed version on ink or another approved dark background. Ink and white monochrome variants are available for one-color contexts. Verify edge visibility on any other background.
+Use the full-color logo with ink lettering on ivory or white. Use the reversed version with white lettering on ink or another approved dark background. **Both color versions use the same jade head (`#76B7A5`) and unchanged strand colors.** Never switch the head to ink to adapt a color logo to a light background.
+
+For monochrome use, every part of the figure and its lettering must be ink (`#192D38`) or white (`#FFFFFF`). Do not combine a jade head with monochrome strands, or a monochrome figure with a differently colored wordmark. Transparent separation channels stay open in every version.
+
+Check edge visibility at the final display size. If the colored figure is difficult to see, enlarge it, change the background, or use a complete monochrome version. Do not recolor individual parts to improve contrast. [View and download the approved examples](plectara-brand-kit.md#logos-with-lettering).
+
+## Lettering standards
+
+Use the supplied outlined lettering, with its exact letter shapes, capitalization, proportions, spacing, and figure-to-wordmark alignment. Ink lettering is for light backgrounds; white lettering is for dark backgrounds. The lettering does not become jade when the head is jade.
+
+Do not recreate the wordmark with Inter or another font. Inter remains the UI and supporting-copy family. Use the [standalone lettering downloads](plectara-brand-kit.md#lettering-standards) when a placement calls for lettering alone.
 
 ## Misuse
 

@@ -1,13 +1,17 @@
 # Typography
 
-Status: Released baseline
+Status: Approved for PL-OS v2.1.0
 Owner: Brand Working Group
-Version: 1.0.0
-Last updated: 2026-08-02
+Version: 2.1.0
+Last updated: 2026-09-07
 
 ## Approved logo lettering
 
 The Plectara wordmark is separately approved outlined artwork recovered from the original concept. Use its SVG master; do not substitute Inter or type the name to recreate the logo. Inter remains the UI and supporting-copy family below.
+
+The v2.1.0 lettering standard uses ink (`#192D38`) on white or ivory, and white (`#FFFFFF`) on ink or other approved dark backgrounds. Full-color logos retain a jade head (`#76B7A5`) with either lettering color. Monochrome logos use the same ink or white fill for both lettering and the whole figure.
+
+Preserve the supplied capitalization, letter shapes, spacing, proportions, and alignment. Do not recolor the wordmark jade, retype it, or adjust individual letters. [View the lettering samples and download SVG/PNG files](plectara-brand-kit.md#lettering-standards).
 
 ## Purpose
 
@@ -47,4 +51,5 @@ Defines the approved Inter-based type scale and fallback strategy.
 
 ## Version History
 
+- v2.1.0: Defines ink/white outlined lettering, jade heads in full-color logos, and matching monochrome fills; links downloadable lettering samples.
 - v1.0.0: Initial repository baseline.

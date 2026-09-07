@@ -6,16 +6,16 @@ This repository treats product documentation like software. Specifications are v
 
 ## Current Version
 
-- Version: v2.0.0
-- Status: Approved v2.0.0 release
-- Prepared: 2026-09-04
+- Version: v2.1.0
+- Status: Approved v2.1.0 release
+- Prepared: 2026-09-07
 - Product name: Plectara
 - Operating system name: PL-OS
 - Design philosophy: "Translating daily habits into a plan towards optimal health."
 
 The local folder and GitHub repository remain `LIQ-OS` for compatibility; **PL-OS** is the current system name. Historical releases retain their original names.
 
-See the [approved brand kit](docs/specs/01-brand/plectara-brand-kit.md), [component migration](docs/specs/02-design/plectara-color-migration.md), and [v2.0.0 notes](docs/releases/v2.0.0/README.md).
+See the [approved brand kit](docs/specs/01-brand/plectara-brand-kit.md), [logo samples and downloads](docs/specs/01-brand/plectara-brand-kit.md#logos-with-lettering), and [v2.1.0 notes](docs/releases/v2.1.0/README.md).
 
 ## Repository Map
 

@@ -1,13 +1,13 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "owner": "Plectara product owner / Brand Working Group",
-  "approved": "2026-09-04",
+  "approved": "2026-09-07",
   "source": "tooling/build-plectara-brand.py; source/plectara-wordmark.svg; assets/tokens/",
   "files": [
     {
       "path": "README.md",
-      "bytes": 2907,
-      "sha256": "e232a1aae5872eac5e3a99ab252e4a9dd4dc82d6f8b3689e6a678d91d9c99cbe"
+      "bytes": 4450,
+      "sha256": "b32265161fce93925b776cf3197b9e7c93f0237233e74d3cc1b803a5c3322f47"
     },
     {
       "path": "contrast-report.md",
@@ -296,8 +296,8 @@
     },
     {
       "path": "png/plectara-brand-board.png",
-      "bytes": 90362,
-      "sha256": "1c578584ef63693b75c1925a032c9c00334d4af53024513f69cf6feb5cc85dd7"
+      "bytes": 90195,
+      "sha256": "0fc39e3ad2772510d1dcef9ed155e2c628a44e37e8a5d4bd3be12bfcb3f5ceca"
     },
     {
       "path": "png/plectara-horizontal-ink.png",
@@ -306,8 +306,8 @@
     },
     {
       "path": "png/plectara-horizontal-preview.png",
-      "bytes": 30577,
-      "sha256": "8d814760a77e4fe63e29b30f83435fb054e074ea47c0e7b692dc482d16d432bf"
+      "bytes": 30465,
+      "sha256": "08975a74712589337a5a225f4fb41bb306c73cefb8ba721405562030a620bd8c"
     },
     {
       "path": "png/plectara-horizontal-reversed.png",
@@ -321,8 +321,8 @@
     },
     {
       "path": "png/plectara-horizontal.png",
-      "bytes": 31861,
-      "sha256": "2446efad66ae4dd1e9cfb8d5c422ae2f23f963f90d25e230932a171c81351182"
+      "bytes": 31907,
+      "sha256": "c9c9ae402f4fb863c0d5b022989e8a6eb518c3101b0c09b4f1162847db7db0d9"
     },
     {
       "path": "png/plectara-social-banner.png",
@@ -331,13 +331,13 @@
     },
     {
       "path": "png/plectara-social-card.png",
-      "bytes": 43947,
-      "sha256": "85e95501e28b82bfbd71fe95e381ed5038c3141b2e1a195a2ad6d70b34f5bfba"
+      "bytes": 43796,
+      "sha256": "1ae8e27fbf755d7af5a7010cbd562bb2d073bf2567b35de8c4bd1be1a4d62d9e"
     },
     {
       "path": "png/plectara-stacked.png",
-      "bytes": 35104,
-      "sha256": "09d9f848fad5934665d8bfc6bbf2beb8405f28e6d87049292f8da6d87f804acf"
+      "bytes": 35073,
+      "sha256": "f4c1ef344322f4cdd285e8b0c101a42df788e211de957fe79f0b522b73f4dff9"
     },
     {
       "path": "png/plectara-symbol-ink.png",
@@ -351,8 +351,18 @@
     },
     {
       "path": "png/plectara-symbol.png",
-      "bytes": 22952,
-      "sha256": "9cf7793af7126892b4d4f4432a4d56ed8a810783768341857fa1aee7212b44b7"
+      "bytes": 22946,
+      "sha256": "9dfb1e5c2aaeec45bc3807b82ed48a53602c844583c54e0a480a74a3b6edc602"
+    },
+    {
+      "path": "png/plectara-wordmark-white.png",
+      "bytes": 18015,
+      "sha256": "7d03b3eb2e80b829906ea6786b4ff83648d9d7df8744ad94f46c3e36439ba61f"
+    },
+    {
+      "path": "png/plectara-wordmark.png",
+      "bytes": 24796,
+      "sha256": "1ab86457c1507b1a1373c1a26b29f0d1b5acee39e9b28c250ee53eddb9d8ebff"
     },
     {
       "path": "reference/approved-woven-person.png",
@@ -377,7 +387,7 @@
     {
       "path": "source/plectara-brand-board.svg",
       "bytes": 153793,
-      "sha256": "9e9e880873beb61a682f6ba8c705913fe42c3b8b6e7fb1a20529add07c5b725f"
+      "sha256": "27d000727a0090e42a473f826dff9bcf2d43f4ca341f72c577476b631753475e"
     },
     {
       "path": "source/plectara-horizontal-ink.svg",
@@ -387,7 +397,7 @@
     {
       "path": "source/plectara-horizontal-preview.svg",
       "bytes": 33822,
-      "sha256": "47c2b364bb85bd6dfd703f2eb7865e12ab05ee740de4374b312fe0bcda55d149"
+      "sha256": "be93da2305a8d74cf9357f7ca7a8fba8513c044193ab8a0ef818bec010527e7a"
     },
     {
       "path": "source/plectara-horizontal-reversed.svg",
@@ -402,7 +412,7 @@
     {
       "path": "source/plectara-horizontal.svg",
       "bytes": 33775,
-      "sha256": "e9f49c956954ab2744e615e508621179130419550b2f927855cb69e8449d985e"
+      "sha256": "16caf448f45a42e1f353965ac99857ae23b626a59c1b9a50b1b1ede90f844491"
     },
     {
       "path": "source/plectara-social-banner.svg",
@@ -412,12 +422,12 @@
     {
       "path": "source/plectara-social-card.svg",
       "bytes": 52262,
-      "sha256": "8061a9f34a958b59a6178eb6c178b41e72f814326c4a89938e25596a258f4bad"
+      "sha256": "7515576372ddb404d70a10e2b69eabbac727bd2fc11a429a26d14596e35e25ce"
     },
     {
       "path": "source/plectara-stacked.svg",
       "bytes": 33778,
-      "sha256": "1965c172d8b82c4d25db9f7ef645684bfa002695b76f9fef83bc76f1d2d59830"
+      "sha256": "facd2e509550109552e5b820b0428d4f5b7f5254b8accbbd10d0c8e43c1e3004"
     },
     {
       "path": "source/plectara-symbol-ink.svg",
@@ -432,7 +442,12 @@
     {
       "path": "source/plectara-symbol.svg",
       "bytes": 21433,
-      "sha256": "894a9cdc92e2f813427997bc00042568362f8120dcfc0b462fc1147c6a44201d"
+      "sha256": "78f0cdf2965829b305fac3bfc1a147d0daba615795f04663a37a7625ad6a8131"
+    },
+    {
+      "path": "source/plectara-wordmark-white.svg",
+      "bytes": 12469,
+      "sha256": "cdd230ab6318e75e16f6e1531aeac32ada4c77bf2f4d540aeb7260b1c6caa21e"
     },
     {
       "path": "source/plectara-wordmark.svg",

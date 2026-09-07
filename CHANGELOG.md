@@ -4,6 +4,21 @@ All notable changes to PL-OS (formerly LIQ OS) are recorded in this file.
 
 The format follows Keep a Changelog conventions and the project uses semantic versioning for published operating system releases.
 
+## [v2.1.0] - 2026-09-07
+
+### Changed
+
+- Standardize the head as jade `#76B7A5` in every full-color Plectara logo, on light and dark backgrounds.
+- Define ink lettering on light backgrounds, white lettering on dark backgrounds, and one consistent fill throughout each monochrome logo.
+- Refresh current source artwork, PNGs, social graphics, brand board, asset inventory, site copies, and brand-kit ZIP.
+
+### Added
+
+- A gallery of nine logo, standalone-symbol, and lettering treatments with direct SVG and transparent PNG downloads.
+- A white outlined wordmark and reusable PNG lettering exports.
+- Automated checks for full-color head consistency, monochrome fills, lettering colors and geometry, PNG transparency, and downloadable-file parity.
+- v2.1.0 release notes and migration guidance for existing asset consumers.
+
 ## [v2.0.0] - 2026-09-04
 
 ### Changed

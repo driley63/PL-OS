@@ -1,9 +1,9 @@
 # Asset Production
 
-Status: Approved for PL-OS v2.0.0
+Status: Approved for PL-OS v2.1.0
 Owner: Brand Working Group
-Version: 2.0.0
-Last updated: 2026-09-04
+Version: 2.1.0
+Last updated: 2026-09-07
 
 ## Purpose
 
@@ -44,6 +44,7 @@ The approved Plectara output set is present and reproducible. Archived placehold
 | --- | --- |
 | Source review | SVG master with accessible title |
 | Web header | Horizontal SVG, full color and reversed |
+| Reusable logo samples | Transparent SVG/PNG downloads: color with ink/white lettering, ink/white monochrome, three standalone symbols, and ink/white outlined lettering |
 | Favicon | 16, 32, and 48 px PNG or ICO-derived outputs |
 | PWA manifest | 192 and 512 px PNG |
 | iOS app icon | Complete `AppIcon.appiconset`, generated from unmasked 1024 px source |
@@ -71,6 +72,8 @@ Each production asset inventory entry must include:
 - PNG exports must be generated from source SVG or source design file.
 - App icon safe areas must be checked against platform masks.
 - Dark-mode and light-mode logo variants must be tested on approved backgrounds.
+- Every full-color figure must have a jade `#76B7A5` head. Monochrome figures and lettering must share one ink or white fill.
+- Site downloads must match the generated source/PNG files and complete brand-kit ZIP.
 - Any placeholder asset shipped in docs must be explicitly labeled.
 
 ## Implementation Guidance

@@ -52,9 +52,10 @@ def text_paths(text, x, y, size, color=INK):
         cursor += glyph.width - units * .018
     return f'<g fill="{color}" transform="translate({x} {y}) scale({size/units} {-size/units})">'+''.join(parts)+'</g>'
 
-def figure(x=0,y=0,scale=1,mono=None,head=INK):
+def figure(x=0,y=0,scale=1,mono=None):
     # Uniform scaling preserves the reference silhouette and existing export height.
-    return f'<g transform="translate({x} {y}) scale({scale})"><g transform="translate(-11.5 0) scale(1.106)"><circle cx="138" cy="36" r="36.5" fill="{mono or head}"/>'+''.join(f'<path fill="{mono or c}" d="{d}"/>' for c,d in RIBBONS)+'</g></g>'
+    # Full-color identity always uses a jade head, on every background.
+    return f'<g transform="translate({x} {y}) scale({scale})"><g transform="translate(-11.5 0) scale(1.106)"><circle cx="138" cy="36" r="36.5" fill="{mono or JADE}"/>'+''.join(f'<path fill="{mono or c}" d="{d}"/>' for c,d in RIBBONS)+'</g></g>'
 
 def svg(w,h,body,title='Plectara — woven person'):
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title"><title id="title">{title}</title>{body}</svg>'
@@ -68,20 +69,22 @@ def raster(source,target,w,h=None):
     return p
 
 masters={}
-save('source/plectara-wordmark.svg', svg(*wordmark_size, wordmark_body(wordmark_paths, INK), title='Plectara — approved lettering outlined'))
+for name, color in [('wordmark', INK), ('wordmark-white', '#FFFFFF')]:
+    masters[name]=save(f'source/plectara-{name}.svg', svg(*wordmark_size, wordmark_body(wordmark_paths, color), title='Plectara — approved lettering outlined'))
+    raster(masters[name],f'png/plectara-{name}.png',940,round(940*wordmark_size[1]/wordmark_size[0]))
 for name,body,w,h in [
     ('symbol',figure(28,12),340,410),
     ('symbol-ink',figure(28,12,mono=INK),340,410),
     ('symbol-white',figure(28,12,mono='#FFFFFF'),340,410),
     ('horizontal',figure(24,26,.62)+text_paths('Plectara',235,205,164),940,295),
     ('horizontal-preview',f'<rect width="940" height="295" fill="{IVORY}"/>'+figure(24,26,.62)+text_paths('Plectara',235,205,164),940,295),
-    ('horizontal-reversed',figure(24,26,.62,head=JADE)+text_paths('Plectara',235,205,164,'#FFFFFF'),940,295),
+    ('horizontal-reversed',figure(24,26,.62)+text_paths('Plectara',235,205,164,'#FFFFFF'),940,295),
     ('horizontal-ink',figure(24,26,.62,mono=INK)+text_paths('Plectara',235,205,164),940,295),
     ('horizontal-white',figure(24,26,.62,mono='#FFFFFF')+text_paths('Plectara',235,205,164,'#FFFFFF'),940,295),
     ('stacked',figure(165,24,.95)+text_paths('Plectara',48,535,117),600,600),
-    ('app-icon',f'<rect width="1024" height="1024" fill="{INK}"/>'+figure(290,200,1.58,head=JADE),1024,1024),
-    ('avatar',f'<rect width="1024" height="1024" rx="224" fill="{INK}"/>'+figure(290,200,1.58,head=JADE),1024,1024),
-    ('android-foreground',figure(37,28,.12,head=JADE),108,108),
+    ('app-icon',f'<rect width="1024" height="1024" fill="{INK}"/>'+figure(290,200,1.58),1024,1024),
+    ('avatar',f'<rect width="1024" height="1024" rx="224" fill="{INK}"/>'+figure(290,200,1.58),1024,1024),
+    ('android-foreground',figure(37,28,.12),108,108),
 ]:
     masters[name]=save('source/plectara-'+name+'.svg',svg(w,h,body))
     raster(masters[name],'png/plectara-'+name+'.png',w,h)
@@ -108,14 +111,17 @@ save('platform/android/res/values/plectara_colors.xml',f'<resources><color name=
 save('platform/android/res/mipmap-anydpi-v26/ic_launcher.xml','<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android"><background android:drawable="@color/plectara_background"/><foreground android:drawable="@drawable/plectara_foreground"/></adaptive-icon>\n')
 for name,w,h,body in [
     ('social-card',1200,630,f'<rect width="1200" height="630" fill="{IVORY}"/>'+figure(95,135,.85)+text_paths('Plectara',395,350,155)+text_paths('A healthier whole.',399,421,38,TEAL)),
-    ('social-banner',1584,396,f'<rect width="1584" height="396" fill="{INK}"/>'+figure(130,60,.7,head=JADE)+text_paths('Plectara',435,230,164,'#FFFFFF')+text_paths('A healthier whole.',443,296,40,JADE)),
-    ('brand-board',1440,1000,f'<rect width="1440" height="1000" fill="{IVORY}"/>'+figure(112,72,.85)+text_paths('Plectara',440,300,187)+text_paths('Distinct strands. A healthier whole.',447,367,34,TEAL)+figure(212,498,.52,mono=INK)+f'<rect x="605" y="487" width="254" height="254" rx="55" fill="{INK}"/>'+figure(662,516,.49,head=JADE)+''.join(f'<rect x="{105+i*208}" y="842" width="185" height="72" rx="12" fill="{c}"/>'+text_paths(label,108+i*208,949,22,INK) for i,(c,label) in enumerate([(INK,'Ink'),(TEAL,'Teal'),(JADE,'Jade'),(COPPER,'Copper'),(SLATE,'Slate'),(IVORY,'Ivory')]))),
+    ('social-banner',1584,396,f'<rect width="1584" height="396" fill="{INK}"/>'+figure(130,60,.7)+text_paths('Plectara',435,230,164,'#FFFFFF')+text_paths('A healthier whole.',443,296,40,JADE)),
+    ('brand-board',1440,1000,f'<rect width="1440" height="1000" fill="{IVORY}"/>'+figure(112,72,.85)+text_paths('Plectara',440,300,187)+text_paths('Distinct strands. A healthier whole.',447,367,34,TEAL)+figure(212,498,.52,mono=INK)+f'<rect x="605" y="487" width="254" height="254" rx="55" fill="{INK}"/>'+figure(662,516,.49)+''.join(f'<rect x="{105+i*208}" y="842" width="185" height="72" rx="12" fill="{c}"/>'+text_paths(label,108+i*208,949,22,INK) for i,(c,label) in enumerate([(INK,'Ink'),(TEAL,'Teal'),(JADE,'Jade'),(COPPER,'Copper'),(SLATE,'Slate'),(IVORY,'Ivory')]))),
 ]:
     p=save(f'source/plectara-{name}.svg',svg(w,h,body)); raster(p,f'png/plectara-{name}.png',w,h)
 
 docs=ROOT/'docs/assets/brand'; docs.mkdir(parents=True,exist_ok=True)
-for name in ['horizontal','horizontal-reversed','symbol','avatar']:
+for name in ['horizontal','horizontal-reversed','horizontal-ink','horizontal-white',
+             'symbol','symbol-ink','symbol-white','wordmark','wordmark-white',
+             'stacked','app-icon','avatar']:
     shutil.copy2(masters[name],docs/f'plectara-{name}.svg')
+    shutil.copy2(BASE/f'png/plectara-{name}.png',docs/f'plectara-{name}.png')
 shutil.copy2(BASE/'png/plectara-brand-board.png',docs/'plectara-brand-board.png')
 font_docs=ROOT/'docs/assets/fonts'; font_docs.mkdir(parents=True,exist_ok=True)
 for filename in ['Inter-variable.ttf','OFL.txt']:
@@ -134,7 +140,7 @@ for p in (BASE/'platform/ios/AppIcon.appiconset').glob('*.png'):
     with Image.open(p) as im:
         im.convert('RGB').save(p)
 archive=BASE/'plectara-brand-kit.zip'
-inventory={'version':'2.0.0','owner':'Plectara product owner / Brand Working Group','approved':'2026-09-04','source':'tooling/build-plectara-brand.py; source/plectara-wordmark.svg; assets/tokens/','files':[]}
+inventory={'version':'2.1.0','owner':'Plectara product owner / Brand Working Group','approved':'2026-09-07','source':'tooling/build-plectara-brand.py; source/plectara-wordmark.svg; assets/tokens/','files':[]}
 for p in sorted(BASE.rglob('*')):
     if p.is_file() and p not in (archive,BASE/'inventory.json'):
         inventory['files'].append({'path':str(p.relative_to(BASE)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})

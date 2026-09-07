@@ -1,0 +1,16 @@
+{
+  "version": "2.1.0",
+  "date": "2026-09-07",
+  "change_class": "minor",
+  "approval": "Product owner requested consistent jade heads, monochrome variants, lettering standards, and downloadable samples",
+  "scope": ["Brand Identity", "PL-OS documentation header", "Logo gallery", "SVG and PNG downloads", "Brand-kit inventory and ZIP"],
+  "rules": {
+    "full_color_head": "#76B7A5",
+    "light_background_lettering": "#192D38",
+    "dark_background_lettering": "#FFFFFF",
+    "monochrome": ["#192D38", "#FFFFFF"]
+  },
+  "source": "tooling/build-plectara-brand.py",
+  "inventory": "assets/brand/plectara/inventory.json",
+  "validation": ["tooling/validate-brand.py", "mkdocs build --strict", "Gallery review in light and dark modes on desktop and mobile"]
+}

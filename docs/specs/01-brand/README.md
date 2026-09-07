@@ -4,10 +4,10 @@ Volume 01 defines the approved Plectara brand identity and the implementation ru
 
 ## Status
 
-- Current version: v2.0.0, approved release
+- Current version: v2.1.0, approved release
 - Owner: Brand Working Group
 - Review path: Pull request review by PL-OS maintainers
-- Release type: major brand migration; component structure remains unchanged
+- Release type: minor brand standard and downloadable asset update
 
 ## Approved Baseline
 
@@ -21,7 +21,7 @@ Volume 01 defines the approved Plectara brand identity and the implementation ru
 
 ## Current Release
 
-v2.0.0 adopts the owner-approved Plectara artwork and semantic colors. The [brand kit](plectara-brand-kit.md) includes SVG masters, outlined lettering, platform icons, social assets, and regeneration instructions.
+v2.1.0 standardizes a jade head in every full-color logo, defines ink/white lettering and complete monochrome variants, and adds visible SVG/PNG downloads. The [brand kit](plectara-brand-kit.md) includes SVG masters, outlined lettering, platform icons, social assets, and regeneration instructions.
 
 ## Document Map
 

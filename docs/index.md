@@ -4,17 +4,17 @@ Plectara Operating System (PL-OS) is the canonical source of truth for Plectara'
 
 ## Current Version
 
-- Version: v2.0.0
-- Status: Approved v2.0.0 release
-- Prepared: 2026-09-04
+- Version: v2.1.0
+- Status: Approved v2.1.0 release
+- Prepared: 2026-09-07
 - Product name: Plectara
 - Operating system name: PL-OS
 - Design philosophy: "Translating daily habits into a plan towards optimal health."
 
-[Explore the brand kit](specs/01-brand/plectara-brand-kit.md){ .md-button .md-button--primary }
+[Download logo samples](specs/01-brand/plectara-brand-kit.md){ .md-button .md-button--primary }
 [Preview component colors](specs/02-design/plectara-component-preview.md){ .md-button }
 
-PL-OS is the new display name. The existing `LIQ-OS` repository slug remains unchanged. [Read the v2.0.0 changes](releases/v2.0.0/README.md).
+Full-color logos now keep a jade head on every background. The brand kit includes color, monochrome, and lettering samples with SVG/PNG downloads. [Read the v2.1.0 changes](releases/v2.1.0/README.md).
 
 ## Documentation Source
 

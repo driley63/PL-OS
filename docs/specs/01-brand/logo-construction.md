@@ -1,8 +1,8 @@
 # Logo Construction
 
 Status: Owner-approved artwork
-Version: 2.0.0
-Last updated: 2026-09-04
+Version: 2.1.0
+Last updated: 2026-09-07
 
 ## Canonical construction
 
@@ -15,6 +15,9 @@ The Plectara lettering is recovered from the approved artwork as outlines. It is
 ## Export rules
 
 - Preserve aspect ratio, colors, transparent channels, and head placement.
+- Set the head to jade `#76B7A5` in all full-color exports, on every background.
+- Set the head and all strands to the same ink or white fill in monochrome exports.
+- Use ink lettering on light backgrounds and white lettering on dark backgrounds; retain its exact outlined geometry.
 - Use the checked-in generator for symbol and derivative exports.
 - Reuse `plectara-wordmark.svg` without retracing it during normal builds.
 - Use a fully opaque, unrounded square for iOS and legacy launcher sources.
