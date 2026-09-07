@@ -1,7 +1,8 @@
 site_name: PL-OS — Plectara Operating System
 site_description: Plectara brand, component library, and product specifications
-repo_url: https://github.com/driley63/LIQ-OS
-repo_name: driley63/LIQ-OS
+site_url: https://pl-os.plectara.com/
+repo_url: https://github.com/driley63/PL-OS
+repo_name: driley63/PL-OS
 docs_dir: docs
 site_dir: site
 strict: true

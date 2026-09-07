@@ -13,7 +13,7 @@ This repository treats product documentation like software. Specifications are v
 - Operating system name: PL-OS
 - Design philosophy: "Translating daily habits into a plan towards optimal health."
 
-The local folder and GitHub repository remain `LIQ-OS` for compatibility; **PL-OS** is the current system name. Historical releases retain their original names.
+The published site is [pl-os.plectara.com](https://pl-os.plectara.com/) and the GitHub repository is [driley63/PL-OS](https://github.com/driley63/PL-OS). The local folder remains `LIQ-OS`; historical releases retain their original names.
 
 See the [approved brand kit](docs/specs/01-brand/plectara-brand-kit.md), [logo samples and downloads](docs/specs/01-brand/plectara-brand-kit.md#logos-with-lettering), and [v2.1.0 notes](docs/releases/v2.1.0/README.md).
 
