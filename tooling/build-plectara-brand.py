@@ -64,6 +64,10 @@ def svg(w,h,body,title='Plectara — woven person'):
 def save(rel,content):
     p=BASE/rel; p.parent.mkdir(parents=True,exist_ok=True); p.write_text(content); return p
 
+def deliverable(p):
+    # Finder may create this while inspecting a native .icon package.
+    return p.is_file() and p.name != '.DS_Store'
+
 def raster(source,target,w,h=None):
     p=BASE/target; p.parent.mkdir(parents=True,exist_ok=True)
     cairosvg.svg2png(url=str(source),write_to=str(p),output_width=w,output_height=h)
@@ -146,7 +150,7 @@ glass = BASE/'platform/ios/liquid-glass'
 glass_archive = BASE/'plectara-ios-liquid-glass.zip'
 with zipfile.ZipFile(glass_archive, 'w', zipfile.ZIP_DEFLATED) as z:
     for p in sorted(glass.rglob('*')):
-        if p.is_file():
+        if deliverable(p):
             z.write(p, p.relative_to(glass))
 shutil.copy2(glass_archive, docs/glass_archive.name)
 glass_docs = docs/'ios-liquid-glass'
@@ -157,11 +161,11 @@ shutil.copy2(glass/'render-manifest.json', glass_docs/'render-manifest.json')
 archive=BASE/'plectara-brand-kit.zip'
 inventory={'version':'2.2.0','owner':'Plectara product owner / Brand Working Group','approved':'2026-09-11','source':'tooling/build-plectara-brand.py; tooling/export-plectara-liquid-glass.py; source/plectara-wordmark.svg; platform/ios/liquid-glass/Plectara.icon; assets/tokens/','files':[]}
 for p in sorted(BASE.rglob('*')):
-    if p.is_file() and p not in (archive,BASE/'inventory.json'):
+    if deliverable(p) and p not in (archive,BASE/'inventory.json'):
         inventory['files'].append({'path':str(p.relative_to(BASE)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
 save('inventory.json',json.dumps(inventory,indent=2)+'\n')
 with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
     for p in sorted(BASE.rglob('*')):
-        if p.is_file() and p!=archive: z.write(p,p.relative_to(BASE))
+        if deliverable(p) and p!=archive: z.write(p,p.relative_to(BASE))
 shutil.copy2(archive,docs/'plectara-brand-kit.zip')
 print('Built Plectara SVG masters, PNGs, platform icons, social graphics, and brand-kit ZIP.')

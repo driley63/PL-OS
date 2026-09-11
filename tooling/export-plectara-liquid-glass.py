@@ -43,7 +43,7 @@ manifest = {
     'tinted_preview': {'color': 0.55, 'strength': 0.4,
                        'note': 'Preview choice only. The device owner controls the tint.'},
     'source_files': {str(p.relative_to(ICON)): hashlib.sha256(p.read_bytes()).hexdigest()
-                     for p in sorted(ICON.rglob('*')) if p.is_file()},
+                     for p in sorted(ICON.rglob('*')) if p.is_file() and p.name != '.DS_Store'},
     'exports': exports,
 }
 (BASE / 'render-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')

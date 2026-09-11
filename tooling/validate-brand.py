@@ -10,6 +10,9 @@ from plectara_geometry import spaced_ribbons, polygon
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT/'assets/brand/plectara'
+def deliverable(p):
+    return p.is_file() and p.name != '.DS_Store'
+
 palette = json.loads((ROOT/'assets/tokens/color.tokens.json').read_text())['brand']
 ink, jade = (palette[name]['hex'] for name in ('ink', 'jade'))
 strand_colors = {palette[name]['hex'] for name in ('teal', 'jade', 'copper', 'slate')}
@@ -109,7 +112,7 @@ assert all(abs(a-b) < .00001 for a,b in zip(fill_channels, [int(ink[i:i+2],16)/2
 
 render = json.loads((glass/'render-manifest.json').read_text())
 assert render['renderer'] == 'Apple Icon Composer ictool' and render['renderer_version']
-assert set(render['source_files']) == {str(p.relative_to(icon)) for p in icon.rglob('*') if p.is_file()}
+assert set(render['source_files']) == {str(p.relative_to(icon)) for p in icon.rglob('*') if deliverable(p)}
 for name, checksum in render['source_files'].items():
     assert hashlib.sha256((icon/name).read_bytes()).hexdigest() == checksum, 'Native previews need re-rendering'
 renditions = {'Default', 'Dark', 'ClearLight', 'ClearDark', 'TintedLight', 'TintedDark'}
@@ -127,9 +130,9 @@ for entry in render['exports']:
 assert (glass/'render-manifest.json').read_bytes() == (ROOT/'docs/assets/brand/ios-liquid-glass/render-manifest.json').read_bytes()
 with zipfile.ZipFile(BASE/'plectara-ios-liquid-glass.zip') as archive:
     assert archive.testzip() is None
-    assert set(archive.namelist()) == {str(p.relative_to(glass)) for p in glass.rglob('*') if p.is_file()}
+    assert set(archive.namelist()) == {str(p.relative_to(glass)) for p in glass.rglob('*') if deliverable(p)}
     for p in glass.rglob('*'):
-        if p.is_file():
+        if deliverable(p):
             assert archive.read(str(p.relative_to(glass))) == p.read_bytes()
 assert (BASE/'plectara-ios-liquid-glass.zip').read_bytes() == (ROOT/'docs/assets/brand/plectara-ios-liquid-glass.zip').read_bytes()
 

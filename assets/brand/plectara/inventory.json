@@ -280,11 +280,6 @@
       "sha256": "a09aa7d8480bb23e70f3581f8fc6bc849c21c14b1d07713bc00699418df4c873"
     },
     {
-      "path": "platform/ios/liquid-glass/.DS_Store",
-      "bytes": 6148,
-      "sha256": "103c54a520a9d8becadc5dae59851d86cd41f679ee2bc70719bc145e62df6be8"
-    },
-    {
       "path": "platform/ios/liquid-glass/Plectara.icon/Assets/01-jade-upper.svg",
       "bytes": 3265,
       "sha256": "8a4e1acedf00dc627017c3af73e1f02c29c35130a134b60c40459561c3c63974"
@@ -461,8 +456,8 @@
     },
     {
       "path": "plectara-ios-liquid-glass.zip",
-      "bytes": 7678346,
-      "sha256": "ac4c91afd9bda61a1f9e407f95aa6e4298a22c16bfad2949e1bed8eec9ee714e"
+      "bytes": 7677979,
+      "sha256": "8720c3e33ea4bf9d24205c5d3157a5c7176a1450dbf1755036430f2590f64c84"
     },
     {
       "path": "png/plectara-android-foreground.png",
