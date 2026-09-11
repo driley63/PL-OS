@@ -1,0 +1,23 @@
+{
+  "version": "2.3.0",
+  "date": "2026-09-11",
+  "change_class": "minor",
+  "approval": "Product owner approved the Android icon review and PL-OS publication",
+  "scope": [
+    "Native Android vectors",
+    "Monochrome themed icon",
+    "Approved Android optical placement",
+    "21 shape/theme previews",
+    "Android and full brand downloads"
+  ],
+  "native_source": "assets/brand/plectara/platform/android/res",
+  "asset_manifest": "assets/brand/plectara/platform/android/asset-manifest.json",
+  "inventory": "assets/brand/plectara/inventory.json",
+  "validation": [
+    "tooling/validate-brand.py",
+    "Android AAPT2 compile and link",
+    "mkdocs build --strict",
+    "Visual gallery review"
+  ],
+  "consumer_integration": "Shipping Plectara app integration is separate from this PL-OS release"
+}

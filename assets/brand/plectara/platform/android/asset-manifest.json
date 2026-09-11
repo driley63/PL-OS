@@ -1,0 +1,597 @@
+{
+  "version": "2.3.0",
+  "approved": "2026-09-11",
+  "source": "assets/brand/plectara/source/plectara-symbol.svg",
+  "source_sha256": "78f0cdf2965829b305fac3bfc1a147d0daba615795f04663a37a7625ad6a8131",
+  "generator": "tooling/build-plectara-android.py",
+  "geometry": "Original six ribbon paths and circle preserved; the Android circle uses two equivalent arcs",
+  "canvas_dp": [
+    108,
+    108
+  ],
+  "scale": 0.14997176395618853,
+  "translate": [
+    33.0789389281117,
+    29.40463071118508
+  ],
+  "size_increase_percent": 12.998616603517576,
+  "safe_circle_radius_dp": 33,
+  "max_artwork_radius_dp": 32,
+  "theme_examples": {
+    "full-color": {
+      "label": "Full color",
+      "bg": "#192D38",
+      "fg": null
+    },
+    "jade-light": {
+      "label": "Jade \u00b7 light",
+      "bg": "#CBEDE1",
+      "fg": "#123B30"
+    },
+    "jade-dark": {
+      "label": "Jade \u00b7 dark",
+      "bg": "#234B3E",
+      "fg": "#B5E1CE"
+    },
+    "clay-light": {
+      "label": "Clay \u00b7 light",
+      "bg": "#FFDCC7",
+      "fg": "#633A23"
+    },
+    "clay-dark": {
+      "label": "Clay \u00b7 dark",
+      "bg": "#65432D",
+      "fg": "#FFDCC7"
+    },
+    "slate-light": {
+      "label": "Slate \u00b7 light",
+      "bg": "#D8E5FF",
+      "fg": "#293E61"
+    },
+    "slate-dark": {
+      "label": "Slate \u00b7 dark",
+      "bg": "#314869",
+      "fg": "#D8E5FF"
+    }
+  },
+  "shape_examples": [
+    "circle",
+    "squircle",
+    "rounded-square"
+  ],
+  "preview_sizes_px": [
+    1024,
+    192,
+    48
+  ],
+  "preview_combinations": 21,
+  "renderer": "CairoSVG from approved geometry; illustrative launcher masks and theme colors",
+  "consumer_integration": "PL-OS asset publication; shipping app integration and device checks are separate",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3445,
+      "sha256": "bf5f875a078454cbadfc1c0e962b6a689e5b6c4e4d28a9a95906db686d5dddab"
+    },
+    {
+      "path": "previews/png/plectara-clay-dark-circle-1024.png",
+      "bytes": 78939,
+      "sha256": "d59e75f757349a086230c391982fca367b1540f19ef7fb4f517d522b39cfbc5a"
+    },
+    {
+      "path": "previews/png/plectara-clay-dark-circle-192.png",
+      "bytes": 12728,
+      "sha256": "43d53458f571cb1db56b8a274c31e902999a15ea68b175b6d353095e8cc08ab1"
+    },
+    {
+      "path": "previews/png/plectara-clay-dark-circle-48.png",
+      "bytes": 2630,
+      "sha256": "1d005f44af717ac1a3364466a2097063b1cc0bb596bcbc87d0dcc027e52c7a39"
+    },
+    {
+      "path": "previews/png/plectara-clay-dark-rounded-square-1024.png",
+      "bytes": 66076,
+      "sha256": "b46dec9f491e955df30fdba2dd4d0197be000ef82a56a5684f1a624727dc6a27"
+    },
+    {
+      "path": "previews/png/plectara-clay-dark-rounded-square-192.png",
+      "bytes": 10427,
+      "sha256": "5294e6372e19af018b590d1b84553a1700560512660832c9fc89af6d24388954"
+    },
+    {
+      "path": "previews/png/plectara-clay-dark-rounded-square-48.png",
+      "bytes": 2162,
+      "sha256": "a7d674d2b55d13ac2d41fc23b1b95385cfe3dfa187669b8aca83ebfa981f5bef"
+    },
+    {
+      "path": "previews/png/plectara-clay-dark-squircle-1024.png",
+      "bytes": 71920,
+      "sha256": "48aef8a08ecd4688e80c29e217644c80bcf999d52b4a5f6edd0f8fd818f01382"
+    },
+    {
+      "path": "previews/png/plectara-clay-dark-squircle-192.png",
+      "bytes": 11412,
+      "sha256": "efacdd0d0db1bb76263a212565916c2c433d6abf8e3ca8979f8048c87b639320"
+    },
+    {
+      "path": "previews/png/plectara-clay-dark-squircle-48.png",
+      "bytes": 2288,
+      "sha256": "16444657211b7603fde088c563103076c0481e2d4c39e521f04c269a3ae30166"
+    },
+    {
+      "path": "previews/png/plectara-clay-light-circle-1024.png",
+      "bytes": 72806,
+      "sha256": "f7116d87a428f2822978a037d418e849101f3f92132b362e47f645633335f91c"
+    },
+    {
+      "path": "previews/png/plectara-clay-light-circle-192.png",
+      "bytes": 11681,
+      "sha256": "f8d94f22530f2d5f5fefd4dd87daf3e111b47083736ef7a7cb10ddeea127d466"
+    },
+    {
+      "path": "previews/png/plectara-clay-light-circle-48.png",
+      "bytes": 2489,
+      "sha256": "c1a884b58f069dc7810bd0ba8b5529122d679681d22c26c0c5fc4d22e0571297"
+    },
+    {
+      "path": "previews/png/plectara-clay-light-rounded-square-1024.png",
+      "bytes": 62823,
+      "sha256": "1ce4f2010d6f4be774ae22d893c8972f0dc6efc64aab5ad0fc85cb61716b28d6"
+    },
+    {
+      "path": "previews/png/plectara-clay-light-rounded-square-192.png",
+      "bytes": 9889,
+      "sha256": "fccff694d3f0ea2bdb317d496d6489b204fdf9063b8233e500ae1c1dde6b076b"
+    },
+    {
+      "path": "previews/png/plectara-clay-light-rounded-square-48.png",
+      "bytes": 2098,
+      "sha256": "96f66713a7d682c3d3c921ec36b9d7ba4645f5dc2e9674fe9ee10a682b7dbc4a"
+    },
+    {
+      "path": "previews/png/plectara-clay-light-squircle-1024.png",
+      "bytes": 68539,
+      "sha256": "3276a8995c6fd00d9beee6b01e8db4d1a63b1e564079b64b16272e6ae58d73f6"
+    },
+    {
+      "path": "previews/png/plectara-clay-light-squircle-192.png",
+      "bytes": 10704,
+      "sha256": "79fc70a54509e28e122b8777a532ea00da857ecb6c3edce10e506c5f29ac47b9"
+    },
+    {
+      "path": "previews/png/plectara-clay-light-squircle-48.png",
+      "bytes": 2194,
+      "sha256": "b1bed6bb3cca7c2594c6d4d622ac5520cfdcf96904b3b1e4b193f778f9e33d76"
+    },
+    {
+      "path": "previews/png/plectara-full-color-circle-1024.png",
+      "bytes": 75030,
+      "sha256": "96eae32052c0bfee580cbdbbe75635cfcd647746ba83a046deb12bcd518d45cf"
+    },
+    {
+      "path": "previews/png/plectara-full-color-circle-192.png",
+      "bytes": 12204,
+      "sha256": "34dc195239cdb9d1de388851aa62e407858594bf30972140f943b89d348b7042"
+    },
+    {
+      "path": "previews/png/plectara-full-color-circle-48.png",
+      "bytes": 2530,
+      "sha256": "8c692d0f7b9b812d933b126419e0d3b1478aa19a8057e7d80237dad84851d673"
+    },
+    {
+      "path": "previews/png/plectara-full-color-rounded-square-1024.png",
+      "bytes": 62363,
+      "sha256": "8b3e7942ab8f3d0915334fc2475b766af82c4754b927547fcdbe217aedb1601c"
+    },
+    {
+      "path": "previews/png/plectara-full-color-rounded-square-192.png",
+      "bytes": 9972,
+      "sha256": "8b8e9c7b7dc90d139e5bd993419283134acbe13e03ad26061e14c224dbb7a9ea"
+    },
+    {
+      "path": "previews/png/plectara-full-color-rounded-square-48.png",
+      "bytes": 2073,
+      "sha256": "b083b5b5667fb4142446c0b59c247ccb70af6f88c3d4bf9fccf004bfe8ffd048"
+    },
+    {
+      "path": "previews/png/plectara-full-color-squircle-1024.png",
+      "bytes": 67692,
+      "sha256": "08bcc1c1e15265fa84e15066e9ebb24af942b1bff1e73781355984ca34722881"
+    },
+    {
+      "path": "previews/png/plectara-full-color-squircle-192.png",
+      "bytes": 10860,
+      "sha256": "a01acd171dde0b3683c68cc241b6c2f425e15994a0a5ce74640146b9b87d1bbe"
+    },
+    {
+      "path": "previews/png/plectara-full-color-squircle-48.png",
+      "bytes": 2173,
+      "sha256": "ce2a836eee452f5e1c97c1ae8b0a8136c141d5c24239f62645657e1b8bb6b5b9"
+    },
+    {
+      "path": "previews/png/plectara-jade-dark-circle-1024.png",
+      "bytes": 78832,
+      "sha256": "da6a7e9083321d94af6ad500099b855c15da77445aefd4e99b9fb98c5803a29c"
+    },
+    {
+      "path": "previews/png/plectara-jade-dark-circle-192.png",
+      "bytes": 12743,
+      "sha256": "00db1cb38c91bebacd6c4bd76e7abec75f0bc3517b67ffe0abe7d52640397cf5"
+    },
+    {
+      "path": "previews/png/plectara-jade-dark-circle-48.png",
+      "bytes": 2646,
+      "sha256": "88b12a75f9f756284f5250580121ce45e8e893b69cd6e03ace2e2a49550dfd08"
+    },
+    {
+      "path": "previews/png/plectara-jade-dark-rounded-square-1024.png",
+      "bytes": 65908,
+      "sha256": "bea9253d0199ff2795d08267a024b4cca059a24b1fabdf5dbb4234f1515f9cfb"
+    },
+    {
+      "path": "previews/png/plectara-jade-dark-rounded-square-192.png",
+      "bytes": 10379,
+      "sha256": "5002ecf0b1f4aeb017fcb74407849ad2d9a13d1c9c2997581f113eb7edfbbc98"
+    },
+    {
+      "path": "previews/png/plectara-jade-dark-rounded-square-48.png",
+      "bytes": 2163,
+      "sha256": "75d56af4fd72a57690acf4b940abecef1deec4b5d6025073037d7a9cae2d210c"
+    },
+    {
+      "path": "previews/png/plectara-jade-dark-squircle-1024.png",
+      "bytes": 71960,
+      "sha256": "5547c538693dc8f4899ce9d9b7d1a4eadf6a6d43fc73a7dc6f25e95208be75c9"
+    },
+    {
+      "path": "previews/png/plectara-jade-dark-squircle-192.png",
+      "bytes": 11416,
+      "sha256": "273538af37f18786b8c95fb4519aef48149df59b2629519ce1a95c47d873d575"
+    },
+    {
+      "path": "previews/png/plectara-jade-dark-squircle-48.png",
+      "bytes": 2247,
+      "sha256": "e7f696566b2aa8cef23022c3af3e918159ce1de32117f85be37346b5f3cd2585"
+    },
+    {
+      "path": "previews/png/plectara-jade-light-circle-1024.png",
+      "bytes": 74880,
+      "sha256": "2747f356ef6813d7d2777af210d6e55dc4f62bda7a41b5dd90b691810b629175"
+    },
+    {
+      "path": "previews/png/plectara-jade-light-circle-192.png",
+      "bytes": 12024,
+      "sha256": "e264520ed72e78e5aa75e0f494fbb2e74dc4b5e15dc76e80105502c62ea3973e"
+    },
+    {
+      "path": "previews/png/plectara-jade-light-circle-48.png",
+      "bytes": 2565,
+      "sha256": "2af5a6f474faae06566ef5b8e18be5f70ab0e8a866ec8611d0d843a09d256dcc"
+    },
+    {
+      "path": "previews/png/plectara-jade-light-rounded-square-1024.png",
+      "bytes": 64402,
+      "sha256": "f6145938dc3e21a8e677cb942ac57511d7654e085547bc0f0e93121c2386b85a"
+    },
+    {
+      "path": "previews/png/plectara-jade-light-rounded-square-192.png",
+      "bytes": 10098,
+      "sha256": "49b184f11e4de8c3d267aca01b55d909efd965ada06d0051f85116b565dc3485"
+    },
+    {
+      "path": "previews/png/plectara-jade-light-rounded-square-48.png",
+      "bytes": 2150,
+      "sha256": "55757acb1aa9107d8da94f078411a6e9408b7d71ae870d68c9c9f55164561470"
+    },
+    {
+      "path": "previews/png/plectara-jade-light-squircle-1024.png",
+      "bytes": 70283,
+      "sha256": "5da4d95610b54141464c0c4bb21178b3b781d398a27742ffa099e8d2c4622305"
+    },
+    {
+      "path": "previews/png/plectara-jade-light-squircle-192.png",
+      "bytes": 11062,
+      "sha256": "004c0e7b8e6f1e74250787432442165dcdd70c018e0fcbd2e1a954f5145b848e"
+    },
+    {
+      "path": "previews/png/plectara-jade-light-squircle-48.png",
+      "bytes": 2246,
+      "sha256": "eb0b76d19bb9ff1674428677b939686e5b719968c7b24314c36ce13b17cd0820"
+    },
+    {
+      "path": "previews/png/plectara-slate-dark-circle-1024.png",
+      "bytes": 79187,
+      "sha256": "c3df43f7955996dd6823bc414ca30c24d34dda28029cbf52772bbf75627cecd9"
+    },
+    {
+      "path": "previews/png/plectara-slate-dark-circle-192.png",
+      "bytes": 12763,
+      "sha256": "2ead919621fab6ab6cc2047b64ce1f04b21b85afe9d988907404db315e03999b"
+    },
+    {
+      "path": "previews/png/plectara-slate-dark-circle-48.png",
+      "bytes": 2649,
+      "sha256": "95d82d483c46d0dbebb35fe267f5c9e28525f20ae458ebb68b0131f4f663d147"
+    },
+    {
+      "path": "previews/png/plectara-slate-dark-rounded-square-1024.png",
+      "bytes": 66289,
+      "sha256": "78c9f93716c5f1a720d9ea740d8c5942fadf18182381d6480cb840b8de955400"
+    },
+    {
+      "path": "previews/png/plectara-slate-dark-rounded-square-192.png",
+      "bytes": 10529,
+      "sha256": "3ee6bc3d4a1797a092f14e34af73129ce9ad4e2f56947e57e7c0b18c98f4e5ed"
+    },
+    {
+      "path": "previews/png/plectara-slate-dark-rounded-square-48.png",
+      "bytes": 2146,
+      "sha256": "2f1c5df13555bbde51053cfa86b9233c608cc8355729eefb39471c4000db4c7b"
+    },
+    {
+      "path": "previews/png/plectara-slate-dark-squircle-1024.png",
+      "bytes": 72159,
+      "sha256": "e5bcdccf37e47143a4c2e536a13176c75be95a3cf6746171eda6fa6442cbc5d2"
+    },
+    {
+      "path": "previews/png/plectara-slate-dark-squircle-192.png",
+      "bytes": 11547,
+      "sha256": "54b98d2b9e026616936e1ee99f36fce0eddb71806bf48fb9a6d3436c843f88d7"
+    },
+    {
+      "path": "previews/png/plectara-slate-dark-squircle-48.png",
+      "bytes": 2274,
+      "sha256": "a284fb0ab6b6db8404a35cba9fd201be1dd4e48813d985b997bc27b2ad95fafa"
+    },
+    {
+      "path": "previews/png/plectara-slate-light-circle-1024.png",
+      "bytes": 73374,
+      "sha256": "ee8e443aa8444549021772e4ca59c7caf344a2e78db8dd5835092ce12da590cb"
+    },
+    {
+      "path": "previews/png/plectara-slate-light-circle-192.png",
+      "bytes": 11735,
+      "sha256": "49fc3596e5c806d6893325d014a48858fdca5bb94850e2f286ac629ea44a9453"
+    },
+    {
+      "path": "previews/png/plectara-slate-light-circle-48.png",
+      "bytes": 2504,
+      "sha256": "001a6bfcad749360d6ce155e136554afed4e1974aabeb0999d3af0d0ac4604fd"
+    },
+    {
+      "path": "previews/png/plectara-slate-light-rounded-square-1024.png",
+      "bytes": 63285,
+      "sha256": "e85064872fdf804720ac93e5f2e5bfc65276ad0fb979dc74116df9ed745e18b2"
+    },
+    {
+      "path": "previews/png/plectara-slate-light-rounded-square-192.png",
+      "bytes": 9937,
+      "sha256": "3dbba5de785251d536f24314fa193bf5a65c9f9a03bd6eab0add94756f4bbd19"
+    },
+    {
+      "path": "previews/png/plectara-slate-light-rounded-square-48.png",
+      "bytes": 2111,
+      "sha256": "b2cdf744b0c70342b4343f31e9dae2247970da35a2f45c835bc4d4ec7451c762"
+    },
+    {
+      "path": "previews/png/plectara-slate-light-squircle-1024.png",
+      "bytes": 69088,
+      "sha256": "3830fec28c038c7901a914d475217273c67ab81a53d235d4fcfb79f1552ac1b6"
+    },
+    {
+      "path": "previews/png/plectara-slate-light-squircle-192.png",
+      "bytes": 10815,
+      "sha256": "480d343e55e18935cde62aaa81ee56cf2a6379dd3275b11fbf56a502172e3f1d"
+    },
+    {
+      "path": "previews/png/plectara-slate-light-squircle-48.png",
+      "bytes": 2191,
+      "sha256": "b4fef0189450d085b5108e1d0dfb6c4b44cb4921acd46f6c40aa478f7389f393"
+    },
+    {
+      "path": "previews/svg/plectara-clay-dark-circle.svg",
+      "bytes": 21526,
+      "sha256": "02ff204c3ba0ef81202ba67ba0e171d3b7c3692300c321326f6490bad9ef1a5e"
+    },
+    {
+      "path": "previews/svg/plectara-clay-dark-rounded-square.svg",
+      "bytes": 21546,
+      "sha256": "42db10509870b3b248f45127d96815a8e910e7d97ed400cb81fa15a23d92c18b"
+    },
+    {
+      "path": "previews/svg/plectara-clay-dark-squircle.svg",
+      "bytes": 35927,
+      "sha256": "56e22d314df030536acb69df1abbd1e192630c75545710091fb12d8559610435"
+    },
+    {
+      "path": "previews/svg/plectara-clay-light-circle.svg",
+      "bytes": 21526,
+      "sha256": "9f70ba9db4301c2f5f96c0db7e45ef8d5fca005401fde24f3a83047e9375a206"
+    },
+    {
+      "path": "previews/svg/plectara-clay-light-rounded-square.svg",
+      "bytes": 21546,
+      "sha256": "469e0b8aa7867880e478806a98e0f8f5d97bf2359ff7f78e09ff36209a44aee4"
+    },
+    {
+      "path": "previews/svg/plectara-clay-light-squircle.svg",
+      "bytes": 35927,
+      "sha256": "6488a7236bb5271c9bffe94dd1b1eca4ff266880ee7ec99e3f5a39cc858dd242"
+    },
+    {
+      "path": "previews/svg/plectara-full-color-circle.svg",
+      "bytes": 21526,
+      "sha256": "3c930a90043a20fa3b60fbb653aa745b7e951004c6b059b6a527b3c6bc6bd9f8"
+    },
+    {
+      "path": "previews/svg/plectara-full-color-rounded-square.svg",
+      "bytes": 21546,
+      "sha256": "831c1a1e53d4992fc31d03cc1a4bf571b85490c35c5a0a4a598ac892066d1890"
+    },
+    {
+      "path": "previews/svg/plectara-full-color-squircle.svg",
+      "bytes": 35927,
+      "sha256": "7fcd8e35fde85dbd0836bb18d1393d6a28b08b58e91113b94222b6887e11b486"
+    },
+    {
+      "path": "previews/svg/plectara-jade-dark-circle.svg",
+      "bytes": 21526,
+      "sha256": "936e1e6b4ecd00ba91a945092898f5ebbc56612d23524dfb93a3523ccd487db6"
+    },
+    {
+      "path": "previews/svg/plectara-jade-dark-rounded-square.svg",
+      "bytes": 21546,
+      "sha256": "8e3194b51ff9795dba0589260cad1f3120e61fdf7fb7543faaa777ff53c8d309"
+    },
+    {
+      "path": "previews/svg/plectara-jade-dark-squircle.svg",
+      "bytes": 35927,
+      "sha256": "2f90b86d1ca04cd32ad25244e34aa8376d951dc14c3593eddaf202af080e18ac"
+    },
+    {
+      "path": "previews/svg/plectara-jade-light-circle.svg",
+      "bytes": 21526,
+      "sha256": "7957acbfad26ff07a4401dc43dd3675bd84db0baa7adcd1638cba5f7f9b424db"
+    },
+    {
+      "path": "previews/svg/plectara-jade-light-rounded-square.svg",
+      "bytes": 21546,
+      "sha256": "99be2f5b10c5ce5dba05bdf7ff3cd8e31963351acc0d28db1b8354667a7c6a06"
+    },
+    {
+      "path": "previews/svg/plectara-jade-light-squircle.svg",
+      "bytes": 35927,
+      "sha256": "0695251aa746a46e7d68bc1746672a6c8a5cebc98cd1beafc8d060cc660245ec"
+    },
+    {
+      "path": "previews/svg/plectara-slate-dark-circle.svg",
+      "bytes": 21526,
+      "sha256": "d09ce5143d0673d78225b61b6d2a3507e1303ab2bb333cb09af7dfd38d48978b"
+    },
+    {
+      "path": "previews/svg/plectara-slate-dark-rounded-square.svg",
+      "bytes": 21546,
+      "sha256": "9709113b60a09f2e24a569a35790405faf3b39ec256bb38ce6db4d08d042524b"
+    },
+    {
+      "path": "previews/svg/plectara-slate-dark-squircle.svg",
+      "bytes": 35927,
+      "sha256": "11f184ca1dff2805168fb91bbea6e278c9c3a331a8f91e7d5cc0bf31083cea56"
+    },
+    {
+      "path": "previews/svg/plectara-slate-light-circle.svg",
+      "bytes": 21526,
+      "sha256": "ea070c68593843f482244f58b2d55417389d0656dc017b95f5e5a4ce85a63140"
+    },
+    {
+      "path": "previews/svg/plectara-slate-light-rounded-square.svg",
+      "bytes": 21546,
+      "sha256": "9ffd080ebb6b73d033a8552536950f0d28f71792b342863f8879da81724fe395"
+    },
+    {
+      "path": "previews/svg/plectara-slate-light-squircle.svg",
+      "bytes": 35927,
+      "sha256": "f8865a6ddebc5b5b55c998f7c5d65cd9d1e7ca532863dda9e9781d91213a653f"
+    },
+    {
+      "path": "res/drawable/plectara_foreground.xml",
+      "bytes": 22220,
+      "sha256": "037b2ff67568c55f79afc6f464b470332dd70246d25144467df2e30147411b6e"
+    },
+    {
+      "path": "res/drawable/plectara_monochrome.xml",
+      "bytes": 22220,
+      "sha256": "f2ed68b080ca9ad61586b1ce3453bbfbdcf06955642d600b1e613da79875280c"
+    },
+    {
+      "path": "res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 260,
+      "sha256": "849e22157d639b039fc361434749abd533ae369764f15d20b5aa4b77b06c5043"
+    },
+    {
+      "path": "res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 260,
+      "sha256": "849e22157d639b039fc361434749abd533ae369764f15d20b5aa4b77b06c5043"
+    },
+    {
+      "path": "res/mipmap-anydpi-v33/ic_launcher.xml",
+      "bytes": 326,
+      "sha256": "00fe233ae83f0365642d0ba22e7b1ff3f2aaceb508afcd9f303aca3c216f11e4"
+    },
+    {
+      "path": "res/mipmap-anydpi-v33/ic_launcher_round.xml",
+      "bytes": 326,
+      "sha256": "00fe233ae83f0365642d0ba22e7b1ff3f2aaceb508afcd9f303aca3c216f11e4"
+    },
+    {
+      "path": "res/mipmap-hdpi/ic_launcher.png",
+      "bytes": 2559,
+      "sha256": "d5f88d870a1fccc98923b177f2965f8eeeb588628378567945d01cb9be7a5e1e"
+    },
+    {
+      "path": "res/mipmap-hdpi/ic_launcher_round.png",
+      "bytes": 4071,
+      "sha256": "a5422b4b215b958e05e5355ed51808a41da571e56549cccca43ffbb7c5737045"
+    },
+    {
+      "path": "res/mipmap-mdpi/ic_launcher.png",
+      "bytes": 1569,
+      "sha256": "31e761ecfa433c2ccb3a9591c7ee274daf46d773763499b1aa311eda4d53d3ad"
+    },
+    {
+      "path": "res/mipmap-mdpi/ic_launcher_round.png",
+      "bytes": 2530,
+      "sha256": "8c692d0f7b9b812d933b126419e0d3b1478aa19a8057e7d80237dad84851d673"
+    },
+    {
+      "path": "res/mipmap-xhdpi/ic_launcher.png",
+      "bytes": 3614,
+      "sha256": "21277ea0d6ae831e889993c35e0550d4d3909bc92b97387b5e8ef3999b748ba8"
+    },
+    {
+      "path": "res/mipmap-xhdpi/ic_launcher_round.png",
+      "bytes": 5606,
+      "sha256": "0e407753bb9e12bafb10072777c00845bbb0cbae505c5f6790ab0645d1de04de"
+    },
+    {
+      "path": "res/mipmap-xxhdpi/ic_launcher.png",
+      "bytes": 5718,
+      "sha256": "afb702bd604f6bee05fcb6163bd9173040f0e5ed746d6e7748f2d4086ee61fa1"
+    },
+    {
+      "path": "res/mipmap-xxhdpi/ic_launcher_round.png",
+      "bytes": 8883,
+      "sha256": "1af9688ae2e87739cbd5146372ac6a8f4fdcfd3053d6b55e403a98d4d5d3dff9"
+    },
+    {
+      "path": "res/mipmap-xxxhdpi/ic_launcher.png",
+      "bytes": 7859,
+      "sha256": "655f1e892bd6c10e61545115ed7d25199e8ddea415b93ee4489e3fa31a407418"
+    },
+    {
+      "path": "res/mipmap-xxxhdpi/ic_launcher_round.png",
+      "bytes": 12204,
+      "sha256": "34dc195239cdb9d1de388851aa62e407858594bf30972140f943b89d348b7042"
+    },
+    {
+      "path": "res/values/plectara_colors.xml",
+      "bytes": 112,
+      "sha256": "8ea09aaf735177ba14b2bbc66fe2ab5802568b1b5c026963cd8acc21cec4aaf3"
+    },
+    {
+      "path": "source/plectara-android-background.svg",
+      "bytes": 178,
+      "sha256": "a453c330f1eaef519915316031187b3f40a23b82e75b7a8247f7e6045ca04828"
+    },
+    {
+      "path": "source/plectara-android-foreground.svg",
+      "bytes": 21424,
+      "sha256": "2605bcaf8f6f054b9eaa5d791cc5f3e773e9d94d9a39a1c59ec11a56f7b7c1a9"
+    },
+    {
+      "path": "source/plectara-android-monochrome.svg",
+      "bytes": 21424,
+      "sha256": "b23a637ceb5446e6da62d0522999c1f9405ec639c59379e61f04aedfa787c412"
+    }
+  ]
+}

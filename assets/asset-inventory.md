@@ -1,10 +1,12 @@
 # Asset Inventory
 
-## Current — approved Plectara v2.2.0
+## Current — approved Plectara v2.3.0
 
 The approved kit is `assets/brand/plectara/`. Its `inventory.json` records every deliverable and SHA-256 checksum; `README.md` maps source, export, sizes, and intended uses. Artwork approval: 2026-09-04. Owner: Plectara product owner / Brand Working Group.
 
 Liquid Glass icon direction approval: 2026-09-11. `platform/ios/liquid-glass/` contains the native `Plectara.icon` document, seven exact SVG layers, 18 Apple-rendered PNG previews, and a render manifest. `plectara-ios-liquid-glass.zip` is the dedicated download and is also included in the complete brand kit.
+
+Android icon approval: 2026-09-11. `platform/android/` contains native foreground/monochrome vectors, adaptive definitions, five legacy densities, three editable SVG sources, 21 SVG previews, 63 PNG previews, and an asset manifest. `plectara-android-icons.zip` is the dedicated download and is also included in the complete kit.
 
 Current site header/favicon use the Plectara SVGs in `docs/assets/brand/`. Current color adapters use `assets/tokens/color.tokens.json`, `assets/web/plectara-tokens.css`, and `assets/flutter/plectara_colors.dart`. Typography, spacing, and radius source files are unchanged.
 

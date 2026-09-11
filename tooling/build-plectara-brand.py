@@ -89,7 +89,6 @@ for name,body,w,h in [
     ('stacked',figure(165,24,.95)+text_paths('Plectara',48,535,117),600,600),
     ('app-icon',f'<rect width="1024" height="1024" fill="{INK}"/>'+figure(290,200,1.58),1024,1024),
     ('avatar',f'<rect width="1024" height="1024" rx="224" fill="{INK}"/>'+figure(290,200,1.58),1024,1024),
-    ('android-foreground',figure(37,28,.12),108,108),
 ]:
     masters[name]=save('source/plectara-'+name+'.svg',svg(w,h,body))
     raster(masters[name],'png/plectara-'+name+'.png',w,h)
@@ -109,11 +108,7 @@ for idiom,sizes in [('iphone',[20,29,40,60]),('ipad',[20,29,40,76,83.5])]:
 raster(masters['app-icon'],'platform/ios/AppIcon.appiconset/marketing-1024.png',1024,1024)
 ios.append({'idiom':'ios-marketing','size':'1024x1024','scale':'1x','filename':'marketing-1024.png'})
 save('platform/ios/AppIcon.appiconset/Contents.json',json.dumps({'images':ios,'info':{'version':1,'author':'Plectara'}},indent=2)+'\n')
-for density,scale in [('mdpi',1),('hdpi',1.5),('xhdpi',2),('xxhdpi',3),('xxxhdpi',4)]:
-    raster(masters['app-icon'],f'platform/android/res/mipmap-{density}/ic_launcher.png',int(48*scale),int(48*scale))
-    raster(masters['android-foreground'],f'platform/android/res/drawable-{density}/plectara_foreground.png',int(108*scale),int(108*scale))
-save('platform/android/res/values/plectara_colors.xml',f'<resources><color name="plectara_background">{INK}</color></resources>\n')
-save('platform/android/res/mipmap-anydpi-v26/ic_launcher.xml','<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android"><background android:drawable="@color/plectara_background"/><foreground android:drawable="@drawable/plectara_foreground"/></adaptive-icon>\n')
+subprocess.run([sys.executable, str(ROOT/'tooling/build-plectara-android.py')], check=True)
 for name,w,h,body in [
     ('social-card',1200,630,f'<rect width="1200" height="630" fill="{IVORY}"/>'+figure(95,135,.85)+text_paths('Plectara',395,350,155)+text_paths('A healthier whole.',399,421,38,TEAL)),
     ('social-banner',1584,396,f'<rect width="1584" height="396" fill="{INK}"/>'+figure(130,60,.7)+text_paths('Plectara',435,230,164,'#FFFFFF')+text_paths('A healthier whole.',443,296,40,JADE)),
@@ -158,8 +153,22 @@ glass_docs.mkdir(parents=True, exist_ok=True)
 for p in (glass/'previews').glob('*.png'):
     shutil.copy2(p, glass_docs/p.name)
 shutil.copy2(glass/'render-manifest.json', glass_docs/'render-manifest.json')
+android = BASE/'platform/android'
+android_archive = BASE/'plectara-android-icons.zip'
+with zipfile.ZipFile(android_archive, 'w', zipfile.ZIP_DEFLATED) as z:
+    for p in sorted(android.rglob('*')):
+        if deliverable(p):
+            z.write(p, p.relative_to(android))
+shutil.copy2(android_archive, docs/android_archive.name)
+android_docs = docs/'android-icons'
+android_docs.mkdir(parents=True, exist_ok=True)
+for p in (android/'previews/png').glob('*.png'):
+    shutil.copy2(p, android_docs/p.name)
+for p in (android/'previews/svg').glob('*.svg'):
+    shutil.copy2(p, android_docs/p.name)
+shutil.copy2(android/'asset-manifest.json', android_docs/'asset-manifest.json')
 archive=BASE/'plectara-brand-kit.zip'
-inventory={'version':'2.2.0','owner':'Plectara product owner / Brand Working Group','approved':'2026-09-11','source':'tooling/build-plectara-brand.py; tooling/export-plectara-liquid-glass.py; source/plectara-wordmark.svg; platform/ios/liquid-glass/Plectara.icon; assets/tokens/','files':[]}
+inventory={'version':'2.3.0','owner':'Plectara product owner / Brand Working Group','approved':'2026-09-11','source':'tooling/build-plectara-brand.py; tooling/build-plectara-android.py; tooling/export-plectara-liquid-glass.py; source/plectara-wordmark.svg; platform/ios/liquid-glass/Plectara.icon; assets/tokens/','files':[]}
 for p in sorted(BASE.rglob('*')):
     if deliverable(p) and p not in (archive,BASE/'inventory.json'):
         inventory['files'].append({'path':str(p.relative_to(BASE)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})

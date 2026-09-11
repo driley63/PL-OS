@@ -4,8 +4,8 @@ Plectara Operating System (PL-OS) is the canonical source of truth for Plectara'
 
 ## Current Version
 
-- Version: v2.2.0
-- Status: Approved v2.2.0 release
+- Version: v2.3.0
+- Status: Approved v2.3.0 release
 - Prepared: 2026-09-11
 - Product name: Plectara
 - Operating system name: PL-OS
@@ -14,7 +14,7 @@ Plectara Operating System (PL-OS) is the canonical source of truth for Plectara'
 [Download logo samples](specs/01-brand/plectara-brand-kit.md){ .md-button .md-button--primary }
 [Preview component colors](specs/02-design/plectara-component-preview.md){ .md-button }
 
-The brand kit now includes native Liquid Glass iOS icons, six appearance previews, and an editable download package. The established jade-headed logos and lettering remain available. [Explore the iOS icons](specs/01-brand/plectara-brand-kit.md#liquid-glass-ios-icons) or [read the v2.2.0 changes](releases/v2.2.0/README.md).
+The brand kit now includes adaptive Android icons with native vectors, themed appearances, and a dedicated download. The Liquid Glass iOS icons and established logo library remain available. [Explore the Android icons](specs/01-brand/plectara-brand-kit.md#adaptive-android-icons) or [read the v2.3.0 changes](releases/v2.3.0/README.md).
 
 ## Documentation Source
 

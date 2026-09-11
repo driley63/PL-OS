@@ -1,6 +1,6 @@
-# Volume 01 - Brand Identity Specification v2.2.0
+# Volume 01 - Brand Identity Specification v2.3.0
 
-Status: Approved for v2.2.0
+Status: Approved for v2.3.0
 Owner: Brand Working Group
 Last updated: 2026-09-11
 
@@ -43,6 +43,8 @@ The approved logo is a woven human figure in teal, jade, copper, and slate, pair
 Production logo files must be treated as source-controlled assets. Teams must not redraw, trace, approximate, or manually recreate the mark from screenshots.
 
 The 2026-09-11 owner-approved Liquid Glass treatment adds a native iOS icon built from the same vector layers. System materials supply lighting and depth; clear and tinted appearances may render the whole figure monochromatically. Use the editable `Plectara.icon` document for iOS integration and the native PNG renders for review and communications. The flat logo masters and outlined wordmark retain their existing rules.
+
+The owner-approved Android treatment (2026-09-11) uses an unmasked vector foreground, opaque ink background, and a dedicated monochrome vector for system theming. Its uniform size increase of about 13% and revised placement preserve all original shapes and six-unit channels. The figure remains within a 32 dp radius on a 108 dp canvas. Android supplies the launcher mask and theme colors. Use the native resources for the app and the illustrative previews for review or communications.
 
 ## Color System
 
@@ -87,6 +89,7 @@ A Volume 01 change is complete when:
 
 ## Version History
 
+- v2.3.0: Adds adaptive Android vectors, monochrome theming, approved optical placement, 21 preview combinations, and a dedicated download.
 - v2.2.0: Adds native Liquid Glass iOS icon sources, six system appearances, three preview sizes, downloadable packages, and platform-specific usage guidance.
 - v2.1.0: Standardizes jade heads in all full-color logos, ink/white lettering, complete monochrome variants, and visible SVG/PNG downloads.
 - v2.0.0: Adopts the approved Plectara identity, restored outlined lettering, and light/dark semantic palette; preserves the component and UI typography systems.

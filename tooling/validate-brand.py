@@ -2,6 +2,7 @@
 import ast
 import hashlib
 import json
+import math
 from pathlib import Path
 import xml.etree.ElementTree as ET
 import zipfile
@@ -136,6 +137,103 @@ with zipfile.ZipFile(BASE/'plectara-ios-liquid-glass.zip') as archive:
             assert archive.read(str(p.relative_to(glass))) == p.read_bytes()
 assert (BASE/'plectara-ios-liquid-glass.zip').read_bytes() == (ROOT/'docs/assets/brand/plectara-ios-liquid-glass.zip').read_bytes()
 
+# Android vectors preserve the approved mark and owner-reviewed optical placement.
+android = BASE/'platform/android'
+a = '{http://schemas.android.com/apk/res/android}'
+foreground = ET.parse(android/'res/drawable/plectara_foreground.xml').getroot()
+monochrome = ET.parse(android/'res/drawable/plectara_monochrome.xml').getroot()
+for vector in (foreground, monochrome):
+    assert vector.tag == 'vector'
+    assert vector.get(a+'width') == vector.get(a+'height') == '108dp'
+    assert vector.get(a+'viewportWidth') == vector.get(a+'viewportHeight') == '108'
+    assert {node.tag for node in vector.iter()} == {'vector', 'group', 'path'}
+    assert len(vector.findall('group')) == 1
+    assert len(vector.findall('.//path')) == 7
+    assert not any(a+'strokeColor' in p.attrib or a+'fillAlpha' in p.attrib for p in vector.findall('.//path'))
+placement = foreground.find('group')
+assert placement.attrib == monochrome.find('group').attrib
+scale = float(placement.get(a+'scaleX'))
+tx, ty = (float(placement.get(a+k)) for k in ('translateX','translateY'))
+assert abs(scale - 0.14997176395618853) < 1e-9
+assert placement.get(a+'scaleX') == placement.get(a+'scaleY')
+assert abs(tx - 33.0789389281117) < 1e-9 and abs(ty - 29.40463071118508) < 1e-9
+color_paths, mono_paths = (v.findall('.//path') for v in (foreground, monochrome))
+assert [p.get(a+'pathData') for p in color_paths[1:]] == [p.get('d') for p in figure.findall(f'{ns}path')]
+assert [p.get(a+'pathData') for p in color_paths] == [p.get(a+'pathData') for p in mono_paths]
+assert [p.get(a+'fillColor') for p in color_paths] == [p.get('fill') for p in figure]
+assert {p.get(a+'fillColor') for p in mono_paths} == {'#FFFFFF'}
+head = figure.find(f'{ns}circle')
+cx, cy, radius = (float(head.get(k)) for k in ('cx','cy','r'))
+assert color_paths[0].get(a+'pathData') == f'M {cx-radius},{cy} A {radius},{radius} 0 1,0 {cx+radius},{cy} A {radius},{radius} 0 1,0 {cx-radius},{cy} Z'
+for p in figure.findall(f'{ns}path'):
+    assert all(math.hypot(tx+x*scale-54, ty+y*scale-54) <= 32.000001 for x,y in polygon(p.get('d')).exterior.coords)
+assert math.hypot(tx+cx*scale-54, ty+cy*scale-54) + radius*scale <= 32.000001
+for version in (26,33):
+    for name in ('ic_launcher', 'ic_launcher_round'):
+        adaptive = ET.parse(android/f'res/mipmap-anydpi-v{version}/{name}.xml').getroot()
+        expected = {'background':'@color/plectara_background','foreground':'@drawable/plectara_foreground'}
+        if version == 33:
+            expected['monochrome'] = '@drawable/plectara_monochrome'
+        assert adaptive.tag == 'adaptive-icon' and len(adaptive) == len(expected)
+        assert {n.tag:n.get(a+'drawable') for n in adaptive} == expected
+background = ET.parse(android/'res/values/plectara_colors.xml').getroot()
+assert background.find('color').get('name') == 'plectara_background'
+assert background.find('color').text == ink
+assert not list((android/'res').glob('drawable-*/plectara_foreground.png')), 'Legacy foreground PNGs override the vector'
+for density, size in [('mdpi',48),('hdpi',72),('xhdpi',96),('xxhdpi',144),('xxxhdpi',192)]:
+    for name in ('ic_launcher','ic_launcher_round'):
+        im = Image.open(android/f'res/mipmap-{density}/{name}.png').convert('RGBA')
+        assert im.size == (size,size)
+        if name == 'ic_launcher':
+            assert im.getchannel('A').getextrema() == (255,255)
+        else:
+            assert all(im.getpixel(xy)[3] == 0 for xy in [(0,0),(size-1,0),(0,size-1),(size-1,size-1)])
+for name in ('foreground', 'monochrome', 'background'):
+    filename = f'plectara-android-{name}.svg'
+    assert (android/'source'/filename).read_bytes() == (BASE/'source'/filename).read_bytes()
+    root = ET.parse(android/'source'/filename).getroot()
+    assert root.get('viewBox') == '0 0 108 108'
+    if name != 'background':
+        group = root.find(f'{ns}g')
+        expected_shapes = [dict(p.attrib) for p in figure]
+        if name == 'monochrome':
+            for attrs in expected_shapes:
+                attrs['fill'] = '#FFFFFF'
+        assert [p.attrib for p in group] == expected_shapes
+        assert group.get('transform') == f'translate({tx:.10f} {ty:.10f}) scale({scale:.10f})'
+android_manifest = json.loads((android/'asset-manifest.json').read_text())
+assert android_manifest['version'] == '2.3.0' and android_manifest['approved'] == '2026-09-11'
+assert android_manifest['source_sha256'] == hashlib.sha256((ROOT/android_manifest['source']).read_bytes()).hexdigest()
+expected_files = {str(p.relative_to(android)) for p in android.rglob('*') if deliverable(p) and p.name != 'asset-manifest.json'}
+assert {e['path'] for e in android_manifest['files']} == expected_files
+for entry in android_manifest['files']:
+    path = android/entry['path']
+    assert path.stat().st_size == entry['bytes']
+    assert hashlib.sha256(path.read_bytes()).hexdigest() == entry['sha256']
+themes = {'full-color','jade-light','jade-dark','clay-light','clay-dark','slate-light','slate-dark'}
+shapes = {'circle','squircle','rounded-square'}
+expected_pngs = {f'plectara-{t}-{s}-{n}.png' for t in themes for s in shapes for n in (1024,192,48)}
+expected_svgs = {f'plectara-{t}-{s}.svg' for t in themes for s in shapes}
+assert {p.name for p in (android/'previews/png').glob('*.png')} == expected_pngs
+assert {p.name for p in (android/'previews/svg').glob('*.svg')} == expected_svgs
+for filename in expected_pngs:
+    path = android/'previews/png'/filename
+    im = Image.open(path)
+    size = int(path.stem.rsplit('-',1)[-1])
+    assert im.mode == 'RGBA' and im.size == (size,size)
+    assert im.getchannel('A').getextrema() == (0,255)
+    assert all(im.getpixel(xy)[3] == 0 for xy in [(0,0),(size-1,0),(0,size-1),(size-1,size-1)])
+for directory, names in [('png',expected_pngs),('svg',expected_svgs)]:
+    for filename in names:
+        assert (android/'previews'/directory/filename).read_bytes() == (ROOT/'docs/assets/brand/android-icons'/filename).read_bytes()
+assert (android/'asset-manifest.json').read_bytes() == (ROOT/'docs/assets/brand/android-icons/asset-manifest.json').read_bytes()
+with zipfile.ZipFile(BASE/'plectara-android-icons.zip') as archive:
+    assert archive.testzip() is None
+    assert set(archive.namelist()) == expected_files | {'asset-manifest.json'}
+    for filename in archive.namelist():
+        assert archive.read(filename) == (android/filename).read_bytes()
+assert (BASE/'plectara-android-icons.zip').read_bytes() == (ROOT/'docs/assets/brand/plectara-android-icons.zip').read_bytes()
+
 inventory = json.loads((BASE/'inventory.json').read_text())
 for entry in inventory['files']:
     assert hashlib.sha256((BASE/entry['path']).read_bytes()).hexdigest() == entry['sha256']
@@ -152,4 +250,4 @@ for name in ('horizontal','horizontal-reversed','horizontal-ink','horizontal-whi
     if name != 'app-icon':
         assert im.mode == 'RGBA' and im.getchannel('A').getextrema() == (0,255), name
 assert (BASE/'plectara-brand-kit.zip').read_bytes() == (ROOT/'docs/assets/brand/plectara-brand-kit.zip').read_bytes()
-print(f'Passed: {len(svgs)} vector SVGs, jade color heads, ink/white monochrome and lettering, transparent downloads, seven clearances, icon sizes, iOS opacity, Android safe area, seven exact native icon layers, 18 native preview checksums and dimensions, inventory checksums, ZIP and site copies.')
+print(f'Passed: {len(svgs)} vector SVGs, jade heads, monochrome and lettering, transparent downloads, seven clearances, iOS opacity and 18 native renders, Android vectors and safe area, 63 Android PNGs and 21 SVGs, 10 legacy Android icons, inventory checksums, ZIP and site copies.')

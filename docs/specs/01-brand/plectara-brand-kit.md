@@ -1,13 +1,374 @@
 # Plectara brand kit
 
-Status: Owner-approved Liquid Glass icon treatment (2026-09-11); jade-head color standard retained
-Version: 2.2.0
+Status: Owner-approved iOS and Android icon treatments (2026-09-11); jade-head color standard retained
+Version: 2.3.0
 
 **Every full-color Plectara logo has a jade head (`#76B7A5`).** The woven figure keeps the same colors on light and dark backgrounds. Only the lettering changes: ink on light backgrounds, white on dark backgrounds. In a monochrome logo, the entire figure and lettering use one color.
 
-[Download the complete brand kit](../../assets/brand/plectara-brand-kit.zip){ .md-button .md-button--primary download="plectara-brand-kit-v2.2.0.zip" }
+[Download the complete brand kit](../../assets/brand/plectara-brand-kit.zip){ .md-button .md-button--primary download="plectara-brand-kit-v2.3.0.zip" }
 
 Choose an example below and download its SVG or PNG. SVGs scale without losing sharpness; PNGs are ready for documents, presentations, and other tools that accept images. The logo samples have transparent backgrounds. The ivory and ink panels show how to place them; those panels are not part of the downloaded artwork.
+
+## Adaptive Android icons
+
+The woven figure now has a little more presence on Android: about 13% larger, with reviewed placement and the same original ribbons. Full color keeps the jade head on an ink background. The monochrome version lets the icon follow the user's home-screen theme.
+
+[Download the Android icon package](../../assets/brand/plectara-android-icons.zip){ .md-button .md-button--primary download="plectara-android-icons-v2.3.0.zip" }
+
+The package includes native Android resources, editable SVG sources, and 21 shape/theme examples at 1024, 192, and 48 px. **For an app, use the included `res/` files.** The SVG and PNG links below download appearance previews for presentations or review.
+
+### Full color
+
+<div class="plectara-logo-grid plectara-logo-grid--icons" markdown="1">
+
+<div class="plectara-logo-card" markdown="1">
+
+<p class="plectara-icon-shape">Circle</p>
+
+<div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--light" markdown="1">
+
+![Plectara Android icon — Full color, Circle](../../assets/brand/android-icons/plectara-full-color-circle-1024.png)
+
+</div>
+
+[PNG · 1024 px](../../assets/brand/android-icons/plectara-full-color-circle-1024.png){ download="plectara-full-color-circle-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-full-color-circle.svg){ download="plectara-full-color-circle.svg" }
+
+</div>
+
+<div class="plectara-logo-card" markdown="1">
+
+<p class="plectara-icon-shape">Squircle</p>
+
+<div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--light" markdown="1">
+
+![Plectara Android icon — Full color, Squircle](../../assets/brand/android-icons/plectara-full-color-squircle-1024.png)
+
+</div>
+
+[PNG · 1024 px](../../assets/brand/android-icons/plectara-full-color-squircle-1024.png){ download="plectara-full-color-squircle-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-full-color-squircle.svg){ download="plectara-full-color-squircle.svg" }
+
+</div>
+
+<div class="plectara-logo-card" markdown="1">
+
+<p class="plectara-icon-shape">Rounded square</p>
+
+<div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--light" markdown="1">
+
+![Plectara Android icon — Full color, Rounded square](../../assets/brand/android-icons/plectara-full-color-rounded-square-1024.png)
+
+</div>
+
+[PNG · 1024 px](../../assets/brand/android-icons/plectara-full-color-rounded-square-1024.png){ download="plectara-full-color-rounded-square-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-full-color-rounded-square.svg){ download="plectara-full-color-rounded-square.svg" }
+
+</div>
+
+</div>
+
+### Themed · Light
+
+<div class="plectara-logo-grid plectara-logo-grid--icons" markdown="1">
+
+<div class="plectara-logo-card" markdown="1">
+
+<p class="plectara-icon-shape">Circle</p>
+
+<div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--light" markdown="1">
+
+![Plectara Android icon — Themed · Light, Circle](../../assets/brand/android-icons/plectara-jade-light-circle-1024.png)
+
+</div>
+
+[PNG · 1024 px](../../assets/brand/android-icons/plectara-jade-light-circle-1024.png){ download="plectara-jade-light-circle-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-jade-light-circle.svg){ download="plectara-jade-light-circle.svg" }
+
+</div>
+
+<div class="plectara-logo-card" markdown="1">
+
+<p class="plectara-icon-shape">Squircle</p>
+
+<div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--light" markdown="1">
+
+![Plectara Android icon — Themed · Light, Squircle](../../assets/brand/android-icons/plectara-jade-light-squircle-1024.png)
+
+</div>
+
+[PNG · 1024 px](../../assets/brand/android-icons/plectara-jade-light-squircle-1024.png){ download="plectara-jade-light-squircle-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-jade-light-squircle.svg){ download="plectara-jade-light-squircle.svg" }
+
+</div>
+
+<div class="plectara-logo-card" markdown="1">
+
+<p class="plectara-icon-shape">Rounded square</p>
+
+<div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--light" markdown="1">
+
+![Plectara Android icon — Themed · Light, Rounded square](../../assets/brand/android-icons/plectara-jade-light-rounded-square-1024.png)
+
+</div>
+
+[PNG · 1024 px](../../assets/brand/android-icons/plectara-jade-light-rounded-square-1024.png){ download="plectara-jade-light-rounded-square-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-jade-light-rounded-square.svg){ download="plectara-jade-light-rounded-square.svg" }
+
+</div>
+
+</div>
+
+### Themed · Dark
+
+<div class="plectara-logo-grid plectara-logo-grid--icons" markdown="1">
+
+<div class="plectara-logo-card" markdown="1">
+
+<p class="plectara-icon-shape">Circle</p>
+
+<div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--dark" markdown="1">
+
+![Plectara Android icon — Themed · Dark, Circle](../../assets/brand/android-icons/plectara-jade-dark-circle-1024.png)
+
+</div>
+
+[PNG · 1024 px](../../assets/brand/android-icons/plectara-jade-dark-circle-1024.png){ download="plectara-jade-dark-circle-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-jade-dark-circle.svg){ download="plectara-jade-dark-circle.svg" }
+
+</div>
+
+<div class="plectara-logo-card" markdown="1">
+
+<p class="plectara-icon-shape">Squircle</p>
+
+<div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--dark" markdown="1">
+
+![Plectara Android icon — Themed · Dark, Squircle](../../assets/brand/android-icons/plectara-jade-dark-squircle-1024.png)
+
+</div>
+
+[PNG · 1024 px](../../assets/brand/android-icons/plectara-jade-dark-squircle-1024.png){ download="plectara-jade-dark-squircle-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-jade-dark-squircle.svg){ download="plectara-jade-dark-squircle.svg" }
+
+</div>
+
+<div class="plectara-logo-card" markdown="1">
+
+<p class="plectara-icon-shape">Rounded square</p>
+
+<div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--dark" markdown="1">
+
+![Plectara Android icon — Themed · Dark, Rounded square](../../assets/brand/android-icons/plectara-jade-dark-rounded-square-1024.png)
+
+</div>
+
+[PNG · 1024 px](../../assets/brand/android-icons/plectara-jade-dark-rounded-square-1024.png){ download="plectara-jade-dark-rounded-square-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-jade-dark-rounded-square.svg){ download="plectara-jade-dark-rounded-square.svg" }
+
+</div>
+
+</div>
+
+Themed colors and shape masks are illustrative; Android and the launcher determine the final appearance. Jade is shown above. The same monochrome artwork also supports other light and dark theme colors.
+
+??? tip "More theme colors · Clay and slate"
+
+    **Clay · Light**
+
+    <div class="plectara-logo-grid plectara-logo-grid--icons" markdown="1">
+
+    <div class="plectara-logo-card" markdown="1">
+
+    <p class="plectara-icon-shape">Circle</p>
+
+    <div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--light" markdown="1">
+
+    ![Plectara Android icon — Clay · Light, Circle](../../assets/brand/android-icons/plectara-clay-light-circle-1024.png)
+
+    </div>
+
+    [PNG · 1024 px](../../assets/brand/android-icons/plectara-clay-light-circle-1024.png){ download="plectara-clay-light-circle-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-clay-light-circle.svg){ download="plectara-clay-light-circle.svg" }
+
+    </div>
+
+    <div class="plectara-logo-card" markdown="1">
+
+    <p class="plectara-icon-shape">Squircle</p>
+
+    <div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--light" markdown="1">
+
+    ![Plectara Android icon — Clay · Light, Squircle](../../assets/brand/android-icons/plectara-clay-light-squircle-1024.png)
+
+    </div>
+
+    [PNG · 1024 px](../../assets/brand/android-icons/plectara-clay-light-squircle-1024.png){ download="plectara-clay-light-squircle-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-clay-light-squircle.svg){ download="plectara-clay-light-squircle.svg" }
+
+    </div>
+
+    <div class="plectara-logo-card" markdown="1">
+
+    <p class="plectara-icon-shape">Rounded square</p>
+
+    <div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--light" markdown="1">
+
+    ![Plectara Android icon — Clay · Light, Rounded square](../../assets/brand/android-icons/plectara-clay-light-rounded-square-1024.png)
+
+    </div>
+
+    [PNG · 1024 px](../../assets/brand/android-icons/plectara-clay-light-rounded-square-1024.png){ download="plectara-clay-light-rounded-square-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-clay-light-rounded-square.svg){ download="plectara-clay-light-rounded-square.svg" }
+
+    </div>
+
+    </div>
+
+    **Clay · Dark**
+
+    <div class="plectara-logo-grid plectara-logo-grid--icons" markdown="1">
+
+    <div class="plectara-logo-card" markdown="1">
+
+    <p class="plectara-icon-shape">Circle</p>
+
+    <div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--dark" markdown="1">
+
+    ![Plectara Android icon — Clay · Dark, Circle](../../assets/brand/android-icons/plectara-clay-dark-circle-1024.png)
+
+    </div>
+
+    [PNG · 1024 px](../../assets/brand/android-icons/plectara-clay-dark-circle-1024.png){ download="plectara-clay-dark-circle-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-clay-dark-circle.svg){ download="plectara-clay-dark-circle.svg" }
+
+    </div>
+
+    <div class="plectara-logo-card" markdown="1">
+
+    <p class="plectara-icon-shape">Squircle</p>
+
+    <div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--dark" markdown="1">
+
+    ![Plectara Android icon — Clay · Dark, Squircle](../../assets/brand/android-icons/plectara-clay-dark-squircle-1024.png)
+
+    </div>
+
+    [PNG · 1024 px](../../assets/brand/android-icons/plectara-clay-dark-squircle-1024.png){ download="plectara-clay-dark-squircle-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-clay-dark-squircle.svg){ download="plectara-clay-dark-squircle.svg" }
+
+    </div>
+
+    <div class="plectara-logo-card" markdown="1">
+
+    <p class="plectara-icon-shape">Rounded square</p>
+
+    <div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--dark" markdown="1">
+
+    ![Plectara Android icon — Clay · Dark, Rounded square](../../assets/brand/android-icons/plectara-clay-dark-rounded-square-1024.png)
+
+    </div>
+
+    [PNG · 1024 px](../../assets/brand/android-icons/plectara-clay-dark-rounded-square-1024.png){ download="plectara-clay-dark-rounded-square-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-clay-dark-rounded-square.svg){ download="plectara-clay-dark-rounded-square.svg" }
+
+    </div>
+
+    </div>
+
+    **Slate · Light**
+
+    <div class="plectara-logo-grid plectara-logo-grid--icons" markdown="1">
+
+    <div class="plectara-logo-card" markdown="1">
+
+    <p class="plectara-icon-shape">Circle</p>
+
+    <div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--light" markdown="1">
+
+    ![Plectara Android icon — Slate · Light, Circle](../../assets/brand/android-icons/plectara-slate-light-circle-1024.png)
+
+    </div>
+
+    [PNG · 1024 px](../../assets/brand/android-icons/plectara-slate-light-circle-1024.png){ download="plectara-slate-light-circle-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-slate-light-circle.svg){ download="plectara-slate-light-circle.svg" }
+
+    </div>
+
+    <div class="plectara-logo-card" markdown="1">
+
+    <p class="plectara-icon-shape">Squircle</p>
+
+    <div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--light" markdown="1">
+
+    ![Plectara Android icon — Slate · Light, Squircle](../../assets/brand/android-icons/plectara-slate-light-squircle-1024.png)
+
+    </div>
+
+    [PNG · 1024 px](../../assets/brand/android-icons/plectara-slate-light-squircle-1024.png){ download="plectara-slate-light-squircle-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-slate-light-squircle.svg){ download="plectara-slate-light-squircle.svg" }
+
+    </div>
+
+    <div class="plectara-logo-card" markdown="1">
+
+    <p class="plectara-icon-shape">Rounded square</p>
+
+    <div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--light" markdown="1">
+
+    ![Plectara Android icon — Slate · Light, Rounded square](../../assets/brand/android-icons/plectara-slate-light-rounded-square-1024.png)
+
+    </div>
+
+    [PNG · 1024 px](../../assets/brand/android-icons/plectara-slate-light-rounded-square-1024.png){ download="plectara-slate-light-rounded-square-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-slate-light-rounded-square.svg){ download="plectara-slate-light-rounded-square.svg" }
+
+    </div>
+
+    </div>
+
+    **Slate · Dark**
+
+    <div class="plectara-logo-grid plectara-logo-grid--icons" markdown="1">
+
+    <div class="plectara-logo-card" markdown="1">
+
+    <p class="plectara-icon-shape">Circle</p>
+
+    <div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--dark" markdown="1">
+
+    ![Plectara Android icon — Slate · Dark, Circle](../../assets/brand/android-icons/plectara-slate-dark-circle-1024.png)
+
+    </div>
+
+    [PNG · 1024 px](../../assets/brand/android-icons/plectara-slate-dark-circle-1024.png){ download="plectara-slate-dark-circle-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-slate-dark-circle.svg){ download="plectara-slate-dark-circle.svg" }
+
+    </div>
+
+    <div class="plectara-logo-card" markdown="1">
+
+    <p class="plectara-icon-shape">Squircle</p>
+
+    <div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--dark" markdown="1">
+
+    ![Plectara Android icon — Slate · Dark, Squircle](../../assets/brand/android-icons/plectara-slate-dark-squircle-1024.png)
+
+    </div>
+
+    [PNG · 1024 px](../../assets/brand/android-icons/plectara-slate-dark-squircle-1024.png){ download="plectara-slate-dark-squircle-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-slate-dark-squircle.svg){ download="plectara-slate-dark-squircle.svg" }
+
+    </div>
+
+    <div class="plectara-logo-card" markdown="1">
+
+    <p class="plectara-icon-shape">Rounded square</p>
+
+    <div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--dark" markdown="1">
+
+    ![Plectara Android icon — Slate · Dark, Rounded square](../../assets/brand/android-icons/plectara-slate-dark-rounded-square-1024.png)
+
+    </div>
+
+    [PNG · 1024 px](../../assets/brand/android-icons/plectara-slate-dark-rounded-square-1024.png){ download="plectara-slate-dark-rounded-square-1024.png" } · [SVG preview](../../assets/brand/android-icons/plectara-slate-dark-rounded-square.svg){ download="plectara-slate-dark-rounded-square.svg" }
+
+    </div>
+
+    </div>
+
+
+??? info "Using the icons in an Android app"
+
+    Replace the matching launcher resources with the ZIP's `res/` files, resolving existing definitions first. Remove old density-specific `plectara_foreground.png` files when adopting the vector of the same name; those bitmaps can otherwise override it.
+
+    Keep `android:icon="@mipmap/ic_launcher"` and `android:roundIcon="@mipmap/ic_launcher_round"` in the app manifest. Compile with API 33 or newer for the monochrome element. The package provides adaptive definitions for Android 8+, themed definitions for Android 13+, and standard/round legacy PNGs in five densities.
+
+    The foreground and monochrome layers remain unmasked. Let the system apply the mask and themed colors. Check actual launchers, supported Android versions, and small-size rendering in the consuming app.
+
+    [Android adaptive icon guidance](https://developer.android.com/develop/ui/compose/system/icon_design_adaptive)
+
+This release publishes the approved assets in PL-OS. App integration is a separate step. [Read the v2.3.0 release notes](../../releases/v2.3.0/README.md).
 
 ## Liquid Glass iOS icons
 

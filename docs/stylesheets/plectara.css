@@ -102,3 +102,5 @@ body { color: var(--md-default-fg-color); font-family: var(--liq-font-text); }
   .md-header__button.md-logo img, .md-header__button.md-logo svg { height: 1.85rem; max-width: 7.75rem; }
   .plectara-logo-grid, .plectara-logo-grid--symbols, .plectara-logo-grid--icons { grid-template-columns: minmax(0, 1fr); }
 }
+
+.md-typeset .plectara-logo-card .plectara-icon-shape { margin: 0 0 .75rem; font-size: 1rem; font-weight: 650; }

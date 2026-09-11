@@ -1,10 +1,11 @@
-# Plectara approved brand kit — PL-OS v2.2.0
+# Plectara approved brand kit — PL-OS v2.3.0
 
 Owner: Plectara product owner / Brand Working Group
 Artwork approval: 2026-09-04
 Color standard approval: 2026-09-07
 Liquid Glass icon direction approval: 2026-09-11
-Status: Owner-approved Liquid Glass platform treatment; jade-head master standard retained
+Android icon approval: 2026-09-11
+Status: Owner-approved iOS and Android platform treatments; jade-head master standard retained
 
 ## Use these files
 
@@ -16,7 +17,8 @@ Status: Owner-approved Liquid Glass platform treatment; jade-head master standar
 | `platform/ios/AppIcon.appiconset/` | Generated iPhone/iPad/store icon catalog |
 | `platform/ios/liquid-glass/` | Native Icon Composer source, seven SVG layers, six appearances at three preview sizes, and integration instructions |
 | `plectara-ios-liquid-glass.zip` | Standalone iOS icon download package |
-| `platform/android/res/` | Adaptive foreground/background and legacy launcher densities |
+| `platform/android/` | Native color/monochrome vectors, adaptive resources, legacy icons, SVG sources, 21 preview combinations, and integration notes |
+| `plectara-android-icons.zip` | Standalone Android icon download package |
 | `reference/approved-woven-person.png` | Original approved concept; retained for provenance only |
 | `tokens/`, `web/`, `flutter/` | Color source and generated integration adapters |
 | `fonts/` | Inter and its SIL Open Font License for UI/supporting copy |
@@ -38,7 +40,7 @@ Status: Owner-approved Liquid Glass platform treatment; jade-head master standar
 
 Each variant is available in `source/` as SVG and `png/` as a transparent 940 × 295 PNG. Standalone figures use `symbol`, `symbol-ink`, and `symbol-white`; standalone lettering uses `wordmark` and `wordmark-white`. Preserve the original lettering outlines, capitalization, spacing, proportions, and alignment. Do not retype or recolor the wordmark jade. Inter is for UI and supporting copy only.
 
-The PL-OS brand kit page shows all nine treatments with direct SVG and PNG downloads. The preview backgrounds belong to the page, not the transparent downloads. Square app icons are intentionally opaque for platform use.
+The PL-OS brand kit page shows all nine treatments with direct SVG and PNG downloads. The preview backgrounds belong to the page, not the transparent downloads. Flat square app/store sources are intentionally opaque. Adaptive Android resources use an opaque background with an unmasked foreground; their review PNGs have transparent corners.
 
 The social card is 1200 × 630; the banner is 1584 × 396. The optional line “A healthier whole” is campaign copy, not part of the logo. The brand board can be used in presentations. SVG masters and monochrome exports also serve as press/vendor assets.
 
@@ -52,6 +54,8 @@ Allow one head diameter of clear space around the standalone figure, half around
 
 For the approved Liquid Glass iOS treatment, use `platform/ios/liquid-glass/Plectara.icon`. Its SVG layers preserve the original geometry and colors while Apple applies material effects. Clear and tinted modes may render the entire figure monochromatically. The rendered PNGs have transparent outer corners and are for review or communications; use the native document for system behavior. This platform treatment does not change flat logo usage.
 
+For Android, use `platform/android/res/` and follow its README. The approved foreground is about 13% larger and repositioned, with unchanged source geometry. Android supplies masks and themed colors through the matching monochrome layer. The 21 shape/theme preview combinations illustrate appearance rather than prescribing device theme colors.
+
 The original lettering is custom outlined artwork recovered from the approved concept, not an identified font. Inter remains the UI family and is licensed separately in `fonts/OFL.txt`. Artwork approval is not legal registration or a guarantee of exclusive rights. No company suffix or registration symbol is authorized by this kit.
 
 ## Regenerate
@@ -63,6 +67,8 @@ python tooling/build-plectara-tokens.py
 python tooling/build-plectara-brand.py
 python tooling/validate-brand.py
 ```
+
+The brand build regenerates the Android vectors, legacy resources, and previews through `tooling/build-plectara-android.py`, and refreshes the Android download.
 
 On macOS with Xcode and Icon Composer, pass `--render-ios` to the brand build to regenerate the 18 native previews before packaging. Ordinary builds reuse the checked-in renders. See `platform/ios/liquid-glass/README.md` for the iOS workflow.
 

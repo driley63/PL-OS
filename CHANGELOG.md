@@ -4,6 +4,22 @@ All notable changes to PL-OS (formerly LIQ OS) are recorded in this file.
 
 The format follows Keep a Changelog conventions and the project uses semantic versioning for published operating system releases.
 
+## [v2.3.0] - 2026-09-11
+
+### Added
+
+- Native Android VectorDrawable foreground and matching monochrome silhouette for themed launcher icons.
+- Standard and round adaptive icon definitions for Android 8+ and themed definitions for Android 13+.
+- 21 shape/appearance examples as SVG and PNGs at 1024, 192, and 48 px, with individual gallery downloads.
+- Dedicated Android ZIP, source provenance, per-file checksums, and consumer integration guidance.
+- Geometry, placement, safe-circle, resource-reference, preview, legacy-density, and package validation.
+
+### Changed
+
+- Apply the owner-approved Android size and placement: about 13% larger, with unchanged ribbon geometry and colors.
+- Replace the five density-specific foreground PNGs with native vectors and refresh standard/round legacy icons.
+- Include the Android kit in the complete brand download and refresh current release and platform usage guidance.
+
 ## [v2.2.0] - 2026-09-11
 
 ### Added
