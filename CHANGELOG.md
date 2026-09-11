@@ -4,6 +4,21 @@ All notable changes to PL-OS (formerly LIQ OS) are recorded in this file.
 
 The format follows Keep a Changelog conventions and the project uses semantic versioning for published operating system releases.
 
+## [v2.2.0] - 2026-09-11
+
+### Added
+
+- Native Liquid Glass iOS app icon built from seven unchanged Plectara vector layers.
+- Six Apple-rendered appearance previews at 1024 px, 60 pt at 3×, and 20 pt at 3×.
+- Editable Icon Composer document, SVG layers, native render manifest, and standalone iOS ZIP download.
+- A six-appearance gallery with individual PNG downloads and Xcode integration guidance.
+- Validation of original geometry, layer references, native render checksums, transparent corners, and package/site parity.
+
+### Changed
+
+- Extend the brand rules with an approved native iOS material treatment and system-managed clear/tinted appearances.
+- Refresh brand-kit packaging, inventory, and release documentation; preserve the flat logo masters and legacy platform catalog.
+
 ## [v2.1.0] - 2026-09-07
 
 ### Changed

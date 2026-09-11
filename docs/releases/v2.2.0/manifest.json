@@ -1,0 +1,12 @@
+{
+  "version": "2.2.0",
+  "date": "2026-09-11",
+  "change_class": "minor",
+  "approval": "Product owner approved the Liquid Glass icon concept and instructed PL-OS publication",
+  "scope": ["Native iOS icon", "Six-appearance gallery", "Editable source and PNG downloads", "Brand-kit packages and inventory", "Platform usage rules"],
+  "native_source": "assets/brand/plectara/platform/ios/liquid-glass/Plectara.icon",
+  "render_manifest": "assets/brand/plectara/platform/ios/liquid-glass/render-manifest.json",
+  "inventory": "assets/brand/plectara/inventory.json",
+  "validation": ["Apple Icon Composer ictool rendering", "tooling/validate-brand.py", "mkdocs build --strict", "Visual gallery review"],
+  "consumer_integration": "Shipping Plectara app changes are outside this PL-OS release"
+}

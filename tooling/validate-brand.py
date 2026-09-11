@@ -74,6 +74,65 @@ for y in range(im.height):
         if im.getpixel((x,y))[3]:
             assert (x+.5-54)**2+(y+.5-54)**2 <= 33**2
 
+# Native icon layers must preserve the approved geometry rather than tracing a mockup.
+glass = BASE/'platform/ios/liquid-glass'
+icon = glass/'Plectara.icon'
+document = json.loads((icon/'icon.json').read_text())
+master = ET.parse(BASE/'source/plectara-app-icon.svg').getroot()
+outer = master.find(f'{ns}g')
+figure = outer.find(f'{ns}g')
+def shape_signature(node):
+    return node.tag, tuple(sorted(node.attrib.items()))
+expected_shapes = sorted(shape_signature(node) for node in figure)
+actual_shapes = []
+layer_files = sorted((glass/'layers').glob('*.svg'))
+assert len(layer_files) == 7
+for p in layer_files:
+    root = ET.parse(p).getroot()
+    assert root.get('viewBox') == '0 0 1024 1024'
+    assert root.get('width') == root.get('height') == '1024'
+    assert not {'rect', 'image', 'filter', 'mask', 'clipPath', 'linearGradient', 'radialGradient'} & {n.tag.rsplit('}',1)[-1] for n in root.iter()}
+    layer_outer = root.find(f'{ns}g')
+    layer_figure = layer_outer.find(f'{ns}g')
+    assert layer_outer.attrib == outer.attrib and layer_figure.attrib == figure.attrib
+    assert len(layer_figure) == 1
+    actual_shapes.append(shape_signature(layer_figure[0]))
+    assert p.read_bytes() == (icon/'Assets'/p.name).read_bytes()
+assert sorted(actual_shapes) == expected_shapes, 'Liquid Glass geometry or colors drifted'
+references = [layer['image-name'] for group in document['groups'] for layer in group['layers']]
+assert sorted(references) == [p.name for p in layer_files]
+for group in document['groups']:
+    for layer in group['layers']:
+        assert layer['fill-specializations'] == [{'appearance': 'tinted', 'value': {'solid': 'extended-srgb:1.00000,1.00000,1.00000,1.00000'}}]
+fill_channels = [float(v) for v in document['fill']['solid'].split(':',1)[1].split(',')]
+assert all(abs(a-b) < .00001 for a,b in zip(fill_channels, [int(ink[i:i+2],16)/255 for i in (1,3,5)] + [1]))
+
+render = json.loads((glass/'render-manifest.json').read_text())
+assert render['renderer'] == 'Apple Icon Composer ictool' and render['renderer_version']
+assert set(render['source_files']) == {str(p.relative_to(icon)) for p in icon.rglob('*') if p.is_file()}
+for name, checksum in render['source_files'].items():
+    assert hashlib.sha256((icon/name).read_bytes()).hexdigest() == checksum, 'Native previews need re-rendering'
+renditions = {'Default', 'Dark', 'ClearLight', 'ClearDark', 'TintedLight', 'TintedDark'}
+assert len(render['exports']) == 18
+assert {(e['rendition'],e['points'],e['scale']) for e in render['exports']} == {(r,p,s) for r in renditions for p,s in [(1024,1),(60,3),(20,3)]}
+for entry in render['exports']:
+    p = glass/entry['path']
+    assert hashlib.sha256(p.read_bytes()).hexdigest() == entry['sha256']
+    im = Image.open(p)
+    size = entry['points'] * entry['scale']
+    assert im.mode == 'RGBA' and im.size == (size,size) and size == entry['pixels']
+    assert all(im.getpixel(point)[3] == 0 for point in [(0,0),(size-1,0),(0,size-1),(size-1,size-1)])
+    assert im.getchannel('A').getextrema() == (0,255)
+    assert p.read_bytes() == (ROOT/'docs/assets/brand/ios-liquid-glass'/p.name).read_bytes()
+assert (glass/'render-manifest.json').read_bytes() == (ROOT/'docs/assets/brand/ios-liquid-glass/render-manifest.json').read_bytes()
+with zipfile.ZipFile(BASE/'plectara-ios-liquid-glass.zip') as archive:
+    assert archive.testzip() is None
+    assert set(archive.namelist()) == {str(p.relative_to(glass)) for p in glass.rglob('*') if p.is_file()}
+    for p in glass.rglob('*'):
+        if p.is_file():
+            assert archive.read(str(p.relative_to(glass))) == p.read_bytes()
+assert (BASE/'plectara-ios-liquid-glass.zip').read_bytes() == (ROOT/'docs/assets/brand/plectara-ios-liquid-glass.zip').read_bytes()
+
 inventory = json.loads((BASE/'inventory.json').read_text())
 for entry in inventory['files']:
     assert hashlib.sha256((BASE/entry['path']).read_bytes()).hexdigest() == entry['sha256']
@@ -90,4 +149,4 @@ for name in ('horizontal','horizontal-reversed','horizontal-ink','horizontal-whi
     if name != 'app-icon':
         assert im.mode == 'RGBA' and im.getchannel('A').getextrema() == (0,255), name
 assert (BASE/'plectara-brand-kit.zip').read_bytes() == (ROOT/'docs/assets/brand/plectara-brand-kit.zip').read_bytes()
-print(f'Passed: {len(svgs)} vector SVGs, jade color heads, ink/white monochrome and lettering, transparent downloads, seven clearances, icon sizes, iOS opacity, Android safe area, inventory checksums, ZIP and site copies.')
+print(f'Passed: {len(svgs)} vector SVGs, jade color heads, ink/white monochrome and lettering, transparent downloads, seven clearances, icon sizes, iOS opacity, Android safe area, seven exact native icon layers, 18 native preview checksums and dimensions, inventory checksums, ZIP and site copies.')

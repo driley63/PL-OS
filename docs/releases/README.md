@@ -6,6 +6,7 @@ Release folders contain immutable release notes, manifests, checklists, and migr
 
 | Version | Status | Purpose |
 | --- | --- | --- |
+| [v2.2.0](v2.2.0/README.md) | Approved release | Native Liquid Glass iOS icon, six appearances, editable sources, and downloads |
 | [v2.1.0](v2.1.0/README.md) | Approved release | Jade heads in full color; monochrome, lettering, and downloadable logo samples |
 | [v2.0.0](v2.0.0/README.md) | Approved release | Plectara rebrand, PL-OS name, approved assets, accessible component colors |
 | v1.0.0 | Released baseline | Initial LIQ OS repository and baseline specs |

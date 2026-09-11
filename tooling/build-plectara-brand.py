@@ -9,6 +9,7 @@ import shutil
 import zipfile
 import sys
 import hashlib
+import subprocess
 import cairosvg
 from PIL import Image
 from fontTools.ttLib import TTFont
@@ -139,8 +140,22 @@ for directory, filenames in {
 for p in (BASE/'platform/ios/AppIcon.appiconset').glob('*.png'):
     with Image.open(p) as im:
         im.convert('RGB').save(p)
+if '--render-ios' in sys.argv:
+    subprocess.run([sys.executable, str(ROOT/'tooling/export-plectara-liquid-glass.py')], check=True)
+glass = BASE/'platform/ios/liquid-glass'
+glass_archive = BASE/'plectara-ios-liquid-glass.zip'
+with zipfile.ZipFile(glass_archive, 'w', zipfile.ZIP_DEFLATED) as z:
+    for p in sorted(glass.rglob('*')):
+        if p.is_file():
+            z.write(p, p.relative_to(glass))
+shutil.copy2(glass_archive, docs/glass_archive.name)
+glass_docs = docs/'ios-liquid-glass'
+glass_docs.mkdir(parents=True, exist_ok=True)
+for p in (glass/'previews').glob('*.png'):
+    shutil.copy2(p, glass_docs/p.name)
+shutil.copy2(glass/'render-manifest.json', glass_docs/'render-manifest.json')
 archive=BASE/'plectara-brand-kit.zip'
-inventory={'version':'2.1.0','owner':'Plectara product owner / Brand Working Group','approved':'2026-09-07','source':'tooling/build-plectara-brand.py; source/plectara-wordmark.svg; assets/tokens/','files':[]}
+inventory={'version':'2.2.0','owner':'Plectara product owner / Brand Working Group','approved':'2026-09-11','source':'tooling/build-plectara-brand.py; tooling/export-plectara-liquid-glass.py; source/plectara-wordmark.svg; platform/ios/liquid-glass/Plectara.icon; assets/tokens/','files':[]}
 for p in sorted(BASE.rglob('*')):
     if p.is_file() and p not in (archive,BASE/'inventory.json'):
         inventory['files'].append({'path':str(p.relative_to(BASE)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})

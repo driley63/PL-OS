@@ -1,8 +1,8 @@
 # Logo Usage
 
-Status: Approved for PL-OS v2.1.0
+Status: Approved for PL-OS v2.2.0
 Owner: Brand Working Group
-Last updated: 2026-09-07
+Last updated: 2026-09-11
 
 ## Sources and spacing
 
@@ -34,7 +34,9 @@ Do not recreate the wordmark with Inter or another font. Inter remains the UI an
 
 ## Misuse
 
-Do not stretch, rotate, crop, add effects, recolor individual strands, alter the six-unit gaps, replace the lettering, or reintroduce the legacy gradient. Do not use AI Purple as a generic logo color.
+The owner-approved [Liquid Glass iOS icon](plectara-brand-kit.md#liquid-glass-ios-icons) uses native materials applied to unchanged vector layers. Its full-color source preserves the jade head and ribbon palette; system-managed clear and tinted appearances may render the entire figure monochromatically. This platform treatment does not authorize adding effects or changing colors in flat logo masters.
+
+Do not stretch, rotate, crop, bake effects into flat artwork, recolor individual strands, alter the six-unit gaps, replace the lettering, or reintroduce the legacy gradient. Do not use AI Purple as a generic logo color.
 
 The optional supporting line “A healthier whole” is campaign copy, not part of the master logo. Do not add legal suffixes or registration symbols unless separately authorized and substantiated.
 

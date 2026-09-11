@@ -1,13 +1,121 @@
 # Plectara brand kit
 
-Status: Owner-approved color standard (2026-09-07)
-Version: 2.1.0
+Status: Owner-approved Liquid Glass icon treatment (2026-09-11); jade-head color standard retained
+Version: 2.2.0
 
 **Every full-color Plectara logo has a jade head (`#76B7A5`).** The woven figure keeps the same colors on light and dark backgrounds. Only the lettering changes: ink on light backgrounds, white on dark backgrounds. In a monochrome logo, the entire figure and lettering use one color.
 
-[Download the complete brand kit](../../assets/brand/plectara-brand-kit.zip){ .md-button .md-button--primary download="plectara-brand-kit-v2.1.0.zip" }
+[Download the complete brand kit](../../assets/brand/plectara-brand-kit.zip){ .md-button .md-button--primary download="plectara-brand-kit-v2.2.0.zip" }
 
 Choose an example below and download its SVG or PNG. SVGs scale without losing sharpness; PNGs are ready for documents, presentations, and other tools that accept images. The logo samples have transparent backgrounds. The ivory and ink panels show how to place them; those panels are not part of the downloaded artwork.
+
+## Liquid Glass iOS icons
+
+The woven figure now has an approved native Liquid Glass treatment. Default and dark appearances retain the jade head and ribbon palette; clear and tinted appearances use the same figure with system-managed monochrome materials.
+
+[Download the iOS icon package](../../assets/brand/plectara-ios-liquid-glass.zip){ .md-button .md-button--primary download="plectara-ios-liquid-glass-v2.2.0.zip" }
+
+The package includes the editable Icon Composer document, seven original SVG layers, and all six appearances as PNGs at 1024, 180, and 60 px. **For an app, use the included `Plectara.icon` document.** Choose a PNG below for a presentation or design review.
+
+<div class="plectara-logo-grid plectara-logo-grid--icons" markdown="1">
+
+<div class="plectara-logo-card" markdown="1">
+
+### Default
+
+<div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--light" markdown="1">
+
+![Plectara iOS icon — Default](../../assets/brand/ios-liquid-glass/plectara-ios-default-1024.png)
+
+</div>
+
+[Download 1024 px PNG](../../assets/brand/ios-liquid-glass/plectara-ios-default-1024.png){ download="plectara-ios-default-1024.png" }
+
+</div>
+
+<div class="plectara-logo-card" markdown="1">
+
+### Clear · Light
+
+<div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--light" markdown="1">
+
+![Plectara iOS icon — Clear · Light](../../assets/brand/ios-liquid-glass/plectara-ios-clear-light-1024.png)
+
+</div>
+
+[Download 1024 px PNG](../../assets/brand/ios-liquid-glass/plectara-ios-clear-light-1024.png){ download="plectara-ios-clear-light-1024.png" }
+
+</div>
+
+<div class="plectara-logo-card" markdown="1">
+
+### Tinted · Light
+
+<div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--light" markdown="1">
+
+![Plectara iOS icon — Tinted · Light](../../assets/brand/ios-liquid-glass/plectara-ios-tinted-light-1024.png)
+
+</div>
+
+[Download 1024 px PNG](../../assets/brand/ios-liquid-glass/plectara-ios-tinted-light-1024.png){ download="plectara-ios-tinted-light-1024.png" }
+
+</div>
+
+<div class="plectara-logo-card" markdown="1">
+
+### Dark
+
+<div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--dark" markdown="1">
+
+![Plectara iOS icon — Dark](../../assets/brand/ios-liquid-glass/plectara-ios-dark-1024.png)
+
+</div>
+
+[Download 1024 px PNG](../../assets/brand/ios-liquid-glass/plectara-ios-dark-1024.png){ download="plectara-ios-dark-1024.png" }
+
+</div>
+
+<div class="plectara-logo-card" markdown="1">
+
+### Clear · Dark
+
+<div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--dark" markdown="1">
+
+![Plectara iOS icon — Clear · Dark](../../assets/brand/ios-liquid-glass/plectara-ios-clear-dark-1024.png)
+
+</div>
+
+[Download 1024 px PNG](../../assets/brand/ios-liquid-glass/plectara-ios-clear-dark-1024.png){ download="plectara-ios-clear-dark-1024.png" }
+
+</div>
+
+<div class="plectara-logo-card" markdown="1">
+
+### Tinted · Dark
+
+<div class="plectara-logo-sample plectara-logo-sample--icon plectara-logo-sample--dark" markdown="1">
+
+![Plectara iOS icon — Tinted · Dark](../../assets/brand/ios-liquid-glass/plectara-ios-tinted-dark-1024.png)
+
+</div>
+
+[Download 1024 px PNG](../../assets/brand/ios-liquid-glass/plectara-ios-tinted-dark-1024.png){ download="plectara-ios-tinted-dark-1024.png" }
+
+</div>
+
+</div>
+
+These previews come from Apple's Icon Composer renderer. PNGs have transparent outer corners and a flattened icon tile; the clear PNG does not dynamically refract a background. The native icon adapts to system lighting and appearance settings. Jade tint is shown as an example; people choose their Home Screen tint.
+
+??? info "Using the icon in Xcode"
+
+    Extract the ZIP and add the entire `Plectara.icon` document to your iOS application target. Set the target's **App Icons and Launch Screen → App Icon** name to **Plectara**, without the extension. Open the document in Icon Composer to inspect or adjust its layers.
+
+    Use the native document for the app; the rounded PNG previews are for review and communications. The complete brand kit still includes the legacy `AppIcon.appiconset` for older workflows. Verify the integration on your supported iOS versions and devices.
+
+    [Apple's Icon Composer instructions](https://developer.apple.com/documentation/xcode/creating-your-app-icon-using-icon-composer)
+
+The Liquid Glass treatment is specific to system app icons. Use the flat logo masters below for website, document, and in-app branding. [Read the v2.2.0 release notes](../../releases/v2.2.0/README.md).
 
 ## Logos with lettering
 
@@ -188,7 +296,7 @@ The complete ZIP also includes platform icon sizes, a favicon, web manifest, iOS
 
 Allow one head diameter of clear space around the standalone symbol and half a head diameter around a logo with lettering. Prefer 32 px or larger for the full woven symbol and at least 140 px wide for the horizontal logo. At 16 px, the favicon communicates silhouette only.
 
-Use a clear background and check the logo at its intended display size. If the full-color figure loses definition, increase its size, choose a clearer background, or use the complete monochrome version. Keep the full-color head jade in every case. Do not add outlines, shadows, gradients, or other effects.
+Use a clear background and check the logo at its intended display size. If the full-color figure loses definition, increase its size, choose a clearer background, or use the complete monochrome version. Keep the full-color head jade in every case. Do not add outlines, shadows, gradients, or other effects to flat logo masters. The approved native iOS icon uses system-rendered materials; its clear and tinted modes render the complete figure monochromatically.
 
 ![Plectara brand board with jade-headed full-color logos and an ink monochrome symbol](../../assets/brand/plectara-brand-board.png)
 
@@ -196,7 +304,7 @@ Use a clear background and check the logo at its intended display size. If the f
 
 Editable SVG masters live in `assets/brand/plectara/source/`, with generated PNGs in `assets/brand/plectara/png/`. The original reference PNG is retained for provenance only; it predates the jade-head standard and is not a current production asset. The owner-approved geometry, six-unit strand clearances, and outlined lettering from 2026-09-04 remain the construction baseline. The 2026-09-07 color standard supersedes the ink-headed full-color variant.
 
-Install `tooling/requirements-brand.txt`, then run `python tooling/build-plectara-tokens.py`, `python tooling/build-plectara-brand.py`, and `python tooling/validate-brand.py`. The build regenerates the site downloads, brand board, inventory, and ZIP. CairoSVG also requires a system Cairo library.
+Install `tooling/requirements-brand.txt`, then run `python tooling/build-plectara-tokens.py`, `python tooling/build-plectara-brand.py`, and `python tooling/validate-brand.py`. The build regenerates the site downloads, brand board, inventory, and ZIP. Add `--render-ios` to the brand build on a Mac with Xcode and Icon Composer to refresh all native iOS previews; ordinary builds reuse the checked-in renders. CairoSVG also requires a system Cairo library.
 
 Normal builds reuse `source/plectara-wordmark.svg`. Do not retrace or substitute the lettering during ordinary exports. Explicit wordmark recovery uses `--retrace-wordmark` under Python 3.12; the installed VTracer build crashes under Python 3.14.
 

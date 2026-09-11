@@ -1,0 +1,168 @@
+{
+  "version": "2.2.0",
+  "approved": "2026-09-11",
+  "platform": "iOS",
+  "renderer": "Apple Icon Composer ictool",
+  "renderer_version": "{\n  \"bundle-version\" : \"59\",\n  \"short-bundle-version\" : \"1.1\"\n}",
+  "tinted_preview": {
+    "color": 0.55,
+    "strength": 0.4,
+    "note": "Preview choice only. The device owner controls the tint."
+  },
+  "source_files": {
+    "Assets/01-jade-upper.svg": "8a4e1acedf00dc627017c3af73e1f02c29c35130a134b60c40459561c3c63974",
+    "Assets/02-slate-ribbon.svg": "038e15eed0d9cc9f4a0f5ce91394bef39cfc2b47be62fe4aeddf1221216e358d",
+    "Assets/03-copper-lower.svg": "8d7ffec04d78b8475ab1b40b855939cf7ec73e4b9cf77d6718e57b751f8a34d6",
+    "Assets/04-jade-lower.svg": "e8bc481d9e83e23e4901d07b0459c1539a36a1309a1145eca9c175e4121b54a1",
+    "Assets/05-copper-front.svg": "7133f95810a2d9487fe98b6f6df3b925236d522a83082d6d82681ef143dbd107",
+    "Assets/06-teal-ribbon.svg": "e5cb6849019f0bf5a256c8e5259dc98c65d26211b0adec02b5b01b5df96f95ff",
+    "Assets/07-jade-head.svg": "d925dda2832d211193eff1ef211d383d8ed5219ae05c122dcf20b07802f4f7ec",
+    "icon.json": "8c9ecf8b7432fa2aebcd9b122db57a9d21f82076a9a8dcfd69d70b8e1dda8149"
+  },
+  "exports": [
+    {
+      "path": "previews/plectara-ios-default-1024.png",
+      "rendition": "Default",
+      "points": 1024,
+      "scale": 1,
+      "pixels": 1024,
+      "sha256": "c1ff548e721d8ca82cc11cea5e228250184b8361dc0ed28d4cf7fa3e374b10d3"
+    },
+    {
+      "path": "previews/plectara-ios-default-180.png",
+      "rendition": "Default",
+      "points": 60,
+      "scale": 3,
+      "pixels": 180,
+      "sha256": "194e5835fe2564cd32ae4f6eb7fefe47e156e5d81b8bda000052945e574c9367"
+    },
+    {
+      "path": "previews/plectara-ios-default-60.png",
+      "rendition": "Default",
+      "points": 20,
+      "scale": 3,
+      "pixels": 60,
+      "sha256": "9350963e1e009b7abe7442ffa7bc550c1d9710f8c19a88d506105d4c256155f9"
+    },
+    {
+      "path": "previews/plectara-ios-dark-1024.png",
+      "rendition": "Dark",
+      "points": 1024,
+      "scale": 1,
+      "pixels": 1024,
+      "sha256": "0f8e78f6fda3ae48600894f16960b7de4774d59518c480789a2ea3ee4f7c598d"
+    },
+    {
+      "path": "previews/plectara-ios-dark-180.png",
+      "rendition": "Dark",
+      "points": 60,
+      "scale": 3,
+      "pixels": 180,
+      "sha256": "8358059c087309147de544978fc2fee89659e774ea802505d469796a3caad721"
+    },
+    {
+      "path": "previews/plectara-ios-dark-60.png",
+      "rendition": "Dark",
+      "points": 20,
+      "scale": 3,
+      "pixels": 60,
+      "sha256": "6c8e2d5506aab1753025209af2c5693acf4a5837f69e4432e4c07574f435b8c4"
+    },
+    {
+      "path": "previews/plectara-ios-clear-light-1024.png",
+      "rendition": "ClearLight",
+      "points": 1024,
+      "scale": 1,
+      "pixels": 1024,
+      "sha256": "6cab0e41cb23f691659219a372155d377977213a0d861f5ff4710e194c7d3d80"
+    },
+    {
+      "path": "previews/plectara-ios-clear-light-180.png",
+      "rendition": "ClearLight",
+      "points": 60,
+      "scale": 3,
+      "pixels": 180,
+      "sha256": "f73041339e72fad499f4aff4fcaf2849bdbfd8f2100596398331064e4b1eeed1"
+    },
+    {
+      "path": "previews/plectara-ios-clear-light-60.png",
+      "rendition": "ClearLight",
+      "points": 20,
+      "scale": 3,
+      "pixels": 60,
+      "sha256": "65e34e6c706a9a520797236496c27d3af272da97d75e38ef474d287256c35e13"
+    },
+    {
+      "path": "previews/plectara-ios-clear-dark-1024.png",
+      "rendition": "ClearDark",
+      "points": 1024,
+      "scale": 1,
+      "pixels": 1024,
+      "sha256": "22c871db4966a65d2f00ae4659efa3c9ba36f46214338a0d5529166ad637eb15"
+    },
+    {
+      "path": "previews/plectara-ios-clear-dark-180.png",
+      "rendition": "ClearDark",
+      "points": 60,
+      "scale": 3,
+      "pixels": 180,
+      "sha256": "9e5feb94571c39a7826ccafc992eeb6282277597163b5bad9e56c664ad0514cc"
+    },
+    {
+      "path": "previews/plectara-ios-clear-dark-60.png",
+      "rendition": "ClearDark",
+      "points": 20,
+      "scale": 3,
+      "pixels": 60,
+      "sha256": "63abe3f4d673690151c4f6117480ebb8318098c221d28421f6cd151d26b5a5cc"
+    },
+    {
+      "path": "previews/plectara-ios-tinted-light-1024.png",
+      "rendition": "TintedLight",
+      "points": 1024,
+      "scale": 1,
+      "pixels": 1024,
+      "sha256": "4653399e416e31f3765c052e6a385dc4ed548892ca6bcce1b1811325c818b9c3"
+    },
+    {
+      "path": "previews/plectara-ios-tinted-light-180.png",
+      "rendition": "TintedLight",
+      "points": 60,
+      "scale": 3,
+      "pixels": 180,
+      "sha256": "decec133eb1954327c323333c3a247e1ee7346f148b113dced19d169d753f833"
+    },
+    {
+      "path": "previews/plectara-ios-tinted-light-60.png",
+      "rendition": "TintedLight",
+      "points": 20,
+      "scale": 3,
+      "pixels": 60,
+      "sha256": "4d126ec050f30c6f299babb3d7cc2960a3dfbcb78ca56f96a2bbd7c566c1a49d"
+    },
+    {
+      "path": "previews/plectara-ios-tinted-dark-1024.png",
+      "rendition": "TintedDark",
+      "points": 1024,
+      "scale": 1,
+      "pixels": 1024,
+      "sha256": "f4b83510381bff316d64c085d8ba5821f8c8e0eb35472b738192ab6422a7c181"
+    },
+    {
+      "path": "previews/plectara-ios-tinted-dark-180.png",
+      "rendition": "TintedDark",
+      "points": 60,
+      "scale": 3,
+      "pixels": 180,
+      "sha256": "d6db4ddd905c6a4e6b1caba686ed96eff4ac4c31bb9e5536d55f610a7c4dba69"
+    },
+    {
+      "path": "previews/plectara-ios-tinted-dark-60.png",
+      "rendition": "TintedDark",
+      "points": 20,
+      "scale": 3,
+      "pixels": 60,
+      "sha256": "1deb553a569a94a75b905aa2d7e260771c5a32f2aeadca66f65f147b2d0f28de"
+    }
+  ]
+}

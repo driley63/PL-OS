@@ -1,9 +1,10 @@
-# Plectara approved brand kit — PL-OS v2.1.0
+# Plectara approved brand kit — PL-OS v2.2.0
 
 Owner: Plectara product owner / Brand Working Group
 Artwork approval: 2026-09-04
 Color standard approval: 2026-09-07
-Status: Owner-approved jade-head standard for the v2.1.0 release
+Liquid Glass icon direction approval: 2026-09-11
+Status: Owner-approved Liquid Glass platform treatment; jade-head master standard retained
 
 ## Use these files
 
@@ -13,6 +14,8 @@ Status: Owner-approved jade-head standard for the v2.1.0 release
 | `png/` | Generated logo PNGs, app/avatar tiles, social card, social banner, and brand board |
 | `icons/` | 16–2048 px app exports, favicon, and PWA manifest |
 | `platform/ios/AppIcon.appiconset/` | Generated iPhone/iPad/store icon catalog |
+| `platform/ios/liquid-glass/` | Native Icon Composer source, seven SVG layers, six appearances at three preview sizes, and integration instructions |
+| `plectara-ios-liquid-glass.zip` | Standalone iOS icon download package |
 | `platform/android/res/` | Adaptive foreground/background and legacy launcher densities |
 | `reference/approved-woven-person.png` | Original approved concept; retained for provenance only |
 | `tokens/`, `web/`, `flutter/` | Color source and generated integration adapters |
@@ -47,6 +50,8 @@ If a full-color logo is difficult to see, increase its size, use a clearer backg
 
 Allow one head diameter of clear space around the standalone figure, half around a lockup. Use unrounded opaque app sources where platforms apply their own masks. Do not bake the social avatar's rounded corners into iOS icons.
 
+For the approved Liquid Glass iOS treatment, use `platform/ios/liquid-glass/Plectara.icon`. Its SVG layers preserve the original geometry and colors while Apple applies material effects. Clear and tinted modes may render the entire figure monochromatically. The rendered PNGs have transparent outer corners and are for review or communications; use the native document for system behavior. This platform treatment does not change flat logo usage.
+
 The original lettering is custom outlined artwork recovered from the approved concept, not an identified font. Inter remains the UI family and is licensed separately in `fonts/OFL.txt`. Artwork approval is not legal registration or a guarantee of exclusive rights. No company suffix or registration symbol is authorized by this kit.
 
 ## Regenerate
@@ -58,5 +63,7 @@ python tooling/build-plectara-tokens.py
 python tooling/build-plectara-brand.py
 python tooling/validate-brand.py
 ```
+
+On macOS with Xcode and Icon Composer, pass `--render-ios` to the brand build to regenerate the 18 native previews before packaging. Ordinary builds reuse the checked-in renders. See `platform/ios/liquid-glass/README.md` for the iOS workflow.
 
 Normal builds reuse the approved `source/plectara-wordmark.svg`. Do not retrace it or regenerate the concept image for ordinary exports. Source modifications require renewed visual review. See the canonical PL-OS brand specifications for full usage and governance.

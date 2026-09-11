@@ -1,13 +1,13 @@
 {
-  "version": "2.1.0",
+  "version": "2.2.0",
   "owner": "Plectara product owner / Brand Working Group",
-  "approved": "2026-09-07",
-  "source": "tooling/build-plectara-brand.py; source/plectara-wordmark.svg; assets/tokens/",
+  "approved": "2026-09-11",
+  "source": "tooling/build-plectara-brand.py; tooling/export-plectara-liquid-glass.py; source/plectara-wordmark.svg; platform/ios/liquid-glass/Plectara.icon; assets/tokens/",
   "files": [
     {
       "path": "README.md",
-      "bytes": 4450,
-      "sha256": "b32265161fce93925b776cf3197b9e7c93f0237233e74d3cc1b803a5c3322f47"
+      "bytes": 5443,
+      "sha256": "e002d54fdd56f3b1625aa177d40cb9af8ea6525cd336bb69c15e637e784ca52a"
     },
     {
       "path": "contrast-report.md",
@@ -278,6 +278,191 @@
       "path": "platform/ios/AppIcon.appiconset/marketing-1024.png",
       "bytes": 38537,
       "sha256": "a09aa7d8480bb23e70f3581f8fc6bc849c21c14b1d07713bc00699418df4c873"
+    },
+    {
+      "path": "platform/ios/liquid-glass/.DS_Store",
+      "bytes": 6148,
+      "sha256": "103c54a520a9d8becadc5dae59851d86cd41f679ee2bc70719bc145e62df6be8"
+    },
+    {
+      "path": "platform/ios/liquid-glass/Plectara.icon/Assets/01-jade-upper.svg",
+      "bytes": 3265,
+      "sha256": "8a4e1acedf00dc627017c3af73e1f02c29c35130a134b60c40459561c3c63974"
+    },
+    {
+      "path": "platform/ios/liquid-glass/Plectara.icon/Assets/02-slate-ribbon.svg",
+      "bytes": 4115,
+      "sha256": "038e15eed0d9cc9f4a0f5ce91394bef39cfc2b47be62fe4aeddf1221216e358d"
+    },
+    {
+      "path": "platform/ios/liquid-glass/Plectara.icon/Assets/03-copper-lower.svg",
+      "bytes": 3787,
+      "sha256": "8d7ffec04d78b8475ab1b40b855939cf7ec73e4b9cf77d6718e57b751f8a34d6"
+    },
+    {
+      "path": "platform/ios/liquid-glass/Plectara.icon/Assets/04-jade-lower.svg",
+      "bytes": 2842,
+      "sha256": "e8bc481d9e83e23e4901d07b0459c1539a36a1309a1145eca9c175e4121b54a1"
+    },
+    {
+      "path": "platform/ios/liquid-glass/Plectara.icon/Assets/05-copper-front.svg",
+      "bytes": 4007,
+      "sha256": "7133f95810a2d9487fe98b6f6df3b925236d522a83082d6d82681ef143dbd107"
+    },
+    {
+      "path": "platform/ios/liquid-glass/Plectara.icon/Assets/06-teal-ribbon.svg",
+      "bytes": 4803,
+      "sha256": "e5cb6849019f0bf5a256c8e5259dc98c65d26211b0adec02b5b01b5df96f95ff"
+    },
+    {
+      "path": "platform/ios/liquid-glass/Plectara.icon/Assets/07-jade-head.svg",
+      "bytes": 333,
+      "sha256": "d925dda2832d211193eff1ef211d383d8ed5219ae05c122dcf20b07802f4f7ec"
+    },
+    {
+      "path": "platform/ios/liquid-glass/Plectara.icon/icon.json",
+      "bytes": 2735,
+      "sha256": "8c9ecf8b7432fa2aebcd9b122db57a9d21f82076a9a8dcfd69d70b8e1dda8149"
+    },
+    {
+      "path": "platform/ios/liquid-glass/README.md",
+      "bytes": 3963,
+      "sha256": "4ce4a4be7ab7ac5f56a076a80996fe3456248b8b7ae734aa2987a71d8d211180"
+    },
+    {
+      "path": "platform/ios/liquid-glass/layers/01-jade-upper.svg",
+      "bytes": 3265,
+      "sha256": "8a4e1acedf00dc627017c3af73e1f02c29c35130a134b60c40459561c3c63974"
+    },
+    {
+      "path": "platform/ios/liquid-glass/layers/02-slate-ribbon.svg",
+      "bytes": 4115,
+      "sha256": "038e15eed0d9cc9f4a0f5ce91394bef39cfc2b47be62fe4aeddf1221216e358d"
+    },
+    {
+      "path": "platform/ios/liquid-glass/layers/03-copper-lower.svg",
+      "bytes": 3787,
+      "sha256": "8d7ffec04d78b8475ab1b40b855939cf7ec73e4b9cf77d6718e57b751f8a34d6"
+    },
+    {
+      "path": "platform/ios/liquid-glass/layers/04-jade-lower.svg",
+      "bytes": 2842,
+      "sha256": "e8bc481d9e83e23e4901d07b0459c1539a36a1309a1145eca9c175e4121b54a1"
+    },
+    {
+      "path": "platform/ios/liquid-glass/layers/05-copper-front.svg",
+      "bytes": 4007,
+      "sha256": "7133f95810a2d9487fe98b6f6df3b925236d522a83082d6d82681ef143dbd107"
+    },
+    {
+      "path": "platform/ios/liquid-glass/layers/06-teal-ribbon.svg",
+      "bytes": 4803,
+      "sha256": "e5cb6849019f0bf5a256c8e5259dc98c65d26211b0adec02b5b01b5df96f95ff"
+    },
+    {
+      "path": "platform/ios/liquid-glass/layers/07-jade-head.svg",
+      "bytes": 333,
+      "sha256": "d925dda2832d211193eff1ef211d383d8ed5219ae05c122dcf20b07802f4f7ec"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-clear-dark-1024.png",
+      "bytes": 1268366,
+      "sha256": "22c871db4966a65d2f00ae4659efa3c9ba36f46214338a0d5529166ad637eb15"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-clear-dark-180.png",
+      "bytes": 76111,
+      "sha256": "9e5feb94571c39a7826ccafc992eeb6282277597163b5bad9e56c664ad0514cc"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-clear-dark-60.png",
+      "bytes": 15120,
+      "sha256": "63abe3f4d673690151c4f6117480ebb8318098c221d28421f6cd151d26b5a5cc"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-clear-light-1024.png",
+      "bytes": 1165893,
+      "sha256": "6cab0e41cb23f691659219a372155d377977213a0d861f5ff4710e194c7d3d80"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-clear-light-180.png",
+      "bytes": 65679,
+      "sha256": "f73041339e72fad499f4aff4fcaf2849bdbfd8f2100596398331064e4b1eeed1"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-clear-light-60.png",
+      "bytes": 12620,
+      "sha256": "65e34e6c706a9a520797236496c27d3af272da97d75e38ef474d287256c35e13"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-dark-1024.png",
+      "bytes": 1488417,
+      "sha256": "0f8e78f6fda3ae48600894f16960b7de4774d59518c480789a2ea3ee4f7c598d"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-dark-180.png",
+      "bytes": 37295,
+      "sha256": "8358059c087309147de544978fc2fee89659e774ea802505d469796a3caad721"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-dark-60.png",
+      "bytes": 6306,
+      "sha256": "6c8e2d5506aab1753025209af2c5693acf4a5837f69e4432e4c07574f435b8c4"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-default-1024.png",
+      "bytes": 1568293,
+      "sha256": "c1ff548e721d8ca82cc11cea5e228250184b8361dc0ed28d4cf7fa3e374b10d3"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-default-180.png",
+      "bytes": 36537,
+      "sha256": "194e5835fe2564cd32ae4f6eb7fefe47e156e5d81b8bda000052945e574c9367"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-default-60.png",
+      "bytes": 6459,
+      "sha256": "9350963e1e009b7abe7442ffa7bc550c1d9710f8c19a88d506105d4c256155f9"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-tinted-dark-1024.png",
+      "bytes": 648748,
+      "sha256": "f4b83510381bff316d64c085d8ba5821f8c8e0eb35472b738192ab6422a7c181"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-tinted-dark-180.png",
+      "bytes": 34186,
+      "sha256": "d6db4ddd905c6a4e6b1caba686ed96eff4ac4c31bb9e5536d55f610a7c4dba69"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-tinted-dark-60.png",
+      "bytes": 5577,
+      "sha256": "1deb553a569a94a75b905aa2d7e260771c5a32f2aeadca66f65f147b2d0f28de"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-tinted-light-1024.png",
+      "bytes": 1208347,
+      "sha256": "4653399e416e31f3765c052e6a385dc4ed548892ca6bcce1b1811325c818b9c3"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-tinted-light-180.png",
+      "bytes": 69336,
+      "sha256": "decec133eb1954327c323333c3a247e1ee7346f148b113dced19d169d753f833"
+    },
+    {
+      "path": "platform/ios/liquid-glass/previews/plectara-ios-tinted-light-60.png",
+      "bytes": 13797,
+      "sha256": "4d126ec050f30c6f299babb3d7cc2960a3dfbcb78ca56f96a2bbd7c566c1a49d"
+    },
+    {
+      "path": "platform/ios/liquid-glass/render-manifest.json",
+      "bytes": 5588,
+      "sha256": "fee63b924b36233d55c17f5d812f297c98242615178cfc520a64006503a0c43d"
+    },
+    {
+      "path": "plectara-ios-liquid-glass.zip",
+      "bytes": 7678346,
+      "sha256": "ac4c91afd9bda61a1f9e407f95aa6e4298a22c16bfad2949e1bed8eec9ee714e"
     },
     {
       "path": "png/plectara-android-foreground.png",

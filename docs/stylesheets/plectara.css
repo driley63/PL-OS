@@ -82,6 +82,7 @@ body { color: var(--md-default-fg-color); font-family: var(--liq-font-text); }
 /* Keep each logo on its intended background in either documentation theme. */
 .plectara-logo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin: 1.25rem 0 2rem; }
 .plectara-logo-grid--symbols { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.plectara-logo-grid--icons { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .plectara-logo-card { min-width: 0; }
 .md-typeset .plectara-logo-card h3 { margin: 0 0 .75rem; font-size: 1rem; }
 .plectara-logo-card p { font-size: .85rem; }
@@ -94,7 +95,10 @@ body { color: var(--md-default-fg-color); font-family: var(--liq-font-text); }
 .plectara-logo-sample img { display: block; width: 100%; height: auto; margin: 0; }
 .plectara-logo-sample--symbol img { width: auto; max-width: 100%; height: 7.5rem; }
 .plectara-logo-sample--wordmark { min-height: 7rem; padding: 1.75rem; }
+.plectara-logo-sample--icon { min-height: 12rem; padding: 1.25rem; }
+.plectara-logo-sample--icon > p { display: flex; justify-content: center; }
+.plectara-logo-sample--icon img { width: 100%; max-width: 12rem; height: auto; }
 @media screen and (max-width: 44.9375em) {
   .md-header__button.md-logo img, .md-header__button.md-logo svg { height: 1.85rem; max-width: 7.75rem; }
-  .plectara-logo-grid, .plectara-logo-grid--symbols { grid-template-columns: minmax(0, 1fr); }
+  .plectara-logo-grid, .plectara-logo-grid--symbols, .plectara-logo-grid--icons { grid-template-columns: minmax(0, 1fr); }
 }

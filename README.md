@@ -6,16 +6,16 @@ This repository treats product documentation like software. Specifications are v
 
 ## Current Version
 
-- Version: v2.1.0
-- Status: Approved v2.1.0 release
-- Prepared: 2026-09-07
+- Version: v2.2.0
+- Status: Approved v2.2.0 release
+- Prepared: 2026-09-11
 - Product name: Plectara
 - Operating system name: PL-OS
 - Design philosophy: "Translating daily habits into a plan towards optimal health."
 
 The published site is [pl-os.plectara.com](https://pl-os.plectara.com/) and the GitHub repository is [driley63/PL-OS](https://github.com/driley63/PL-OS). The local folder remains `LIQ-OS`; historical releases retain their original names.
 
-See the [approved brand kit](docs/specs/01-brand/plectara-brand-kit.md), [logo samples and downloads](docs/specs/01-brand/plectara-brand-kit.md#logos-with-lettering), and [v2.1.0 notes](docs/releases/v2.1.0/README.md).
+See the [approved brand kit](docs/specs/01-brand/plectara-brand-kit.md), [Liquid Glass iOS icons and downloads](docs/specs/01-brand/plectara-brand-kit.md#liquid-glass-ios-icons), and [v2.2.0 notes](docs/releases/v2.2.0/README.md).
 
 ## Repository Map
 

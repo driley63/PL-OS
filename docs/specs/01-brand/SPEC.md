@@ -1,8 +1,8 @@
-# Volume 01 - Brand Identity Specification v2.1.0
+# Volume 01 - Brand Identity Specification v2.2.0
 
-Status: Approved for v2.1.0
+Status: Approved for v2.2.0
 Owner: Brand Working Group
-Last updated: 2026-09-07
+Last updated: 2026-09-11
 
 ## Purpose
 
@@ -41,6 +41,8 @@ The brand system does not define product features, medical claims, clinical poli
 The approved logo is a woven human figure in teal, jade, copper, and slate, paired with the restored outlined Plectara wordmark. The owner approved the final geometry, uniform separation channels, and lettering on 2026-09-04. The 2026-09-07 color standard requires a jade (`#76B7A5`) head in every full-color logo. Use ink lettering on light backgrounds and white lettering on dark backgrounds. Monochrome versions use a single ink or white fill for the whole figure and lettering. The icon must work as an iOS app icon, Android launcher icon, favicon, social avatar, wearable icon, and standalone product symbol.
 
 Production logo files must be treated as source-controlled assets. Teams must not redraw, trace, approximate, or manually recreate the mark from screenshots.
+
+The 2026-09-11 owner-approved Liquid Glass treatment adds a native iOS icon built from the same vector layers. System materials supply lighting and depth; clear and tinted appearances may render the whole figure monochromatically. Use the editable `Plectara.icon` document for iOS integration and the native PNG renders for review and communications. The flat logo masters and outlined wordmark retain their existing rules.
 
 ## Color System
 
@@ -85,6 +87,7 @@ A Volume 01 change is complete when:
 
 ## Version History
 
+- v2.2.0: Adds native Liquid Glass iOS icon sources, six system appearances, three preview sizes, downloadable packages, and platform-specific usage guidance.
 - v2.1.0: Standardizes jade heads in all full-color logos, ink/white lettering, complete monochrome variants, and visible SVG/PNG downloads.
 - v2.0.0: Adopts the approved Plectara identity, restored outlined lettering, and light/dark semantic palette; preserves the component and UI typography systems.
 
