@@ -16,8 +16,10 @@ Keep the existing component library's typography, spacing, radii, layout, motion
 | Input boundary / disabled outline | #738B8D | #8DA4A6 |
 | Selected card / chip | #E9F3EF, ink label, teal outline | #264C4B, ivory label, jade outline |
 | Decorative accent | Copper #C88764 or jade | Copper or jade |
-| Chart series | Teal, slate, copper, jade | Same identities on dark surface |
+| Default chart series | Primary teal / readable slate | Primary jade / readable secondary text tone |
 
 Copper and jade are not normal-sized text colors on ivory and do not carry critical state alone. Charts require labels, marker shapes, or line patterns, and must be checked for adjacent-series contrast. Add ink outlines where a light series needs a visible boundary. AI Purple stays exclusive to AI; use accessible #6748D8 for text on light surfaces and #B7A7FF on ink. Error, warning, success, and info remain independent semantic roles, with labels/icons as well as color.
+
+Follow [Dark Mode & Accessibility](dark-mode.md) for the complete state matrix and tested chart roles. Use opaque semantic roles for hints and status text; validate every added surface or alpha treatment. Raw logo teal and slate are not approved default strokes on dark cards. Review the [Flutter source audit](../04-engineering/dark-mode-audit-2026-09-14.md) for concrete migration failures.
 
 Use `assets/web/plectara-tokens.css` or `assets/flutter/plectara_colors.dart`. CSS includes light/dark semantic roles and component aliases. Existing `--liq-*` and Flutter `LifestyleIQColors` names are compatibility aliases; adopt `--plectara-*` and `PlectaraColors` in new components. The former signature-gradient alias now resolves to solid teal so existing consumers no longer display lime gradients.

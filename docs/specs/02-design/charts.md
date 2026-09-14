@@ -1,9 +1,9 @@
 # Charts
 
-Status: Released
+Status: Released baseline with v2.4.0 dark mode addendum
 Owner: Design System Working Group
 Version: 1.2.0
-Last updated: 2026-08-04
+Last updated: 2026-09-14
 
 ## Purpose
 
@@ -37,6 +37,7 @@ Defines chart selection, visual encoding, accessibility, evidence labeling, and 
 ## Visual Encoding
 
 - Use Brand Identity colors through semantic chart tokens.
+- Follow the [dark mode chart contract](dark-mode.md#charts-and-health-data): default series use `primary` and `textSecondary`, with distinct patterns/markers. Check every used background and any necessary adjacent-series boundaries; logo primitives do not establish a tested chart palette.
 - Reserve AI Purple for AI-generated insight overlays, confidence, or AI explanation layers.
 - Use stroke style, icons, labels, or patterns in addition to hue.
 - Avoid decorative gradients inside dense analytical charts.
@@ -74,6 +75,8 @@ Every chart should expose:
 - specs/05-ai/confidence-and-evidence.md
 
 ## Version History
+
+- v2.4.0: Applies the dark mode component contract and current accessibility target; see RFC-0006.
 
 - v1.2.0: Adds chart selection, visual encoding, required context, and accessibility rules.
 - v1.0.0: Initial repository baseline.

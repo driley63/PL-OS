@@ -4,6 +4,20 @@ All notable changes to PL-OS (formerly LIQ OS) are recorded in this file.
 
 The format follows Keep a Changelog conventions and the project uses semantic versioning for published operating system releases.
 
+## [v2.4.0] - 2026-09-14
+
+### Added
+
+- Dark Mode & Accessibility standard with a WCAG 2.2 AA engineering target, native-software interpretation, surface rules, component states, chart treatments, and app release evidence requirements.
+- 140 component contrast checks covering both themes, selected surfaces, placeholders, state labels, control indicators, charts, and filled actions; six calculation and regression tests in CI.
+- Dated Plectara Flutter source audit with measured failures, exact source references, reproducible fixtures, and prioritized remediation.
+- Expanded interactive component samples for inputs, selected controls, status badges, focus, and charts.
+
+### Changed
+
+- Link Brand, Design, Engineering, and Flutter integration guidance to the dark mode contract; distinguish WCAG thresholds from PL-OS platform sizing and focus conventions.
+- Preserve the approved palette, logo assets, and released download packages. App remediation and device accessibility verification remain separate from this standards update.
+
 ## [v2.3.0] - 2026-09-11
 
 ### Added

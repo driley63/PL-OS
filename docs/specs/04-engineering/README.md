@@ -36,6 +36,7 @@ Engineering Standards translate product, design, AI, and governance requirements
 - `security-and-privacy.md`: secure handling of health data, permissions, secrets, storage, and threat review
 - `performance.md`: performance budgets, measurement, startup, runtime, network, and battery behavior
 - `accessibility-testing.md`: automated and manual accessibility validation across product surfaces
+- [Dark mode source audit](dark-mode-audit-2026-09-14.md): dated Plectara app findings, measured failures, and remediation order
 - `release-engineering.md`: versioning, release branches, artifacts, rollback, and post-release verification
 
 ## Acceptance Criteria

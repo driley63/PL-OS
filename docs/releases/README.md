@@ -6,6 +6,7 @@ Release folders contain immutable release notes, manifests, checklists, and migr
 
 | Version | Status | Purpose |
 | --- | --- | --- |
+| [v2.4.0](v2.4.0/README.md) | Approved release | Dark mode standards, component contrast checks, and app source audit |
 | [v2.3.0](v2.3.0/README.md) | Approved release | Adaptive Android vectors, themed icons, shape previews, and downloads |
 | [v2.2.0](v2.2.0/README.md) | Approved release | Native Liquid Glass iOS icon, six appearances, editable sources, and downloads |
 | [v2.1.0](v2.1.0/README.md) | Approved release | Jade heads in full color; monochrome, lettering, and downloadable logo samples |

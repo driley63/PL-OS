@@ -6,16 +6,18 @@ This repository treats product documentation like software. Specifications are v
 
 ## Current Version
 
-- Version: v2.3.0
-- Status: Approved v2.3.0 release
-- Prepared: 2026-09-11
+- Version: v2.4.0
+- Status: Approved v2.4.0 release
+- Prepared: 2026-09-14
 - Product name: Plectara
 - Operating system name: PL-OS
 - Design philosophy: "Translating daily habits into a plan towards optimal health."
 
 The published site is [pl-os.plectara.com](https://pl-os.plectara.com/) and the GitHub repository is [driley63/PL-OS](https://github.com/driley63/PL-OS). The local folder remains `LIQ-OS`; historical releases retain their original names.
 
-See the [approved brand kit](docs/specs/01-brand/plectara-brand-kit.md), [Android icons and downloads](docs/specs/01-brand/plectara-brand-kit.md#adaptive-android-icons), and [v2.3.0 notes](docs/releases/v2.3.0/README.md).
+See the [approved brand kit](docs/specs/01-brand/plectara-brand-kit.md), [Android icons and downloads](docs/specs/01-brand/plectara-brand-kit.md#adaptive-android-icons), and [v2.4.0 notes](docs/releases/v2.4.0/README.md).
+
+The [Dark Mode & Accessibility standard](docs/specs/02-design/dark-mode.md) defines component states, contrast, charts, and app validation. The [app source audit](docs/specs/04-engineering/dark-mode-audit-2026-09-14.md) records the remaining Plectara implementation work.
 
 ## Repository Map
 

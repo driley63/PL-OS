@@ -1,0 +1,33 @@
+{
+  "version": "2.4.0",
+  "date": "2026-09-14",
+  "change_class": "minor",
+  "approval": "Product owner authorized implementation and pushing the PL-OS changes to main for deployment",
+  "scope": [
+    "Dark Mode & Accessibility standard",
+    "140 component contrast checks and six regression tests",
+    "Plectara Flutter source audit and measurement fixtures",
+    "Component previews and Flutter integration guidance",
+    "Accessibility release evidence requirements"
+  ],
+  "standards": {
+    "dark_mode": "docs/specs/02-design/dark-mode.md",
+    "accessibility_testing": "docs/specs/04-engineering/accessibility-testing.md"
+  },
+  "audit": {
+    "report": "docs/specs/04-engineering/dark-mode-audit-2026-09-14.md",
+    "fixtures": "docs/assets/audits/plectara-dark-mode-2026-09-14.json",
+    "app_revision": "a5e636b043c3cda8bb96dec8990ade179eabd16f",
+    "scope": "Source-resolved colors; distributed build and device testing not included"
+  },
+  "validation": [
+    "64 original palette contrast checks",
+    "140 component contrast checks",
+    "Six contrast calculation and regression tests",
+    "Approved brand asset validator",
+    "Strict MkDocs build",
+    "Flutter integration example analysis",
+    "Light and dark component preview review"
+  ],
+  "consumer_integration": "App remediation and device accessibility verification are separate from this PL-OS release"
+}

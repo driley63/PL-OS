@@ -21,6 +21,8 @@ The approved identity uses flat fills, not the former lime-to-teal gradient. The
 
 Product components must use semantic roles from `assets/tokens/color.tokens.json`, not logo primitives directly. [Component migration](../02-design/plectara-color-migration.md) defines the roles; the [live preview](../02-design/plectara-component-preview.md) shows both themes.
 
+The [Dark Mode & Accessibility standard](../02-design/dark-mode.md) defines surfaces, component states, transparency, charts, and the WCAG 2.2 AA engineering target. It extends this palette without changing the approved brand colors.
+
 Light actions use teal with white labels; dark actions use jade with ink labels. Supporting text and links use adjusted tones so they remain legible on muted surfaces. Copper and jade are not suitable defaults for small text on white. Borders required to identify controls use the border role, not the decorative divider role.
 
 ## State and AI meaning
@@ -32,5 +34,7 @@ Do not use purple for generic premium styling, navigation, or unrelated chart se
 ## Verification and governance
 
 The build checks 64 declared text/control pairs. See [contrast results](../02-design/plectara-contrast-report.md). This is not a complete accessibility audit of a consuming app.
+
+An additional [140 component checks](../02-design/plectara-component-contrast-report.md) cover enabled states, hints, chart strokes, selected surfaces, and filled actions. Added surfaces and composited treatments require separate measurements.
 
 Change colors in the JSON source, regenerate adapters, check the preview in both themes, and update migration notes. [ADR-0011](../../adr/0011-adopt-plectara.md) supersedes the previous palette. Historical release records preserve the old values.

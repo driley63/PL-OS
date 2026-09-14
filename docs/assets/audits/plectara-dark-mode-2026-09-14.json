@@ -1,0 +1,155 @@
+{
+  "scope": "Manually traced source color pairs; not a scan or distributed-build audit",
+  "date": "2026-09-14",
+  "repository": "Plectara",
+  "revision": "a5e636b043c3cda8bb96dec8990ade179eabd16f",
+  "sourceSha256": {
+    "lib/theme/app_theme.dart": "ec6fcdcbb2b2dd33d3a85eb9e60ed2c7d22faf6b5c86963952c8b02c7b10d96e",
+    "lib/theme/plectara_tokens.dart": "3695a82204e88c0e587ab6b3529fe0203ea4153109d056996e5ff21cf657bbac",
+    "lib/widgets/insight_card.dart": "7994f705f44dda81be552758dee7036d5cb057500c9d5671aade8cd99a1fc973",
+    "lib/widgets/liq_status_badge.dart": "45a8ed8104fe0f3a7b9581f969a2c0b800691f7f5bf5a77e2280b047e4318f0f",
+    "lib/widgets/liq_trend_chart.dart": "bbc2bc5a38af5aa71f2aeaec8710b540628c63c991b2dd695fe61bdd37be640f",
+    "lib/screens/appearance_screen.dart": "3601fb1c4bf33c08d28256d6eac7df6abcb961057fbcbbbc3b59f9260deb7355",
+    "lib/state/theme_controller.dart": "57da0f47f4aebd540548c5135cfb42c0cdb6660a8c309c41592635c00582282e",
+    "lib/main.dart": "64171d01b9ac803875161006f382a8b5f74e455e2d476e6a847ad13f7713e0f9",
+    "test/theme_controller_test.dart": "0b13097ba703df568b358eea9c3954a08ee83fc072e914125f56d7e31fd3fdff"
+  },
+  "pairs": [
+    {
+      "name": "Input placeholder on nested dark input",
+      "foreground": "#567788",
+      "background": "#2F5560",
+      "minimum": 4.5,
+      "source": "lib/theme/app_theme.dart:91-93,348-355"
+    },
+    {
+      "name": "Error outline adjacent to dark card",
+      "foreground": "#B53E3E",
+      "background": "#223D49",
+      "minimum": 3,
+      "source": "lib/theme/app_theme.dart:376-385"
+    },
+    {
+      "name": "Error outline adjacent to dark input fill",
+      "foreground": "#B53E3E",
+      "background": "#2F5560",
+      "minimum": 3,
+      "source": "lib/theme/app_theme.dart:91,376-385"
+    },
+    {
+      "name": "Selected appearance radio on dark card",
+      "foreground": "#287E80",
+      "background": "#223D49",
+      "minimum": 3,
+      "source": "lib/theme/app_theme.dart:437-443; lib/screens/appearance_screen.dart:85"
+    },
+    {
+      "name": "Primary trend chart stroke on dark card",
+      "foreground": "#287E80",
+      "background": "#223D49",
+      "minimum": 3,
+      "source": "lib/widgets/liq_trend_chart.dart:20,76,107"
+    },
+    {
+      "name": "Secondary trend chart stroke on dark card",
+      "foreground": "#567788",
+      "background": "#223D49",
+      "minimum": 3,
+      "source": "lib/widgets/liq_trend_chart.dart:20,76,107"
+    },
+    {
+      "name": "AI narrative heading on dark card",
+      "foreground": "#7B61FF",
+      "background": "#223D49",
+      "minimum": 4.5,
+      "source": "lib/widgets/insight_card.dart:104-114"
+    },
+    {
+      "name": "Insight acknowledged text on dark card",
+      "foreground": "#256F53",
+      "background": "#223D49",
+      "minimum": 4.5,
+      "source": "lib/widgets/insight_card.dart:183-187"
+    },
+    {
+      "name": "Critical urgency badge text on composited dark badge",
+      "foreground": "#B53E3E",
+      "background": "#223D49",
+      "minimum": 4.5,
+      "source": "lib/widgets/insight_card.dart:34-45,93-97; lib/widgets/liq_status_badge.dart:27-40",
+      "backgroundLayers": [
+        {
+          "color": "#B53E3E",
+          "alpha": 0.12
+        }
+      ]
+    },
+    {
+      "name": "Warning urgency badge text on composited dark badge",
+      "foreground": "#8A5900",
+      "background": "#223D49",
+      "minimum": 4.5,
+      "source": "lib/widgets/insight_card.dart:34-45,93-97; lib/widgets/liq_status_badge.dart:27-40",
+      "backgroundLayers": [
+        {
+          "color": "#8A5900",
+          "alpha": 0.12
+        }
+      ]
+    },
+    {
+      "name": "Info urgency badge text on composited dark badge",
+      "foreground": "#286A8A",
+      "background": "#223D49",
+      "minimum": 4.5,
+      "source": "lib/widgets/insight_card.dart:34-45,93-97; lib/widgets/liq_status_badge.dart:27-40",
+      "backgroundLayers": [
+        {
+          "color": "#286A8A",
+          "alpha": 0.12
+        }
+      ]
+    },
+    {
+      "name": "Success urgency badge text on composited dark badge",
+      "foreground": "#256F53",
+      "background": "#223D49",
+      "minimum": 4.5,
+      "source": "lib/widgets/insight_card.dart:34-45,93-97; lib/widgets/liq_status_badge.dart:27-40",
+      "backgroundLayers": [
+        {
+          "color": "#256F53",
+          "alpha": 0.12
+        }
+      ]
+    },
+    {
+      "name": "Latent AI filled action helper (no call sites found)",
+      "foreground": "#FFFFFF",
+      "background": "#7B61FF",
+      "minimum": 4.5,
+      "source": "lib/theme/app_theme.dart:449-452"
+    },
+    {
+      "name": "Latent dark onTertiary / tertiary pair",
+      "foreground": "#192D38",
+      "background": "#286A8A",
+      "minimum": 4.5,
+      "source": "lib/theme/app_theme.dart:66-67; lib/theme/plectara_tokens.dart:24,63"
+    },
+    {
+      "name": "Approved body text on dark card control sample",
+      "foreground": "#FAF8F4",
+      "background": "#223D49",
+      "minimum": 4.5,
+      "source": "lib/theme/app_theme.dart:74-76"
+    },
+    {
+      "name": "Approved primary button control sample",
+      "foreground": "#192D38",
+      "background": "#76B7A5",
+      "minimum": 4.5,
+      "source": "lib/theme/app_theme.dart:58-59,306-310"
+    }
+  ]
+}

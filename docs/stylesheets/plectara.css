@@ -79,6 +79,34 @@ body { color: var(--md-default-fg-color); font-family: var(--liq-font-text); }
 .plectara-preview .critical { color: var(--plectara-color-critical); }
 .plectara-preview .ai { color: var(--plectara-color-ai); }
 
+/* State examples retain the same type, spacing, and radius system. */
+.plectara-state-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1rem 0; }
+.plectara-state-grid > * { min-width: 0; }
+.plectara-preview input[aria-invalid="true"] { border: 2px solid var(--plectara-color-critical); }
+.plectara-preview input:focus-visible { outline: 3px solid var(--plectara-focus-ring); outline-offset: 3px; }
+.plectara-preview .plectara-choice { display: flex; align-items: center; gap: .6rem; padding: .75rem; min-height: 44px; border: 2px solid var(--plectara-color-border); border-radius: var(--liq-radius-default); font-weight: 400; }
+.plectara-preview .plectara-choice:has(:checked) { background: var(--plectara-color-selected); border-color: var(--plectara-color-focus); }
+.plectara-preview .plectara-choice input { appearance: none; display: grid; place-content: center; padding: 0; width: 1.2rem; min-height: 1.2rem; height: 1.2rem; flex-shrink: 0; border: 2px solid var(--plectara-color-border); border-radius: .2rem; }
+.plectara-preview .plectara-choice input:checked { background: var(--plectara-color-primary); border-color: var(--plectara-color-primary); }
+.plectara-preview .plectara-choice input:checked::before { content: "✓"; color: var(--plectara-color-on-primary); font-weight: 700; line-height: 1; }
+.plectara-preview .md-button { font: inherit; min-height: 44px; cursor: pointer; }
+.plectara-preview .md-button:active:not(:disabled) { background: var(--plectara-color-selected); color: var(--plectara-color-text); }
+.plectara-preview .md-button--primary:active:not(:disabled) { background: var(--plectara-color-primary-hover); color: var(--plectara-color-on-primary); }
+.plectara-preview .md-button:disabled { background: var(--plectara-color-surface-muted); color: var(--plectara-color-text-secondary); border-color: var(--plectara-color-divider); cursor: not-allowed; }
+.plectara-preview a:not(.md-button) { text-decoration: underline; }
+.plectara-state-badge { margin: 0 !important; padding: .75rem; border-radius: var(--liq-radius-default); background: var(--plectara-color-surface-muted); }
+.plectara-chart-sample { width: 100%; max-width: 32rem; height: auto; }
+.sample-axis { fill: none; stroke: var(--plectara-color-border); stroke-width: 1.5; }
+.sample-series-primary, .sample-series-secondary { fill: none; stroke-width: 3; }
+.sample-series-primary { stroke: var(--plectara-chart-primary); }
+.sample-series-secondary { stroke: var(--plectara-chart-secondary); stroke-dasharray: 8 4; }
+.sample-marker-primary { fill: var(--plectara-chart-primary); }
+.sample-marker-secondary { fill: var(--plectara-chart-secondary); }
+.sample-chart-label { fill: var(--plectara-color-text-secondary); font-family: inherit; font-size: 12px; }
+@media screen and (max-width: 44.9375em) {
+  .plectara-state-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
 /* Keep each logo on its intended background in either documentation theme. */
 .plectara-logo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin: 1.25rem 0 2rem; }
 .plectara-logo-grid--symbols { grid-template-columns: repeat(3, minmax(0, 1fr)); }

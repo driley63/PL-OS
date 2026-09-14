@@ -1,9 +1,9 @@
 # Brand Accessibility
 
-Status: Released baseline
+Status: Released baseline with v2.4.0 dark mode addendum
 Owner: Brand Working Group
 Version: 1.0.0
-Last updated: 2026-08-02
+Last updated: 2026-09-14
 
 ## Purpose
 
@@ -17,7 +17,7 @@ Defines accessibility expectations for brand use.
 
 ## Requirements
 
-- Text contrast must meet WCAG AA at minimum.
+- Product UI targets WCAG 2.2 AA, with WCAG2ICT interpretation for native software. Apply the [Dark Mode & Accessibility standard](../02-design/dark-mode.md) to both themes and every enabled component state.
 - Color must not be the only signal for health state.
 - AI, warning, danger, and success states require text or icon reinforcement.
 
@@ -38,8 +38,11 @@ Defines accessibility expectations for brand use.
 - adr/0001-adopt-lifestyleiq-name.md
 - adr/0002-establish-brand-philosophy.md
 - adr/0003-reserve-purple-for-ai.md
-- adr/0004-adopt-green-teal-gradient.md
+- [Current palette decision: ADR-0011](../../adr/0011-adopt-plectara.md)
+- [Dark mode implementation decision: RFC-0006](../../rfc/0006-dark-mode-accessibility.md)
 
 ## Version History
+
+- v2.4.0: Applies the dark mode component contract and current accessibility target; see RFC-0006.
 
 - v1.0.0: Initial repository baseline.

@@ -59,5 +59,7 @@ jobs:
       - name: Validate approved brand assets and color contrast
         run: |
           python tooling/build-plectara-tokens.py
+          python tooling/check-component-contrast.py
+          python -m unittest discover -s tooling -p 'test_component_contrast.py'
           python tooling/validate-brand.py
           git diff --exit-code -- assets/tokens assets/web assets/flutter docs/stylesheets/plectara-tokens.css docs/specs/02-design/plectara-contrast-report.md assets/brand/plectara/contrast-report.md

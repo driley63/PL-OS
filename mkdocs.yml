@@ -104,6 +104,8 @@ nav:
           - Charts: specs/02-design/charts.md
           - Motion: specs/02-design/motion.md
           - Accessibility: specs/02-design/accessibility.md
+          - Dark Mode & Accessibility: specs/02-design/dark-mode.md
+          - Component Contrast Checks: specs/02-design/plectara-component-contrast-report.md
           - Empty, Error, Loading: specs/02-design/empty-error-loading-states.md
           - Iconography: specs/02-design/iconography.md
           - Capture Widgets: specs/02-design/capture-widgets.md
@@ -142,6 +144,7 @@ nav:
           - Security and Privacy: specs/04-engineering/security-and-privacy.md
           - Performance: specs/04-engineering/performance.md
           - Accessibility Testing: specs/04-engineering/accessibility-testing.md
+          - Dark Mode App Audit: specs/04-engineering/dark-mode-audit-2026-09-14.md
           - Release Engineering: specs/04-engineering/release-engineering.md
       - AI:
           - Overview: specs/05-ai/README.md
@@ -192,3 +195,4 @@ nav:
       - v2.1.0: releases/v2.1.0/README.md
       - v2.2.0: releases/v2.2.0/README.md
       - v2.3.0: releases/v2.3.0/README.md
+      - v2.4.0: releases/v2.4.0/README.md

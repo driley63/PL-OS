@@ -41,6 +41,8 @@ The Design Language translates Brand Identity into product UI rules. It establis
 - `charts.md`: chart selection, visual encoding, evidence context, and accessibility
 - `motion.md`: duration, easing, reduced-motion behavior, and state transitions
 - `accessibility.md`: product accessibility checks and health UX requirements
+- [Dark Mode & Accessibility](dark-mode.md): surfaces, component states, charts, theme migration, and measurable review criteria
+- [Component contrast checks](plectara-component-contrast-report.md): 140 tested uses of current semantic colors
 - `empty-error-loading-states.md`: async, unavailable, and recovery state rules
 - `iconography.md`: product icon style, usage, labels, and AI icon behavior
 - `capture-widgets.md`: Capture-first widget, shortcut, wearable, and adaptive surface rules
