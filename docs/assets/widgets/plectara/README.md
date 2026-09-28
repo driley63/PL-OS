@@ -3,9 +3,9 @@
 Status: Owner-approved design reference, 2026-09-28
 
 Design review: Revision 13
-PL-OS bundle: Prepared v2.5.0
+PL-OS bundle: v2.5.0
 
-Start with the bundled [specification](specification.md), or the canonical [Widget Visual Specification](https://pl-os.plectara.com/specs/02-design/capture-widget-visuals/) after publication. The design uses full-widget yarn, a horizontal shaded logo region, a soft copper divider, a mint light card, and a transparent dark card with a copper outline. Light Capture and Sleep match in teal/white. Quick buttons use title case. There is no Edit action.
+Start with the bundled [specification](specification.md), or the canonical [Widget Visual Specification](https://pl-os.plectara.com/specs/02-design/capture-widget-visuals/). The design uses full-widget yarn, a horizontal shaded logo region, a soft copper divider, a mint light card, and a transparent dark card with a copper outline. Light Capture and Sleep match in teal/white. Quick buttons use title case. There is no Edit action.
 
 ## File map
 

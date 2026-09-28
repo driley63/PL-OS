@@ -13,14 +13,14 @@
     {
       "file": "README.md",
       "role": "README.md",
-      "bytes": 4136,
-      "sha256": "c73c943c9deb9877ad12f0b99e3cee70649dbc147308b33563b9e0b9df5d7086"
+      "bytes": 4109,
+      "sha256": "78cd71986cc4f9aff7db9d73fc0b56ff358d7064bf8a5f8c650d8803671078ff"
     },
     {
       "file": "capture-widgets.md",
       "role": "capture-widgets.md",
-      "bytes": 7612,
-      "sha256": "5e18ed1dfc0cc8fbcf92b2122ac45b0f1757309e154d3658dd2ea36be0ab2b8e"
+      "bytes": 7550,
+      "sha256": "000590dcb5d244d9d6f5e826b1cbcbec5d6aa0699d9d921a2d7a0e2e1daa231f"
     },
     {
       "file": "fonts/Inter-variable.ttf",
@@ -199,8 +199,8 @@
     {
       "file": "specification.md",
       "role": "specification.md",
-      "bytes": 17914,
-      "sha256": "9b44778591a8b8de4565946520a6631d228114bf116eacddc0d1382b29764eaf"
+      "bytes": 17909,
+      "sha256": "303d424f618fc37a648e64532cec008e4c7631f3e0f34ba7edf8c57052d990bd"
     },
     {
       "file": "textures/plectara-widget-yarn-gentle-focus-v1.png",

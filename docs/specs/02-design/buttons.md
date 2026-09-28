@@ -1,6 +1,6 @@
 # Buttons
 
-Status: Owner-approved update; v2.5.0 publication pending
+Status: Released
 Owner: Design System Working Group
 Version: 2.5.0
 Last updated: 2026-09-28
@@ -80,6 +80,6 @@ Buttons must define default, hover, active, focus-visible, disabled, loading, an
 
 ## Version History
 
-- v2.5.0: Records the owner-approved paired Capture/Sleep treatment as a widget-specific exception; publication pending.
+- v2.5.0: Records the approved paired Capture/Sleep treatment as a widget-specific exception.
 - v1.2.0: Adds button variants, sizes, content rules, states, and accessibility requirements.
 - v1.0.0: Initial repository baseline.

@@ -1,7 +1,7 @@
 # PL-OS v2.5.0 — Capture widget visual standards
 
 Date: 2026-09-28
-Status: Prepared; owner-approved design, publication pending
+Status: Approved release
 Change class: Minor — component-specific standards and assets
 
 ## Added
@@ -32,4 +32,4 @@ Change class: Minor — component-specific standards and assets
 
 This bundle updates PL-OS documentation and design assets. Native app code is not part of the change. The screenshot dimensions are illustrative, and the accessory concepts require separate implementation. Browser contrast checks do not establish ADA compliance or completed VoiceOver/TalkBack testing.
 
-This release is prepared for review and has not been published by this record. See the [manifest](manifest.json) and [verification record](verification.md).
+The owner authorized merging the widget design update on September 28. See the [manifest](manifest.json) and [verification record](verification.md). Hosting deployment is verified separately from the documentation release.

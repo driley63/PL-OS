@@ -1,6 +1,6 @@
 # Capture Widgets
 
-Status: Owner-approved update; v2.5.0 publication pending
+Status: Released
 Owner: Design System Working Group
 Version: 2.5.0
 Last updated: 2026-09-28
@@ -123,5 +123,5 @@ The user should never need to understand an internal model to use these states. 
 
 ## Version History
 
-- v2.5.0: Adds the approved visual contract, paired light actions, title case labels, and explicit absence of widget Edit; publication pending.
+- v2.5.0: Adds the approved visual contract, paired light actions, title case labels, and explicit absence of widget Edit.
 - v1.7.0: Adds Capture-first widget and adaptive surface design standards.

@@ -2,8 +2,8 @@
   "version": "2.5.0",
   "date": "2026-09-28",
   "change_class": "minor",
-  "status": "prepared; publication pending",
-  "approval": "Owner approved widget review revision 13 and requested PL-OS integration with screenshots, textures, and written specifications",
+  "status": "approved release",
+  "approval": "Owner approved widget review revision 13, requested PL-OS integration with screenshots, textures, and written specifications, and authorized merging the update",
   "standards": {
     "visual": "docs/specs/02-design/capture-widget-visuals.md",
     "behavior": "docs/specs/02-design/capture-widgets.md",
@@ -38,6 +38,6 @@
     "local_site_review": "passed: light/dark, desktop/mobile, six loaded gallery images, 23 links"
   },
   "native_implementation_included": false,
-  "publication": "No main-branch merge or production deployment is claimed by this prepared release record",
+  "publication": "Released through owner-authorized PR #24; hosting deployment is verified separately",
   "site_verification": "docs/releases/v2.5.0/site-review.json"
 }

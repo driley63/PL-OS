@@ -1,6 +1,6 @@
 # Capture Widget Visual Specification
 
-Status: Owner-approved design; native implementation pending
+Status: Released standard; native implementation pending
 Owner: Design System Working Group
 Version: 2.5.0
 Last updated: 2026-09-28
@@ -225,4 +225,4 @@ Use the native target sizes from the shared accessibility standard; the referenc
 
 - v2.5.0: Adds the owner-approved widget visual specification and downloadable asset kit; final design review revision 13.
 
-See [ADR-0013](../../adr/0013-adopt-capture-widget-visuals.md) and the [prepared v2.5.0 notes](../../releases/v2.5.0/README.md).
+See [ADR-0013](../../adr/0013-adopt-capture-widget-visuals.md) and the [v2.5.0 release notes](../../releases/v2.5.0/README.md).

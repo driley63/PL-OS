@@ -3,7 +3,7 @@
 Status: Accepted for repository implementation
 Owner: Design System Working Group
 Date: 2026-09-28
-Target bundle: v2.5.0, prepared
+Target bundle: v2.5.0
 
 ## Problem
 
@@ -25,6 +25,6 @@ Publish an individual light/dark screenshot for each home screen size, a separat
 
 ## Approval and scope
 
-The owner approved the final visual refinements and requested inclusion in PL-OS with screenshots, texture files, and written specifications on September 28. This approval authorizes documentation and asset integration. It does not assert native implementation or completed publication.
+The owner approved the final visual refinements, requested inclusion in PL-OS with screenshots, texture files, and written specifications, and authorized merging the update on September 28. Native implementation is separate.
 
-See [ADR-0013](../adr/0013-adopt-capture-widget-visuals.md), the [visual specification](../specs/02-design/capture-widget-visuals.md), and [prepared release notes](../releases/v2.5.0/README.md).
+See [ADR-0013](../adr/0013-adopt-capture-widget-visuals.md), the [visual specification](../specs/02-design/capture-widget-visuals.md), and [release notes](../releases/v2.5.0/README.md).

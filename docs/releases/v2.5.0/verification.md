@@ -1,8 +1,8 @@
-# v2.5.0 preparation verification
+# v2.5.0 release verification
 
 Date: 2026-09-28
 
-Status: Prepared for review; publication pending
+Status: Approved release; repository and browser checks passed
 
 ## Asset and browser evidence
 
