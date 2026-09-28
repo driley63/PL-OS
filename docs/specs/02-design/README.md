@@ -4,7 +4,7 @@ Volume 02 defines the visual and interaction system that Plectara product screen
 
 ## Status
 
-- Current milestone: v2.6.0 woven app visual variant; publication pending
+- Current milestone: v2.6.0 approved woven app visual variant
 - Owner: Design System Working Group
 - Dependency: Volume 01 Brand Identity v2.0.0
 - Release type: minor, additive app visual standards over the existing component and capture baselines

@@ -2,8 +2,8 @@
   "version": "2.6.0",
   "date": "2026-09-28",
   "change_class": "minor",
-  "status": "owner-approved standards; release candidate, publication pending",
-  "approval": "Owner approved the screenshot-matched app mockups and requested PL-OS integration, screenshots and affected standards",
+  "status": "approved release",
+  "approval": "Owner approved the screenshot-matched app mockups and requested PL-OS integration, screenshots and affected standards; owner authorized push and merge through PR #25",
   "standards": {
     "visual": "docs/specs/02-design/app-visuals.md",
     "shell": "docs/specs/02-design/app-shell-and-navigation.md",
@@ -22,7 +22,7 @@
     "empty_today_screenshots": 2,
     "comparison_sheets": 4,
     "included_files": 38,
-    "zip_sha256": "92ffbc538837736c947428a8a2278e0bb14d61fc6a71f103afdafb4008c64fd4"
+    "zip_sha256": "f637852b9963618f78267e044dd4a379337caa6e728dd8a2bde0be8107602fa1"
   },
   "evidence": "docs/releases/v2.6.0/verification.md",
   "validation": {
@@ -40,6 +40,6 @@
     "native_app_and_assistive_technology": "not included"
   },
   "native_implementation_included": false,
-  "publication": "Awaiting reviewed merge and live hosting verification",
+  "publication": "Owner-authorized publication through PR #25; live hosting verification follows the merge",
   "site_verification": "docs/releases/v2.6.0/site-review.json"
 }

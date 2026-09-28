@@ -187,7 +187,7 @@ nav:
       - Overview: playbook/README.md
   - Releases:
       - Overview: releases/README.md
-      - v2.6.0 candidate: releases/v2.6.0/README.md
+      - v2.6.0: releases/v2.6.0/README.md
       - v2.5.0: releases/v2.5.0/README.md
       - v1.0.0: releases/v1.0.0/README.md
       - v1.0.1: releases/v1.0.1/README.md

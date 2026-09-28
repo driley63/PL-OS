@@ -1,6 +1,6 @@
 # Design Tokens
 
-Status: Approved for PL-OS v2.6.0; publication pending
+Status: Approved for PL-OS v2.6.0
 Owner: Brand and Design System Working Groups
 
 ## Source and layers

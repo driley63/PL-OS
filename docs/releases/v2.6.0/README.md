@@ -1,7 +1,7 @@
 # PL-OS v2.6.0 — Woven app visual standards
 
 Date: 2026-09-28
-Status: Approved standards; release candidate, publication pending
+Status: Approved release
 Change class: Minor — additive app visual variant and implementation assets
 
 ## Added
@@ -32,6 +32,6 @@ None. The approved widget kit and historical release artifacts remain available.
 
 ## Scope and limitations
 
-The owner approved the visual direction and PL-OS integration. This candidate updates standards and reference assets; it does not ship Flutter app changes. Screenshot values are review fixtures, the symptom chart is visually traced, and unseen content/workflows are not inferred. Color and browser checks do not establish ADA compliance. Main-branch publication and live hosting verification remain separate from this preparation.
+The owner approved the visual direction and PL-OS integration. This release updates standards and reference assets; native Flutter integration is separate. Screenshot values are review fixtures, the symptom chart is visually traced, and unseen content/workflows are not inferred. Color and browser checks do not establish ADA compliance. The owner authorized publication through PR #25. Live hosting verification follows the merge.
 
 See the [manifest](manifest.json) and [verification record](verification.md).

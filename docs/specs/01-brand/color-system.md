@@ -1,6 +1,6 @@
 # Color System
 
-Status: Approved for PL-OS v2.6.0; publication pending
+Status: Approved for PL-OS v2.6.0
 Owner: Brand Working Group
 Last updated: 2026-09-28
 

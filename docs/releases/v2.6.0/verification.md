@@ -1,6 +1,6 @@
 # v2.6.0 verification
 
-Status: Local validation passed; publication pending
+Status: Local validation passed; owner-authorized release
 Date: 2026-09-28
 
 ## Evidence
@@ -31,4 +31,4 @@ Date: 2026-09-28
 
 ## Limits and publication
 
-This is PL-OS documentation and asset verification. Native app/device and assistive-technology review remain required before an app release; these results do not establish ADA compliance. The Flutter color adapter is a mapping example and has not been compiled into the native app. Main-branch publication and live hosting verification follow a separately authorized merge.
+This is PL-OS documentation and asset verification. Native app/device and assistive-technology review remain required before an app release; these results do not establish ADA compliance. The Flutter color adapter is a mapping example and has not been compiled into the native app. The owner authorized push and merge through PR #25. Live hosting is verified after the merge.

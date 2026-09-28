@@ -1,6 +1,6 @@
 # Plectara app visual kit
 
-Status: Owner-approved design reference; prepared for PL-OS v2.6.0
+Status: Owner-approved design reference; PL-OS v2.6.0 release
 Approval date: 2026-09-28
 
 The [App Visual Specification](https://pl-os.plectara.com/specs/02-design/app-visuals/) defines the approved woven shell and screenshot-matched Today, Timeline, Charts, and Insights in both themes. [ADR-0014](https://pl-os.plectara.com/adr/0014-adopt-woven-app-visuals/) records the accepted exceptions.

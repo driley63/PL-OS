@@ -1,5 +1,5 @@
 {
-  "scope": "Built documentation site served locally; live hosting pending",
+  "scope": "Built documentation site served locally; finalized release download rechecked before merge; live hosting verification follows merge",
   "reviews": [
     {
       "mode": "default",
@@ -466,8 +466,8 @@
   ],
   "errors": [],
   "download": {
-    "bytes": 12024725,
-    "sha256": "92ffbc538837736c947428a8a2278e0bb14d61fc6a71f103afdafb4008c64fd4",
+    "bytes": 12024785,
+    "sha256": "f637852b9963618f78267e044dd4a379337caa6e728dd8a2bde0be8107602fa1",
     "matchesSource": true
   }
 }

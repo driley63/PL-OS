@@ -1,6 +1,6 @@
 # App Visual Specification
 
-Status: Approved for PL-OS v2.6.0; publication pending
+Status: Approved for PL-OS v2.6.0
 Owner: Design System Working Group
 Version: 2.6.0
 Last updated: 2026-09-28
@@ -225,4 +225,4 @@ The kit supplies [browser layout evidence](verification/browser-review.json), an
 
 - v2.6.0: Adds the owner-approved screenshot-matched app visual standard and reference kit.
 
-See [RFC-0008](https://pl-os.plectara.com/rfc/0008-woven-app-visuals/), [ADR-0014](https://pl-os.plectara.com/adr/0014-adopt-woven-app-visuals/), and [v2.6.0 preparation](https://pl-os.plectara.com/releases/v2.6.0/).
+See [RFC-0008](https://pl-os.plectara.com/rfc/0008-woven-app-visuals/), [ADR-0014](https://pl-os.plectara.com/adr/0014-adopt-woven-app-visuals/), and [v2.6.0 release notes](https://pl-os.plectara.com/releases/v2.6.0/).

@@ -1,6 +1,6 @@
 # Dark Mode & Accessibility
 
-Status: Approved for PL-OS v2.6.0; publication pending
+Status: Approved for PL-OS v2.6.0
 Owner: Design System Working Group / Engineering Working Group
 Last updated: 2026-09-28
 Decision record: [RFC-0006](../../rfc/0006-dark-mode-accessibility.md)

@@ -30,4 +30,4 @@ Header-only yarn and lifted dark cards remain review alternatives. A fictional d
 
 Brand, Design, Product, and Engineering guidance link to the app contract. Existing widget rendering continues under ADR-0013. Foundation tokens, AI authorship policy, clinical rule thresholds, route behavior, and the tracking catalog are governed by their existing contracts. This acceptance covers PL-OS standards and assets; native implementation and accessibility evidence are separate.
 
-See [RFC-0008](../rfc/0008-woven-app-visuals.md) and [v2.6.0 preparation](../releases/v2.6.0/README.md).
+See [RFC-0008](../rfc/0008-woven-app-visuals.md) and [v2.6.0 release notes](../releases/v2.6.0/README.md).

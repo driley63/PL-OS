@@ -19,5 +19,10 @@
     "Filter changes",
     "Chart timeframe changes"
   ],
-  "native_implementation_included": false
+  "native_implementation_included": false,
+  "merge_authorization": {
+    "date": "2026-09-28",
+    "instruction": "push and merge",
+    "pull_request": "https://github.com/driley63/PL-OS/pull/25"
+  }
 }

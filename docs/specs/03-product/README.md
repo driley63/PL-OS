@@ -4,7 +4,7 @@ Volume 03 defines how Plectara turns user health context into daily capture work
 
 ## Status
 
-- Current milestone: v2.6.0 app presentation alignment; publication pending
+- Current milestone: v2.6.0 approved app presentation alignment
 - Owner: Product Working Group
 - Dependencies: Plectara Brand Identity, the v2.6.0 Design Language app variant, and existing AI policy standards
 - Release type: minor visual alignment; the Capture-first, Adaptive Capture, Habit evolution, and feature-review baseline remains in effect
