@@ -1,9 +1,9 @@
 # Lists and Tables
 
-Status: Released
+Status: Approved for PL-OS v2.6.0; publication pending
 Owner: Design System Working Group
-Version: 1.5.0
-Last updated: 2026-08-04
+Version: 2.6.0
+Last updated: 2026-09-28
 
 ## Purpose
 
@@ -102,6 +102,13 @@ Tables should define:
 - specs/03-product/health-timeline.md
 - specs/03-product/reports.md
 
+## Woven app Timeline
+
+Follow the [App Visual Specification](app-visuals.md): one opaque themed collection panel, leading category icons, entry name, multiline date/type/value metadata, explicit labeled delete controls, and decorative soft copper row rules. Category labels and selected filters remain visible. Do not infer the full logging catalog from the screenshot's visible filter row.
+
+Preserve the app's actual deletion confirmation, edit behavior, and recovery path. The review's local dialog is illustrative. Owner-supplied screenshot content may be retained in an explicitly approved visual reference; record that approval and identify it as a review fixture. Do not assert synthetic/anonymized provenance without evidence or use fixture records in production accounts.
+
 ## Version History
 
+- v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.5.0: Adds list, table, row, and collection-state standards.

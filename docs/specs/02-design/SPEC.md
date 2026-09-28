@@ -1,13 +1,13 @@
-# Volume 02 - Design Language Specification v2.0.0
+# Volume 02 - Design Language Specification v2.6.0
 
-Status: Approved for v2.0.0
+Status: Approved for PL-OS v2.6.0; publication pending
 Owner: Design System Working Group
-Version: 2.0.0
-Last updated: 2026-09-04
+Version: 2.6.0
+Last updated: 2026-09-28
 
 ## Plectara color migration
 
-Apply the v2.0.0 [semantic color roles](plectara-color-migration.md) to existing components. Shapes, spacing, type scale, motion, interaction, and Capture-first behavior remain unchanged. The [preview](plectara-component-preview.md) and [contrast results](plectara-contrast-report.md) document the local implementation.
+Apply the v2.0.0 [semantic color roles](plectara-color-migration.md) to existing components. Foundation shapes, spacing, type scale, motion, interaction, and Capture-first behavior remain the baseline; the approved woven app variant defines its own documented component aliases. The [preview](plectara-component-preview.md) and [contrast results](plectara-contrast-report.md) document the local implementation.
 
 ## Purpose
 
@@ -40,7 +40,7 @@ Volume 02 does not define brand identity, medical claims, AI recommendation poli
 
 - Use restrained UI structure for repeated daily workflows.
 - Design compact surfaces for frictionless Capture before dashboard consumption.
-- Reserve large brand expression for onboarding, empty states, app store assets, and milestone moments.
+- Use the approved woven app shell on daily screens with quiet reading surfaces; reserve other large brand expression for onboarding, empty states, app store assets, and milestone moments.
 - Prefer scannable content, explicit labels, and predictable interaction patterns over decorative layouts.
 - Keep AI-generated content visually distinct without using AI Purple as generic decoration.
 - Make health data understandable without requiring color, animation, or chart expertise.
@@ -109,8 +109,13 @@ A Design Language component or pattern is complete when it defines:
 - specs/03-product/SPEC.md
 - specs/04-engineering/SPEC.md
 
+## Approved woven app variant
+
+The [App Visual Specification](app-visuals.md) defines the owner-approved Today, Timeline, Charts, and Insights composition, saved yarn, horizontal header shade, soft copper rules, opaque themed reading cards, app-local values, screenshots, and migration criteria. [ADR-0014](../../adr/0014-adopt-woven-app-visuals.md) records the bounded shell, geometry, progress-group, action-hierarchy, and chart-tone exceptions. The shared foundation and separate widget contract continue to govern their components.
+
 ## Version History
 
+- v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.7.0: Adds Capture-first compact surface and widget design requirements.
 - v1.5.0: Adds cross-volume alignment review for UI Pattern Expansion dependencies.
 - v1.5.0: Adds prototype-facing UI pattern standards for app shell, navigation, page templates, lists, tables, overlays, feedback, search, filters, sorting, progress, and disclosure.

@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-28",
+  "status": "owner-approved for PL-OS integration",
+  "approval": "Looks great! Let\u2019s update PL-OS with these new specifications. Include screenshots and update any current PL-OS that would be affected by this.",
+  "fragment_sha256": "695558762593e450a4f8cdc559d29de7966e198ef80500f31a8686e8b9d1f22d",
+  "source_content": "Owner-supplied app screenshots; values copied as review fixtures, not runtime application data.",
+  "source_screens": [
+    "Today populated",
+    "Timeline",
+    "Charts",
+    "Insights"
+  ],
+  "earlier_reference": "Empty Today screenshot supplied by the owner.",
+  "chart": "Line geometry visually reconstructed from the screenshot; underlying observations were not supplied.",
+  "preview_only_interactions": [
+    "Appearance dialog",
+    "Progress dialog",
+    "Local deletion confirmation",
+    "Filter changes",
+    "Chart timeframe changes"
+  ],
+  "native_implementation_included": false
+}

@@ -23,3 +23,7 @@ Copper and jade are not normal-sized text colors on ivory and do not carry criti
 Follow [Dark Mode & Accessibility](dark-mode.md) for the complete state matrix and tested chart roles. Use opaque semantic roles for hints and status text; validate every added surface or alpha treatment. Raw logo teal and slate are not approved default strokes on dark cards. Review the [Flutter source audit](../04-engineering/dark-mode-audit-2026-09-14.md) for concrete migration failures.
 
 Use `assets/web/plectara-tokens.css` or `assets/flutter/plectara_colors.dart`. CSS includes light/dark semantic roles and component aliases. Existing `--liq-*` and Flutter `LifestyleIQColors` names are compatibility aliases; adopt `--plectara-*` and `PlectaraColors` in new components. The former signature-gradient alias now resolves to solid teal so existing consumers no longer display lime gradients.
+
+## v2.6.0 app variant
+
+The [App Visual Specification](app-visuals.md) and local adapters add the approved woven shell, mint/ink reading surfaces, horizontal shade and copper decoration. Apply the named app variant alongside the existing foundation mapping. Its documented card/spacing/shape exceptions supersede the preserve-existing-geometry instruction only for that variant; other components retain their foundation geometry. Measure local attention/control/chart pairs and actual native state layers.

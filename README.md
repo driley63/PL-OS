@@ -23,6 +23,10 @@ The [Dark Mode & Accessibility standard](docs/specs/02-design/dark-mode.md) defi
 
 The [Capture Widget Visual Specification](docs/specs/02-design/capture-widget-visuals.md) includes family/theme screenshots, the exact woven background files, local design values, written implementation guidance, and a downloadable kit. See the [v2.5.0 release notes](docs/releases/v2.5.0/README.md). Native app implementation remains separate.
 
+## App visual standards update
+
+The [App Visual Specification](docs/specs/02-design/app-visuals.md) extends the approved woven styling to Today, Timeline, Charts, and Insights. It includes light/dark screenshots matched to the actual app, exact yarn and logo files, theme and geometry values, an offline reference, a downloadable kit, and updates to affected component and product guidance. See the [v2.6.0 release candidate](docs/releases/v2.6.0/README.md); publication is pending.
+
 ## Repository Map
 
 ```text

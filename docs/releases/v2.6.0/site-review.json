@@ -1,0 +1,473 @@
+{
+  "scope": "Built documentation site served locally; live hosting pending",
+  "reviews": [
+    {
+      "mode": "default",
+      "width": 1440,
+      "pageOverflow": false,
+      "galleryColumns": 2,
+      "images": [
+        {
+          "src": "../../../assets/app/plectara/previews/today-light.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1932
+          ],
+          "visibleWidth": 329
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/today-dark.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1932
+          ],
+          "visibleWidth": 329
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/timeline-light.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1884
+          ],
+          "visibleWidth": 329
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/timeline-dark.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1884
+          ],
+          "visibleWidth": 329
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/charts-light.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1858
+          ],
+          "visibleWidth": 329
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/charts-dark.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1858
+          ],
+          "visibleWidth": 329
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/insights-light.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1934
+          ],
+          "visibleWidth": 329
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/insights-dark.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1934
+          ],
+          "visibleWidth": 329
+        }
+      ],
+      "captionText": "Today \u00b7 Light\n\nToday \u00b7 Dark\n\nTimeline \u00b7 Light\n\nTimeline \u00b7 Dark\n\nCharts \u00b7 Light\n\nCharts \u00b7 Dark\n\nInsights \u00b7 Light\n\nInsights \u00b7 Dark"
+    },
+    {
+      "mode": "slate",
+      "width": 1440,
+      "pageOverflow": false,
+      "galleryColumns": 2,
+      "images": [
+        {
+          "src": "../../../assets/app/plectara/previews/today-light.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1932
+          ],
+          "visibleWidth": 329
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/today-dark.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1932
+          ],
+          "visibleWidth": 329
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/timeline-light.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1884
+          ],
+          "visibleWidth": 329
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/timeline-dark.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1884
+          ],
+          "visibleWidth": 329
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/charts-light.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1858
+          ],
+          "visibleWidth": 329
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/charts-dark.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1858
+          ],
+          "visibleWidth": 329
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/insights-light.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1934
+          ],
+          "visibleWidth": 329
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/insights-dark.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1934
+          ],
+          "visibleWidth": 329
+        }
+      ],
+      "captionText": "Today \u00b7 Light\n\nToday \u00b7 Dark\n\nTimeline \u00b7 Light\n\nTimeline \u00b7 Dark\n\nCharts \u00b7 Light\n\nCharts \u00b7 Dark\n\nInsights \u00b7 Light\n\nInsights \u00b7 Dark"
+    },
+    {
+      "mode": "default",
+      "width": 375,
+      "pageOverflow": false,
+      "galleryColumns": 1,
+      "images": [
+        {
+          "src": "../../../assets/app/plectara/previews/today-light.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1932
+          ],
+          "visibleWidth": 343
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/today-dark.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1932
+          ],
+          "visibleWidth": 343
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/timeline-light.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1884
+          ],
+          "visibleWidth": 343
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/timeline-dark.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1884
+          ],
+          "visibleWidth": 343
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/charts-light.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1858
+          ],
+          "visibleWidth": 343
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/charts-dark.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1858
+          ],
+          "visibleWidth": 343
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/insights-light.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1934
+          ],
+          "visibleWidth": 343
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/insights-dark.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1934
+          ],
+          "visibleWidth": 343
+        }
+      ],
+      "captionText": "Today \u00b7 Light\n\nToday \u00b7 Dark\n\nTimeline \u00b7 Light\n\nTimeline \u00b7 Dark\n\nCharts \u00b7 Light\n\nCharts \u00b7 Dark\n\nInsights \u00b7 Light\n\nInsights \u00b7 Dark"
+    },
+    {
+      "mode": "slate",
+      "width": 375,
+      "pageOverflow": false,
+      "galleryColumns": 1,
+      "images": [
+        {
+          "src": "../../../assets/app/plectara/previews/today-light.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1932
+          ],
+          "visibleWidth": 343
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/today-dark.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1932
+          ],
+          "visibleWidth": 343
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/timeline-light.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1884
+          ],
+          "visibleWidth": 343
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/timeline-dark.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1884
+          ],
+          "visibleWidth": 343
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/charts-light.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1858
+          ],
+          "visibleWidth": 343
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/charts-dark.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1858
+          ],
+          "visibleWidth": 343
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/insights-light.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1934
+          ],
+          "visibleWidth": 343
+        },
+        {
+          "src": "../../../assets/app/plectara/previews/insights-dark.png",
+          "loaded": true,
+          "dimensions": [
+            714,
+            1934
+          ],
+          "visibleWidth": 343
+        }
+      ],
+      "captionText": "Today \u00b7 Light\n\nToday \u00b7 Dark\n\nTimeline \u00b7 Light\n\nTimeline \u00b7 Dark\n\nCharts \u00b7 Light\n\nCharts \u00b7 Dark\n\nInsights \u00b7 Light\n\nInsights \u00b7 Dark"
+    }
+  ],
+  "links": [
+    {
+      "path": "/adr/0014-adopt-woven-app-visuals/",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/plectara-app-visuals-v1.zip",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/reference/approved-app.html",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/manifest.json",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/previews/today-light.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/previews/today-dark.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/previews/timeline-light.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/previews/timeline-dark.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/previews/charts-light.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/previews/charts-dark.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/previews/insights-light.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/previews/insights-dark.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/previews/today-comparison.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/previews/timeline-comparison.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/previews/charts-comparison.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/previews/insights-comparison.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/previews/today-empty-light.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/previews/today-empty-dark.png",
+      "status": 200
+    },
+    {
+      "path": "/specs/02-design/capture-widget-visuals/",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/logos/plectara-horizontal-reversed.svg",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/textures/plectara-widget-yarn-gentle-focus-v1.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/textures/plectara-widget-yarn-gentle-focus-v1.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/source/provenance/",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/source/approved-pattern-manifest.json",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/app-visual-tokens.json",
+      "status": 200
+    },
+    {
+      "path": "/specs/02-design/dark-mode/",
+      "status": 200
+    },
+    {
+      "path": "/adr/0010-hybrid-local-findings-optional-llm/",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/adapters/plectara-app-colors.css",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/adapters/plectara_app_colors.dart",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/verification/browser-review.json",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/verification/offline-review.json",
+      "status": 200
+    },
+    {
+      "path": "/assets/app/plectara/verification/contrast-report.json",
+      "status": 200
+    },
+    {
+      "path": "/rfc/0008-woven-app-visuals/",
+      "status": 200
+    },
+    {
+      "path": "/releases/v2.6.0/",
+      "status": 200
+    }
+  ],
+  "errors": [],
+  "download": {
+    "bytes": 12024725,
+    "sha256": "92ffbc538837736c947428a8a2278e0bb14d61fc6a71f103afdafb4008c64fd4",
+    "matchesSource": true
+  }
+}

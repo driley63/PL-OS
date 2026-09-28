@@ -66,3 +66,9 @@ Import `package:flutter/material.dart` alongside the adapter. Preserve the exist
 | Focus | `ThemeData.focusColor` is a Material state color, not a guarantee of an accessible focus outline; verify the actual focused component |
 
 Do not use the legacy `LifestyleIQColors.background`, `surface`, or `text` aliases in dark components: those aliases point to light values. Keep System/Light/Dark behavior in the app's theme controller. The [dark mode standard](../../02-design/dark-mode.md) defines the full contract and release checks.
+
+## Woven app integration
+
+For the approved app shell, add the app kit's [Flutter color adapter](../../../assets/app/plectara/adapters/plectara_app_colors.dart) alongside the foundation adapter. [App Visual Specification](../../02-design/app-visuals.md) defines the exact texture, horizontal shade, opaque mint/ink reading cards, copper decoration, control outlines, and local geometry.
+
+Select `PlectaraAppLightColors` or `PlectaraAppDarkColors` inside shared app-shell/card/control components. Retain foundation critical, success, information and AI state roles for states not defined by this variant. Use live text/data, scalable native typography, platform safe areas/target sizes, and reserved space for floating actions. These mapping examples are documentation assets, not compiled or shipped Flutter implementation.

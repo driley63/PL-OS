@@ -1,9 +1,9 @@
-# Volume 03 - Product Experience Specification v1.7.0
+# Volume 03 - Product Experience Specification v2.6.0
 
-Status: Released
+Status: Approved for PL-OS v2.6.0; publication pending
 Owner: Product Working Group
-Version: 1.7.0
-Last updated: 2026-08-20
+Version: 2.6.0
+Last updated: 2026-09-28
 
 ## Purpose
 
@@ -111,8 +111,13 @@ A Product Experience pattern is complete when it defines:
 - specs/05-ai/SPEC.md
 - specs/03-product/alignment-review.md
 
+## Reviewed app presentation
+
+The [App Visual Specification](../02-design/app-visuals.md) aligns Today, Timeline, Charts, and Insights with the approved widget identity using the owner's actual screenshot hierarchy. It changes presentation through a named visual variant while existing Capture/Habits/Insights behavior, supported log types, clinical rules, privacy and evidence requirements remain governed by their product contracts. Preview figures and interactions never become production defaults.
+
 ## Version History
 
+- v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.7.0: Adds the One Sentence Test to Product Experience feature review.
 - v1.7.0: Adds Capture, Habits, and Insights as Product Experience pillars.
 - v1.3.0: Adds implementable Product Experience standards and release checklist.

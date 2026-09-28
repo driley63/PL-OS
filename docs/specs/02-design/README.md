@@ -4,10 +4,10 @@ Volume 02 defines the visual and interaction system that Plectara product screen
 
 ## Status
 
-- Current milestone: v2.0.0 brand migration over the v1.7.0 component baseline
+- Current milestone: v2.6.0 woven app visual variant; publication pending
 - Owner: Design System Working Group
 - Dependency: Volume 01 Brand Identity v2.0.0
-- Release type: major brand migration; the v1.7.0 Capture-first component baseline remains intact
+- Release type: minor, additive app visual standards over the existing component and capture baselines
 
 ## Plectara migration
 
@@ -24,7 +24,7 @@ The Design Language translates Brand Identity into product UI rules. It establis
 - Capture-first compact surfaces: widgets and shortcuts should record user behavior before presenting summaries.
 - Evidence-friendly UI: charts, cards, and states should make data interpretation clear.
 - Accessible by default: color, motion, focus, and touch targets must work for diverse users.
-- Brand-subordinate interface: product UI uses Brand Identity tokens without turning every surface into a brand moment.
+- Controlled shell branding: the approved woven app and widget shells carry the identity; repeated reading surfaces keep content quiet and readable.
 
 ## Document Map
 
@@ -47,6 +47,7 @@ The Design Language translates Brand Identity into product UI rules. It establis
 - `iconography.md`: product icon style, usage, labels, and AI icon behavior
 - [Capture Widgets](capture-widgets.md): Capture-first widget, shortcut, wearable, and adaptive surface rules
 - [Widget Visual Specification](capture-widget-visuals.md): approved woven backgrounds, family/theme screenshots, local design values, downloadable assets, and native implementation criteria
+- [App Visual Specification](app-visuals.md): approved screenshot-matched app layouts, light/dark surfaces, yarn, header, rules, downloadable assets, and migration requirements
 - `app-shell-and-navigation.md`: app shell, navigation, route labels, and wayfinding rules
 - `page-templates.md`: reusable dashboard, detail, form, report, settings, and empty-state templates
 - `lists-and-tables.md`: collection, row, table, and responsive data-display rules

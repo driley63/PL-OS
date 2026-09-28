@@ -1,0 +1,45 @@
+{
+  "version": "2.6.0",
+  "date": "2026-09-28",
+  "change_class": "minor",
+  "status": "owner-approved standards; release candidate, publication pending",
+  "approval": "Owner approved the screenshot-matched app mockups and requested PL-OS integration, screenshots and affected standards",
+  "standards": {
+    "visual": "docs/specs/02-design/app-visuals.md",
+    "shell": "docs/specs/02-design/app-shell-and-navigation.md",
+    "theme": "docs/specs/02-design/dark-mode.md"
+  },
+  "decisions": [
+    "docs/rfc/0008-woven-app-visuals.md",
+    "docs/adr/0014-adopt-woven-app-visuals.md"
+  ],
+  "assets": {
+    "source": "assets/app/plectara",
+    "site": "docs/assets/app/plectara",
+    "manifest": "assets/app/plectara/manifest.json",
+    "download": "docs/assets/app/plectara/plectara-app-visuals-v1.zip",
+    "populated_screenshots": 8,
+    "empty_today_screenshots": 2,
+    "comparison_sheets": 4,
+    "included_files": 38,
+    "zip_sha256": "92ffbc538837736c947428a8a2278e0bb14d61fc6a71f103afdafb4008c64fd4"
+  },
+  "evidence": "docs/releases/v2.6.0/verification.md",
+  "validation": {
+    "approved_source_and_exact_artwork": "passed",
+    "browser_layout_and_local_interactions": "passed",
+    "offline_reference": "passed",
+    "screenshot_dimensions": "passed",
+    "app_local_contrast": "58 checks passed",
+    "deterministic_zip_and_docs_parity": "passed",
+    "strict_documentation_build": "passed",
+    "shared_brand_validation": "passed",
+    "shared_contrast": "64 palette and 140 component checks passed; six regression tests passed",
+    "existing_widget_kit": "passed; generated output unchanged",
+    "local_site_review": "passed: desktop/mobile in both themes, eight loaded gallery images and local links/download checked",
+    "native_app_and_assistive_technology": "not included"
+  },
+  "native_implementation_included": false,
+  "publication": "Awaiting reviewed merge and live hosting verification",
+  "site_verification": "docs/releases/v2.6.0/site-review.json"
+}

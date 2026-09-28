@@ -1,9 +1,9 @@
 # Spacing System
 
-Status: Released
+Status: Approved for PL-OS v2.6.0; publication pending
 Owner: Design System Working Group
-Version: 1.2.0
-Last updated: 2026-08-04
+Version: 2.6.0
+Last updated: 2026-09-28
 
 ## Purpose
 
@@ -79,7 +79,12 @@ Defines the spacing scale, gutters, section rhythm, density rules, and review cr
 - specs/01-brand/design-tokens.md
 - specs/02-design/SPEC.md
 
+## Approved app-local spacing
+
+The [woven app variant](app-visuals.md) records 12-unit body gutters, 20-unit section gaps, 14-unit card padding/bottom inset, 10-unit top inset, and compact row/control gaps in its app-local design values. These documented exceptions reproduce the approved reference without changing the foundation scale. Native text and targets reflow, and warnings/evidence retain sufficient spacing. Device safe areas and floating-action clearance take precedence over illustrative preview dimensions.
+
 ## Version History
 
+- v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.2.0: Adds spacing scale, gutters, density rules, and acceptance criteria.
 - v1.0.0: Initial repository baseline.

@@ -1,9 +1,9 @@
 # AI Visual Language
 
-Status: Released
+Status: Approved for PL-OS v2.6.0; publication pending
 Owner: AI Working Group
-Version: 1.6.0
-Last updated: 2026-08-04
+Version: 2.6.0
+Last updated: 2026-09-28
 
 ## Purpose
 
@@ -103,7 +103,14 @@ AI visual elements should pair with copy that answers:
 - specs/05-ai/confidence-and-evidence.md
 - specs/05-ai/failure-states.md
 
+## Woven app authorship cues
+
+The [App Visual Specification](../02-design/app-visuals.md) keeps Rule-Derived findings labeled beside their timestamp/evidence. A teal/jade Ask About These Findings action with a labeled sparkle icon is an approved assistant entry point; it does not mark deterministic findings as AI-generated. Optional model-generated explanations need their own explicit authorship disclosure and existing evidence/limitation treatment.
+
+Use standard attention roles for actual rule-derived clinical notices. Purple remains reserved for AI-specific meaning and may be used where the AI contract calls for it; it is not required on every assistant entry point. Screenshot notice wording and metrics do not establish a new model policy or medical rule.
+
 ## Version History
 
+- v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.6.0: Adds AI labeling, visual hierarchy, AI Purple usage, confidence display, and accessibility standards.
 - v1.0.0: Initial repository baseline.

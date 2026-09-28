@@ -1,9 +1,9 @@
 # Insights and Correlations
 
-Status: Released
+Status: Approved for PL-OS v2.6.0; publication pending
 Owner: Product Working Group
-Version: 1.7.0
-Last updated: 2026-08-20
+Version: 2.6.0
+Last updated: 2026-09-28
 
 ## Purpose
 
@@ -91,8 +91,15 @@ Every interpretive insight should answer:
 - specs/05-ai/confidence-and-evidence.md
 - specs/05-ai/safety-boundaries.md
 
+## Screenshot-matched visual hierarchy
+
+Follow the [App Visual Specification](../02-design/app-visuals.md) for Today excerpts and the Insights detail screen. Preserve the On-Device Pattern Review explanation, Rule-Derived badge, timestamp, attention notice, Correlations/Your Goals hierarchy, and adjacent evidence. The optional Ask About These Findings entry does not change the authorship of the underlying rule-derived finding.
+
+All displayed metrics, comparisons and warnings derive from actual application state. The approved screenshot wording is fixture evidence for visual review, not a clinical threshold or template for unverified advice. Keep source, uncertainty and complete accessible evidence available when an excerpt is shortened.
+
 ## Version History
 
+- v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.7.0: Connects insights to the Capture and Habits product pillars.
 - v1.3.0: Adds insight types, evidence requirements, confidence rules, and user controls.
 - v1.0.0: Initial repository baseline.

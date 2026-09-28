@@ -1,9 +1,9 @@
 # Cards
 
-Status: Released
+Status: Approved for PL-OS v2.6.0; publication pending
 Owner: Design System Working Group
-Version: 1.2.0
-Last updated: 2026-08-04
+Version: 2.6.0
+Last updated: 2026-09-28
 
 ## Purpose
 
@@ -19,7 +19,7 @@ Defines card purpose, anatomy, hierarchy, spacing, and usage limits for product 
 
 - Use cards for individual repeated items, framed tools, and grouped decision content.
 - Do not use cards as decorative page sections.
-- Do not place UI cards inside other UI cards.
+- Do not place UI cards inside other UI cards, except the approved display-only Your Progress metric group defined in the app visual contract.
 - Cards must have stable padding, radius, and content hierarchy.
 - Health interpretation cards must identify data source, timeframe, confidence, or evidence when relevant.
 
@@ -70,7 +70,14 @@ Cards may define default, hover, active, selected, focused, disabled, loading, e
 - specs/02-design/radius-and-elevation.md
 - specs/05-ai/insight-types.md
 
+## Woven app reading cards
+
+The [App Visual Specification](app-visuals.md) adopts opaque mint `#E9F3EF` light cards and opaque ink `#192D38` dark cards over yarn, with 14-unit padding/radius and a 1-unit decorative copper outline. These are named app-local aliases. Required control outlines and focus indicators use tested roles.
+
+Your Progress is a bounded exception: three display-only metric tiles inside one progress group. Tiles contain their own label/value and may show the existing New indicator; they do not become independent nested tool cards. Timeline uses one reading panel with rows; charts and findings use opaque reading cards. The transparent dark capture-widget group follows its separate visual contract.
+
 ## Version History
 
+- v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.2.0: Adds card types, anatomy, visual rules, states, and usage limits.
 - v1.0.0: Initial repository baseline.

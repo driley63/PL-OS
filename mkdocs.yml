@@ -110,6 +110,7 @@ nav:
           - Iconography: specs/02-design/iconography.md
           - Capture Widgets: specs/02-design/capture-widgets.md
           - Widget Visual Specification: specs/02-design/capture-widget-visuals.md
+          - App Visual Specification: specs/02-design/app-visuals.md
           - App Shell and Navigation: specs/02-design/app-shell-and-navigation.md
           - Page Templates: specs/02-design/page-templates.md
           - Lists and Tables: specs/02-design/lists-and-tables.md
@@ -177,13 +178,16 @@ nav:
       - ADR-0011: adr/0011-adopt-plectara.md
       - ADR-0012: adr/0012-rename-operating-system-pl-os.md
       - ADR-0013: adr/0013-adopt-capture-widget-visuals.md
+      - ADR-0014: adr/0014-adopt-woven-app-visuals.md
   - RFCs:
       - Overview: rfc/README.md
       - Capture Widget Visuals: rfc/0007-capture-widget-visuals.md
+      - Woven App Visuals: rfc/0008-woven-app-visuals.md
   - Playbook:
       - Overview: playbook/README.md
   - Releases:
       - Overview: releases/README.md
+      - v2.6.0 candidate: releases/v2.6.0/README.md
       - v2.5.0: releases/v2.5.0/README.md
       - v1.0.0: releases/v1.0.0/README.md
       - v1.0.1: releases/v1.0.1/README.md

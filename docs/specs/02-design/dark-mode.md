@@ -1,8 +1,8 @@
 # Dark Mode & Accessibility
 
-Status: Approved for PL-OS v2.4.0
+Status: Approved for PL-OS v2.6.0; publication pending
 Owner: Design System Working Group / Engineering Working Group
-Last updated: 2026-09-14
+Last updated: 2026-09-28
 Decision record: [RFC-0006](../../rfc/0006-dark-mode-accessibility.md)
 
 ## Purpose and accessibility target
@@ -119,3 +119,9 @@ Axis labels, units, values, legends, and tooltips use `text` or `textSecondary` 
 - Large text fits without clipping or hiding actions; modal and input focus remain operable.
 - Automated results and manual workflow evidence identify their scope. Passing palette checks never substitute for app testing.
 - Any outstanding failure has an owner and remediation record; accessibility regressions in core workflows block release under the engineering standard.
+
+## Approved woven app surface variant
+
+The [App Visual Specification](app-visuals.md) extends the foundation with opaque ink app reading cards and navigation, `#264C4B` control backings, lifted ink selected filters/attention backing, tested local attention tones, and decorative copper edges/rules. Its [color measurements](../../assets/app/plectara/verification/contrast-report.json) cover the added combinations and protected header shading.
+
+These aliases apply to the woven app component variant. The foundation surface matrix and separately approved capture-widget treatment continue to define other components. Keep real System/Light/Dark behavior, opaque reading surfaces over yarn, tested required outlines, non-color selected cues, native target sizes, and manual/device evidence. Copper is decorative and cannot substitute for focus or a required input boundary.

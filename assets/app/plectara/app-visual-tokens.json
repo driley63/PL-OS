@@ -1,0 +1,59 @@
+{
+  "asset_id": "plectara-app-visuals",
+  "version": 1,
+  "specification": "docs/specs/02-design/app-visuals.md",
+  "scope": "Component aliases for the approved woven app shell; foundation tokens remain the source for other components.",
+  "themes": {
+    "light": {
+      "card": "#E9F3EF", "text": "#192D38", "textSecondary": "#506F7E",
+      "control": "#FFFFFF", "soft": "#E9F3EF", "primary": "#287E80",
+      "onPrimary": "#FFFFFF", "link": "#206668", "controlOutline": "#567788",
+      "decorativeOutline": "#C88764", "navigation": "#E9F3EF", "navigationSelected": "#FFFFFF",
+      "attention": "#845800"
+    },
+    "dark": {
+      "card": "#192D38", "text": "#FAF8F4", "textSecondary": "#B8CBCB",
+      "control": "#264C4B", "soft": "#223D49", "primary": "#76B7A5",
+      "onPrimary": "#192D38", "link": "#8DC7B7", "controlOutline": "#8DA4A6",
+      "decorativeOutline": "#C88764", "navigation": "#192D38", "navigationSelected": "#264C4B",
+      "attention": "#E5B86A"
+    }
+  },
+  "header": {
+    "ink": "#192D38", "foreground": "#FAF8F4", "logo_width": 124,
+    "minimum_height": 112, "gradient_direction": "left to right",
+    "ink_gradient_stops": [[0, 0.96], [20, 0.92], [38, 0.82], [56, 0.66], [80, 0.22], [100, 0.08]],
+    "protected_text_region_percent": 56
+  },
+  "texture": {
+    "file": "textures/plectara-widget-yarn-gentle-focus-v1.webp",
+    "native_source": "textures/plectara-widget-yarn-gentle-focus-v1.png",
+    "rotation_degrees_clockwise": 55, "position": "left center", "scale": "cover",
+    "layer_width": "W*cos(55deg) + H*sin(55deg) + 32",
+    "layer_height": "W*sin(55deg) + H*cos(55deg) + 32",
+    "opacity": 1, "repeat": false, "additional_blur": false
+  },
+  "divider": {"height": 1, "color": "#C88764", "stops": [[0, 0], [16, 1], [84, 1], [100, 0]], "role": "decorative"},
+  "geometry": {
+    "body_gutter": 12, "body_top_inset": 10, "body_bottom_inset": 14,
+    "section_gap": 20, "card_padding": 14, "card_radius": 14, "card_border": 1,
+    "progress_gap": 8, "progress_tile_radius": 9, "progress_tile_min_height": 88,
+    "button_radius": 9, "log_radius": 12, "quick_log_radius": 28,
+    "control_min_height": 44, "floating_action_min_height": 54,
+    "phone_preview_radius": 26
+  },
+  "typography": {
+    "family": "Inter", "fallbacks": ["SF Pro", "Roboto", "system-ui"],
+    "page_title": {"size": 22, "line_height": 30, "weight": 500},
+    "card_title": {"size": 18, "line_height": 25, "weight": 500},
+    "body": {"size": 14, "line_height": 23, "weight": 400},
+    "finding_summary": {"size": 16, "line_height": 25, "weight": 400},
+    "entry_title": {"size": 15, "line_height": 22, "weight": 500},
+    "entry_metadata": {"size": 13, "line_height": 22, "weight": 400},
+    "chart_label": {"size": 11, "weight": 400},
+    "navigation": {"size": 12, "line_height": 18, "weight": 400},
+    "stamp": {"size": 11, "line_height": 17, "weight": 400}
+  },
+  "reference_only": ["Phone mask, Dynamic Island and system status icons", "Browser fixture dates, quantities and findings", "Alternative header-only texture and lifted dark cards", "Preview dialog and deletion behavior"],
+  "native_requirements": "Use live text, real application state, safe areas, native theme and accessibility settings. Use iOS 44pt and Android 48dp targets; reference CSS dimensions are not universal device dimensions."
+}

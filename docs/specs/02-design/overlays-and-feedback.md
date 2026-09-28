@@ -1,9 +1,9 @@
 # Overlays and Feedback
 
-Status: Released
+Status: Approved for PL-OS v2.6.0; publication pending
 Owner: Design System Working Group
-Version: 1.5.0
-Last updated: 2026-08-04
+Version: 2.6.0
+Last updated: 2026-09-28
 
 ## Purpose
 
@@ -94,6 +94,13 @@ Confirmations must explain what changes, what remains, whether recovery is possi
 - specs/03-product/settings-and-consent.md
 - specs/04-engineering/state-management.md
 
+## Woven app feedback surfaces
+
+Use opaque app reading surfaces for dialogs, sheets, and persistent notices under the [App Visual Specification](app-visuals.md); place the scrim behind the reading surface. Clinical attention notices retain their actual rule-derived state, readable written notice, icon and source context on the tested attention backing. This treatment defines no clinical threshold.
+
+Keep warnings and evidence clear of floating actions and native navigation. Preview-only Appearance/Progress/delete dialogs illustrate visual review and do not replace the app's real settings, confirmation or recovery contracts. Preserve platform focus and large-text behavior.
+
 ## Version History
 
+- v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.5.0: Adds overlay, feedback, confirmation, and severity standards.
