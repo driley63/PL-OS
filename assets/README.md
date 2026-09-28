@@ -8,6 +8,8 @@ Use `brand/plectara/` for the owner-approved logo, outlined wordmark, platform i
 
 Use [widgets/plectara](widgets/plectara/README.md) for the approved capture widget texture, six family/theme screenshots, design values, browser reference, source records, and asset manifest. Its component-specific roles do not replace the global token library.
 
+Use [app/plectara](app/plectara/README.md) for the approved Today, Timeline, Charts, and Insights visuals, populated and empty screenshots, exact shared yarn and logo, offline reference, app-local color adapters, specification, and verification.
+
 ## Structure
 
 - `brand/logos/source`: editable SVG source placeholders
@@ -18,5 +20,6 @@ Use [widgets/plectara](widgets/plectara/README.md) for the approved capture widg
 - `flutter`: Flutter asset and token examples
 - `web`: web manifest, favicon, and CSS token examples
 - `widgets/plectara`: owner-approved capture widget reference kit and source/delivery textures
+- `app/plectara`: owner-approved woven app visual specification, screenshot kit, exact artwork, and local adapters
 
 The files in `brand/logos/` are historical placeholders and naming explorations. They are retained for provenance, not used by the current site.

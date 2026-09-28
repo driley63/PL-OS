@@ -4,14 +4,16 @@ Volume 03 defines how Plectara turns user health context into daily capture work
 
 ## Status
 
-- Current milestone: v1.7.0 released
+- Current milestone: v2.6.0 approved app presentation alignment
 - Owner: Product Working Group
-- Dependencies: Volume 01 Brand Identity v1.1.0, Volume 02 Design Language v1.7.0, and Volume 05 AI Principles v1.6.0
-- Release type: minor release because this work adds Capture-first, Adaptive Capture, Habit evolution, and feature-review standards without changing released brand or AI policy decisions
+- Dependencies: Plectara Brand Identity, the v2.6.0 Design Language app variant, and existing AI policy standards
+- Release type: minor visual alignment; the Capture-first, Adaptive Capture, Habit evolution, and feature-review baseline remains in effect
 
 ## Purpose
 
 Product Experience translates the PL-OS philosophy into user-facing behavior. It defines how the product should help people capture daily context, learn repeated habits, understand patterns, review evidence, manage consent, and receive guidance without overstating certainty or increasing health anxiety.
+
+The [App Visual Specification](../02-design/app-visuals.md) is the approved presentation reference for Today, Timeline, Charts, and Insights. It preserves actual screen content, source labels, evidence, units, warnings, and real feature state while applying the woven theme.
 
 ## Product Pillars
 

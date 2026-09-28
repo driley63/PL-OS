@@ -4,6 +4,20 @@ All notable changes to PL-OS (formerly LIQ OS) are recorded in this file.
 
 The format follows Keep a Changelog conventions and the project uses semantic versioning for published operating system releases.
 
+## [v2.6.0] - 2026-09-28
+
+### Added
+
+- App Visual Specification for Today, Timeline, Charts, and Insights matched to the actual app screenshots in both themes.
+- Eight populated-screen PNGs, two empty Today references, four comparison sheets, exact yarn/logo assets, fonts and licenses, an offline reference, local design values, CSS/Flutter adapters, provenance, checksums, and a downloadable kit.
+- 58 app-local contrast checks, browser/offline evidence, deterministic asset packaging, RFC-0008, ADR-0014, migration guidance, and a v2.6.0 release.
+
+### Changed
+
+- Align daily app shell, navigation, headers, opaque reading cards, copper rules, buttons, charts, lists, filters, spacing and radius with the approved woven composition.
+- Define bounded progress-tile nesting and Today contextual-action exceptions alongside the existing component standards.
+- Update Brand, Product, Engineering, Flutter, and AI visual guidance to preserve actual content, source labels, evidence, units and health-rule state when applying the theme.
+
 ## [v2.5.0] - 2026-09-28
 
 ### Added

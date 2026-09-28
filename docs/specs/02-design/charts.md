@@ -1,9 +1,9 @@
 # Charts
 
-Status: Released baseline with v2.4.0 dark mode addendum
+Status: Approved for PL-OS v2.6.0
 Owner: Design System Working Group
-Version: 1.2.0
-Last updated: 2026-09-14
+Version: 2.6.0
+Last updated: 2026-09-28
 
 ## Purpose
 
@@ -74,8 +74,15 @@ Every chart should expose:
 - specs/01-brand/color-system.md
 - specs/05-ai/confidence-and-evidence.md
 
+## Woven app chart variant
+
+The [App Visual Specification](app-visuals.md) preserves Timeframe 7/14/30, the Symptom selector, Symptom Severity and Weight sections, units, latest/change labels, and opaque chart cards. Its approved default screenshot series uses the measured local link tone (`#206668` light, `#8DC7B7` dark), solid line and circle markers. This is an app-specific variant alongside the foundation chart aliases.
+
+Keep chart labels inside the plot, including the final date tick. Decorative grid lines may be subtle; essential thresholds and baselines require sufficient contrast. The packaged line is visually traced and the weight graph was not visible in the source. Production calculations and changed timeframes use actual data, with accessible summaries/tables and existing evidence requirements.
+
 ## Version History
 
+- v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v2.4.0: Applies the dark mode component contract and current accessibility target; see RFC-0006.
 
 - v1.2.0: Adds chart selection, visual encoding, required context, and accessibility rules.

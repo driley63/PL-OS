@@ -1,0 +1,291 @@
+{
+  "asset_id": "plectara-app-visuals",
+  "version": 1,
+  "status": "owner-approved design reference; PL-OS v2.6.0 release",
+  "approval_date": "2026-09-28",
+  "specification": "docs/specs/02-design/app-visuals.md",
+  "default_texture": "textures/plectara-widget-yarn-gentle-focus-v1.webp",
+  "screenshot_scale": 2,
+  "populated_screenshots": 8,
+  "empty_today_screenshots": 2,
+  "comparison_sheets": 4,
+  "native_implementation_included": false,
+  "files": [
+    {
+      "file": "README.md",
+      "role": "README.md",
+      "bytes": 3422,
+      "sha256": "3281769baa12a1c2b9306f465e16c64caac52f26e1775c26a9bb42292b9f91c7"
+    },
+    {
+      "file": "adapters/plectara-app-colors.css",
+      "role": "adapters",
+      "bytes": 1697,
+      "sha256": "760806453caa0038640bd2114b4dc3be9e7fc6eead61bce78a84b156a4944ba9"
+    },
+    {
+      "file": "adapters/plectara_app_colors.dart",
+      "role": "adapters",
+      "bytes": 1418,
+      "sha256": "fd2dfd7069a7387f1cf5b716555e22dd491485d2c724ab6626cfa182e22be51d"
+    },
+    {
+      "file": "app-visual-tokens.json",
+      "role": "app-visual-tokens.json",
+      "bytes": 3336,
+      "sha256": "c8278b06d9a8ee50d407be4184fd10affc0744d49ed23504e82a5c39082c2748"
+    },
+    {
+      "file": "fonts/Inter-review-subset.woff",
+      "role": "fonts",
+      "bytes": 113224,
+      "sha256": "7ff9ed08013f8ecb5e53fcc230b9b08befe693daceda7a60bd21b0c3bd87b851"
+    },
+    {
+      "file": "fonts/Inter-variable.ttf",
+      "role": "fonts",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "file": "fonts/OFL.txt",
+      "role": "fonts",
+      "bytes": 4376,
+      "sha256": "5dd548d31a85f756e01d63e00d7faf1e324103ed3e9102fcbbabf2cc2db6dd39"
+    },
+    {
+      "file": "logos/plectara-horizontal-reversed.svg",
+      "role": "logos",
+      "bytes": 33775,
+      "sha256": "4a1f60aaf2ab6ad41962cf654489013899f2e67cd1c7cc3100be9b2b5e25521b"
+    },
+    {
+      "file": "previews/charts-comparison.png",
+      "role": "previews",
+      "bytes": 680404,
+      "sha256": "09c65d4fd896db050baafb72befb0f7bd1fb98d6d20ca8957c6727f4c9bfefd6",
+      "width": 1472,
+      "height": 1918,
+      "mode": "RGB"
+    },
+    {
+      "file": "previews/charts-dark.png",
+      "role": "previews",
+      "bytes": 416617,
+      "sha256": "41461eb5f27d2b793b4347467d09801ac38808d03fba56b3ab41a6da59e768d3",
+      "width": 714,
+      "height": 1858,
+      "mode": "RGB"
+    },
+    {
+      "file": "previews/charts-light.png",
+      "role": "previews",
+      "bytes": 413542,
+      "sha256": "8eaf2c7a1c8d93d1ff4342c7fc471dd78311c583ce7a62669dcb30cb4e425c0e",
+      "width": 714,
+      "height": 1858,
+      "mode": "RGB"
+    },
+    {
+      "file": "previews/insights-comparison.png",
+      "role": "previews",
+      "bytes": 966785,
+      "sha256": "c62e0792d2ee70466d5abfc02323672b64552ccd7e01a7403e0ee63acbf5fc5a",
+      "width": 1472,
+      "height": 1994,
+      "mode": "RGB"
+    },
+    {
+      "file": "previews/insights-dark.png",
+      "role": "previews",
+      "bytes": 544708,
+      "sha256": "7a561f6e0680d1dc3bfea9047e053b4eeb18ee9dcf348b92cfc6495b0a04b787",
+      "width": 714,
+      "height": 1934,
+      "mode": "RGB"
+    },
+    {
+      "file": "previews/insights-light.png",
+      "role": "previews",
+      "bytes": 540466,
+      "sha256": "a45e1653113dff936200fac083799e091563d3b16273f24a2fa847d4cb166f7c",
+      "width": 714,
+      "height": 1934,
+      "mode": "RGB"
+    },
+    {
+      "file": "previews/timeline-comparison.png",
+      "role": "previews",
+      "bytes": 850283,
+      "sha256": "44347856533d1acebcedda792d09dc8aecd0c01481ad0d3f3ddbb98da9b66cca",
+      "width": 1472,
+      "height": 1944,
+      "mode": "RGB"
+    },
+    {
+      "file": "previews/timeline-dark.png",
+      "role": "previews",
+      "bytes": 489659,
+      "sha256": "72ec318c0c0d245502b7b43018ff6d631b9a0e94a4069b95a60a9773fade6dad",
+      "width": 714,
+      "height": 1884,
+      "mode": "RGB"
+    },
+    {
+      "file": "previews/timeline-light.png",
+      "role": "previews",
+      "bytes": 481892,
+      "sha256": "a12e4e86d5af09493d21e21a1206142d05e0a782f694c034af7c3b567ed45a62",
+      "width": 714,
+      "height": 1884,
+      "mode": "RGB"
+    },
+    {
+      "file": "previews/today-comparison.png",
+      "role": "previews",
+      "bytes": 899694,
+      "sha256": "93404717e97fe17f4088511140a9227da1d1beaa08fb59d83ca4d22747462467",
+      "width": 1472,
+      "height": 1992,
+      "mode": "RGB"
+    },
+    {
+      "file": "previews/today-dark.png",
+      "role": "previews",
+      "bytes": 545653,
+      "sha256": "aa4ed3a936d8246cd2697f442d59207821e7fec0b5923010744f87899d6c9c11",
+      "width": 714,
+      "height": 1932,
+      "mode": "RGB"
+    },
+    {
+      "file": "previews/today-empty-dark.png",
+      "role": "previews",
+      "bytes": 540374,
+      "sha256": "4e5a428641d9e75406633afbc710957f12855f4fe9ecb5239e3b9fc3533df379",
+      "width": 714,
+      "height": 1900,
+      "mode": "RGB"
+    },
+    {
+      "file": "previews/today-empty-light.png",
+      "role": "previews",
+      "bytes": 538674,
+      "sha256": "134eecef755d17baa48b38b49d284a657b928576d21abdf92a6dc1e660126f04",
+      "width": 714,
+      "height": 1900,
+      "mode": "RGB"
+    },
+    {
+      "file": "previews/today-light.png",
+      "role": "previews",
+      "bytes": 544217,
+      "sha256": "21c3b40ea9549d0a047ee9141324c4765f5612d5b0038dc3c909ef93f6e28753",
+      "width": 714,
+      "height": 1932,
+      "mode": "RGB"
+    },
+    {
+      "file": "reference/LUCIDE-LICENSE.txt",
+      "role": "reference",
+      "bytes": 3208,
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+    },
+    {
+      "file": "reference/approved-app.html",
+      "role": "reference",
+      "bytes": 1069999,
+      "sha256": "9adc5fb2fbb370a6a095500364568a18e565de1ad702796f3aea9d0683d6202b"
+    },
+    {
+      "file": "reference/approved-mockup-fragment.html",
+      "role": "reference",
+      "bytes": 442518,
+      "sha256": "695558762593e450a4f8cdc559d29de7966e198ef80500f31a8686e8b9d1f22d"
+    },
+    {
+      "file": "reference/lucide.min.js",
+      "role": "reference",
+      "bytes": 397450,
+      "sha256": "ab85225ecc1daa2033607856f03dd2dabcbc08e2d260a5b97e17c690aa929766"
+    },
+    {
+      "file": "source/approval.json",
+      "role": "source",
+      "bytes": 1110,
+      "sha256": "21de226d5fc5d6da2aea1c47a214130326422d2504f9aaaa095548cae3a300e3"
+    },
+    {
+      "file": "source/approved-pattern-manifest.json",
+      "role": "source",
+      "bytes": 6068,
+      "sha256": "df6bb3e01adc2438cf354b32982784b8550c1f952ff49bf42069e03a21262a1f"
+    },
+    {
+      "file": "source/original-color-edit-prompt.md",
+      "role": "source",
+      "bytes": 2134,
+      "sha256": "6a72013f546eeef0332a35e3df537a36288ba28072f4ae81a21c61e1220ffd4c"
+    },
+    {
+      "file": "source/provenance.md",
+      "role": "source",
+      "bytes": 2743,
+      "sha256": "662fc6a090cc9d8f53cad8937242ff9ac01c11206d49a1eb6ebcb1839da04979"
+    },
+    {
+      "file": "source/widget-focus-edit-prompt.txt",
+      "role": "source",
+      "bytes": 1335,
+      "sha256": "cd1c8dda25593c379218ed35411d1c35af8f0a8b257dec9715d153182448d4eb"
+    },
+    {
+      "file": "specification.md",
+      "role": "specification.md",
+      "bytes": 20001,
+      "sha256": "661429babe8e6471a9986136fbd52388e2c605cd7b75bc47ae7e93a450e02a11"
+    },
+    {
+      "file": "textures/plectara-widget-yarn-gentle-focus-v1.png",
+      "role": "textures",
+      "bytes": 2063976,
+      "sha256": "3f062afc27cd6f6417414f74737e8b45c077f58d2d2478e0919efa0d6829f974",
+      "width": 1422,
+      "height": 1106,
+      "mode": "RGB"
+    },
+    {
+      "file": "textures/plectara-widget-yarn-gentle-focus-v1.webp",
+      "role": "textures",
+      "bytes": 155834,
+      "sha256": "4b120ecb20b0796acde86072bf3cda04a9fe5cb2ac239ccb3a644c3e5d458b93",
+      "width": 900,
+      "height": 700,
+      "mode": "RGB"
+    },
+    {
+      "file": "verification/browser-review.json",
+      "role": "verification",
+      "bytes": 11644,
+      "sha256": "479c5e0b1f99f0eb9a34f2285b813de4f6ba0e5ac145584a599fa2b82f72a943"
+    },
+    {
+      "file": "verification/contrast-fixtures.json",
+      "role": "verification",
+      "bytes": 12215,
+      "sha256": "1655aa08d53cbb63836142804f4d717e0abdeec1edf06d74fe285f2a968660ee"
+    },
+    {
+      "file": "verification/contrast-report.json",
+      "role": "verification",
+      "bytes": 16442,
+      "sha256": "8a9be24b3d3c4f64b6aad3693f3175852bf7f9ac15b452350b48d90b85d13ae2"
+    },
+    {
+      "file": "verification/offline-review.json",
+      "role": "verification",
+      "bytes": 16044,
+      "sha256": "61057fa0b0fe13fa6c30c9dbde1767b54e70d1ab47b25ea1c68bc612207eb68b"
+    }
+  ]
+}

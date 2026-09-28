@@ -1,9 +1,9 @@
 # Health Timeline
 
-Status: Released
+Status: Approved for PL-OS v2.6.0
 Owner: Product Working Group
-Version: 1.3.0
-Last updated: 2026-08-04
+Version: 2.6.0
+Last updated: 2026-09-28
 
 ## Purpose
 
@@ -76,7 +76,12 @@ Every interpretive timeline moment should show:
 - specs/02-design/cards.md
 - specs/03-product/daily-logging.md
 
+## Current visual reference
+
+Apply the [App Visual Specification](../02-design/app-visuals.md) to the current Timeline: category chips above one readable opaque panel, entry labels and multiline metadata, explicit delete controls, copper row rules, and stable bottom navigation. Owner-approved screenshot entries are review fixtures; they do not expand the supported capture catalog. Existing source, missing-data, grouping, edit, deletion and recovery behavior remains governed by this product standard.
+
 ## Version History
 
+- v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.3.0: Adds timeline entry types, filtering rules, evidence context, and acceptance criteria.
 - v1.0.0: Initial repository baseline.

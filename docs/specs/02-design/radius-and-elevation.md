@@ -1,9 +1,9 @@
 # Radius and Elevation
 
-Status: Released
+Status: Approved for PL-OS v2.6.0
 Owner: Design System Working Group
-Version: 1.2.0
-Last updated: 2026-08-04
+Version: 2.6.0
+Last updated: 2026-09-28
 
 ## Purpose
 
@@ -17,7 +17,7 @@ Defines corner radius, borders, shadows, layering, and surface separation rules.
 
 ## Requirements
 
-- Default UI cards should use 8 px radius unless a platform component requires a different value.
+- Default UI cards use 8 px radius unless a platform component or approved named variant requires a different value.
 - Buttons, inputs, chips, and controls must use stable tokenized radii.
 - Elevation must communicate layering or interaction, not decoration.
 - Do not use nested cards as a page-section layout strategy.
@@ -71,7 +71,14 @@ Defines corner radius, borders, shadows, layering, and surface separation rules.
 - specs/02-design/cards.md
 - specs/02-design/buttons.md
 
+## Approved woven app geometry
+
+The [app visual variant](app-visuals.md) uses named local aliases: 14-unit reading cards, 9-unit tiles/buttons, 12-unit Log corners, and a 28-unit Quick Log pill. Thin copper edges are decorative; required control/focus boundaries use tested roles. The phone's 26-unit preview mask is presentation framing and does not replace native device masks.
+
+Opaque reading cards separate content from the photo without heavy shadow or layered decorative frames. Only Your Progress uses the approved display-only metric group exception. Foundation radius and elevation tokens remain the baseline for other variants.
+
 ## Version History
 
+- v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.2.0: Adds radius scale, elevation scale, and surface rules.
 - v1.0.0: Initial repository baseline.

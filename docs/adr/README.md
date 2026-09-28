@@ -19,6 +19,8 @@ ADRs are permanent records of important PL-OS decisions (historically LIQ OS). T
 - [ADR-0012: Rename the operating system PL-OS](0012-rename-operating-system-pl-os.md) — supersedes the display name in ADR-0005
 - [ADR-0013: Adopt the Plectara capture widget visuals](0013-adopt-capture-widget-visuals.md) — accepted woven background, local theme/layout contract, title case labels, and no widget Edit action
 
+- [ADR-0014: Adopt the woven app visuals](0014-adopt-woven-app-visuals.md) — approved daily shell branding, opaque reading cards, bounded progress nesting and local values for four real app screens
+
 ## Rule
 
 Do not delete ADRs. Supersede them with new ADRs.

@@ -1,9 +1,9 @@
 # Search, Filter, and Sort
 
-Status: Released
+Status: Approved for PL-OS v2.6.0
 Owner: Design System Working Group
-Version: 1.5.0
-Last updated: 2026-08-04
+Version: 2.6.0
+Last updated: 2026-09-28
 
 ## Purpose
 
@@ -86,6 +86,13 @@ Do not expose sensitive health search terms in shareable URLs unless privacy rev
 - specs/03-product/insights-and-correlations.md
 - specs/04-engineering/observability.md
 
+## Screenshot-matched app controls
+
+The [App Visual Specification](app-visuals.md) retains the Timeline category chips and Charts Timeframe/Symptom controls. A check, label, selected background/outline, and programmatic state identify selected categories and timeframes. Required boundaries use the app control-outline role rather than decorative copper.
+
+Wrap long filter labels or use a supported accessible overflow pattern. The screenshot's All/Meal/Bowel Movement chips and All Symptoms selection are visible examples, not a complete option inventory. Keep actual result scope, data, permissions, and unavailable states truthful when controls change.
+
 ## Version History
 
+- v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.5.0: Adds search, filter, sort, and query-state standards.

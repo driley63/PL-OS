@@ -1,9 +1,9 @@
 # App Shell and Navigation
 
-Status: Released
+Status: Approved for PL-OS v2.6.0
 Owner: Design System Working Group
-Version: 1.5.0
-Last updated: 2026-08-04
+Version: 2.6.0
+Last updated: 2026-09-28
 
 ## Purpose
 
@@ -64,7 +64,7 @@ Unavailable navigation should explain why the destination is blocked and how to 
 ## Implementation Guidance
 
 - Use released Brand Identity color tokens and Design Language spacing/radius tokens.
-- Use `color.brand.primary` for selected standard navigation state and reserve `color.ai.primary` for AI-specific destinations only.
+- Resolve selected navigation through the current theme's semantic primary/link roles; the woven app uses its approved local link and navigation aliases. Reserve AI-specific color for AI meaning.
 - Keep mobile navigation touch targets at least 44 by 44 px.
 - Preserve route identity across refresh, deep link, and platform back behavior.
 - Test long labels, localization expansion, reduced motion, and high zoom.
@@ -87,6 +87,13 @@ Unavailable navigation should explain why the destination is blocked and how to 
 - specs/03-product/experience-principles.md
 - specs/04-engineering/routing.md
 
+## Woven Plectara app shell
+
+Apply the [App Visual Specification](app-visuals.md) to the reviewed app: one yarn backdrop, horizontal ink header shading, soft copper header/navigation rules, and opaque reading surfaces. Today shows the canonical lockup and settings; Timeline, Charts, and Insights show their current page title and settings. Avoid a second Today heading or date absent from the actual view.
+
+The current bottom destinations are Today, Timeline, Charts, Insights, in that order. Use app-local navigation/link roles, a selected icon backing and non-color cue, visible labels, and programmatic selected state. Preserve native safe areas and System/Light/Dark preference. Keep floating Log/Quick Log controls clear of navigation and reserve content inset so they cannot cover evidence or warnings. Preview phone framing and OS status decoration are not product components.
+
 ## Version History
 
+- v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.5.0: Adds app shell, navigation, route label, and wayfinding standards.

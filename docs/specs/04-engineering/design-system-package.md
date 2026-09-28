@@ -1,9 +1,9 @@
 # Design System Package
 
-Status: Released
+Status: Approved for PL-OS v2.6.0
 Owner: Engineering Working Group
-Version: 1.4.0
-Last updated: 2026-08-04
+Version: 2.6.0
+Last updated: 2026-09-28
 
 ## Purpose
 
@@ -65,7 +65,14 @@ Defines engineering standards for implementing and versioning shared design-syst
 - specs/02-design/SPEC.md
 - specs/04-engineering/release-engineering.md
 
+## Woven app component contract
+
+The [App Visual Specification](../02-design/app-visuals.md) and [downloadable kit](../../assets/app/plectara/plectara-app-visuals-v1.zip) define a named app variant with exact artwork, color adapters, geometry aliases, screenshots, checksums, and bounded browser/color evidence. Prefer shared shell, reading-card, copper-rule, progress-group, row, chart and navigation components over per-screen styling.
+
+Preserve actual routing, logging, clinical rules, evidence/source labels, theme preference and data state. Validate app-local colors/state layers and native focus/text scaling/target sizes in the consuming package. Screenshot heights, OS decoration, fixture data, and local preview dialogs are not runtime contracts. Record the consuming app's revision and device/accessibility evidence before release.
+
 ## Version History
 
+- v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.4.0: Adds package contracts, token export rules, versioning, and acceptance criteria.
 - v1.0.0: Initial repository baseline.

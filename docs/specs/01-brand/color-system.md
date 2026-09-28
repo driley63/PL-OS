@@ -1,8 +1,8 @@
 # Color System
 
-Status: Approved for PL-OS v2.0.0
+Status: Approved for PL-OS v2.6.0
 Owner: Brand Working Group
-Last updated: 2026-09-04
+Last updated: 2026-09-28
 
 ## Palette
 
@@ -38,3 +38,7 @@ The build checks 64 declared text/control pairs. See [contrast results](../02-de
 An additional [140 component checks](../02-design/plectara-component-contrast-report.md) cover enabled states, hints, chart strokes, selected surfaces, and filled actions. Added surfaces and composited treatments require separate measurements.
 
 Change colors in the JSON source, regenerate adapters, check the preview in both themes, and update migration notes. [ADR-0011](../../adr/0011-adopt-plectara.md) supersedes the previous palette. Historical release records preserve the old values.
+
+## Woven app component aliases
+
+The [App Visual Specification](../02-design/app-visuals.md) reuses the approved palette and saved yarn through local reading-card, navigation, chart, attention, and control-outline roles. [App design values](../../assets/app/plectara/app-visual-tokens.json) and measured fixtures define those variants without changing foundation primitives. Horizontal ink shading protects header content; it is not a new logo fill or replacement signature gradient.

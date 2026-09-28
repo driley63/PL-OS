@@ -1,9 +1,9 @@
 # Page Templates
 
-Status: Released
+Status: Approved for PL-OS v2.6.0
 Owner: Design System Working Group
-Version: 1.5.0
-Last updated: 2026-08-04
+Version: 2.6.0
+Last updated: 2026-09-28
 
 ## Purpose
 
@@ -28,7 +28,7 @@ Defines reusable page templates for Plectara product screens so rapid prototypes
 
 | Template | Purpose | Required regions |
 | --- | --- | --- |
-| Dashboard | Daily overview and high-priority health context | Page title, primary summary, key cards, timeline preview, recovery states |
+| Dashboard | Daily overview and high-priority health context | App context/title where present, primary summary, key cards, timeline preview, recovery states |
 | Detail page | Focused view of one record, insight, report, or setting | Header, metadata, content body, related actions, audit or source context |
 | Form flow | Create, edit, consent, onboarding, or preference workflows | Step context, fields, validation, primary action, safe cancellation |
 | Report page | Long-form interpretation, export, and sharing review | Summary, evidence sections, charts/tables, limitations, export controls |
@@ -86,6 +86,13 @@ Content order must preserve meaning across breakpoints. Do not move consent, war
 - specs/03-product/reports.md
 - specs/03-product/settings-and-consent.md
 
+## Reviewed app templates
+
+The [App Visual Specification](app-visuals.md) is the current reference for Today, Timeline, Charts, and Insights. Today uses the branded header without an extra page title/date, the actual optional reminder/progress/findings state, and Log/Quick Log actions. Empty Today preserves its four screenshot sections. Timeline uses filters and one row panel; Charts retains selectors, summaries and units; Insights keeps device/source explanation, warning context and goal evidence.
+
+Use the woven shell and opaque reading surfaces for other existing routes while preserving their product contracts. The four screenshots do not define unseen forms, settings options, graph data, or workflows. Scaled/localized content reflows; native floating actions reserve safe-area/content clearance.
+
 ## Version History
 
+- v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.5.0: Adds page template standards for prototype and implementation alignment.

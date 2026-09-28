@@ -1,8 +1,8 @@
 # Buttons
 
-Status: Released
+Status: Approved for PL-OS v2.6.0
 Owner: Design System Working Group
-Version: 2.5.0
+Version: 2.6.0
 Last updated: 2026-09-28
 
 ## Purpose
@@ -17,7 +17,7 @@ Defines button roles, hierarchy, sizing, content rules, states, and accessibilit
 
 ## Requirements
 
-- Every view should have one primary action at most.
+- Focused workflows should have one primary action at most. The approved contextual Today reminder/action exception is defined below.
 - Capture widgets use an approved component-specific exception: Capture and Sleep are paired stable entry points and share the same teal fill in branded light mode. Follow the [Widget Visual Specification](capture-widget-visuals.md); do not apply this exception to ordinary app forms.
 - Button hierarchy must map to user intent, not visual preference.
 - Destructive actions must be visually distinct and require context where risk is meaningful.
@@ -78,8 +78,15 @@ Buttons must define default, hover, active, focus-visible, disabled, loading, an
 - specs/01-brand/color-system.md
 - specs/02-design/component-taxonomy.md
 
+## Woven app actions
+
+Follow the [App Visual Specification](app-visuals.md) for teal/white light actions, jade/ink dark actions, tested outlined secondary controls, and native target sizes. Today keeps Log as the stable filled entry point and Quick Log as an outlined secondary action. A supported period reminder includes its contextual filled Log Period action; this bounded Today exception is accepted in [ADR-0014](../../adr/0014-adopt-woven-app-visuals.md).
+
+Preserve actual labels, including Log entry in the empty Today reference. The widget title-case shortcut rule does not rewrite log names or app copy. Ask About These Findings is an explicit AI entry point with a labeled sparkle icon and tested teal/jade tone; generated output still requires AI authorship labeling. Preview dialogs do not establish the native Capture, Settings, or deletion flow.
+
 ## Version History
 
+- v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v2.5.0: Records the approved paired Capture/Sleep treatment as a widget-specific exception.
 - v1.2.0: Adds button variants, sizes, content rules, states, and accessibility requirements.
 - v1.0.0: Initial repository baseline.

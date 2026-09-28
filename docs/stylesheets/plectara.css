@@ -149,3 +149,16 @@ body { color: var(--md-default-fg-color); font-family: var(--liq-font-text); }
 @media (max-width: 640px) {
   .plectara-widget-gallery { grid-template-columns: minmax(0, 1fr); }
 }
+
+/* Approved app references retain readable paired screenshots on wide screens. */
+.plectara-app-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-block: 1.5rem;
+}
+.plectara-app-example { min-width: 0; }
+.plectara-app-example img { display: block; max-width: 100%; height: auto; }
+@media (max-width: 640px) {
+  .plectara-app-gallery { grid-template-columns: minmax(0, 1fr); }
+}

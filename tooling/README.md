@@ -4,6 +4,10 @@
 
 `python tooling/build-capture-widget-kit.py` packages the owner-approved widget files, refreshes bundled specifications and the SHA-256 manifest, and mirrors the downloadable assets into the documentation site. It verifies the exact embedded texture, canonical logos, title case labels, absence of Edit, and six 2× screenshots with transparent corners. It preserves saved artwork rather than regenerating it.
 
+## App visual kit
+
+`python tooling/build-app-visual-kit.py` packages the owner-approved app reference, ten individual PNGs and four comparison sheets. It checks the approved source hash, exact embedded yarn/logo/font, offline library inclusion, app-local color mappings, 58 contrast pairs, screenshot dimensions, saved browser evidence, ZIP checksums, and documentation mirror. It generates scoped CSS/Flutter color adapters and bundles the current written specification. It preserves the saved artwork. The offline browser report records local reference checks; native application and assistive-technology release evidence remain separate.
+
 ## Current accessibility checks
 
 ```bash

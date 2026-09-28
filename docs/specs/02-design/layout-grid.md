@@ -1,9 +1,9 @@
 # Layout Grid
 
-Status: Released
+Status: Approved for PL-OS v2.6.0
 Owner: Design System Working Group
-Version: 1.2.0
-Last updated: 2026-08-04
+Version: 2.6.0
+Last updated: 2026-09-28
 
 ## Purpose
 
@@ -33,7 +33,7 @@ Defines responsive layout rules, grid structure, content widths, and screen orga
 
 ## Grid Rules
 
-- Mobile uses one content column with 16 px default gutters.
+- Mobile uses one content column with 16 px default gutters; the named woven app variant uses its approved 12-unit gutters.
 - Tablet may use two columns only when content remains independently understandable.
 - Desktop dashboards may use 12-column grids, but cards should align to clear 3, 4, 6, or 12 column spans.
 - Reading pages should use a constrained text column rather than full-width paragraphs.
@@ -52,7 +52,7 @@ Defines responsive layout rules, grid structure, content widths, and screen orga
 ## Layout Constraints
 
 - Do not place operational dashboards inside decorative hero layouts.
-- Do not nest UI cards inside other cards.
+- Do not nest UI cards inside other cards except the approved display-only Your Progress metric group.
 - Use full-width bands or unframed layouts for page sections.
 - Preserve visible next-step content on onboarding and report pages.
 - Keep fixed-format elements stable with explicit dimensions or aspect ratios.
@@ -79,5 +79,6 @@ Defines responsive layout rules, grid structure, content widths, and screen orga
 
 ## Version History
 
+- v2.6.0: Aligns local app gutters and the bounded progress group with the [App Visual Specification](app-visuals.md). Device safe areas, scalable content, and reserved floating-action clearance take precedence over the illustrative phone framing.
 - v1.2.0: Adds breakpoints, grid rules, page structure, and layout constraints.
 - v1.0.0: Initial repository baseline.
