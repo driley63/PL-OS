@@ -4,6 +4,19 @@ All notable changes to PL-OS (formerly LIQ OS) are recorded in this file.
 
 The format follows Keep a Changelog conventions and the project uses semantic versioning for published operating system releases.
 
+## [Unreleased] — Prepared v2.5.0
+
+### Added
+
+- Owner-approved Capture Widget Visual Specification with whole-widget yarn, horizontal shaded branding, soft copper divider, a mint light card, and a transparent dark card with copper outline.
+- Six individual light/dark home screen screenshots, review sheets, lock screen accessory concepts, exact native/delivery texture files, source records, and a downloadable widget kit with checksums.
+- Widget-specific theme and geometry values, browser verification evidence, RFC-0007, and ADR-0013.
+
+### Changed
+
+- Align Capture Widgets with the production feature set: no widget Edit control, acknowledged saved confirmation, and title case quick labels.
+- Record the paired light Capture/Sleep fill as a widget-specific exception to the Buttons hierarchy rule.
+
 ## [v2.4.0] - 2026-09-14
 
 ### Added

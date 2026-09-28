@@ -1,0 +1,16 @@
+{
+  "crop": {
+    "left": 1476,
+    "top": 560,
+    "width": 2700,
+    "height": 2100
+  },
+  "output": {
+    "width": 900,
+    "height": 700
+  },
+  "photo": "Matheus Bertelli / Pexels 31853353",
+  "change": "Double the width and height of the original photographic crop; strands appear at half their previous size in the banner.",
+  "treatment": "AI-assisted recolor of the licensed photographic crop, requested seven-thread repeat: teal, teal, teal, jade, jade, copper, slate. One base color per strand, with natural material shading.",
+  "editing_method": "Built-in image_gen precise-object-edit, using the original photographic crop as the edit target."
+}

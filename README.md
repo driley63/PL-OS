@@ -19,6 +19,10 @@ See the [approved brand kit](docs/specs/01-brand/plectara-brand-kit.md), [Androi
 
 The [Dark Mode & Accessibility standard](docs/specs/02-design/dark-mode.md) defines component states, contrast, charts, and app validation. The [app source audit](docs/specs/04-engineering/dark-mode-audit-2026-09-14.md) records the remaining Plectara implementation work.
 
+## Prepared widget design update
+
+The owner-approved [Capture Widget Visual Specification](docs/specs/02-design/capture-widget-visuals.md) includes family/theme screenshots, the exact woven background files, local design values, written implementation guidance, and a downloadable kit. [v2.5.0](docs/releases/v2.5.0/README.md) is prepared for review; publication and native app implementation are separate steps.
+
 ## Repository Map
 
 ```text

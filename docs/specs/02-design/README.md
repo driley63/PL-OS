@@ -45,7 +45,8 @@ The Design Language translates Brand Identity into product UI rules. It establis
 - [Component contrast checks](plectara-component-contrast-report.md): 140 tested uses of current semantic colors
 - `empty-error-loading-states.md`: async, unavailable, and recovery state rules
 - `iconography.md`: product icon style, usage, labels, and AI icon behavior
-- `capture-widgets.md`: Capture-first widget, shortcut, wearable, and adaptive surface rules
+- [Capture Widgets](capture-widgets.md): Capture-first widget, shortcut, wearable, and adaptive surface rules
+- [Widget Visual Specification](capture-widget-visuals.md): approved woven backgrounds, family/theme screenshots, local design values, downloadable assets, and native implementation criteria
 - `app-shell-and-navigation.md`: app shell, navigation, route labels, and wayfinding rules
 - `page-templates.md`: reusable dashboard, detail, form, report, settings, and empty-state templates
 - `lists-and-tables.md`: collection, row, table, and responsive data-display rules

@@ -1,5 +1,9 @@
 # Tooling
 
+## Capture widget kit
+
+`python tooling/build-capture-widget-kit.py` packages the owner-approved widget files, refreshes bundled specifications and the SHA-256 manifest, and mirrors the downloadable assets into the documentation site. It verifies the exact embedded texture, canonical logos, title case labels, absence of Edit, and six 2× screenshots with transparent corners. It preserves saved artwork rather than regenerating it.
+
 ## Current accessibility checks
 
 ```bash

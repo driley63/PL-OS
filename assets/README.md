@@ -6,6 +6,8 @@ This folder stores approved Plectara source assets, generated exports, design to
 
 Use `brand/plectara/` for the owner-approved logo, outlined wordmark, platform icons, social graphics, inventory, and downloadable ZIP. Use `web/plectara-tokens.css` and `flutter/plectara_colors.dart` for new color integrations.
 
+Use [widgets/plectara](widgets/plectara/README.md) for the approved capture widget texture, six family/theme screenshots, design values, browser reference, source records, and asset manifest. Its component-specific roles do not replace the global token library.
+
 ## Structure
 
 - `brand/logos/source`: editable SVG source placeholders
@@ -15,5 +17,6 @@ Use `brand/plectara/` for the owner-approved logo, outlined wordmark, platform i
 - `figma`: future Figma export references
 - `flutter`: Flutter asset and token examples
 - `web`: web manifest, favicon, and CSS token examples
+- `widgets/plectara`: owner-approved capture widget reference kit and source/delivery textures
 
 The files in `brand/logos/` are historical placeholders and naming explorations. They are retained for provenance, not used by the current site.

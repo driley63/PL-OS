@@ -132,3 +132,20 @@ body { color: var(--md-default-fg-color); font-family: var(--liq-font-text); }
 }
 
 .md-typeset .plectara-logo-card .plectara-icon-shape { margin: 0 0 .75rem; font-size: 1rem; font-weight: 650; }
+/* Capture widget references: responsive artwork without extra panel chrome. */
+.plectara-widget-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-block: 1.5rem;
+}
+.plectara-widget-example {
+  min-width: 0;
+}
+.plectara-widget-example img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 640px) {
+  .plectara-widget-gallery { grid-template-columns: minmax(0, 1fr); }
+}

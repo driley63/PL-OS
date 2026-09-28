@@ -16,6 +16,10 @@ Plectara Operating System (PL-OS) is the canonical source of truth for Plectara'
 
 PL-OS now includes a [Dark Mode & Accessibility standard](specs/02-design/dark-mode.md), 140 component contrast checks, and a [Plectara app source audit](specs/04-engineering/dark-mode-audit-2026-09-14.md). Read the [v2.4.0 changes](releases/v2.4.0/README.md). Android icons, Liquid Glass iOS icons, and the established logo library remain available in the [brand kit](specs/01-brand/plectara-brand-kit.md).
 
+## Prepared widget design update
+
+The approved [Capture Widget Visual Specification](specs/02-design/capture-widget-visuals.md) includes light/dark screenshots for Small, Medium, and Large, the exact background texture, component design values, source records, and a downloadable implementation kit. The [v2.5.0 bundle](releases/v2.5.0/README.md) is prepared for review; publication is pending.
+
 ## Documentation Source
 
 The canonical Markdown source for the published documentation site lives under `docs/`.

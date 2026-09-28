@@ -1,0 +1,37 @@
+{
+  "sequence": [
+    "teal",
+    "teal",
+    "teal",
+    "jade",
+    "jade",
+    "copper",
+    "slate"
+  ],
+  "colors": {
+    "teal": "#287E80",
+    "jade": "#76B7A5",
+    "copper": "#C88764",
+    "slate": "#567788"
+  },
+  "primary": {
+    "color": "teal",
+    "threads": 3
+  },
+  "secondary": {
+    "color": "jade",
+    "threads": 2
+  },
+  "other": [
+    {
+      "color": "copper",
+      "threads": 1
+    },
+    {
+      "color": "slate",
+      "threads": 1
+    }
+  ],
+  "instruction": "One consistent dyed base color per physical strand, allowing natural photographic highlights and shadows. Repeat across neighboring strands in both weave directions.",
+  "implementation": "AI-assisted photo edit for visual review; exact hidden or blurred thread continuity cannot be mechanically verified from the photograph."
+}

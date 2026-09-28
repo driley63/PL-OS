@@ -1,0 +1,132 @@
+{
+  "reviews": [
+    {
+      "width": 1280,
+      "theme": "default",
+      "images": 6,
+      "unloadedImages": [],
+      "horizontalOverflow": false,
+      "galleryColumns": "329px 329px"
+    },
+    {
+      "width": 1280,
+      "theme": "slate",
+      "images": 6,
+      "unloadedImages": [],
+      "horizontalOverflow": false,
+      "galleryColumns": "329px 329px"
+    },
+    {
+      "width": 375,
+      "theme": "default",
+      "images": 6,
+      "unloadedImages": [],
+      "horizontalOverflow": false,
+      "galleryColumns": "343px"
+    },
+    {
+      "width": 375,
+      "theme": "slate",
+      "images": 6,
+      "unloadedImages": [],
+      "horizontalOverflow": false,
+      "galleryColumns": "343px"
+    }
+  ],
+  "links": [
+    {
+      "path": "/specs/02-design/capture-widgets/",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/plectara-capture-widgets-v1.zip",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/reference/approved-widgets.html",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/manifest.json",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/previews/home-small-light.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/previews/home-small-dark.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/previews/home-medium-light.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/previews/home-medium-dark.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/previews/home-large-light.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/previews/home-large-dark.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/previews/overview-light.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/previews/overview-dark.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/widget-visual-tokens.json",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/logos/plectara-horizontal-reversed.svg",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/textures/plectara-widget-yarn-gentle-focus-v1.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/textures/plectara-widget-yarn-gentle-focus-v1.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/source/plectara-woven-threads-working-v1.png",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/source/provenance/",
+      "status": 200
+    },
+    {
+      "path": "/specs/02-design/dark-mode/",
+      "status": 200
+    },
+    {
+      "path": "/specs/04-engineering/accessibility-testing/",
+      "status": 200
+    },
+    {
+      "path": "/assets/widgets/plectara/verification/browser-review.json",
+      "status": 200
+    },
+    {
+      "path": "/adr/0013-adopt-capture-widget-visuals/",
+      "status": 200
+    },
+    {
+      "path": "/releases/v2.5.0/",
+      "status": 200
+    }
+  ],
+  "pageErrors": [],
+  "environment": "Local built PL-OS documentation; not production deployment"
+}

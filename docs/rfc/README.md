@@ -4,6 +4,7 @@ RFCs are proposals under review. Accepted RFCs may become ADRs and specification
 
 ## Accepted for implementation
 
+- [RFC-0007: Capture widget visual specification](0007-capture-widget-visuals.md) — accepted design and assets, prepared for v2.5.0.
 - [RFC-0006: Dark Mode & Accessibility](0006-dark-mode-accessibility.md) — standards and app source audit, included in v2.4.0.
 
 ## Initial Drafts

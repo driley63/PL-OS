@@ -1,13 +1,15 @@
 # Capture Widgets
 
-Status: Released
+Status: Owner-approved update; v2.5.0 publication pending
 Owner: Design System Working Group
-Version: 1.7.0
-Last updated: 2026-08-20
+Version: 2.5.0
+Last updated: 2026-09-28
 
 ## Purpose
 
 Defines design standards for Plectara widgets, shortcuts, wearable surfaces, and other compact entry points where the primary user goal is Capture.
+
+The [Widget Visual Specification](capture-widget-visuals.md) supplies the approved home screen designs, screenshots, texture files, size-specific composition, and theme roles. Use both documents when implementing the component.
 
 ## Scope
 
@@ -28,17 +30,17 @@ Compact surfaces should help users record what just happened with the least inte
 - Adaptive suggestions must use the released Plectara design system, not a separate visual language.
 - User-pinned actions must remain stable and visually distinguishable from adaptive suggestions without relying on color alone.
 - AI Purple must not be used for adaptive Capture unless the surface explicitly communicates AI-generated behavior.
-- Success, undo, edit, loading, unavailable, and permission-limited states must be defined where platform capabilities allow.
+- Define success, loading, unavailable, and permission-limited states where platform capabilities allow. Widgets do not expose an Edit action; correction or shortcut management uses supported app flows.
 - Widget content must avoid exposing sensitive health detail in places where the device surface may be public.
 
 ## Surface Model
 
 | Region | Purpose | Guidance |
 | --- | --- | --- |
-| Brand or context label | Identifies Plectara or the active context | Keep compact and subordinate to actions |
+| Brand or context label | Identifies Plectara or the active context | Follow the approved header composition while preserving usable actions |
 | Stable anchors | Persistent actions such as Sleep or general Capture | Use for universal or user-pinned behaviors |
 | Adaptive Capture area | Contextual suggestions based on repeated behavior | Keep tappable, concise, and easy to scan |
-| Recent confirmation | Shows that the last capture succeeded when space allows | Keep brief and make correction reachable |
+| Recent confirmation | Shows that the last capture succeeded when space allows | Show acknowledged data; keep brief; no widget Edit control |
 | Overflow or more entry | Opens broader Capture options | Use when the surface cannot show everything |
 
 Not every widget size needs every region. Smaller widgets may include only stable anchors and one or two adaptive captures.
@@ -47,7 +49,7 @@ Not every widget size needs every region. Smaller widgets may include only stabl
 
 | Behavior | Use | Design rule |
 | --- | --- | --- |
-| One-tap Capture | The action contains enough default meaning to save | Show immediate feedback and keep undo or edit nearby when possible |
+| One-tap Capture | The action contains enough default meaning to save | Show acknowledged feedback; provide recovery through supported app flows |
 | Guided Capture | The action requires quantity, severity, duration, or notes | Deep-link to the focused in-app Capture screen with context preselected |
 | Freeform Capture | The user needs to record something unusual | Route to the general Capture flow without forcing setup |
 
@@ -84,8 +86,9 @@ The user should never need to understand an internal model to use these states. 
 
 - Keep widget layouts action-first, with large enough targets for quick use.
 - Prefer compact rows, grids, or ribbons of Capture actions over dashboard cards.
-- Use released color, spacing, type, radius, elevation, and iconography tokens.
+- Use the approved widget role and geometry contract alongside the shared color, spacing, type, and iconography standards. Local card values and paired stable entry points are recorded in the visual specification.
 - Keep labels user-recognizable, short, and privacy-aware.
+- Use title case for English quick button labels and locale-appropriate casing for localized labels.
 - Avoid charts, health scores, dense metrics, or evidence summaries on capture widgets.
 - Use full app views for trend review, correlation explanation, reports, and AI-assisted interpretation.
 
@@ -95,7 +98,7 @@ The user should never need to understand an internal model to use these states. 
 - Do not rely on color, icon shape, or position alone to distinguish pinned and adaptive actions.
 - Respect reduced motion and platform widget animation limits.
 - Avoid sensitive details in widget labels unless the user explicitly configured them.
-- Provide a recoverable path for accidental captures.
+- Provide a recoverable path through supported app flows for accidental captures; do not add an Edit control to the widget.
 
 ## Acceptance Criteria
 
@@ -104,9 +107,12 @@ The user should never need to understand an internal model to use these states. 
 - Adaptive suggestions preserve user control and do not imply health interpretation.
 - Widget visuals remain aligned with released Brand Identity and Design Language standards.
 - Sensitive health context is minimized on public or glanceable surfaces.
+- Implemented visuals match the approved family/theme references, use the saved texture, and preserve title case quick labels without an Edit action.
 
 ## References
 
+- [Widget Visual Specification and asset downloads](capture-widget-visuals.md)
+- [Dark Mode & Accessibility](dark-mode.md)
 - specs/01-brand/color-system.md
 - specs/02-design/buttons.md
 - specs/02-design/iconography.md
@@ -117,4 +123,5 @@ The user should never need to understand an internal model to use these states. 
 
 ## Version History
 
+- v2.5.0: Adds the approved visual contract, paired light actions, title case labels, and explicit absence of widget Edit; publication pending.
 - v1.7.0: Adds Capture-first widget and adaptive surface design standards.
