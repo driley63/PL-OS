@@ -1,0 +1,236 @@
+{
+  "asset_id": "plectara-capture-widgets",
+  "version": 1,
+  "status": "owner-approved design reference; PL-OS v2.5.0 publication pending",
+  "approval_date": "2026-09-28",
+  "design_review_revision": 13,
+  "specification": "docs/specs/02-design/capture-widget-visuals.md",
+  "default_texture": "textures/plectara-widget-yarn-gentle-focus-v1.webp",
+  "native_source": "textures/plectara-widget-yarn-gentle-focus-v1.png",
+  "screenshot_scale": 2,
+  "native_implementation_included": false,
+  "files": [
+    {
+      "file": "README.md",
+      "role": "README.md",
+      "bytes": 4109,
+      "sha256": "78cd71986cc4f9aff7db9d73fc0b56ff358d7064bf8a5f8c650d8803671078ff"
+    },
+    {
+      "file": "capture-widgets.md",
+      "role": "capture-widgets.md",
+      "bytes": 7550,
+      "sha256": "000590dcb5d244d9d6f5e826b1cbcbec5d6aa0699d9d921a2d7a0e2e1daa231f"
+    },
+    {
+      "file": "fonts/Inter-variable.ttf",
+      "role": "fonts",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "file": "fonts/OFL.txt",
+      "role": "fonts",
+      "bytes": 4376,
+      "sha256": "5dd548d31a85f756e01d63e00d7faf1e324103ed3e9102fcbbabf2cc2db6dd39"
+    },
+    {
+      "file": "logos/plectara-horizontal-reversed.svg",
+      "role": "logos",
+      "bytes": 33775,
+      "sha256": "4a1f60aaf2ab6ad41962cf654489013899f2e67cd1c7cc3100be9b2b5e25521b"
+    },
+    {
+      "file": "logos/plectara-horizontal-white.svg",
+      "role": "logos",
+      "bytes": 33775,
+      "sha256": "8d83a7ed579ac5a3f079af7beccb937d6059361686c22ff27baf7240006bab43"
+    },
+    {
+      "file": "logos/plectara-symbol-white.svg",
+      "role": "logos",
+      "bytes": 21433,
+      "sha256": "6d80cc12690ee086847975bc89a3f1fca941b7584d4d147a830e051f1155ef36"
+    },
+    {
+      "file": "previews/home-large-dark.png",
+      "role": "previews",
+      "bytes": 478924,
+      "sha256": "f38d0a2c79a98c2f2bcdad4fb17a015c3db18dc88b1dab12e451c76582c34278",
+      "width": 720,
+      "height": 752,
+      "mode": "RGBA"
+    },
+    {
+      "file": "previews/home-large-light.png",
+      "role": "previews",
+      "bytes": 264872,
+      "sha256": "83ecc2061e0c429e1a618951d3bc333b09cb95f2d85a16931447c1eee8a89175",
+      "width": 720,
+      "height": 752,
+      "mode": "RGBA"
+    },
+    {
+      "file": "previews/home-medium-dark.png",
+      "role": "previews",
+      "bytes": 215388,
+      "sha256": "29dc2ca1bb4af10edd014287723cf0b04265e7c6dedf9079eb83a3b91a3c09eb",
+      "width": 720,
+      "height": 340,
+      "mode": "RGBA"
+    },
+    {
+      "file": "previews/home-medium-light.png",
+      "role": "previews",
+      "bytes": 182159,
+      "sha256": "252fffbd609159e335b3c561629e17cccfa713566e086f5c69f6454d9c0eddde",
+      "width": 720,
+      "height": 340,
+      "mode": "RGBA"
+    },
+    {
+      "file": "previews/home-small-dark.png",
+      "role": "previews",
+      "bytes": 125921,
+      "sha256": "f9b6ca30c7227fbb6fd614c479a635d55ad9eb77411552fe64ebd9a923caa1f0",
+      "width": 340,
+      "height": 340,
+      "mode": "RGBA"
+    },
+    {
+      "file": "previews/home-small-light.png",
+      "role": "previews",
+      "bytes": 105088,
+      "sha256": "25a9e44992ae708b59d77fb464ae3e351307401ea7bd2c4143e4a27ab9157956",
+      "width": 340,
+      "height": 340,
+      "mode": "RGBA"
+    },
+    {
+      "file": "previews/lock-screen-accessories.png",
+      "role": "previews",
+      "bytes": 63135,
+      "sha256": "bc5bbe8c3dba94cf66f44dad4838f3ba53669bb83c33bc32dec9bf957b9cad9a",
+      "width": 640,
+      "height": 752,
+      "mode": "RGBA"
+    },
+    {
+      "file": "previews/overview-dark.png",
+      "role": "previews",
+      "bytes": 300450,
+      "sha256": "c8f2ffa9d355ebdcefaa6cd93d242a5c44e71db920fc89b71effa416eb20ff59",
+      "width": 736,
+      "height": 719,
+      "mode": "RGB"
+    },
+    {
+      "file": "previews/overview-light.png",
+      "role": "previews",
+      "bytes": 207040,
+      "sha256": "0a297469fcf69893781abc0065a6fa7f106d5b7c8356fb812626493d8c040338",
+      "width": 736,
+      "height": 719,
+      "mode": "RGB"
+    },
+    {
+      "file": "reference/LUCIDE-LICENSE",
+      "role": "reference",
+      "bytes": 3208,
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+    },
+    {
+      "file": "reference/approved-mockup-fragment.html",
+      "role": "reference",
+      "bytes": 530420,
+      "sha256": "e79af5e1246dfc1d110e49473766e188ebf4a62ef6f08d1e5ad4c73c15c563f9"
+    },
+    {
+      "file": "reference/approved-widgets.html",
+      "role": "reference",
+      "bytes": 1352495,
+      "sha256": "b371531855f9aa2abb08d6bd5eeed5609e72fb8c8e9a236ffc05e6b20e166070"
+    },
+    {
+      "file": "source/approved-pattern-manifest.json",
+      "role": "source",
+      "bytes": 6068,
+      "sha256": "df6bb3e01adc2438cf354b32982784b8550c1f952ff49bf42069e03a21262a1f"
+    },
+    {
+      "file": "source/original-color-edit-prompt.md",
+      "role": "source",
+      "bytes": 2134,
+      "sha256": "6a72013f546eeef0332a35e3df537a36288ba28072f4ae81a21c61e1220ffd4c"
+    },
+    {
+      "file": "source/original-crop-settings.json",
+      "role": "source",
+      "bytes": 659,
+      "sha256": "bb76289b4ddab5641ae08f8f52269ca1f94226fd9e5ad6413b81d9801b77d995"
+    },
+    {
+      "file": "source/plectara-woven-threads-working-v1.png",
+      "role": "source",
+      "bytes": 1589456,
+      "sha256": "ee3e5a7cd78be741b03eef857a4de32b32a343617c9e63705297c90acbaf0cab",
+      "width": 900,
+      "height": 700,
+      "mode": "RGB"
+    },
+    {
+      "file": "source/provenance.md",
+      "role": "source",
+      "bytes": 2743,
+      "sha256": "662fc6a090cc9d8f53cad8937242ff9ac01c11206d49a1eb6ebcb1839da04979"
+    },
+    {
+      "file": "source/thread-color-plan.json",
+      "role": "source",
+      "bytes": 817,
+      "sha256": "dcbfcff3ac9fa25c77add4da60cfbf779efe22cafda41588b426ba9285fd709b"
+    },
+    {
+      "file": "source/widget-focus-edit-prompt.txt",
+      "role": "source",
+      "bytes": 1335,
+      "sha256": "cd1c8dda25593c379218ed35411d1c35af8f0a8b257dec9715d153182448d4eb"
+    },
+    {
+      "file": "specification.md",
+      "role": "specification.md",
+      "bytes": 17909,
+      "sha256": "303d424f618fc37a648e64532cec008e4c7631f3e0f34ba7edf8c57052d990bd"
+    },
+    {
+      "file": "textures/plectara-widget-yarn-gentle-focus-v1.png",
+      "role": "textures",
+      "bytes": 2063976,
+      "sha256": "3f062afc27cd6f6417414f74737e8b45c077f58d2d2478e0919efa0d6829f974",
+      "width": 1422,
+      "height": 1106,
+      "mode": "RGB"
+    },
+    {
+      "file": "textures/plectara-widget-yarn-gentle-focus-v1.webp",
+      "role": "textures",
+      "bytes": 155834,
+      "sha256": "4b120ecb20b0796acde86072bf3cda04a9fe5cb2ac239ccb3a644c3e5d458b93",
+      "width": 900,
+      "height": 700,
+      "mode": "RGB"
+    },
+    {
+      "file": "verification/browser-review.json",
+      "role": "verification",
+      "bytes": 49645,
+      "sha256": "fda58e83e4c777f82ae593566e6b7453bf0c78a1b02b8cec7c3dc95f2ca9af90"
+    },
+    {
+      "file": "widget-visual-tokens.json",
+      "role": "widget-visual-tokens.json",
+      "bytes": 3589,
+      "sha256": "fc5feac9a8e44efe1a49710d0e24c2ff493676ee1f336e1d20152666a13879af"
+    }
+  ]
+}

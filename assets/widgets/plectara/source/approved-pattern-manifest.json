@@ -1,0 +1,182 @@
+{
+  "asset_id": "plectara-woven-threads",
+  "name": "Plectara Woven Threads",
+  "version": 1,
+  "status": "approved",
+  "approved_at": "2026-09-13T22:23:11Z",
+  "approved_by": "Dustin Riley",
+  "approval_text": "Those are perfect. Keep this pattern handy for future branding and marketing",
+  "origin": {
+    "thread_id": "01a09358-7da3-7e10-ae55-00af737b864c",
+    "concept": "LinkedIn Banner Color v7",
+    "zoom_reference_revision": 6
+  },
+  "reuse": {
+    "master": "plectara-woven-threads-master-v1.png",
+    "working_image": "plectara-woven-threads-working-v1.png",
+    "prefer_existing_artwork_over_regeneration": true,
+    "seamless_tile": false,
+    "preserve_approved_texture_and_zoom": true,
+    "same_pattern_on_both_sides": true,
+    "mirror_or_crop_allowed": true,
+    "one_base_color_per_strand": true,
+    "natural_shading_allowed": true
+  },
+  "color_sequence": [
+    {
+      "color": "teal",
+      "hex": "#287E80",
+      "consecutive_threads": 3
+    },
+    {
+      "color": "jade",
+      "hex": "#76B7A5",
+      "consecutive_threads": 2
+    },
+    {
+      "color": "copper",
+      "hex": "#C88764",
+      "consecutive_threads": 1
+    },
+    {
+      "color": "slate",
+      "hex": "#567788",
+      "consecutive_threads": 1
+    }
+  ],
+  "linkedin": {
+    "approved_variants": [
+      "light",
+      "dark"
+    ],
+    "width": 1512,
+    "height": 256,
+    "tagline": false,
+    "logo": "Canonical larger Plectara logo and wordmark, exact approved composition"
+  },
+  "photography": {
+    "creator": "Matheus Bertelli",
+    "source": "https://www.pexels.com/photo/close-up-of-colorful-textile-fabric-weave-31853353/",
+    "license": "https://www.pexels.com/license/",
+    "license_checked": "2026-09-13",
+    "original_sha256": "fafeb31cd2884ed3593e5fbf25b9894cc53031799ff0b496c601014d9d1320f2",
+    "treatment": "AI-assisted recolor of the licensed photographic crop, requested seven-thread repeat: teal, teal, teal, jade, jade, copper, slate. One base color per strand, with natural material shading.",
+    "display_scale": {
+      "width": 480,
+      "height": 373.3333333333333,
+      "crop": {
+        "left": 1476,
+        "top": 560,
+        "width": 2700,
+        "height": 2100
+      },
+      "magnification_ratio_to_revision_5": 0.5,
+      "left_translation": [
+        -15,
+        -8
+      ],
+      "right_translation": [
+        1527,
+        -8
+      ],
+      "magnification_ratio_to_revision_6": 1
+    },
+    "editing_method": "Built-in image_gen precise-object-edit, using the original photographic crop as the edit target.",
+    "ai_assisted_edit": true,
+    "ai_output_sha256": "30680b3314966e3fb0a69e8b9af8904959d94de02ebde50ed8a384f113c94e5e"
+  },
+  "files": [
+    {
+      "file": "plectara-woven-threads-master-v1.png",
+      "role": "Approved highest-resolution master; preserve exact artwork and source provenance",
+      "bytes": 1962222,
+      "sha256": "30680b3314966e3fb0a69e8b9af8904959d94de02ebde50ed8a384f113c94e5e",
+      "width": 1422,
+      "height": 1106,
+      "format": "png",
+      "space": "srgb"
+    },
+    {
+      "file": "plectara-woven-threads-working-v1.png",
+      "role": "Exact 900 × 700 treatment embedded in approved banners",
+      "bytes": 1589456,
+      "sha256": "ee3e5a7cd78be741b03eef857a4de32b32a343617c9e63705297c90acbaf0cab",
+      "width": 900,
+      "height": 700,
+      "format": "png",
+      "space": "srgb"
+    },
+    {
+      "file": "LinkedIn/plectara-linkedin-cover-light-1512x256-v1.png",
+      "role": "Approved LinkedIn company cover, light; exact revision 7 upload image",
+      "bytes": 481863,
+      "sha256": "edfdce41e820d41989d07cdd19362023f978d7674d4fa936e4824b04c65a2150",
+      "width": 1512,
+      "height": 256,
+      "format": "png",
+      "space": "srgb"
+    },
+    {
+      "file": "LinkedIn/plectara-linkedin-cover-light-1512x256-v1.svg",
+      "role": "Approved LinkedIn company cover, light; exact revision 7 composition",
+      "bytes": 2154171,
+      "sha256": "e2513a5db74cc439277d1a6d52ed9c4884e04aeb2e7d79c1e37eeb3b7c00482d"
+    },
+    {
+      "file": "LinkedIn/plectara-linkedin-cover-dark-1512x256-v1.png",
+      "role": "Approved LinkedIn company cover, dark; exact revision 7 upload image",
+      "bytes": 452270,
+      "sha256": "9d32f8cde8d334d072b60c8119d1c69c0b671fb7e44d6c69cd4c53b6b51f5858",
+      "width": 1512,
+      "height": 256,
+      "format": "png",
+      "space": "srgb"
+    },
+    {
+      "file": "LinkedIn/plectara-linkedin-cover-dark-1512x256-v1.svg",
+      "role": "Approved LinkedIn company cover, dark; exact revision 7 composition",
+      "bytes": 2154170,
+      "sha256": "5ddab6cd3c1f6c244ceef610768c73c0c9fd9d1ca3a387852b916d7fd755094b"
+    },
+    {
+      "file": "Source/pexels-matheus-bertelli-31853353-original.jpg",
+      "role": "Source and editing provenance",
+      "bytes": 600182,
+      "sha256": "fafeb31cd2884ed3593e5fbf25b9894cc53031799ff0b496c601014d9d1320f2"
+    },
+    {
+      "file": "Source/photograph-crop-before-color-edit.png",
+      "role": "Source and editing provenance",
+      "bytes": 1047205,
+      "sha256": "332e28024b83bd4caab26c001762b3d0fea3ba74993c3653d4325b7b642eafe7",
+      "width": 900,
+      "height": 700,
+      "format": "png",
+      "space": "srgb"
+    },
+    {
+      "file": "Source/Edit Prompt.md",
+      "role": "Source and editing provenance",
+      "bytes": 2134,
+      "sha256": "6a72013f546eeef0332a35e3df537a36288ba28072f4ae81a21c61e1220ffd4c"
+    },
+    {
+      "file": "Source/Photo Source and License.md",
+      "role": "Source and editing provenance",
+      "bytes": 1991,
+      "sha256": "e415242ab2eefa345deed5c9fc492b3ed6ef77b73cc3b4208c14759e979cf3bc"
+    },
+    {
+      "file": "Source/crop-settings.json",
+      "role": "Source and editing provenance",
+      "bytes": 659,
+      "sha256": "bb76289b4ddab5641ae08f8f52269ca1f94226fd9e5ad6413b81d9801b77d995"
+    },
+    {
+      "file": "Source/thread-color-plan.json",
+      "role": "Source and editing provenance",
+      "bytes": 817,
+      "sha256": "dcbfcff3ac9fa25c77add4da60cfbf779efe22cafda41588b426ba9285fd709b"
+    }
+  ]
+}

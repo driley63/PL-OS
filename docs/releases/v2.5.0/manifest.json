@@ -1,0 +1,43 @@
+{
+  "version": "2.5.0",
+  "date": "2026-09-28",
+  "change_class": "minor",
+  "status": "approved release",
+  "approval": "Owner approved widget review revision 13, requested PL-OS integration with screenshots, textures, and written specifications, and authorized merging the update",
+  "standards": {
+    "visual": "docs/specs/02-design/capture-widget-visuals.md",
+    "behavior": "docs/specs/02-design/capture-widgets.md",
+    "button_exception": "docs/specs/02-design/buttons.md"
+  },
+  "decisions": [
+    "docs/rfc/0007-capture-widget-visuals.md",
+    "docs/adr/0013-adopt-capture-widget-visuals.md"
+  ],
+  "assets": {
+    "source": "assets/widgets/plectara",
+    "site": "docs/assets/widgets/plectara",
+    "manifest": "assets/widgets/plectara/manifest.json",
+    "download": "docs/assets/widgets/plectara/plectara-capture-widgets-v1.zip",
+    "default_texture": "assets/widgets/plectara/textures/plectara-widget-yarn-gentle-focus-v1.webp",
+    "full_resolution_texture": "assets/widgets/plectara/textures/plectara-widget-yarn-gentle-focus-v1.png",
+    "home_screen_screenshots": 6,
+    "review_sheets": 2,
+    "accessory_concept_screenshots": 1,
+    "included_files": 31
+  },
+  "evidence": "docs/assets/widgets/plectara/verification/browser-review.json",
+  "validation": {
+    "browser_layout_and_colors": "passed",
+    "offline_browser_reference": "passed",
+    "exact_texture_and_logos": "passed",
+    "screenshot_dimensions_and_transparency": "passed",
+    "zip_and_docs_parity": "passed",
+    "strict_documentation_build": "passed",
+    "shared_brand_validation": "passed",
+    "shared_contrast": "64 palette and 140 component checks passed; six regression tests passed",
+    "local_site_review": "passed: light/dark, desktop/mobile, six loaded gallery images, 23 links"
+  },
+  "native_implementation_included": false,
+  "publication": "Released through owner-authorized PR #24; hosting deployment is verified separately",
+  "site_verification": "docs/releases/v2.5.0/site-review.json"
+}

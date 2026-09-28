@@ -1,0 +1,92 @@
+{
+  "component": "Plectara capture widgets",
+  "version": 1,
+  "design_review_revision": 13,
+  "approved_at": "2026-09-28",
+  "scope": "Widget-local roles and reference geometry; does not replace global design tokens",
+  "textures": {
+    "native_source": "textures/plectara-widget-yarn-gentle-focus-v1.png",
+    "approved_delivery": "textures/plectara-widget-yarn-gentle-focus-v1.webp",
+    "opacity": 1,
+    "repeat": false,
+    "rotation_degrees_clockwise": 55,
+    "position": "left center"
+  },
+  "light": {
+    "base": "#192D38",
+    "card_fill": "#E9F3EF",
+    "card_outline": "#C88764",
+    "capture_fill": "#287E80",
+    "capture_foreground": "#FFFFFF",
+    "sleep_fill": "#287E80",
+    "sleep_foreground": "#FFFFFF",
+    "sleep_icon": "#FFFFFF",
+    "shortcut_fill": "#FFFFFF",
+    "shortcut_foreground": "#192D38",
+    "shortcut_icon": "#287E80",
+    "label_foreground": "#192D38",
+    "label_backing": "transparent",
+    "success_icon": "#256F53"
+  },
+  "dark": {
+    "base": "#192D38",
+    "card_fill": "transparent",
+    "card_outline": "#C88764",
+    "capture_fill": "#76B7A5",
+    "capture_foreground": "#192D38",
+    "sleep_fill": "#264C4B",
+    "sleep_foreground": "#FAF8F4",
+    "sleep_icon": "#76B7A5",
+    "shortcut_fill": "#223D49",
+    "shortcut_foreground": "#FAF8F4",
+    "shortcut_icon": "#76B7A5",
+    "label_foreground": "#FAF8F4",
+    "label_backing": "#192D38",
+    "success_icon": "#87CBA7"
+  },
+  "header": {
+    "shade_color": "#192D38",
+    "supporting_text": "#FAF8F4",
+    "gradient_medium_large": {
+      "direction": "left to right",
+      "stops": [[0, 0.84], [20, 0.78], [38, 0.68], [56, 0.38], [78, 0.08], [100, 0]]
+    },
+    "gradient_small": {
+      "direction": "right to left",
+      "stops": [[0, 0.46], [22, 0.56], [44, 0.66], [62, 0.72], [80, 0.78], [100, 0.84]]
+    },
+    "divider": {
+      "color": "#C88764",
+      "height": 1,
+      "direction": "left to right",
+      "stops": [[0, 0], [16, 1], [84, 1], [100, 0]],
+      "role": "decorative"
+    }
+  },
+  "geometry": {
+    "units": "illustrative logical reference units; native host bounds take precedence",
+    "body_inset": 6,
+    "card_padding": 6,
+    "card_outline_width": 1,
+    "card_radius": 14,
+    "button_radius": 8,
+    "action_gap": 8,
+    "icon_size": 20,
+    "saved_icon_size": 16,
+    "preview_outside_radius": 24
+  },
+  "families": {
+    "small": {"canvas": [170, 170], "header_height": 64, "logo_width": 140, "action_height": 64, "columns": 2, "photo_height": 360, "photo_inset_percent": [-40, -40, -40, -40]},
+    "medium": {"canvas": [360, 170], "header_height": 78, "logo_width": 146, "action_height": 64, "columns": 3, "photo_height": 600, "photo_inset_percent": [-85, -40, -85, -40]},
+    "large": {"canvas": [360, 376], "header_height": 96, "logo_width": 180, "action_height": 48, "columns": 2, "photo_height": 720, "photo_inset_percent": [-40, -40, -40, -40]}
+  },
+  "typography": {
+    "family": "Inter",
+    "fallbacks": ["SF Pro", "Roboto", "system-ui", "sans-serif"],
+    "action": {"size": 14, "line_height": 18, "weight": 500, "case": "locale-appropriate title case"},
+    "capture": {"size": 14, "line_height": 18, "weight": 600},
+    "caption": {"size": 12, "line_height": 18, "weight": 500}
+  },
+  "behavior": {"edit_action": false, "saved_confirmation": "acknowledged application data only", "preview_actions": "local app-handoff illustrations"},
+  "system_appearances": {"decorative_texture_in_accented_mode": false, "monochrome_logo": "use the whole approved monochrome asset", "platform_materials": "native implementation and review required"}
+}

@@ -645,6 +645,8 @@ Inter is the separate UI and supporting-copy typeface. The optional campaign lin
 
 ## Other ready-to-use assets
 
+The [Capture Widget kit](../02-design/capture-widget-visuals.md) packages the approved woven background, home screen light/dark screenshots, accessory concepts, design values, and source records in a separate download.
+
 | Asset | Use | Downloads |
 | --- | --- | --- |
 | Stacked color logo | Portrait layouts on light backgrounds; jade head and ink lettering | [SVG](../../assets/brand/plectara-stacked.svg){ download="plectara-stacked.svg" } · [PNG](../../assets/brand/plectara-stacked.png){ download="plectara-stacked.png" } |

@@ -2,8 +2,8 @@
 
 Status: Released
 Owner: Design System Working Group
-Version: 1.2.0
-Last updated: 2026-08-04
+Version: 2.5.0
+Last updated: 2026-09-28
 
 ## Purpose
 
@@ -18,6 +18,7 @@ Defines button roles, hierarchy, sizing, content rules, states, and accessibilit
 ## Requirements
 
 - Every view should have one primary action at most.
+- Capture widgets use an approved component-specific exception: Capture and Sleep are paired stable entry points and share the same teal fill in branded light mode. Follow the [Widget Visual Specification](capture-widget-visuals.md); do not apply this exception to ordinary app forms.
 - Button hierarchy must map to user intent, not visual preference.
 - Destructive actions must be visually distinct and require context where risk is meaningful.
 - AI actions must be labeled clearly and may use AI Purple only when the action invokes or explains AI behavior.
@@ -79,5 +80,6 @@ Buttons must define default, hover, active, focus-visible, disabled, loading, an
 
 ## Version History
 
+- v2.5.0: Records the approved paired Capture/Sleep treatment as a widget-specific exception.
 - v1.2.0: Adds button variants, sizes, content rules, states, and accessibility requirements.
 - v1.0.0: Initial repository baseline.
