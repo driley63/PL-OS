@@ -189,7 +189,7 @@ nav:
       - Overview: playbook/README.md
   - Releases:
       - Overview: releases/README.md
-      - Unreleased: releases/unreleased.md
+      - v2.7.0: releases/v2.7.0/README.md
       - v2.6.0: releases/v2.6.0/README.md
       - v2.5.0: releases/v2.5.0/README.md
       - v1.0.0: releases/v1.0.0/README.md

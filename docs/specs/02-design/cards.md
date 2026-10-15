@@ -1,8 +1,8 @@
 # Cards
 
-Status: Approved for PL-OS v2.6.0
+Status: Approved for PL-OS v2.7.0
 Owner: Design System Working Group
-Version: 2.6.0
+Version: 2.7.0
 Last updated: 2026-10-15
 
 ## Purpose
@@ -78,7 +78,7 @@ Your Progress is a bounded exception: three display-only metric tiles inside one
 
 ## Version History
 
-- 2026-10-15 amendment: Apply the approved neutral light appearance; retain the current app spacing and dark styling.
+- v2.7.0: Apply the approved neutral light appearance; retain the current app spacing and dark styling.
 
 - v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.2.0: Adds card types, anatomy, visual rules, states, and usage limits.

@@ -35,5 +35,11 @@
     }
   },
   "spacing_requirement": "Honor the existing PL-213 section_gap=12 contract in both reference themes; correct the stale 20-unit preview gap.",
-  "spacing_user_instruction": "Note that there was recently and update in PL-OS to close some of the gaps between cards. Make sure that is still there and honored in the new designs."
+  "spacing_user_instruction": "Note that there was recently and update in PL-OS to close some of the gaps between cards. Make sure that is still there and honored in the new designs.",
+  "publication_approval": {
+    "date": "2026-10-15",
+    "instruction": "push and publish",
+    "release": "PL-OS v2.7.0",
+    "scope": "Push, merge, and publish the approved PL-OS specifications and assets; separate app implementation is not included."
+  }
 }

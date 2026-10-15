@@ -4,7 +4,7 @@ All notable changes to PL-OS (formerly LIQ OS) are recorded in this file.
 
 The format follows Keep a Changelog conventions and the project uses semantic versioning for published operating system releases.
 
-## [Unreleased]
+## [v2.7.0] - 2026-10-15
 
 ### Changed
 

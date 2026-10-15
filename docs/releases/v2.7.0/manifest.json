@@ -1,0 +1,30 @@
+{
+  "version": "2.7.0",
+  "date": "2026-10-15",
+  "change_class": "minor",
+  "status": "approved release",
+  "approval": "Owner approved neutral light app visuals and explicitly authorized push and publication. Preserve PL-213 compact spacing and dark styling.",
+  "standards": {
+    "visual": "docs/specs/02-design/app-visuals.md",
+    "cards": "docs/specs/02-design/cards.md",
+    "spacing": "docs/specs/02-design/spacing-system.md"
+  },
+  "decisions": [
+    "docs/rfc/0009-neutral-light-app-surfaces.md",
+    "docs/adr/0015-neutral-light-app-surfaces.md"
+  ],
+  "assets": {
+    "source": "assets/app/plectara",
+    "site": "docs/assets/app/plectara",
+    "manifest": "assets/app/plectara/manifest.json",
+    "download": "docs/assets/app/plectara/plectara-app-visuals-v2.zip",
+    "included_files": 41,
+    "zip_sha256": "b9985cfc8dc664196f962fe3f87dc006f4f9330dd954281b673c5cee43455d6b",
+    "populated_screenshots": 8,
+    "empty_today_screenshots": 2,
+    "comparison_sheets": 4
+  },
+  "evidence": "docs/releases/v2.7.0/verification.md",
+  "native_implementation_included": false,
+  "publication": "Owner-authorized PR, merge, CI and live verification; publication results reported after deployment."
+}

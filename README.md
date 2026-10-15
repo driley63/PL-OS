@@ -6,9 +6,9 @@ This repository treats product documentation like software. Specifications are v
 
 ## Current Version
 
-- Version: v2.6.0
-- Status: Approved v2.6.0 release
-- Prepared: 2026-09-28
+- Version: v2.7.0
+- Status: Approved v2.7.0 release
+- Prepared: 2026-10-15
 - Product name: Plectara
 - Operating system name: PL-OS
 - Design philosophy: "Translating daily habits into a plan towards optimal health."
@@ -27,7 +27,7 @@ The [Capture Widget Visual Specification](docs/specs/02-design/capture-widget-vi
 
 The [App Visual Specification](docs/specs/02-design/app-visuals.md) extends the approved woven styling to Today, Timeline, Charts, and Insights. It includes light/dark screenshots matched to the actual app, exact yarn and logo files, theme and geometry values, an offline reference, a downloadable kit, and updates to affected component and product guidance. See the [v2.6.0 release notes](docs/releases/v2.6.0/README.md).
 
-The [October 15 light-mode amendment](docs/releases/unreleased.md) adds ivory cards, warm-gray insets, neutral decoration, and ink-filled selections while preserving dark appearance. Its updated visual kit is prepared for the next PL-OS release; native app integration is separate.
+The [October 15 light-mode amendment](docs/releases/v2.7.0/README.md) adds ivory cards, warm-gray insets, neutral decoration, and ink-filled selections while preserving dark appearance. The updated visual kit ships with v2.7.0; native app integration is separate.
 
 ## Repository Map
 

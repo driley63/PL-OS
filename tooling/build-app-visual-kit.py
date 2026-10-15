@@ -201,7 +201,7 @@ def main():
             with Image.open(path) as image:
                 entry.update(width=image.width, height=image.height, mode=image.mode)
         inventory.append(entry)
-    write_json(KIT / "manifest.json", dict(asset_id="plectara-app-visuals", version=2, status="owner-approved light-mode amendment; pending next PL-OS release", approval_date="2026-10-15", specification="docs/specs/02-design/app-visuals.md", default_texture=tokens["texture"]["file"], screenshot_scale=2, populated_screenshots=8, empty_today_screenshots=2, comparison_sheets=4, native_implementation_included=False, files=inventory))
+    write_json(KIT / "manifest.json", dict(asset_id="plectara-app-visuals", version=2, status="owner-approved design reference; PL-OS v2.7.0 release", approval_date="2026-10-15", specification="docs/specs/02-design/app-visuals.md", default_texture=tokens["texture"]["file"], screenshot_scale=2, populated_screenshots=8, empty_today_screenshots=2, comparison_sheets=4, native_implementation_included=False, files=inventory))
     with zipfile.ZipFile(KIT / ZIP_NAME, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
         for entry in inventory + [dict(file="manifest.json")]:
             info = zipfile.ZipInfo(entry["file"], (2026, 10, 15, 0, 0, 0))

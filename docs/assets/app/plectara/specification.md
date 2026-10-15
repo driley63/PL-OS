@@ -1,8 +1,8 @@
 # App Visual Specification
 
-Status: Approved light-mode amendment; pending next PL-OS release
+Status: Approved for PL-OS v2.7.0
 Owner: Design System Working Group
-Version: 2.6.0 + 2026-10-15 light-mode amendment (visual kit v2)
+Version: 2.7.0 (visual kit v2)
 Last updated: 2026-10-15
 Decision: [ADR-0014](https://pl-os.plectara.com/adr/0014-adopt-woven-app-visuals/), amended for light mode by [ADR-0015](https://pl-os.plectara.com/adr/0015-neutral-light-app-surfaces/)
 
@@ -218,7 +218,7 @@ The reference's appearance dialog, progress dialog, local deletion, and timefram
 
 1. Add the supplied texture as one decorative shell layer; respect safe areas and actual native content bounds.
 2. Introduce app-local color/geometry aliases from this kit alongside the existing foundation tokens. Use the [CSS](adapters/plectara-app-colors.css) and [Flutter](adapters/plectara_app_colors.dart) adapters as mapping examples.
-3. Reuse shared components for the header, themed reading cards, copper header rule, progress group, filters, list rows, charts, and bottom navigation. Follow the [light-only migration](https://pl-os.plectara.com/releases/unreleased/) for selected foregrounds, separate attention backing, and dark compatibility.
+3. Reuse shared components for the header, themed reading cards, copper header rule, progress group, filters, list rows, charts, and bottom navigation. Follow the [light-only migration](https://pl-os.plectara.com/releases/v2.7.0/) for selected foregrounds, separate attention backing, and dark compatibility.
 4. Preserve real route labels, screen order, capture actions, source badges, evidence, health-rule state, and theme preference. Default native appearance to System, with explicit Light/Dark overrides.
 5. Apply the same readable surfaces to loading, empty, error, stale, permission-limited, and offline states. Retain normal contrast for unselected, enabled, and read-only content.
 6. Check state layers, focus, overlays, large text, localization, reduced motion/transparency, high contrast, and action clearance in native UI. Omit decorative yarn when the platform's accessibility treatment requires a quieter background.
@@ -238,7 +238,7 @@ The kit supplies the original [browser layout evidence](verification/browser-rev
 
 ## Version history
 
-- 2026-10-15 amendment / kit v2: Approved neutral light reading surfaces, ink-filled selection, quieter decoration, and light-only migration guidance. Dark styling is preserved; next PL-OS release pending.
+- v2.7.0 / kit v2: Approved neutral light reading surfaces, ink-filled selection, quieter decoration, and light-only migration guidance. Dark styling and the current 12-unit spacing contract are preserved.
 - v2.6.0: Adds the owner-approved screenshot-matched app visual standard and reference kit.
 
-See the [light-mode RFC](https://pl-os.plectara.com/rfc/0009-neutral-light-app-surfaces/), [ADR-0015](https://pl-os.plectara.com/adr/0015-neutral-light-app-surfaces/), and [pending release guidance](https://pl-os.plectara.com/releases/unreleased/). The original standard is recorded in [RFC-0008](https://pl-os.plectara.com/rfc/0008-woven-app-visuals/), [ADR-0014](https://pl-os.plectara.com/adr/0014-adopt-woven-app-visuals/), and the [v2.6.0 release notes](https://pl-os.plectara.com/releases/v2.6.0/).
+See the [light-mode RFC](https://pl-os.plectara.com/rfc/0009-neutral-light-app-surfaces/), [ADR-0015](https://pl-os.plectara.com/adr/0015-neutral-light-app-surfaces/), and [v2.7.0 release guidance](https://pl-os.plectara.com/releases/v2.7.0/). The original standard is recorded in [RFC-0008](https://pl-os.plectara.com/rfc/0008-woven-app-visuals/), [ADR-0014](https://pl-os.plectara.com/adr/0014-adopt-woven-app-visuals/), and the [v2.6.0 release notes](https://pl-os.plectara.com/releases/v2.6.0/).

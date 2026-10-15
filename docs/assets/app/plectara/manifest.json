@@ -1,7 +1,7 @@
 {
   "asset_id": "plectara-app-visuals",
   "version": 2,
-  "status": "owner-approved light-mode amendment; pending next PL-OS release",
+  "status": "owner-approved design reference; PL-OS v2.7.0 release",
   "approval_date": "2026-10-15",
   "specification": "docs/specs/02-design/app-visuals.md",
   "default_texture": "textures/plectara-widget-yarn-gentle-focus-v1.webp",
@@ -14,8 +14,8 @@
     {
       "file": "README.md",
       "role": "README.md",
-      "bytes": 4523,
-      "sha256": "5629d5bee339bf2dc73143c00a6f7c268745fb24d7929884e0d20ce522681a3d"
+      "bytes": 4513,
+      "sha256": "5c081b2703d8421732286cb64266070d935a370e0f5448db4773936fb943af6c"
     },
     {
       "file": "adapters/plectara-app-colors.css",
@@ -212,8 +212,8 @@
     {
       "file": "source/approval.json",
       "role": "source",
-      "bytes": 2042,
-      "sha256": "9cc5c9a57834b691d403d6da8ee00ea8be13807a231b72b9075681c0164e48d2"
+      "bytes": 2302,
+      "sha256": "8f03db949c62a9faa069644aaa656822cbf1c736cc1ff4cbd8dd531df509f8dc"
     },
     {
       "file": "source/approved-pattern-manifest.json",
@@ -251,8 +251,8 @@
     {
       "file": "specification.md",
       "role": "specification.md",
-      "bytes": 24901,
-      "sha256": "c5a2354219fd7a74f396151edd7a38f91d6cbc66bea9e750ec82809cee0c09dc"
+      "bytes": 24826,
+      "sha256": "6e907f61bfcf2a98cfc82e4ebb1fff16c8dc1dc13d3cbd6d684a7a82c188a108"
     },
     {
       "file": "textures/plectara-widget-yarn-gentle-focus-v1.png",

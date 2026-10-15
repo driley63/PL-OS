@@ -19,6 +19,6 @@ Honor PL-213's already approved 12-unit section gap in both themes. The tokens a
 
 ## Consequences
 
-Publish visual kit v2 with updated light previews, references, app-local adapters, approval provenance, contrast evidence, and migration notes. Preserve the v1 archive and original approval history. This is an approved standards amendment pending the next PL-OS release; it does not itself update the consuming Flutter app or establish native accessibility compliance.
+Publish visual kit v2 with updated light previews, references, app-local adapters, approval provenance, contrast evidence, and migration notes. Preserve the v1 archive and original approval history. This approved standards amendment is included in PL-OS v2.7.0; it does not itself update the consuming Flutter app or establish native accessibility compliance.
 
-See [RFC-0009](../rfc/0009-neutral-light-app-surfaces.md) and [migration notes](../releases/unreleased.md).
+See [RFC-0009](../rfc/0009-neutral-light-app-surfaces.md) and [migration notes](../releases/v2.7.0/README.md).
