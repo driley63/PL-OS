@@ -12,6 +12,21 @@ The SVG files in `source/` are implementation placeholders based on the approved
 | `source/lifestyleiq-icon-monochrome.svg` | Single-color icon source | Reviewed placeholder; not production |
 | `source/lifestyleiq-logo-horizontal.svg` | Horizontal lockup source | Reviewed placeholder; not production |
 | `source/liq-os-logo-horizontal.svg` | LIQ OS documentation-site lockup | Reviewed placeholder-derived; not production |
+| `source/patternara-icon-prospect.svg` | Prospective Patternara full-color icon | Exploratory placeholder-derived concept; not production |
+| `source/patternara-logo-horizontal-prospect.svg` | Prospective Patternara horizontal lockup | Exploratory placeholder-derived concept; not production |
+| `source/patternara-pattern-loop-icon-prospect.svg` | Prospective Pattern Loop app icon | Exploratory original concept; not production |
+| `source/patternara-pattern-loop-logo-prospect.svg` | Prospective Pattern Loop horizontal lockup | Exploratory original concept; not production |
+| `source/patternara-contour-icon-prospect.svg` | Prospective Contour app icon | Exploratory original concept; not production |
+| `source/patternara-contour-logo-prospect.svg` | Prospective Contour horizontal lockup | Exploratory original concept; not production |
+| `source/patternara-weave-icon-prospect.svg` | Prospective Weave app icon | Exploratory original concept; not production |
+| `source/patternara-weave-logo-prospect.svg` | Prospective Weave horizontal lockup | Exploratory original concept; not production |
+| `source/patternara-resonance-icon-prospect.svg` | Prospective Resonance app icon | Exploratory original concept; not production |
+| `source/patternara-resonance-logo-prospect.svg` | Prospective Resonance horizontal lockup | Exploratory original concept; not production |
+| `source/patternara-no-letter-exploration.svg` | Weave and Resonance comparison board | Exploratory original concept; not production |
+| `source/patternara-confluence-icon-prospect.svg` | Prospective Confluence app icon | Exploratory original concept; not production |
+| `source/patternara-confluence-logo-prospect.svg` | Prospective Confluence horizontal lockup | Exploratory original concept; not production |
+| `source/patternara-confluence-p-icon-prospect.svg` | Prospective Confluence P app icon | Exploratory original concept; not production |
+| `source/patternara-confluence-p-logo-prospect.svg` | Prospective Confluence P horizontal lockup | Exploratory original concept; not production |
 
 Do not generate production exports from screenshots, prior PNG exports, or manually recreated artwork. Until final optical refinement is approved, generated outputs must remain labeled as placeholder-derived.
 

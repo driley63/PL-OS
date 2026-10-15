@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 360" role="img" aria-labelledby="title desc">
+  <title id="title">Patternara horizontal logo concept</title>
+  <desc id="desc">Prospective Patternara horizontal lockup with a lime-to-teal lifestyle icon and a deep navy and evergreen wordmark.</desc>
+  <defs>
+    <linearGradient id="patternaraGradient" x1="40" y1="24" x2="296" y2="336" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A6E21E"/>
+      <stop offset="0.35" stop-color="#62CF62"/>
+      <stop offset="0.70" stop-color="#2AB39A"/>
+      <stop offset="1" stop-color="#16AA8D"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="312" height="312" rx="72" fill="url(#patternaraGradient)"/>
+  <circle cx="168" cy="126" r="26" fill="#FFFFFF"/>
+  <path d="M102 248c15-54 46-81 93-81 36 0 61 15 76 46 6 12-10 21-18 11-14-19-33-29-58-29-32 0-54 19-66 58-5 15-31 12-27-5Z" fill="#FFFFFF"/>
+  <path d="M205 134c7-34 32-57 74-70 11 42-1 73-38 92-19 10-37 12-55 6 7-6 13-15 19-28Z" fill="#FFFFFF"/>
+  <text x="408" y="216" font-family="Inter, SF Pro Display, Roboto, Arial, sans-serif" font-size="112" font-weight="650" letter-spacing="-2" fill="#0C1F33">Pattern<tspan fill="#16AA8D">ara</tspan></text>
+</svg>

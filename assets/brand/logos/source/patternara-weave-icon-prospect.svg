@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Patternara Weave icon concept</title>
+  <desc id="desc">Two interlaced lime, green, and teal signal ribbons on a deep navy app tile.</desc>
+  <defs>
+    <linearGradient id="weaveUpper" x1="88" y1="132" x2="424" y2="374" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A6E21E"/>
+      <stop offset="0.58" stop-color="#62CF62"/>
+      <stop offset="1" stop-color="#2AB39A"/>
+    </linearGradient>
+    <linearGradient id="weaveLower" x1="88" y1="380" x2="424" y2="138" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2AB39A"/>
+      <stop offset="0.55" stop-color="#16AA8D"/>
+      <stop offset="1" stop-color="#62CF62"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="118" fill="#0C1F33"/>
+  <path d="M90 170c69-80 127-55 166 86s97 166 166 86"
+        fill="none" stroke="url(#weaveUpper)" stroke-width="42" stroke-linecap="round"/>
+  <path d="M90 342c69 80 127 55 166-86s97-166 166-86"
+        fill="none" stroke="#0C1F33" stroke-width="70" stroke-linecap="round"/>
+  <path d="M90 342c69 80 127 55 166-86s97-166 166-86"
+        fill="none" stroke="url(#weaveLower)" stroke-width="42" stroke-linecap="round"/>
+</svg>

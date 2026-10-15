@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Patternara Confluence icon concept</title>
+  <desc id="desc">Four distinct lifestyle inputs converge into one stronger path moving upward and forward.</desc>
+  <defs>
+    <linearGradient id="confluenceOutput" x1="248" y1="268" x2="426" y2="126" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#16AA8D"/>
+      <stop offset="0.52" stop-color="#62CF62"/>
+      <stop offset="1" stop-color="#A6E21E"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="118" fill="#0C1F33"/>
+  <path d="M64 108c86 0 94 102 212 136" fill="none" stroke="#A6E21E" stroke-width="30" stroke-linecap="round"/>
+  <path d="M60 224c96 0 130 16 216 28" fill="none" stroke="#62CF62" stroke-width="30" stroke-linecap="round"/>
+  <path d="M78 382c88 0 122-84 198-116" fill="none" stroke="#F7FAFB" stroke-width="30" stroke-linecap="round"/>
+  <path d="M258 432c0-78 6-118 20-162" fill="none" stroke="#2AB39A" stroke-width="30" stroke-linecap="round"/>
+  <path d="M270 256c66 0 94-40 124-88 18-29 34-49 58-68"
+        fill="none" stroke="url(#confluenceOutput)" stroke-width="54" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

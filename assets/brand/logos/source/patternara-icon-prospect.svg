@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Patternara icon concept</title>
+  <desc id="desc">Prospective Patternara icon with a rounded lime-to-teal field and a white human figure growing into a leaf.</desc>
+  <defs>
+    <linearGradient id="patternaraGradient" x1="96" y1="64" x2="416" y2="448" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A6E21E"/>
+      <stop offset="0.35" stop-color="#62CF62"/>
+      <stop offset="0.70" stop-color="#2AB39A"/>
+      <stop offset="1" stop-color="#16AA8D"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="118" fill="url(#patternaraGradient)"/>
+  <circle cx="236" cy="178" r="42" fill="#FFFFFF"/>
+  <path d="M150 344c23-84 71-126 144-126 55 0 94 24 117 71 9 18-16 33-28 17-22-30-51-45-89-45-50 0-84 30-103 90-7 23-48 19-41-7Z" fill="#FFFFFF"/>
+  <path d="M293 190c11-52 49-88 114-108 17 64-2 111-58 140-29 15-57 18-84 9 11-9 20-23 28-41Z" fill="#FFFFFF"/>
+  <path d="M266 234c31-35 68-63 112-84" stroke="#16AA8D" stroke-width="18" stroke-linecap="round" opacity="0.35"/>
+</svg>

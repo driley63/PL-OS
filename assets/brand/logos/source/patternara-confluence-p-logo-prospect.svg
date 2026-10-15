@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1250 360" role="img" aria-labelledby="title desc">
+  <title id="title">Patternara Confluence P horizontal logo concept</title>
+  <desc id="desc">A prospective Patternara lockup in which four distinct inputs rise and blend into one ribbon forming a letter P beside a lowercase navy wordmark.</desc>
+  <defs>
+    <linearGradient id="confluenceLoop" x1="0" y1="77" x2="0" y2="364" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A6E21E"/>
+      <stop offset="0.38" stop-color="#62CF62"/>
+      <stop offset="0.75" stop-color="#2AB39A"/>
+      <stop offset="1" stop-color="#16AA8D"/>
+    </linearGradient>
+    <linearGradient id="stripeFade" x1="300" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="loopReveal" x1="285" y1="0" x2="340" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <mask id="stripeMask" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="512">
+      <rect width="512" height="512" fill="#FFFFFF"/>
+      <rect x="240" y="40" width="190" height="180" fill="url(#stripeFade)"/>
+    </mask>
+    <mask id="loopMask" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="512">
+      <rect width="512" height="512" fill="#FFFFFF"/>
+      <rect x="240" y="40" width="190" height="180" fill="url(#loopReveal)"/>
+    </mask>
+  </defs>
+  <g transform="translate(24 24) scale(0.609375)">
+    <rect width="512" height="512" rx="118" fill="#0C1F33"/>
+    <g mask="url(#stripeMask)">
+      <path d="M136 414V254c0-98 78-166 176-166h18c40 0 68 24 80 60" fill="none" stroke="#A6E21E" stroke-width="22" stroke-linecap="butt"/>
+      <path d="M158 414V260c0-86 66-150 154-150h18c35 0 58 20 68 50" fill="none" stroke="#62CF62" stroke-width="22" stroke-linecap="butt"/>
+      <path d="M180 414V266c0-74 54-134 132-134h18c28 0 48 16 56 32" fill="none" stroke="#F7FAFB" stroke-width="22" stroke-linecap="butt"/>
+      <path d="M202 414V272c0-62 42-118 110-118h18c22 0 37 6 44 14" fill="none" stroke="#2AB39A" stroke-width="22" stroke-linecap="butt"/>
+    </g>
+    <circle cx="136" cy="414" r="11" fill="#A6E21E"/>
+    <circle cx="158" cy="414" r="11" fill="#62CF62"/>
+    <circle cx="180" cy="414" r="11" fill="#F7FAFB"/>
+    <circle cx="202" cy="414" r="11" fill="#2AB39A"/>
+    <path d="M300 121c90 0 142 43 142 99 0 62-47 100-122 100h-96"
+          fill="none" stroke="url(#confluenceLoop)" stroke-width="88" stroke-linecap="round" stroke-linejoin="round" mask="url(#loopMask)"/>
+  </g>
+  <text x="408" y="217" font-family="Avenir Next, Inter, SF Pro Display, Roboto, Arial, sans-serif" font-size="108" font-weight="600" letter-spacing="-2.5" fill="#0C1F33">patternara</text>
+</svg>

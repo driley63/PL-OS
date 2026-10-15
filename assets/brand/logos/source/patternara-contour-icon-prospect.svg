@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Patternara Contour icon concept</title>
+  <desc id="desc">A deep navy app tile with three offset contour paths forming a topographic letter P.</desc>
+  <defs>
+    <linearGradient id="contourOuter" x1="110" y1="76" x2="410" y2="406" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A6E21E"/>
+      <stop offset="0.45" stop-color="#62CF62"/>
+      <stop offset="1" stop-color="#16AA8D"/>
+    </linearGradient>
+    <linearGradient id="contourInner" x1="220" y1="170" x2="316" y2="346" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A6E21E"/>
+      <stop offset="1" stop-color="#2AB39A"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="118" fill="#0C1F33"/>
+  <path d="M114 402V187c0-75 58-115 146-115h22c80 0 128 46 128 118 0 75-52 120-134 120h-56"
+        fill="none" stroke="url(#contourOuter)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M168 384V191c0-46 34-71 92-71h18c51 0 84 26 84 71 0 46-34 72-86 72H168"
+        fill="none" stroke="#F7FAFB" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M222 342V195c0-19 14-27 40-27h14c22 0 34 9 34 27s-13 27-35 27h-53"
+        fill="none" stroke="url(#contourInner)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Patternara Resonance icon concept</title>
+  <desc id="desc">Three asymmetric topographic rings and a focal point on a deep navy app tile.</desc>
+  <defs>
+    <linearGradient id="resonanceOuter" x1="104" y1="90" x2="414" y2="414" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A6E21E"/>
+      <stop offset="0.48" stop-color="#62CF62"/>
+      <stop offset="1" stop-color="#16AA8D"/>
+    </linearGradient>
+    <linearGradient id="resonanceInner" x1="204" y1="190" x2="330" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#62CF62"/>
+      <stop offset="1" stop-color="#2AB39A"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="118" fill="#0C1F33"/>
+  <path d="M122 293c-31-95 26-189 130-207 100-17 172 53 162 153-9 95-74 175-176 175-74 0-112-50-116-121Z"
+        fill="none" stroke="url(#resonanceOuter)" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M170 281c-20-61 17-126 87-139 68-12 115 37 110 103-5 63-50 116-116 118-51 2-77-34-81-82Z"
+        fill="none" stroke="#F7FAFB" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M217 269c-8-33 12-66 47-71 35-5 58 21 55 54-3 33-26 58-60 58-26 0-39-18-42-41Z"
+        fill="none" stroke="url(#resonanceInner)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="269" cy="254" r="15" fill="#A6E21E"/>
+</svg>

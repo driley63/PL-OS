@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Patternara Pattern Loop icon concept</title>
+  <desc id="desc">A deep navy app tile containing a continuous lime-to-teal letter P path and three discovered pattern points.</desc>
+  <defs>
+    <linearGradient id="patternLoopGradient" x1="112" y1="82" x2="410" y2="396" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A6E21E"/>
+      <stop offset="0.38" stop-color="#62CF62"/>
+      <stop offset="0.72" stop-color="#2AB39A"/>
+      <stop offset="1" stop-color="#16AA8D"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="118" fill="#0C1F33"/>
+  <path d="M128 392V176c0-60 48-96 104-96h60c74 0 118 42 118 108s-44 108-118 108H128"
+        fill="none" stroke="url(#patternLoopGradient)" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="235" cy="151" r="13" fill="#F7FAFB"/>
+  <circle cx="276" cy="188" r="13" fill="#F7FAFB"/>
+  <circle cx="317" cy="225" r="13" fill="#F7FAFB"/>
+</svg>

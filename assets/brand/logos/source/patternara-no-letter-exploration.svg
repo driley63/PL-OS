@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Patternara no-letter symbol exploration</title>
+  <desc id="desc">A comparison board showing the Weave and Resonance abstract logo directions.</desc>
+  <defs>
+    <linearGradient id="boardWeaveUpper" x1="88" y1="132" x2="424" y2="374" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A6E21E"/>
+      <stop offset="0.58" stop-color="#62CF62"/>
+      <stop offset="1" stop-color="#2AB39A"/>
+    </linearGradient>
+    <linearGradient id="boardWeaveLower" x1="88" y1="380" x2="424" y2="138" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2AB39A"/>
+      <stop offset="0.55" stop-color="#16AA8D"/>
+      <stop offset="1" stop-color="#62CF62"/>
+    </linearGradient>
+    <linearGradient id="boardResonanceOuter" x1="104" y1="90" x2="414" y2="414" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A6E21E"/>
+      <stop offset="0.48" stop-color="#62CF62"/>
+      <stop offset="1" stop-color="#16AA8D"/>
+    </linearGradient>
+    <linearGradient id="boardResonanceInner" x1="204" y1="190" x2="330" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#62CF62"/>
+      <stop offset="1" stop-color="#2AB39A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="#F7FAFB"/>
+  <text x="100" y="94" font-family="Avenir Next, Inter, Arial, sans-serif" font-size="42" font-weight="650" fill="#0C1F33">Patternara — symbol exploration</text>
+  <text x="100" y="137" font-family="Avenir Next, Inter, Arial, sans-serif" font-size="22" font-weight="500" fill="#456071">Two abstract directions without a letterform</text>
+  <line x1="100" y1="174" x2="1500" y2="174" stroke="#D7E2E6" stroke-width="2"/>
+
+  <text x="100" y="238" font-family="Avenir Next, Inter, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="2" fill="#16AA8D">01  WEAVE</text>
+  <g transform="translate(100 276) scale(0.46875)">
+    <rect width="512" height="512" rx="118" fill="#0C1F33"/>
+    <path d="M90 170c69-80 127-55 166 86s97 166 166 86" fill="none" stroke="url(#boardWeaveUpper)" stroke-width="42" stroke-linecap="round"/>
+    <path d="M90 342c69 80 127 55 166-86s97-166 166-86" fill="none" stroke="#0C1F33" stroke-width="70" stroke-linecap="round"/>
+    <path d="M90 342c69 80 127 55 166-86s97-166 166-86" fill="none" stroke="url(#boardWeaveLower)" stroke-width="42" stroke-linecap="round"/>
+  </g>
+  <text x="402" y="420" font-family="Avenir Next, Inter, Arial, sans-serif" font-size="96" font-weight="600" letter-spacing="-2.5" fill="#0C1F33">patternara</text>
+  <text x="405" y="464" font-family="Avenir Next, Inter, Arial, sans-serif" font-size="22" font-weight="500" fill="#456071">Interlaced signals reveal relationships over time.</text>
+
+  <line x1="100" y1="570" x2="1500" y2="570" stroke="#D7E2E6" stroke-width="2"/>
+  <text x="100" y="634" font-family="Avenir Next, Inter, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="2" fill="#16AA8D">02  RESONANCE</text>
+  <g transform="translate(100 672) scale(0.46875)">
+    <rect width="512" height="512" rx="118" fill="#0C1F33"/>
+    <path d="M122 293c-31-95 26-189 130-207 100-17 172 53 162 153-9 95-74 175-176 175-74 0-112-50-116-121Z" fill="none" stroke="url(#boardResonanceOuter)" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M170 281c-20-61 17-126 87-139 68-12 115 37 110 103-5 63-50 116-116 118-51 2-77-34-81-82Z" fill="none" stroke="#F7FAFB" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M217 269c-8-33 12-66 47-71 35-5 58 21 55 54-3 33-26 58-60 58-26 0-39-18-42-41Z" fill="none" stroke="url(#boardResonanceInner)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="269" cy="254" r="15" fill="#A6E21E"/>
+  </g>
+  <text x="402" y="816" font-family="Avenir Next, Inter, Arial, sans-serif" font-size="96" font-weight="600" letter-spacing="-2.5" fill="#0C1F33">patternara</text>
+  <text x="405" y="860" font-family="Avenir Next, Inter, Arial, sans-serif" font-size="22" font-weight="500" fill="#456071">Patterns radiate outward from a personal center.</text>
+</svg>
