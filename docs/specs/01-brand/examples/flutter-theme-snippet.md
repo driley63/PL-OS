@@ -69,6 +69,6 @@ Do not use the legacy `LifestyleIQColors.background`, `surface`, or `text` alias
 
 ## Woven app integration
 
-For the approved app shell, add the app kit's [Flutter color adapter](../../../assets/app/plectara/adapters/plectara_app_colors.dart) alongside the foundation adapter. [App Visual Specification](../../02-design/app-visuals.md) defines the exact texture, horizontal shade, opaque mint/ink reading cards, copper decoration, control outlines, and local geometry.
+For the approved app shell, add the app kit's [Flutter color adapter](../../../assets/app/plectara/adapters/plectara_app_colors.dart) alongside the foundation adapter. [App Visual Specification](../../02-design/app-visuals.md) defines the exact texture, horizontal shade, opaque ivory/ink reading cards, theme-specific decoration, control outlines, and local geometry. The [light-mode amendment](../../../releases/unreleased.md) uses ink selection with white foregrounds and a separate attention backing. Its added light-only roles must not replace existing dark foregrounds, backgrounds, or foundation status roles.
 
 Select `PlectaraAppLightColors` or `PlectaraAppDarkColors` inside shared app-shell/card/control components. Retain foundation critical, success, information and AI state roles for states not defined by this variant. Use live text/data, scalable native typography, platform safe areas/target sizes, and reserved space for floating actions. These mapping examples are documentation assets, not compiled or shipped Flutter implementation.

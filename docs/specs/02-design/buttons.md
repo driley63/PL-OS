@@ -3,7 +3,7 @@
 Status: Approved for PL-OS v2.6.0
 Owner: Design System Working Group
 Version: 2.6.0
-Last updated: 2026-09-28
+Last updated: 2026-10-15
 
 ## Purpose
 
@@ -82,9 +82,13 @@ Buttons must define default, hover, active, focus-visible, disabled, loading, an
 
 Follow the [App Visual Specification](app-visuals.md) for teal/white light actions, jade/ink dark actions, tested outlined secondary controls, and native target sizes. Today keeps Log as the stable filled entry point and Quick Log as an outlined secondary action. A supported period reminder includes its contextual filled Log Period action; this bounded Today exception is accepted in [ADR-0014](../../adr/0014-adopt-woven-app-visuals.md).
 
+In light mode, Quick Log uses warm-gray backing, ink content, and a slate outline. Selected filters and timeframes use ink fill with white content, retaining checks and programmatic state. White is not the selected-control fill. Apply these changes only to light mode; existing dark action, selection, focus, and pressed treatments remain intact.
+
 Preserve actual labels, including Log entry in the empty Today reference. The widget title-case shortcut rule does not rewrite log names or app copy. Ask About These Findings is an explicit AI entry point with a labeled sparkle icon and tested teal/jade tone; generated output still requires AI authorship labeling. Preview dialogs do not establish the native Capture, Settings, or deletion flow.
 
 ## Version History
+
+- 2026-10-15 amendment: Apply the approved neutral light appearance; retain the current app spacing and dark styling.
 
 - v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v2.5.0: Records the approved paired Capture/Sleep treatment as a widget-specific exception.

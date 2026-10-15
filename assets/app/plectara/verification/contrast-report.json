@@ -1,5 +1,5 @@
 {
-  "checks": 58,
+  "checks": 60,
   "failures": 0,
   "minimum_text_ratio": 4.514904958466813,
   "scope": "Measured app-local pairs; actual image crops, native state layers, geometry and assistive-technology behavior require consuming-app verification.",
@@ -9,9 +9,9 @@
       "theme": "light",
       "roles": "text / card",
       "foreground": "#192D38",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 4.5,
-      "contrast": 12.573918582455557,
+      "contrast": 13.433419149271415,
       "passed": true
     },
     {
@@ -19,9 +19,9 @@
       "theme": "light",
       "roles": "textSecondary / card",
       "foreground": "#506F7E",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 4.5,
-      "contrast": 4.732045720808536,
+      "contrast": 5.055508605712886,
       "passed": true
     },
     {
@@ -29,9 +29,9 @@
       "theme": "light",
       "roles": "link / card",
       "foreground": "#206668",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 4.5,
-      "contrast": 5.86090770810042,
+      "contrast": 6.261534884436405,
       "passed": true
     },
     {
@@ -39,9 +39,9 @@
       "theme": "light",
       "roles": "attention / card",
       "foreground": "#845800",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 4.5,
-      "contrast": 5.487528834522226,
+      "contrast": 5.862633390254852,
       "passed": true
     },
     {
@@ -49,9 +49,9 @@
       "theme": "light",
       "roles": "controlOutline / card",
       "foreground": "#567788",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 3,
-      "contrast": 4.221332936234004,
+      "contrast": 4.509885627872557,
       "passed": true
     },
     {
@@ -59,9 +59,9 @@
       "theme": "light",
       "roles": "text / control",
       "foreground": "#192D38",
-      "background": "#FFFFFF",
+      "background": "#F1F0EC",
       "minimum": 4.5,
-      "contrast": 14.24894021592975,
+      "contrast": 12.495245437665663,
       "passed": true
     },
     {
@@ -69,9 +69,9 @@
       "theme": "light",
       "roles": "textSecondary / control",
       "foreground": "#506F7E",
-      "background": "#FFFFFF",
+      "background": "#F1F0EC",
       "minimum": 4.5,
-      "contrast": 5.362420325269777,
+      "contrast": 4.702438012145222,
       "passed": true
     },
     {
@@ -79,9 +79,9 @@
       "theme": "light",
       "roles": "link / control",
       "foreground": "#206668",
-      "background": "#FFFFFF",
+      "background": "#F1F0EC",
       "minimum": 4.5,
-      "contrast": 6.641662501324687,
+      "contrast": 5.824236877309216,
       "passed": true
     },
     {
@@ -89,9 +89,9 @@
       "theme": "light",
       "roles": "attention / control",
       "foreground": "#845800",
-      "background": "#FFFFFF",
+      "background": "#F1F0EC",
       "minimum": 4.5,
-      "contrast": 6.21854434506986,
+      "contrast": 5.453194179998577,
       "passed": true
     },
     {
@@ -99,59 +99,9 @@
       "theme": "light",
       "roles": "controlOutline / control",
       "foreground": "#567788",
-      "background": "#FFFFFF",
+      "background": "#F1F0EC",
       "minimum": 3,
-      "contrast": 4.78367346229364,
-      "passed": true
-    },
-    {
-      "name": "light: text / soft",
-      "theme": "light",
-      "roles": "text / soft",
-      "foreground": "#192D38",
-      "background": "#E9F3EF",
-      "minimum": 4.5,
-      "contrast": 12.573918582455557,
-      "passed": true
-    },
-    {
-      "name": "light: textSecondary / soft",
-      "theme": "light",
-      "roles": "textSecondary / soft",
-      "foreground": "#506F7E",
-      "background": "#E9F3EF",
-      "minimum": 4.5,
-      "contrast": 4.732045720808536,
-      "passed": true
-    },
-    {
-      "name": "light: link / soft",
-      "theme": "light",
-      "roles": "link / soft",
-      "foreground": "#206668",
-      "background": "#E9F3EF",
-      "minimum": 4.5,
-      "contrast": 5.86090770810042,
-      "passed": true
-    },
-    {
-      "name": "light: attention / soft",
-      "theme": "light",
-      "roles": "attention / soft",
-      "foreground": "#845800",
-      "background": "#E9F3EF",
-      "minimum": 4.5,
-      "contrast": 5.487528834522226,
-      "passed": true
-    },
-    {
-      "name": "light: required control outline / soft",
-      "theme": "light",
-      "roles": "controlOutline / soft",
-      "foreground": "#567788",
-      "background": "#E9F3EF",
-      "minimum": 3,
-      "contrast": 4.221332936234004,
+      "contrast": 4.1949206817629054,
       "passed": true
     },
     {
@@ -159,9 +109,9 @@
       "theme": "light",
       "roles": "text / navigation",
       "foreground": "#192D38",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 4.5,
-      "contrast": 12.573918582455557,
+      "contrast": 13.433419149271415,
       "passed": true
     },
     {
@@ -169,9 +119,9 @@
       "theme": "light",
       "roles": "textSecondary / navigation",
       "foreground": "#506F7E",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 4.5,
-      "contrast": 4.732045720808536,
+      "contrast": 5.055508605712886,
       "passed": true
     },
     {
@@ -179,9 +129,9 @@
       "theme": "light",
       "roles": "link / navigation",
       "foreground": "#206668",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 4.5,
-      "contrast": 5.86090770810042,
+      "contrast": 6.261534884436405,
       "passed": true
     },
     {
@@ -189,9 +139,9 @@
       "theme": "light",
       "roles": "attention / navigation",
       "foreground": "#845800",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 4.5,
-      "contrast": 5.487528834522226,
+      "contrast": 5.862633390254852,
       "passed": true
     },
     {
@@ -199,59 +149,59 @@
       "theme": "light",
       "roles": "controlOutline / navigation",
       "foreground": "#567788",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 3,
-      "contrast": 4.221332936234004,
+      "contrast": 4.509885627872557,
       "passed": true
     },
     {
-      "name": "light: text / navigationSelected",
+      "name": "light: text / attentionBacking",
       "theme": "light",
-      "roles": "text / navigationSelected",
+      "roles": "text / attentionBacking",
       "foreground": "#192D38",
-      "background": "#FFFFFF",
+      "background": "#FAF8F4",
       "minimum": 4.5,
-      "contrast": 14.24894021592975,
+      "contrast": 13.433419149271415,
       "passed": true
     },
     {
-      "name": "light: textSecondary / navigationSelected",
+      "name": "light: textSecondary / attentionBacking",
       "theme": "light",
-      "roles": "textSecondary / navigationSelected",
+      "roles": "textSecondary / attentionBacking",
       "foreground": "#506F7E",
-      "background": "#FFFFFF",
+      "background": "#FAF8F4",
       "minimum": 4.5,
-      "contrast": 5.362420325269777,
+      "contrast": 5.055508605712886,
       "passed": true
     },
     {
-      "name": "light: link / navigationSelected",
+      "name": "light: link / attentionBacking",
       "theme": "light",
-      "roles": "link / navigationSelected",
+      "roles": "link / attentionBacking",
       "foreground": "#206668",
-      "background": "#FFFFFF",
+      "background": "#FAF8F4",
       "minimum": 4.5,
-      "contrast": 6.641662501324687,
+      "contrast": 6.261534884436405,
       "passed": true
     },
     {
-      "name": "light: attention / navigationSelected",
+      "name": "light: attention / attentionBacking",
       "theme": "light",
-      "roles": "attention / navigationSelected",
+      "roles": "attention / attentionBacking",
       "foreground": "#845800",
-      "background": "#FFFFFF",
+      "background": "#FAF8F4",
       "minimum": 4.5,
-      "contrast": 6.21854434506986,
+      "contrast": 5.862633390254852,
       "passed": true
     },
     {
-      "name": "light: required control outline / navigationSelected",
+      "name": "light: required control outline / attentionBacking",
       "theme": "light",
-      "roles": "controlOutline / navigationSelected",
+      "roles": "controlOutline / attentionBacking",
       "foreground": "#567788",
-      "background": "#FFFFFF",
+      "background": "#FAF8F4",
       "minimum": 3,
-      "contrast": 4.78367346229364,
+      "contrast": 4.509885627872557,
       "passed": true
     },
     {
@@ -269,19 +219,89 @@
       "theme": "light",
       "roles": "link / card",
       "foreground": "#206668",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 3,
-      "contrast": 5.86090770810042,
+      "contrast": 6.261534884436405,
       "passed": true
     },
     {
       "name": "light: selected navigation cue",
       "theme": "light",
-      "roles": "link / navigationSelected",
-      "foreground": "#206668",
-      "background": "#FFFFFF",
+      "roles": "onSelected / navigationSelected",
+      "foreground": "#FFFFFF",
+      "background": "#192D38",
       "minimum": 3,
-      "contrast": 6.641662501324687,
+      "contrast": 14.24894021592975,
+      "passed": true
+    },
+    {
+      "name": "light: selected label / soft",
+      "theme": "light",
+      "roles": "onSelected / soft",
+      "foreground": "#FFFFFF",
+      "background": "#192D38",
+      "minimum": 4.5,
+      "contrast": 14.24894021592975,
+      "passed": true
+    },
+    {
+      "name": "light: selected label / navigationSelected",
+      "theme": "light",
+      "roles": "onSelected / navigationSelected",
+      "foreground": "#FFFFFF",
+      "background": "#192D38",
+      "minimum": 4.5,
+      "contrast": 14.24894021592975,
+      "passed": true
+    },
+    {
+      "name": "light: selected fill / card",
+      "theme": "light",
+      "roles": "soft / card",
+      "foreground": "#192D38",
+      "background": "#FAF8F4",
+      "minimum": 3,
+      "contrast": 13.433419149271415,
+      "passed": true
+    },
+    {
+      "name": "light: selected fill / control",
+      "theme": "light",
+      "roles": "soft / control",
+      "foreground": "#192D38",
+      "background": "#F1F0EC",
+      "minimum": 3,
+      "contrast": 12.495245437665663,
+      "passed": true
+    },
+    {
+      "name": "light: selected fill / navigation",
+      "theme": "light",
+      "roles": "soft / navigation",
+      "foreground": "#192D38",
+      "background": "#FAF8F4",
+      "minimum": 3,
+      "contrast": 13.433419149271415,
+      "passed": true
+    },
+    {
+      "name": "light: selected navigation label",
+      "theme": "light",
+      "roles": "selectedLabel / navigation",
+      "foreground": "#192D38",
+      "background": "#FAF8F4",
+      "minimum": 4.5,
+      "contrast": 13.433419149271415,
+      "passed": true
+    },
+    {
+      "name": "light: success label",
+      "theme": "light",
+      "roles": "success / successBacking",
+      "foreground": "#256F53",
+      "background": "#E9F3EF",
+      "minimum": 4.5,
+      "contrast": 5.329169640887284,
       "passed": true
     },
     {
@@ -593,24 +613,29 @@
   ],
   "decorative_only": [
     {
-      "name": "light: copper / card",
-      "contrast": 2.608037781085806,
+      "name": "light: decorativeOutline / card",
+      "contrast": 1.2872044949292227,
       "role": "decorative only; excluded from required-boundary assertions"
     },
     {
-      "name": "light: copper / control",
-      "contrast": 2.955464852097079,
+      "name": "light: decorativeOutline / control",
+      "contrast": 1.1973076931407627,
       "role": "decorative only; excluded from required-boundary assertions"
     },
     {
-      "name": "dark: copper / card",
+      "name": "dark: decorativeOutline / card",
       "contrast": 4.821217956904232,
       "role": "decorative only; excluded from required-boundary assertions"
     },
     {
-      "name": "dark: copper / control",
+      "name": "dark: decorativeOutline / control",
       "contrast": 3.2038561651478212,
       "role": "decorative only; excluded from required-boundary assertions"
+    },
+    {
+      "name": "light: tileOutline / control",
+      "contrast": 1.1773138086813635,
+      "role": "display-only metric tile; never an interactive boundary"
     }
   ]
 }

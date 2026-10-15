@@ -29,3 +29,9 @@ The focus edit preserves the recognizable weave and color balance. It can recons
 The 900 × 700 WebP at quality 96 is the exact texture embedded in that reference. The manifest records both native and delivery hashes. Keep the PNG, WebP, and original-focus reference distinct. Never stretch or tile the finite photograph.
 
 Suggested credit: Photo by Matheus Bertelli on Pexels; color treatment, focus edit, and widget composition for Plectara.
+
+## App light-mode amendment — October 15, 2026
+
+The owner approved a neutral light-mode restyle and requested its inclusion in PL-OS. `neutral-light-approved-mockup.png` preserves that approved screenshot-edit concept. Its incidental raster texture is not a new production background or card material. The amended editable reference implements the approved ivory surfaces, warm-gray insets, neutral decoration, and ink selections using live text and controls.
+
+The canonical yarn, logo, current geometry tokens, shared header, and dark color/state styling are unchanged. PL-213 had already reduced section spacing to 12, but the reference still showed 20; both reference themes now honor 12. Fresh dark renders match the original reference with only that spacing correction. The original five dark previews remain byte-identical inside the preserved v1 archive. Current previews and comparison sheets were captured from the amended browser reference; the current verification report distinguishes this evidence from the original September review.

@@ -5,6 +5,8 @@ Owner: Design System Working Group
 Date: 2026-09-28
 Target bundle: v2.6.0
 
+Amendment: [RFC-0009](0009-neutral-light-app-surfaces.md) updates light surfaces/selection on October 15, 2026 while preserving the original proposal here.
+
 ## Problem
 
 The approved widget identity and the app's existing visual guidance diverge. A matching app proposal needs the app's actual information hierarchy and an implementable texture, header, card, divider, and theme contract.

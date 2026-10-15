@@ -3,7 +3,7 @@
 Status: Approved for PL-OS v2.6.0
 Owner: Engineering Working Group
 Version: 2.6.0
-Last updated: 2026-09-28
+Last updated: 2026-10-15
 
 ## Purpose
 
@@ -67,7 +67,7 @@ Defines engineering standards for implementing and versioning shared design-syst
 
 ## Woven app component contract
 
-The [App Visual Specification](../02-design/app-visuals.md) and [downloadable kit](../../assets/app/plectara/plectara-app-visuals-v1.zip) define a named app variant with exact artwork, color adapters, geometry aliases, screenshots, checksums, and bounded browser/color evidence. Prefer shared shell, reading-card, copper-rule, progress-group, row, chart and navigation components over per-screen styling.
+The [App Visual Specification](../02-design/app-visuals.md) and [downloadable kit v2](../../assets/app/plectara/plectara-app-visuals-v2.zip) define a named app variant with exact artwork, color adapters, geometry aliases, screenshots, checksums, and bounded browser/color evidence. Prefer shared shell, reading-card, header-rule, progress-group, row, chart and navigation components over per-screen styling. Scope the [neutral light-mode amendment](../../releases/unreleased.md) to light surfaces and states; retain explicit dark mappings and guard against inherited light-only roles.
 
 Preserve actual routing, logging, clinical rules, evidence/source labels, theme preference and data state. Validate app-local colors/state layers and native focus/text scaling/target sizes in the consuming package. Screenshot heights, OS decoration, fixture data, and local preview dialogs are not runtime contracts. Record the consuming app's revision and device/accessibility evidence before release.
 

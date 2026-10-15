@@ -6,7 +6,7 @@
       "theme": "light",
       "roles": "text / card",
       "foreground": "#192D38",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 4.5
     },
     {
@@ -14,7 +14,7 @@
       "theme": "light",
       "roles": "textSecondary / card",
       "foreground": "#506F7E",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 4.5
     },
     {
@@ -22,7 +22,7 @@
       "theme": "light",
       "roles": "link / card",
       "foreground": "#206668",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 4.5
     },
     {
@@ -30,7 +30,7 @@
       "theme": "light",
       "roles": "attention / card",
       "foreground": "#845800",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 4.5
     },
     {
@@ -38,7 +38,7 @@
       "theme": "light",
       "roles": "controlOutline / card",
       "foreground": "#567788",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 3
     },
     {
@@ -46,7 +46,7 @@
       "theme": "light",
       "roles": "text / control",
       "foreground": "#192D38",
-      "background": "#FFFFFF",
+      "background": "#F1F0EC",
       "minimum": 4.5
     },
     {
@@ -54,7 +54,7 @@
       "theme": "light",
       "roles": "textSecondary / control",
       "foreground": "#506F7E",
-      "background": "#FFFFFF",
+      "background": "#F1F0EC",
       "minimum": 4.5
     },
     {
@@ -62,7 +62,7 @@
       "theme": "light",
       "roles": "link / control",
       "foreground": "#206668",
-      "background": "#FFFFFF",
+      "background": "#F1F0EC",
       "minimum": 4.5
     },
     {
@@ -70,7 +70,7 @@
       "theme": "light",
       "roles": "attention / control",
       "foreground": "#845800",
-      "background": "#FFFFFF",
+      "background": "#F1F0EC",
       "minimum": 4.5
     },
     {
@@ -78,47 +78,7 @@
       "theme": "light",
       "roles": "controlOutline / control",
       "foreground": "#567788",
-      "background": "#FFFFFF",
-      "minimum": 3
-    },
-    {
-      "name": "light: text / soft",
-      "theme": "light",
-      "roles": "text / soft",
-      "foreground": "#192D38",
-      "background": "#E9F3EF",
-      "minimum": 4.5
-    },
-    {
-      "name": "light: textSecondary / soft",
-      "theme": "light",
-      "roles": "textSecondary / soft",
-      "foreground": "#506F7E",
-      "background": "#E9F3EF",
-      "minimum": 4.5
-    },
-    {
-      "name": "light: link / soft",
-      "theme": "light",
-      "roles": "link / soft",
-      "foreground": "#206668",
-      "background": "#E9F3EF",
-      "minimum": 4.5
-    },
-    {
-      "name": "light: attention / soft",
-      "theme": "light",
-      "roles": "attention / soft",
-      "foreground": "#845800",
-      "background": "#E9F3EF",
-      "minimum": 4.5
-    },
-    {
-      "name": "light: required control outline / soft",
-      "theme": "light",
-      "roles": "controlOutline / soft",
-      "foreground": "#567788",
-      "background": "#E9F3EF",
+      "background": "#F1F0EC",
       "minimum": 3
     },
     {
@@ -126,7 +86,7 @@
       "theme": "light",
       "roles": "text / navigation",
       "foreground": "#192D38",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 4.5
     },
     {
@@ -134,7 +94,7 @@
       "theme": "light",
       "roles": "textSecondary / navigation",
       "foreground": "#506F7E",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 4.5
     },
     {
@@ -142,7 +102,7 @@
       "theme": "light",
       "roles": "link / navigation",
       "foreground": "#206668",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 4.5
     },
     {
@@ -150,7 +110,7 @@
       "theme": "light",
       "roles": "attention / navigation",
       "foreground": "#845800",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 4.5
     },
     {
@@ -158,47 +118,47 @@
       "theme": "light",
       "roles": "controlOutline / navigation",
       "foreground": "#567788",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 3
     },
     {
-      "name": "light: text / navigationSelected",
+      "name": "light: text / attentionBacking",
       "theme": "light",
-      "roles": "text / navigationSelected",
+      "roles": "text / attentionBacking",
       "foreground": "#192D38",
-      "background": "#FFFFFF",
+      "background": "#FAF8F4",
       "minimum": 4.5
     },
     {
-      "name": "light: textSecondary / navigationSelected",
+      "name": "light: textSecondary / attentionBacking",
       "theme": "light",
-      "roles": "textSecondary / navigationSelected",
+      "roles": "textSecondary / attentionBacking",
       "foreground": "#506F7E",
-      "background": "#FFFFFF",
+      "background": "#FAF8F4",
       "minimum": 4.5
     },
     {
-      "name": "light: link / navigationSelected",
+      "name": "light: link / attentionBacking",
       "theme": "light",
-      "roles": "link / navigationSelected",
+      "roles": "link / attentionBacking",
       "foreground": "#206668",
-      "background": "#FFFFFF",
+      "background": "#FAF8F4",
       "minimum": 4.5
     },
     {
-      "name": "light: attention / navigationSelected",
+      "name": "light: attention / attentionBacking",
       "theme": "light",
-      "roles": "attention / navigationSelected",
+      "roles": "attention / attentionBacking",
       "foreground": "#845800",
-      "background": "#FFFFFF",
+      "background": "#FAF8F4",
       "minimum": 4.5
     },
     {
-      "name": "light: required control outline / navigationSelected",
+      "name": "light: required control outline / attentionBacking",
       "theme": "light",
-      "roles": "controlOutline / navigationSelected",
+      "roles": "controlOutline / attentionBacking",
       "foreground": "#567788",
-      "background": "#FFFFFF",
+      "background": "#FAF8F4",
       "minimum": 3
     },
     {
@@ -214,16 +174,72 @@
       "theme": "light",
       "roles": "link / card",
       "foreground": "#206668",
-      "background": "#E9F3EF",
+      "background": "#FAF8F4",
       "minimum": 3
     },
     {
       "name": "light: selected navigation cue",
       "theme": "light",
-      "roles": "link / navigationSelected",
-      "foreground": "#206668",
-      "background": "#FFFFFF",
+      "roles": "onSelected / navigationSelected",
+      "foreground": "#FFFFFF",
+      "background": "#192D38",
       "minimum": 3
+    },
+    {
+      "name": "light: selected label / soft",
+      "theme": "light",
+      "roles": "onSelected / soft",
+      "foreground": "#FFFFFF",
+      "background": "#192D38",
+      "minimum": 4.5
+    },
+    {
+      "name": "light: selected label / navigationSelected",
+      "theme": "light",
+      "roles": "onSelected / navigationSelected",
+      "foreground": "#FFFFFF",
+      "background": "#192D38",
+      "minimum": 4.5
+    },
+    {
+      "name": "light: selected fill / card",
+      "theme": "light",
+      "roles": "soft / card",
+      "foreground": "#192D38",
+      "background": "#FAF8F4",
+      "minimum": 3
+    },
+    {
+      "name": "light: selected fill / control",
+      "theme": "light",
+      "roles": "soft / control",
+      "foreground": "#192D38",
+      "background": "#F1F0EC",
+      "minimum": 3
+    },
+    {
+      "name": "light: selected fill / navigation",
+      "theme": "light",
+      "roles": "soft / navigation",
+      "foreground": "#192D38",
+      "background": "#FAF8F4",
+      "minimum": 3
+    },
+    {
+      "name": "light: selected navigation label",
+      "theme": "light",
+      "roles": "selectedLabel / navigation",
+      "foreground": "#192D38",
+      "background": "#FAF8F4",
+      "minimum": 4.5
+    },
+    {
+      "name": "light: success label",
+      "theme": "light",
+      "roles": "success / successBacking",
+      "foreground": "#256F53",
+      "background": "#E9F3EF",
+      "minimum": 4.5
     },
     {
       "name": "dark: text / card",

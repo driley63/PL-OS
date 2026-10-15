@@ -3,7 +3,7 @@
 Status: Approved for PL-OS v2.6.0
 Owner: Design System Working Group
 Version: 2.6.0
-Last updated: 2026-09-28
+Last updated: 2026-10-15
 
 ## Purpose
 
@@ -73,11 +73,13 @@ Defines corner radius, borders, shadows, layering, and surface separation rules.
 
 ## Approved woven app geometry
 
-The [app visual variant](app-visuals.md) uses named local aliases: 14-unit reading cards, 9-unit tiles/buttons, 12-unit Log corners, and a 28-unit Quick Log pill. Thin copper edges are decorative; required control/focus boundaries use tested roles. The phone's 26-unit preview mask is presentation framing and does not replace native device masks.
+The [app visual variant](app-visuals.md) uses named local aliases: 14-unit reading cards, 9-unit tiles/buttons, 12-unit Log corners, and a 28-unit Quick Log pill. Light reading cards may add an ink shadow at 6% opacity, offset (0, 2), blur 8, spread 0; inset metric tiles have no extra elevation. Neutral light edges and the existing dark copper edges are decorative; required control/focus boundaries use tested roles. Dark elevation is unchanged. The phone's 26-unit preview mask is presentation framing and does not replace native device masks.
 
 Opaque reading cards separate content from the photo without heavy shadow or layered decorative frames. Only Your Progress uses the approved display-only metric group exception. Foundation radius and elevation tokens remain the baseline for other variants.
 
 ## Version History
+
+- 2026-10-15 amendment: Apply the approved neutral light appearance; retain the current app spacing and dark styling.
 
 - v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.2.0: Adds radius scale, elevation scale, and surface rules.

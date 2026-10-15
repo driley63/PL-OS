@@ -3,7 +3,7 @@
 Status: Approved for PL-OS v2.6.0
 Owner: Design System Working Group
 Version: 2.6.0
-Last updated: 2026-09-28
+Last updated: 2026-10-15
 
 ## Purpose
 
@@ -90,9 +90,13 @@ Do not expose sensitive health search terms in shareable URLs unless privacy rev
 
 The [App Visual Specification](app-visuals.md) retains the Timeline category chips and Charts Timeframe/Symptom controls. A check, label, selected background/outline, and programmatic state identify selected categories and timeframes. Required boundaries use the app control-outline role rather than decorative copper.
 
+Light selected chips and timeframe segments use ink `#192D38` with white text/icons, while unselected controls use warm gray `#F1F0EC` with readable ink/semantic content. The light `soft` alias now represents selection only; attention messages use their separate `attentionBacking`. Dark selections and attention backgrounds retain the existing values and foregrounds.
+
 Wrap long filter labels or use a supported accessible overflow pattern. The screenshot's All/Meal/Bowel Movement chips and All Symptoms selection are visible examples, not a complete option inventory. Keep actual result scope, data, permissions, and unavailable states truthful when controls change.
 
 ## Version History
+
+- 2026-10-15 amendment: Apply the approved neutral light appearance; retain the current app spacing and dark styling.
 
 - v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.5.0: Adds search, filter, sort, and query-state standards.

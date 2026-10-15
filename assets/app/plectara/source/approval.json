@@ -1,28 +1,39 @@
 {
-  "date": "2026-09-28",
-  "status": "owner-approved for PL-OS integration",
-  "approval": "Looks great! Let\u2019s update PL-OS with these new specifications. Include screenshots and update any current PL-OS that would be affected by this.",
-  "fragment_sha256": "695558762593e450a4f8cdc559d29de7966e198ef80500f31a8686e8b9d1f22d",
-  "source_content": "Owner-supplied app screenshots; values copied as review fixtures, not runtime application data.",
-  "source_screens": [
-    "Today populated",
-    "Timeline",
-    "Charts",
-    "Insights"
-  ],
-  "earlier_reference": "Empty Today screenshot supplied by the owner.",
-  "chart": "Line geometry visually reconstructed from the screenshot; underlying observations were not supplied.",
-  "preview_only_interactions": [
-    "Appearance dialog",
-    "Progress dialog",
-    "Local deletion confirmation",
-    "Filter changes",
-    "Chart timeframe changes"
-  ],
+  "date": "2026-10-15",
+  "status": "owner-approved light-mode amendment for PL-OS integration",
+  "approval": "That's much better. Can you update PL-OS with these specifications?",
+  "fragment_sha256": "6a716ab498d2d12caa1a28c9eaa2f9b34964a45de904d0a7134e83b989445043",
+  "scope": "Warm neutral light surfaces and ink selected controls only; preserve dark appearance, geometry, content, yarn and canonical logo.",
+  "approved_mockup": "source/neutral-light-approved-mockup.png",
   "native_implementation_included": false,
-  "merge_authorization": {
+  "previous_approval": {
     "date": "2026-09-28",
-    "instruction": "push and merge",
-    "pull_request": "https://github.com/driley63/PL-OS/pull/25"
-  }
+    "status": "owner-approved for PL-OS integration",
+    "approval": "Looks great! Let\u2019s update PL-OS with these new specifications. Include screenshots and update any current PL-OS that would be affected by this.",
+    "fragment_sha256": "695558762593e450a4f8cdc559d29de7966e198ef80500f31a8686e8b9d1f22d",
+    "source_content": "Owner-supplied app screenshots; values copied as review fixtures, not runtime application data.",
+    "source_screens": [
+      "Today populated",
+      "Timeline",
+      "Charts",
+      "Insights"
+    ],
+    "earlier_reference": "Empty Today screenshot supplied by the owner.",
+    "chart": "Line geometry visually reconstructed from the screenshot; underlying observations were not supplied.",
+    "preview_only_interactions": [
+      "Appearance dialog",
+      "Progress dialog",
+      "Local deletion confirmation",
+      "Filter changes",
+      "Chart timeframe changes"
+    ],
+    "native_implementation_included": false,
+    "merge_authorization": {
+      "date": "2026-09-28",
+      "instruction": "push and merge",
+      "pull_request": "https://github.com/driley63/PL-OS/pull/25"
+    }
+  },
+  "spacing_requirement": "Honor the existing PL-213 section_gap=12 contract in both reference themes; correct the stale 20-unit preview gap.",
+  "spacing_user_instruction": "Note that there was recently and update in PL-OS to close some of the gaps between cards. Make sure that is still there and honored in the new designs."
 }

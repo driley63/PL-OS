@@ -4,6 +4,8 @@ RFCs are proposals under review. Accepted RFCs may become ADRs and specification
 
 ## Accepted for implementation
 
+- [RFC-0009: Neutral light-mode app surfaces](0009-neutral-light-app-surfaces.md) — approved October 15 amendment; pending next PL-OS release.
+
 - [RFC-0008: Woven app visual specification](0008-woven-app-visuals.md) — owner-approved app direction and assets, included in v2.6.0.
 
 - [RFC-0007: Capture widget visual specification](0007-capture-widget-visuals.md) — accepted design and assets, prepared for v2.5.0.

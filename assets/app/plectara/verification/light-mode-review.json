@@ -1,0 +1,332 @@
+{
+  "date": "2026-10-15",
+  "scope": "Current light restyle and PL-213 reference-spacing correction. Browser evidence only; native implementation remains separate.",
+  "baseline": "Original v1 reference with only its stale section gap corrected from 20 to the already approved 12; dark screenshot byte equality isolates any extra changes caused by the light restyle.",
+  "fragment_sha256": "6a716ab498d2d12caa1a28c9eaa2f9b34964a45de904d0a7134e83b989445043",
+  "offline_sha256": "f9bc469c5330642f05e174c89722ed0ad1d7d2076e2da4b76e2ffe9de31188d6",
+  "reviews": [
+    {
+      "screen": "today",
+      "darkStylesIdentical": true,
+      "darkScreenshotIdentical": true,
+      "baselineDarkSha256": "84fc75c01b2139fc59abc57df630e1ab3d063accc2b105b22574bd4cc3fa18c1",
+      "amendedDarkSha256": "84fc75c01b2139fc59abc57df630e1ab3d063accc2b105b22574bd4cc3fa18c1",
+      "contentUnchanged": true,
+      "sectionGaps": [
+        "12px",
+        "12px"
+      ],
+      "sizes": [
+        {
+          "height": 1884,
+          "width": 714,
+          "x": 0,
+          "y": 60
+        },
+        {
+          "height": 1884,
+          "width": 714,
+          "x": 758,
+          "y": 60
+        }
+      ],
+      "fontLoaded": true,
+      "unrenderedIcons": 0
+    },
+    {
+      "screen": "timeline",
+      "darkStylesIdentical": true,
+      "darkScreenshotIdentical": true,
+      "baselineDarkSha256": "8aacf0168f36c9310264ad7e1abb1bdbb42c080c85dbd35f85ead359cd7e8ce7",
+      "amendedDarkSha256": "8aacf0168f36c9310264ad7e1abb1bdbb42c080c85dbd35f85ead359cd7e8ce7",
+      "contentUnchanged": true,
+      "sectionGaps": [
+        "12px",
+        "12px"
+      ],
+      "sizes": [
+        {
+          "height": 1868,
+          "width": 714,
+          "x": 0,
+          "y": 60
+        },
+        {
+          "height": 1868,
+          "width": 714,
+          "x": 758,
+          "y": 60
+        }
+      ],
+      "fontLoaded": true,
+      "unrenderedIcons": 0
+    },
+    {
+      "screen": "charts",
+      "darkStylesIdentical": true,
+      "darkScreenshotIdentical": true,
+      "baselineDarkSha256": "5fc34d9a3b6036cd6675764d0bbd3bb7cd911ea1302a5eec56935734a4f980cc",
+      "amendedDarkSha256": "5fc34d9a3b6036cd6675764d0bbd3bb7cd911ea1302a5eec56935734a4f980cc",
+      "contentUnchanged": true,
+      "sectionGaps": [
+        "12px",
+        "12px"
+      ],
+      "sizes": [
+        {
+          "height": 1826,
+          "width": 714,
+          "x": 0,
+          "y": 60
+        },
+        {
+          "height": 1826,
+          "width": 714,
+          "x": 758,
+          "y": 60
+        }
+      ],
+      "fontLoaded": true,
+      "unrenderedIcons": 0
+    },
+    {
+      "screen": "insights",
+      "darkStylesIdentical": true,
+      "darkScreenshotIdentical": true,
+      "baselineDarkSha256": "e61d5c9559f001d1daf9c956b33bf25ed87d380b58cb06c40a0e87aea5672fdd",
+      "amendedDarkSha256": "e61d5c9559f001d1daf9c956b33bf25ed87d380b58cb06c40a0e87aea5672fdd",
+      "contentUnchanged": true,
+      "sectionGaps": [
+        "12px",
+        "12px"
+      ],
+      "sizes": [
+        {
+          "height": 1918,
+          "width": 714,
+          "x": 0,
+          "y": 60
+        },
+        {
+          "height": 1918,
+          "width": 714,
+          "x": 758,
+          "y": 60
+        }
+      ],
+      "fontLoaded": true,
+      "unrenderedIcons": 0
+    },
+    {
+      "screen": "today-empty",
+      "darkStylesIdentical": true,
+      "darkScreenshotIdentical": true,
+      "baselineDarkSha256": "baa8a24a6c3153f21bec92fa9eb83e7346097b88a31c5542254f81f46d39209a",
+      "amendedDarkSha256": "baa8a24a6c3153f21bec92fa9eb83e7346097b88a31c5542254f81f46d39209a",
+      "contentUnchanged": true,
+      "sectionGaps": [
+        "12px",
+        "12px"
+      ],
+      "sizes": [
+        {
+          "height": 1836,
+          "width": 714,
+          "x": 0,
+          "y": 60
+        },
+        {
+          "height": 1836,
+          "width": 714,
+          "x": 758,
+          "y": 60
+        }
+      ],
+      "fontLoaded": true,
+      "unrenderedIcons": 0
+    }
+  ],
+  "offline_reference": {
+    "narrowReview": [
+      {
+        "screen": "today",
+        "rows": [
+          {
+            "cardFill": "rgb(250, 248, 244)",
+            "fontLoaded": true,
+            "pageOverflow": false,
+            "sectionGap": "12px",
+            "selectedIconColor": "rgb(255, 255, 255)",
+            "selectedIconFill": "rgb(25, 45, 56)",
+            "theme": "light",
+            "unrenderedIcons": 0,
+            "width": 320,
+            "contentBoundsIssues": [],
+            "clippedTextureOverflow": true
+          },
+          {
+            "cardFill": "rgb(25, 45, 56)",
+            "fontLoaded": true,
+            "pageOverflow": false,
+            "sectionGap": "12px",
+            "selectedIconColor": "rgb(141, 199, 183)",
+            "selectedIconFill": "rgb(38, 76, 75)",
+            "theme": "dark",
+            "unrenderedIcons": 0,
+            "width": 320,
+            "contentBoundsIssues": [],
+            "clippedTextureOverflow": true
+          }
+        ]
+      },
+      {
+        "screen": "timeline",
+        "rows": [
+          {
+            "cardFill": "rgb(250, 248, 244)",
+            "fontLoaded": true,
+            "pageOverflow": false,
+            "sectionGap": "12px",
+            "selectedIconColor": "rgb(255, 255, 255)",
+            "selectedIconFill": "rgb(25, 45, 56)",
+            "theme": "light",
+            "unrenderedIcons": 0,
+            "width": 320,
+            "contentBoundsIssues": [],
+            "clippedTextureOverflow": true
+          },
+          {
+            "cardFill": "rgb(25, 45, 56)",
+            "fontLoaded": true,
+            "pageOverflow": false,
+            "sectionGap": "12px",
+            "selectedIconColor": "rgb(141, 199, 183)",
+            "selectedIconFill": "rgb(38, 76, 75)",
+            "theme": "dark",
+            "unrenderedIcons": 0,
+            "width": 320,
+            "contentBoundsIssues": [],
+            "clippedTextureOverflow": true
+          }
+        ]
+      },
+      {
+        "screen": "charts",
+        "rows": [
+          {
+            "cardFill": "rgb(250, 248, 244)",
+            "fontLoaded": true,
+            "pageOverflow": false,
+            "sectionGap": "12px",
+            "selectedIconColor": "rgb(255, 255, 255)",
+            "selectedIconFill": "rgb(25, 45, 56)",
+            "theme": "light",
+            "unrenderedIcons": 0,
+            "width": 320,
+            "contentBoundsIssues": [],
+            "clippedTextureOverflow": true
+          },
+          {
+            "cardFill": "rgb(25, 45, 56)",
+            "fontLoaded": true,
+            "pageOverflow": false,
+            "sectionGap": "12px",
+            "selectedIconColor": "rgb(141, 199, 183)",
+            "selectedIconFill": "rgb(38, 76, 75)",
+            "theme": "dark",
+            "unrenderedIcons": 0,
+            "width": 320,
+            "contentBoundsIssues": [],
+            "clippedTextureOverflow": true
+          }
+        ]
+      },
+      {
+        "screen": "insights",
+        "rows": [
+          {
+            "cardFill": "rgb(250, 248, 244)",
+            "fontLoaded": true,
+            "pageOverflow": false,
+            "sectionGap": "12px",
+            "selectedIconColor": "rgb(255, 255, 255)",
+            "selectedIconFill": "rgb(25, 45, 56)",
+            "theme": "light",
+            "unrenderedIcons": 0,
+            "width": 320,
+            "contentBoundsIssues": [],
+            "clippedTextureOverflow": true
+          },
+          {
+            "cardFill": "rgb(25, 45, 56)",
+            "fontLoaded": true,
+            "pageOverflow": false,
+            "sectionGap": "12px",
+            "selectedIconColor": "rgb(141, 199, 183)",
+            "selectedIconFill": "rgb(38, 76, 75)",
+            "theme": "dark",
+            "unrenderedIcons": 0,
+            "width": 320,
+            "contentBoundsIssues": [],
+            "clippedTextureOverflow": true
+          }
+        ]
+      }
+    ],
+    "filterCheck": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "fill": "rgb(25, 45, 56)",
+        "label": "Meal"
+      },
+      {
+        "color": "rgb(141, 199, 183)",
+        "fill": "rgb(34, 61, 73)",
+        "label": "Meal"
+      }
+    ],
+    "timeframeCheck": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "fill": "rgb(25, 45, 56)",
+        "label": "7"
+      },
+      {
+        "color": "rgb(141, 199, 183)",
+        "fill": "rgb(34, 61, 73)",
+        "label": "7"
+      }
+    ],
+    "switchedDark": {
+      "card": "rgb(25, 45, 56)",
+      "nav": "rgb(250, 248, 244)",
+      "theme": "dark"
+    },
+    "errors": []
+  },
+  "preview_sha256": {
+    "charts-comparison.png": "76e55f4783dc386b24058615e14b0d9faaddb43afbcef58727617666a953b9d4",
+    "charts-dark.png": "ba56ef19d83efcb5d9ea99fa0cf5091159c65bcfb2daacd08e1c55419f70216f",
+    "charts-light.png": "82feb9f6f0de164770834447d400ce45573302bc84b3a9e83c536e4d24304d39",
+    "insights-comparison.png": "41190fce3b38ed5ed91ee8b79e4c40aed2e1e3a19db7598be8e1d2c7b7d341c2",
+    "insights-dark.png": "6ec7b056824242a87b3ea24a8295a684ade0d4cb4f2ccbace8fd17f51b179cc1",
+    "insights-light.png": "4e4296ba144807fceeaaa0a88898137461e54942913520e24a73433e25397b02",
+    "timeline-comparison.png": "3e2583acd9536d0601a2ce4caf7b73a572dd2d8ba2b4fd3762e1900d846b70a3",
+    "timeline-dark.png": "62ba555dc45adc95a78b00f55767ded2daf9c26ac92412768d9ed51326e0d5a1",
+    "timeline-light.png": "b6dc064606268a9198cc4e4e653e165e70fea75a5a2c65a79de9894542913398",
+    "today-comparison.png": "9ceb058972d2ae634e3043618cef750df00c11ae42336e237a54f1d984072409",
+    "today-dark.png": "087244b107faf428d5cac013f3d27c69bdb4174da690370e88e46b140beb916c",
+    "today-empty-dark.png": "6740db196c6fe31209b03b205e7e466dfc0e89711ba2671090ef58dee50d37be",
+    "today-empty-light.png": "b463e076f4e4bb2f5fa0dcfd072eb9772a0e989791e4d23acdc67126f79be6c5",
+    "today-light.png": "4d54a8db15653d2bd19416df9e16841ca5f0e5153755828e5183388effd3edbe"
+  },
+  "capture": "Native browser JPEG screenshot bytes converted to RGB PNG without artwork synthesis or recoloring. Existing v1 archive preserves the original PNGs.",
+  "export_width": 1472,
+  "logical_pair_width": 736,
+  "narrow_logical_width": 320,
+  "overflow_note": "The rotated decorative yarn extends beyond phone bounds and is clipped by the phone mask. All checked content bounds fit; the page has no horizontal overflow.",
+  "historical_reports": [
+    "browser-review.json",
+    "offline-review.json"
+  ]
+}

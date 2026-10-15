@@ -21,6 +21,8 @@ ADRs are permanent records of important PL-OS decisions (historically LIQ OS). T
 
 - [ADR-0014: Adopt the woven app visuals](0014-adopt-woven-app-visuals.md) — approved daily shell branding, opaque reading cards, bounded progress nesting and local values for four real app screens
 
+- [ADR-0015: Neutral light-mode app surfaces](0015-neutral-light-app-surfaces.md) — amends the light appearance in ADR-0014; preserves dark mode and canonical artwork
+
 ## Rule
 
 Do not delete ADRs. Supersede them with new ADRs.

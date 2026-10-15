@@ -27,6 +27,8 @@ The [Capture Widget Visual Specification](docs/specs/02-design/capture-widget-vi
 
 The [App Visual Specification](docs/specs/02-design/app-visuals.md) extends the approved woven styling to Today, Timeline, Charts, and Insights. It includes light/dark screenshots matched to the actual app, exact yarn and logo files, theme and geometry values, an offline reference, a downloadable kit, and updates to affected component and product guidance. See the [v2.6.0 release notes](docs/releases/v2.6.0/README.md).
 
+The [October 15 light-mode amendment](docs/releases/unreleased.md) adds ivory cards, warm-gray insets, neutral decoration, and ink-filled selections while preserving dark appearance. Its updated visual kit is prepared for the next PL-OS release; native app integration is separate.
+
 ## Repository Map
 
 ```text
