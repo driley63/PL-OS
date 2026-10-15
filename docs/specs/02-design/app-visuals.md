@@ -137,7 +137,7 @@ Reference dimensions are logical composition values, not universal device dimens
 
 | Element | Reference |
 | --- | --- |
-| Body gutter / section gap | 12 / 20 |
+| Body gutter / section gap | 12 / 12 |
 | Body top / bottom inset | 10 / 14 |
 | Card padding / radius / outline | 14 / 14 / 1 |
 | Progress tile gap / radius / minimum height | 8 / 9 / 88 |

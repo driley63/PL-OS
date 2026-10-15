@@ -36,7 +36,7 @@
   "divider": {"height": 1, "color": "#C88764", "stops": [[0, 0], [16, 1], [84, 1], [100, 0]], "role": "decorative"},
   "geometry": {
     "body_gutter": 12, "body_top_inset": 10, "body_bottom_inset": 14,
-    "section_gap": 20, "card_padding": 14, "card_radius": 14, "card_border": 1,
+    "section_gap": 12, "card_padding": 14, "card_radius": 14, "card_border": 1,
     "progress_gap": 8, "progress_tile_radius": 9, "progress_tile_min_height": 88,
     "button_radius": 9, "log_radius": 12, "quick_log_radius": 28,
     "control_min_height": 44, "floating_action_min_height": 54,
