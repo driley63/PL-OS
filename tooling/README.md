@@ -6,7 +6,7 @@
 
 ## App visual kit
 
-`python tooling/build-app-visual-kit.py` packages the owner-approved app reference, ten individual PNGs and four comparison sheets. It checks the approved source hash, exact embedded yarn/logo/font, offline library inclusion, app-local color mappings, 58 contrast pairs, screenshot dimensions, saved browser evidence, ZIP checksums, and documentation mirror. It generates scoped CSS/Flutter color adapters and bundles the current written specification. It preserves the saved artwork. The offline browser report records local reference checks; native application and assistive-technology release evidence remain separate.
+`python tooling/build-app-visual-kit.py` packages the owner-approved app reference, ten individual PNGs and four comparison sheets into the version 2 kit. It checks the approved source hash, exact embedded yarn/logo/font, offline library inclusion, app-local color mappings, 60 contrast pairs, screenshot dimensions, current light-amendment browser evidence, unchanged dark palette/styling/shared definitions and PL-213 section-gap parity, ZIP checksums, and documentation mirror. It generates scoped CSS/Flutter color adapters and bundles the current written specification. It preserves the saved artwork and released v1 ZIP. September browser reports are historical; `light-mode-review.json` records the October amendment. Native application and assistive-technology release evidence remain separate.
 
 ## Current accessibility checks
 

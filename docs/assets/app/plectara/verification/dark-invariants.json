@@ -1,0 +1,175 @@
+{
+  "source_commit": "f045af390b486f987568c31f0d80c985ba7a368b",
+  "dark_palette": {
+    "card": "#192D38",
+    "text": "#FAF8F4",
+    "textSecondary": "#B8CBCB",
+    "control": "#264C4B",
+    "soft": "#223D49",
+    "primary": "#76B7A5",
+    "onPrimary": "#192D38",
+    "link": "#8DC7B7",
+    "controlOutline": "#8DA4A6",
+    "decorativeOutline": "#C88764",
+    "navigation": "#192D38",
+    "navigationSelected": "#264C4B",
+    "attention": "#E5B86A"
+  },
+  "unchanged_shared_sections": {
+    "header": {
+      "ink": "#192D38",
+      "foreground": "#FAF8F4",
+      "logo_width": 124,
+      "minimum_height": 112,
+      "gradient_direction": "left to right",
+      "ink_gradient_stops": [
+        [
+          0,
+          0.96
+        ],
+        [
+          20,
+          0.92
+        ],
+        [
+          38,
+          0.82
+        ],
+        [
+          56,
+          0.66
+        ],
+        [
+          80,
+          0.22
+        ],
+        [
+          100,
+          0.08
+        ]
+      ],
+      "protected_text_region_percent": 56
+    },
+    "texture": {
+      "file": "textures/plectara-widget-yarn-gentle-focus-v1.webp",
+      "native_source": "textures/plectara-widget-yarn-gentle-focus-v1.png",
+      "rotation_degrees_clockwise": 55,
+      "position": "left center",
+      "scale": "cover",
+      "layer_width": "W*cos(55deg) + H*sin(55deg) + 32",
+      "layer_height": "W*sin(55deg) + H*cos(55deg) + 32",
+      "opacity": 1,
+      "repeat": false,
+      "additional_blur": false
+    },
+    "divider": {
+      "height": 1,
+      "color": "#C88764",
+      "stops": [
+        [
+          0,
+          0
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          84,
+          1
+        ],
+        [
+          100,
+          0
+        ]
+      ],
+      "role": "decorative"
+    },
+    "geometry": {
+      "body_gutter": 12,
+      "body_top_inset": 10,
+      "body_bottom_inset": 14,
+      "section_gap": 12,
+      "card_padding": 14,
+      "card_radius": 14,
+      "card_border": 1,
+      "progress_gap": 8,
+      "progress_tile_radius": 9,
+      "progress_tile_min_height": 88,
+      "button_radius": 9,
+      "log_radius": 12,
+      "quick_log_radius": 28,
+      "control_min_height": 44,
+      "floating_action_min_height": 54,
+      "phone_preview_radius": 26
+    },
+    "typography": {
+      "family": "Inter",
+      "fallbacks": [
+        "SF Pro",
+        "Roboto",
+        "system-ui"
+      ],
+      "page_title": {
+        "size": 22,
+        "line_height": 30,
+        "weight": 500
+      },
+      "card_title": {
+        "size": 18,
+        "line_height": 25,
+        "weight": 500
+      },
+      "body": {
+        "size": 14,
+        "line_height": 23,
+        "weight": 400
+      },
+      "finding_summary": {
+        "size": 16,
+        "line_height": 25,
+        "weight": 400
+      },
+      "entry_title": {
+        "size": 15,
+        "line_height": 22,
+        "weight": 500
+      },
+      "entry_metadata": {
+        "size": 13,
+        "line_height": 22,
+        "weight": 400
+      },
+      "chart_label": {
+        "size": 11,
+        "weight": 400
+      },
+      "navigation": {
+        "size": 12,
+        "line_height": 18,
+        "weight": 400
+      },
+      "stamp": {
+        "size": 11,
+        "line_height": 17,
+        "weight": 400
+      }
+    }
+  },
+  "scope": "Preserve dark palette, component styling, artwork, and current shared geometry. Correct stale reference spacing from 20 to the already approved PL-213 value of 12 in both themes; fresh dark renders are compared against the original reference with only that spacing correction.",
+  "historical_dark_preview_sha256": {
+    "charts-dark.png": "41461eb5f27d2b793b4347467d09801ac38808d03fba56b3ab41a6da59e768d3",
+    "insights-dark.png": "7a561f6e0680d1dc3bfea9047e053b4eeb18ee9dcf348b92cfc6495b0a04b787",
+    "today-dark.png": "aa4ed3a936d8246cd2697f442d59207821e7fec0b5923010744f87899d6c9c11",
+    "timeline-dark.png": "72ec318c0c0d245502b7b43018ff6d631b9a0e94a4069b95a60a9773fade6dad",
+    "today-empty-dark.png": "4e5a428641d9e75406633afbc710957f12855f4fe9ecb5239e3b9fc3533df379"
+  },
+  "baseline_archive": "plectara-app-visuals-v1.zip",
+  "baseline_archive_sha256": "8c27566a31a135a75bec15a6f030a1751acdf84f0d89ace3c2e449b6bb8691e5",
+  "spacing_correction": {
+    "issue": "PL-213",
+    "commit": "133df1d9aa60193073ce99dc9946e9b062cad610",
+    "old_reference_gap": 20,
+    "approved_gap": 12
+  }
+}

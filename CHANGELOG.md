@@ -4,6 +4,14 @@ All notable changes to PL-OS (formerly LIQ OS) are recorded in this file.
 
 The format follows Keep a Changelog conventions and the project uses semantic versioning for published operating system releases.
 
+## [v2.7.0] - 2026-10-15
+
+### Changed
+
+- Apply the October 15 approved light-mode restyle: ivory reading cards/navigation, warm-gray insets, neutral decorative borders, ink selected controls with white foregrounds, and neutral Quick Log styling.
+- Preserve dark colors, shared artwork, and the current geometry contract. Correct the reference's stale 20-unit section gap to PL-213's approved 12 units in both themes; retain historical dark previews in the v1 archive. Add fresh browser comparisons and migration guidance that separates selection from attention backing.
+- Publish a version 2 app visual kit with updated reference, light previews, adapters, 60 contrast checks, ADR-0015, and RFC-0009. The released v1 archive remains unchanged.
+
 ## [v2.6.0] - 2026-09-28
 
 ### Added

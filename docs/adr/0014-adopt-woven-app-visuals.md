@@ -4,6 +4,8 @@ Status: Accepted for repository implementation
 Date: 2026-09-28
 Owner: Design System Working Group
 
+Amendment: [ADR-0015](0015-neutral-light-app-surfaces.md) supersedes the light surface/selection treatment on October 15, 2026. This record preserves the original decision.
+
 ## Context
 
 The owner approved the capture widget identity and requested a matching app direction. The first app proposal's content did not reflect the actual app. The owner supplied an empty Today screenshot, followed by populated Today, Timeline, Charts, and Insights screenshots. The revised four-screen light/dark review was approved for PL-OS integration.

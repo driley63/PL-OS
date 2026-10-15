@@ -4,9 +4,9 @@ Plectara Operating System (PL-OS) is the canonical source of truth for Plectara'
 
 ## Current Version
 
-- Version: v2.6.0
-- Status: Approved v2.6.0 release
-- Prepared: 2026-09-28
+- Version: v2.7.0
+- Status: Approved v2.7.0 release
+- Prepared: 2026-10-15
 - Product name: Plectara
 - Operating system name: PL-OS
 - Design philosophy: "Translating daily habits into a plan towards optimal health."
@@ -23,6 +23,8 @@ The [Capture Widget Visual Specification](specs/02-design/capture-widget-visuals
 ## App visual standards update
 
 The [App Visual Specification](specs/02-design/app-visuals.md) extends the approved woven styling to Today, Timeline, Charts, and Insights. It includes light/dark screenshots matched to the actual app, exact yarn and logo files, theme and geometry values, an offline reference, a downloadable kit, and updates to affected component and product guidance. See the [v2.6.0 release notes](releases/v2.6.0/README.md).
+
+The [v2.7.0 light-mode update](releases/v2.7.0/README.md) introduces ivory cards, warm-gray insets, neutral decoration, and ink-filled selections. It preserves dark styling and PL-213’s 12-unit section spacing.
 
 ## Documentation Source
 

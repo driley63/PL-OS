@@ -2,19 +2,25 @@
 import 'package:flutter/material.dart';
 
 abstract final class PlectaraAppLightColors {
-  static const card = Color(0xFFE9F3EF);
+  static const card = Color(0xFFFAF8F4);
   static const text = Color(0xFF192D38);
   static const textSecondary = Color(0xFF506F7E);
-  static const control = Color(0xFFFFFFFF);
-  static const soft = Color(0xFFE9F3EF);
+  static const control = Color(0xFFF1F0EC);
+  static const soft = Color(0xFF192D38);
   static const primary = Color(0xFF287E80);
   static const onPrimary = Color(0xFFFFFFFF);
   static const link = Color(0xFF206668);
   static const controlOutline = Color(0xFF567788);
-  static const decorativeOutline = Color(0xFFC88764);
-  static const navigation = Color(0xFFE9F3EF);
-  static const navigationSelected = Color(0xFFFFFFFF);
+  static const decorativeOutline = Color(0xFFD8DEDA);
+  static const navigation = Color(0xFFFAF8F4);
+  static const navigationSelected = Color(0xFF192D38);
   static const attention = Color(0xFF845800);
+  static const onSelected = Color(0xFFFFFFFF);
+  static const selectedLabel = Color(0xFF192D38);
+  static const tileOutline = Color(0xFFDDDFDA);
+  static const attentionBacking = Color(0xFFFAF8F4);
+  static const success = Color(0xFF256F53);
+  static const successBacking = Color(0xFFE9F3EF);
 }
 
 abstract final class PlectaraAppDarkColors {

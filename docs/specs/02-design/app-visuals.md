@@ -1,18 +1,20 @@
 # App Visual Specification
 
-Status: Approved for PL-OS v2.6.0
+Status: Approved for PL-OS v2.7.0
 Owner: Design System Working Group
-Version: 2.6.0
-Last updated: 2026-09-28
-Decision: [ADR-0014](../../adr/0014-adopt-woven-app-visuals.md)
+Version: 2.7.0 (visual kit v2)
+Last updated: 2026-10-15
+Decision: [ADR-0014](../../adr/0014-adopt-woven-app-visuals.md), amended for light mode by [ADR-0015](../../adr/0015-neutral-light-app-surfaces.md)
 
 ## Approved direction
 
-Extend the approved widget identity into the Plectara app: one vibrant woven-yarn backdrop, a horizontally shaded header, soft copper horizontal rules, mint reading cards in light mode, and opaque ink reading cards in dark mode. Keep the exact canonical logo and yarn artwork. The app's content and controls follow the owner-supplied Today, Timeline, Charts, and Insights screenshots.
+Extend the approved widget identity into the Plectara app: one vibrant woven-yarn backdrop, a horizontally shaded header, a soft copper header rule, warm ivory reading cards in light mode, and opaque ink reading cards in dark mode. Light mode uses restrained neutral card/tile borders and ink-filled selections. Dark mode retains its existing copper decoration, colors, and selected appearance. Keep the exact canonical logo and yarn artwork. The app's content and controls follow the owner-supplied Today, Timeline, Charts, and Insights screenshots.
+
+On October 15 the owner approved a light-only restyle to reduce the amount of green. The [approved concept](../../assets/app/plectara/source/neutral-light-approved-mockup.png) records that direction; the exact colors and component rules below govern implementation. Its generated raster details are not replacement logo, yarn, typography, or production assets. Existing screen fixtures and the dark design remain unchanged.
 
 The owner approved the four-screen review and requested PL-OS integration with screenshots and affected standards. These are browser-rendered design references. They define the visual direction; native implementation, real device dimensions, health calculations, and accessibility release evidence belong to the consuming app.
 
-[Download the app visual kit](../../assets/app/plectara/plectara-app-visuals-v1.zip){ .md-button .md-button--primary download="plectara-app-visuals-v1.zip" }
+[Download the app visual kit](../../assets/app/plectara/plectara-app-visuals-v2.zip){ .md-button .md-button--primary download="plectara-app-visuals-v2.zip" }
 [Open the offline-capable reference](../../assets/app/plectara/reference/approved-app.html){ .md-button }
 [View the asset manifest](../../assets/app/plectara/manifest.json){ .md-button }
 
@@ -84,7 +86,7 @@ Comparison sheets: [Today](../../assets/app/plectara/previews/today-comparison.p
 4. The canonical logo on Today, or the current page title on Timeline, Charts, and Insights; settings remains on the right.
 5. A soft copper rule between header and content.
 6. Opaque themed cards and control backgrounds carrying live text, icons, values, and chart marks.
-7. Persistent bottom navigation with a second soft copper rule and a non-color selected cue.
+7. Persistent bottom navigation with a thin neutral separator in light mode, the existing soft copper rule in dark mode, and a non-color selected cue.
 8. Native overlays with opaque reading surfaces and a scrim behind them.
 
 Do not wash out the photo in light mode, tile it, split it into separate header/body images, or blur live text. The existing gentle focus progression belongs to the supplied photo. Daily screen branding is an approved shell treatment under [ADR-0014](../../adr/0014-adopt-woven-app-visuals.md); repeated content remains visually quiet.
@@ -114,26 +116,38 @@ The [app design values](../../assets/app/plectara/app-visual-tokens.json) define
 
 | Role | Light | Dark |
 | --- | --- | --- |
-| Reading card / navigation | Mint `#E9F3EF` | Ink `#192D38` |
+| Reading card / navigation | Warm ivory `#FAF8F4` | Ink `#192D38` |
 | Main text | Ink `#192D38` | Ivory `#FAF8F4` |
 | Supporting text / chart labels | `#506F7E` | `#B8CBCB` |
-| Progress tiles / fields / outlined action backing | White `#FFFFFF` | `#264C4B` |
-| Selected filter / timeframe fill | Mint `#E9F3EF` | Lifted ink `#223D49` |
-| Selected navigation icon backing | White | `#264C4B` |
+| Progress tiles / fields / secondary action backing | Warm gray `#F1F0EC` | `#264C4B` |
+| Selected filter / timeframe fill | Ink `#192D38` | Lifted ink `#223D49` |
+| Selected navigation icon backing | Ink `#192D38` | `#264C4B` |
+| Foreground inside selected fill | White `#FFFFFF` | Existing link `#8DC7B7` |
+| Selected navigation label outside pill | Ink `#192D38`, weight 600 | Existing link `#8DC7B7`, existing weight |
 | Filled Log / Log Period | Teal `#287E80`, white foreground | Jade `#76B7A5`, ink foreground |
-| Links, selected text and default screenshot chart series | `#206668` | `#8DC7B7` |
+| Links and default screenshot chart series | `#206668` | `#8DC7B7` |
 | Required control outline | Slate `#567788` | `#8DA4A6` |
-| Decorative card / tile outline | Copper `#C88764` | Copper |
+| Decorative card outline / navigation and row separator | Neutral `#D8DEDA` | Existing copper `#C88764` |
+| Decorative display-only progress tile outline | Neutral `#DDDFDA` | Existing copper `#C88764` |
 | Attention label / icon | `#845800` | `#E5B86A` |
-| Attention backing | Mint | Lifted ink `#223D49` |
+| Attention backing | Warm ivory `#FAF8F4` | Existing lifted ink `#223D49` |
+| Success label / backing | Semantic green `#256F53` / mint `#E9F3EF` | Existing foundation success and dark state treatment |
 
-Copper edges frame reading groups and display-only progress tiles. They do not identify inputs, interactive boundaries, selection, or keyboard focus. White against mint is insufficient as a required boundary on its own; controls retain their tested outline, label, check, or other indicator.
+Light reading cards are fully opaque and flat-colored. They may use the reference's subtle shadow: ink at 6% opacity, offset (0, 2), blur 8, spread 0. Do not reproduce the concept image's incidental raster grain or apply translucent tint. Keep existing card dimensions, type, padding, and radii. Progress tiles use the warm-gray backing and quiet tile outline without extra elevation. The copper header rule remains; repeated light card/tile frames, Timeline row separators, and the navigation separator use neutral decoration. Dark decoration and elevation do not change.
+
+Neutral card/tile borders are decorative and do not meet required control-boundary contrast. Fields and unselected interactive controls retain the slate control outline. If a display tile becomes actionable, use an explicit control with a tested boundary instead of treating its faint border as an affordance. Preserve independent, visible keyboard focus in all states.
+
+Selected light navigation uses an ink pill with a white icon, no contrasting pill outline or underline, and an ink label below it at weight 600. Selected filters/timeframes use ink fill with white text/checks; keep their existing check, selected semantics, target size, and behavior. Do not use the link color inside the ink selection. Quick Log uses warm-gray fill, ink text/icon, and the slate outline; Log remains teal/white. Source badges use ivory backing with teal text and outline. Green is reserved for meaningful success/state messaging and brand accents, not broad reading surfaces.
+
+`onSelected`, `selectedLabel`, `tileOutline`, `attentionBacking`, `success`, and `successBacking` are light-only palette additions. Resolve their new values only inside the light branch. The CSS adapter explicitly restores existing dark selection/attention/tile aliases and clears light success aliases for both explicit and System dark; dark success components continue using foundation roles. The dark palette in kit v1 is unchanged: its selected foreground remains `link`, attention backing remains `soft`, and all existing component styling is retained. Do not change foundation tokens or capture-widget themes to achieve this app restyle.
 
 Use semantic success, critical, information, and AI roles from the foundation palette for states not shown here. Source badges distinguish **Rule-Derived** findings from explicitly labeled AI-generated output. The teal **Ask About These Findings** action is permitted; purple remains reserved for AI-specific meaning and is not required on every AI entry point.
 
 ## Geometry and typography
 
 Reference dimensions are logical composition values, not universal device dimensions. Record local exceptions through [app-visual-tokens.json](../../assets/app/plectara/app-visual-tokens.json) instead of silently changing the shared scale.
+
+Preserve PL-213's 12-unit gap between main content sections, matching the 12-unit side gutters. The previous HTML/previews still showed 20 units after the tokens were corrected; this kit brings both reference themes into line with the current specification. No other geometry changes are introduced by the light restyle.
 
 | Element | Reference |
 | --- | --- |
@@ -176,7 +190,7 @@ The source Today insight was partially obscured and truncated. The review preser
 
 Use the Timeline title and settings action. Keep the category filter row immediately before the ordered list. The supplied visible filters are **All**, **Meal**, and **Bowel Movement**; All has a check and selected appearance. This screenshot is not the full log-type/filter catalog.
 
-Use one opaque reading panel for the collection, leading category icons, primary entry names, readable multiline metadata, explicit labeled delete controls, and soft copper row rules. Preserve the screenshot order: Magnesium glycinate, Chicken salad at 6:50 PM, Chicken salad at 12:40 PM, Bowel Movement, Vitamin D3, Salmon bowl. Medication details, units, timestamps, and bowel metadata are fixture content, not newly approved tracking requirements.
+Use one opaque reading panel for the collection, leading category icons, primary entry names, readable multiline metadata, explicit labeled delete controls, and decorative row rules: neutral in light mode and existing copper in dark. Preserve the screenshot order: Magnesium glycinate, Chicken salad at 6:50 PM, Chicken salad at 12:40 PM, Bowel Movement, Vitamin D3, Salmon bowl. Medication details, units, timestamps, and bowel metadata are fixture content, not newly approved tracking requirements.
 
 Allow filters to wrap or use a supported accessible overflow pattern. Keep long medication names and dates readable. Retain the app's actual edit, confirmation, undo, permission, loading, and empty behavior; a local preview's delete dialog is not a production workflow specification.
 
@@ -204,7 +218,7 @@ The reference's appearance dialog, progress dialog, local deletion, and timefram
 
 1. Add the supplied texture as one decorative shell layer; respect safe areas and actual native content bounds.
 2. Introduce app-local color/geometry aliases from this kit alongside the existing foundation tokens. Use the [CSS](../../assets/app/plectara/adapters/plectara-app-colors.css) and [Flutter](../../assets/app/plectara/adapters/plectara_app_colors.dart) adapters as mapping examples.
-3. Reuse shared components for the header, themed reading cards, soft copper rule, progress group, outlined filters, list rows, charts, and bottom navigation.
+3. Reuse shared components for the header, themed reading cards, copper header rule, progress group, filters, list rows, charts, and bottom navigation. Follow the [light-only migration](../../releases/v2.7.0/README.md) for selected foregrounds, separate attention backing, and dark compatibility.
 4. Preserve real route labels, screen order, capture actions, source badges, evidence, health-rule state, and theme preference. Default native appearance to System, with explicit Light/Dark overrides.
 5. Apply the same readable surfaces to loading, empty, error, stale, permission-limited, and offline states. Retain normal contrast for unselected, enabled, and read-only content.
 6. Check state layers, focus, overlays, large text, localization, reduced motion/transparency, high contrast, and action clearance in native UI. Omit decorative yarn when the platform's accessibility treatment requires a quieter background.
@@ -212,17 +226,19 @@ The reference's appearance dialog, progress dialog, local deletion, and timefram
 
 ## Verification and acceptance
 
-The kit supplies [browser layout evidence](../../assets/app/plectara/verification/browser-review.json), an [offline reference check](../../assets/app/plectara/verification/offline-review.json), and [58 measured color pairs](../../assets/app/plectara/verification/contrast-report.json). Ordinary text targets 4.5:1 and required non-text cues 3:1 under the existing [accessibility contract](dark-mode.md). Header measurements composite the protected ink shade over a conservative white base; actual crops and scaled/localized bounds still need rendered verification.
+The kit supplies the original [browser layout evidence](../../assets/app/plectara/verification/browser-review.json) and [offline reference check](../../assets/app/plectara/verification/offline-review.json), plus the current [light-mode regression check](../../assets/app/plectara/verification/light-mode-review.json) and [60 measured color pairs](../../assets/app/plectara/verification/contrast-report.json). The September reports describe the original reference; the October report covers the light amendment. Ordinary text targets 4.5:1 and required non-text cues 3:1 under the existing [accessibility contract](dark-mode.md). Header measurements composite the protected ink shade over a conservative white base; actual crops and scaled/localized bounds still need rendered verification.
 
 - All four views match the visible source content, headings, controls, and navigation; both themes expose the same tasks and evidence.
-- The vibrant finite yarn, horizontal header shade, canonical logo, opaque reading cards, and soft copper rules reproduce the approved direction.
+- The vibrant finite yarn, horizontal header shade, canonical logo, opaque reading cards, copper header rule, and theme-specific decorative edges reproduce the approved direction.
 - Required outlines and selected/focus cues remain distinguishable; copper is decorative. Yarn is hidden from assistive technology.
 - Browser export checks cover 736- and 320-unit review widths, loaded icons/fonts, local navigation/filter/timeframe behavior, and absence of horizontal overflow. These results do not establish native or ADA compliance.
 - Individual PNGs, reference files, exact textures/logo, licenses, and design values have dimensions and SHA-256 checksums; the source, documentation mirror, and downloadable ZIP agree.
+- The restyle leaves the dark palette, component styling, current shared geometry tokens, texture, and header definitions unchanged. Both reference themes honor the existing 12-unit section gap. Compare all four populated dark screens and the empty Today state against the original reference with only the PL-213 spacing correction; retain the original screenshots in the v1 archive. Preserve native dark appearance when implementing the separate app change.
 - Native text, controls, safe areas, real data, app state, warnings, theme switching, and VoiceOver/TalkBack behavior are verified before an app release.
 
 ## Version history
 
+- v2.7.0 / kit v2: Approved neutral light reading surfaces, ink-filled selection, quieter decoration, and light-only migration guidance. Dark styling and the current 12-unit spacing contract are preserved.
 - v2.6.0: Adds the owner-approved screenshot-matched app visual standard and reference kit.
 
-See [RFC-0008](../../rfc/0008-woven-app-visuals.md), [ADR-0014](../../adr/0014-adopt-woven-app-visuals.md), and [v2.6.0 release notes](../../releases/v2.6.0/README.md).
+See the [light-mode RFC](../../rfc/0009-neutral-light-app-surfaces.md), [ADR-0015](../../adr/0015-neutral-light-app-surfaces.md), and [v2.7.0 release guidance](../../releases/v2.7.0/README.md). The original standard is recorded in [RFC-0008](../../rfc/0008-woven-app-visuals.md), [ADR-0014](../../adr/0014-adopt-woven-app-visuals.md), and the [v2.6.0 release notes](../../releases/v2.6.0/README.md).

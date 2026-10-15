@@ -1,8 +1,8 @@
 {
   "asset_id": "plectara-app-visuals",
-  "version": 1,
-  "status": "owner-approved design reference; PL-OS v2.6.0 release",
-  "approval_date": "2026-09-28",
+  "version": 2,
+  "status": "owner-approved design reference; PL-OS v2.7.0 release",
+  "approval_date": "2026-10-15",
   "specification": "docs/specs/02-design/app-visuals.md",
   "default_texture": "textures/plectara-widget-yarn-gentle-focus-v1.webp",
   "screenshot_scale": 2,
@@ -14,26 +14,26 @@
     {
       "file": "README.md",
       "role": "README.md",
-      "bytes": 3422,
-      "sha256": "3281769baa12a1c2b9306f465e16c64caac52f26e1775c26a9bb42292b9f91c7"
+      "bytes": 4513,
+      "sha256": "5c081b2703d8421732286cb64266070d935a370e0f5448db4773936fb943af6c"
     },
     {
       "file": "adapters/plectara-app-colors.css",
       "role": "adapters",
-      "bytes": 1697,
-      "sha256": "760806453caa0038640bd2114b4dc3be9e7fc6eead61bce78a84b156a4944ba9"
+      "bytes": 2499,
+      "sha256": "4c6ecdc4e4e27277aa7b548481321e08383b233722a764de300447e42cc4596a"
     },
     {
       "file": "adapters/plectara_app_colors.dart",
       "role": "adapters",
-      "bytes": 1418,
-      "sha256": "fd2dfd7069a7387f1cf5b716555e22dd491485d2c724ab6626cfa182e22be51d"
+      "bytes": 1711,
+      "sha256": "348ce144422ab3d4f220272210b102a69f266fcc03f9dcc1a723c71cd28269b0"
     },
     {
       "file": "app-visual-tokens.json",
       "role": "app-visual-tokens.json",
-      "bytes": 3336,
-      "sha256": "e61678ae631dfd4cf8df3c6d8af9a6a07ef1dc7fa02076cf088db838d71da270"
+      "bytes": 4718,
+      "sha256": "51aa5e801238b0b4cb4f5d40a9603fc30a0feaa0f261101b91a330b7b2577ae1"
     },
     {
       "file": "fonts/Inter-review-subset.woff",
@@ -62,127 +62,127 @@
     {
       "file": "previews/charts-comparison.png",
       "role": "previews",
-      "bytes": 680404,
-      "sha256": "09c65d4fd896db050baafb72befb0f7bd1fb98d6d20ca8957c6727f4c9bfefd6",
+      "bytes": 1182816,
+      "sha256": "76e55f4783dc386b24058615e14b0d9faaddb43afbcef58727617666a953b9d4",
       "width": 1472,
-      "height": 1918,
+      "height": 1886,
       "mode": "RGB"
     },
     {
       "file": "previews/charts-dark.png",
       "role": "previews",
-      "bytes": 416617,
-      "sha256": "41461eb5f27d2b793b4347467d09801ac38808d03fba56b3ab41a6da59e768d3",
+      "bytes": 566507,
+      "sha256": "ba56ef19d83efcb5d9ea99fa0cf5091159c65bcfb2daacd08e1c55419f70216f",
       "width": 714,
-      "height": 1858,
+      "height": 1826,
       "mode": "RGB"
     },
     {
       "file": "previews/charts-light.png",
       "role": "previews",
-      "bytes": 413542,
-      "sha256": "8eaf2c7a1c8d93d1ff4342c7fc471dd78311c583ce7a62669dcb30cb4e425c0e",
+      "bytes": 576868,
+      "sha256": "82feb9f6f0de164770834447d400ce45573302bc84b3a9e83c536e4d24304d39",
       "width": 714,
-      "height": 1858,
+      "height": 1826,
       "mode": "RGB"
     },
     {
       "file": "previews/insights-comparison.png",
       "role": "previews",
-      "bytes": 966785,
-      "sha256": "c62e0792d2ee70466d5abfc02323672b64552ccd7e01a7403e0ee63acbf5fc5a",
+      "bytes": 1867910,
+      "sha256": "41190fce3b38ed5ed91ee8b79e4c40aed2e1e3a19db7598be8e1d2c7b7d341c2",
       "width": 1472,
-      "height": 1994,
+      "height": 1978,
       "mode": "RGB"
     },
     {
       "file": "previews/insights-dark.png",
       "role": "previews",
-      "bytes": 544708,
-      "sha256": "7a561f6e0680d1dc3bfea9047e053b4eeb18ee9dcf348b92cfc6495b0a04b787",
+      "bytes": 897212,
+      "sha256": "6ec7b056824242a87b3ea24a8295a684ade0d4cb4f2ccbace8fd17f51b179cc1",
       "width": 714,
-      "height": 1934,
+      "height": 1918,
       "mode": "RGB"
     },
     {
       "file": "previews/insights-light.png",
       "role": "previews",
-      "bytes": 540466,
-      "sha256": "a45e1653113dff936200fac083799e091563d3b16273f24a2fa847d4cb166f7c",
+      "bytes": 936341,
+      "sha256": "4e4296ba144807fceeaaa0a88898137461e54942913520e24a73433e25397b02",
       "width": 714,
-      "height": 1934,
+      "height": 1918,
       "mode": "RGB"
     },
     {
       "file": "previews/timeline-comparison.png",
       "role": "previews",
-      "bytes": 850283,
-      "sha256": "44347856533d1acebcedda792d09dc8aecd0c01481ad0d3f3ddbb98da9b66cca",
+      "bytes": 1544160,
+      "sha256": "3e2583acd9536d0601a2ce4caf7b73a572dd2d8ba2b4fd3762e1900d846b70a3",
       "width": 1472,
-      "height": 1944,
+      "height": 1928,
       "mode": "RGB"
     },
     {
       "file": "previews/timeline-dark.png",
       "role": "previews",
-      "bytes": 489659,
-      "sha256": "72ec318c0c0d245502b7b43018ff6d631b9a0e94a4069b95a60a9773fade6dad",
+      "bytes": 770030,
+      "sha256": "62ba555dc45adc95a78b00f55767ded2daf9c26ac92412768d9ed51326e0d5a1",
       "width": 714,
-      "height": 1884,
+      "height": 1868,
       "mode": "RGB"
     },
     {
       "file": "previews/timeline-light.png",
       "role": "previews",
-      "bytes": 481892,
-      "sha256": "a12e4e86d5af09493d21e21a1206142d05e0a782f694c034af7c3b567ed45a62",
+      "bytes": 741741,
+      "sha256": "b6dc064606268a9198cc4e4e653e165e70fea75a5a2c65a79de9894542913398",
       "width": 714,
-      "height": 1884,
+      "height": 1868,
       "mode": "RGB"
     },
     {
       "file": "previews/today-comparison.png",
       "role": "previews",
-      "bytes": 899694,
-      "sha256": "93404717e97fe17f4088511140a9227da1d1beaa08fb59d83ca4d22747462467",
+      "bytes": 1649380,
+      "sha256": "9ceb058972d2ae634e3043618cef750df00c11ae42336e237a54f1d984072409",
       "width": 1472,
-      "height": 1992,
+      "height": 1944,
       "mode": "RGB"
     },
     {
       "file": "previews/today-dark.png",
       "role": "previews",
-      "bytes": 545653,
-      "sha256": "aa4ed3a936d8246cd2697f442d59207821e7fec0b5923010744f87899d6c9c11",
+      "bytes": 812833,
+      "sha256": "087244b107faf428d5cac013f3d27c69bdb4174da690370e88e46b140beb916c",
       "width": 714,
-      "height": 1932,
+      "height": 1884,
       "mode": "RGB"
     },
     {
       "file": "previews/today-empty-dark.png",
       "role": "previews",
-      "bytes": 540374,
-      "sha256": "4e5a428641d9e75406633afbc710957f12855f4fe9ecb5239e3b9fc3533df379",
+      "bytes": 761115,
+      "sha256": "6740db196c6fe31209b03b205e7e466dfc0e89711ba2671090ef58dee50d37be",
       "width": 714,
-      "height": 1900,
+      "height": 1836,
       "mode": "RGB"
     },
     {
       "file": "previews/today-empty-light.png",
       "role": "previews",
-      "bytes": 538674,
-      "sha256": "134eecef755d17baa48b38b49d284a657b928576d21abdf92a6dc1e660126f04",
+      "bytes": 771675,
+      "sha256": "b463e076f4e4bb2f5fa0dcfd072eb9772a0e989791e4d23acdc67126f79be6c5",
       "width": 714,
-      "height": 1900,
+      "height": 1836,
       "mode": "RGB"
     },
     {
       "file": "previews/today-light.png",
       "role": "previews",
-      "bytes": 544217,
-      "sha256": "21c3b40ea9549d0a047ee9141324c4765f5612d5b0038dc3c909ef93f6e28753",
+      "bytes": 807799,
+      "sha256": "4d54a8db15653d2bd19416df9e16841ca5f0e5153755828e5183388effd3edbe",
       "width": 714,
-      "height": 1932,
+      "height": 1884,
       "mode": "RGB"
     },
     {
@@ -194,14 +194,14 @@
     {
       "file": "reference/approved-app.html",
       "role": "reference",
-      "bytes": 1069999,
-      "sha256": "9adc5fb2fbb370a6a095500364568a18e565de1ad702796f3aea9d0683d6202b"
+      "bytes": 1072343,
+      "sha256": "f9bc469c5330642f05e174c89722ed0ad1d7d2076e2da4b76e2ffe9de31188d6"
     },
     {
       "file": "reference/approved-mockup-fragment.html",
       "role": "reference",
-      "bytes": 442518,
-      "sha256": "695558762593e450a4f8cdc559d29de7966e198ef80500f31a8686e8b9d1f22d"
+      "bytes": 444692,
+      "sha256": "6a716ab498d2d12caa1a28c9eaa2f9b34964a45de904d0a7134e83b989445043"
     },
     {
       "file": "reference/lucide.min.js",
@@ -212,14 +212,23 @@
     {
       "file": "source/approval.json",
       "role": "source",
-      "bytes": 1110,
-      "sha256": "21de226d5fc5d6da2aea1c47a214130326422d2504f9aaaa095548cae3a300e3"
+      "bytes": 2302,
+      "sha256": "8f03db949c62a9faa069644aaa656822cbf1c736cc1ff4cbd8dd531df509f8dc"
     },
     {
       "file": "source/approved-pattern-manifest.json",
       "role": "source",
       "bytes": 6068,
       "sha256": "df6bb3e01adc2438cf354b32982784b8550c1f952ff49bf42069e03a21262a1f"
+    },
+    {
+      "file": "source/neutral-light-approved-mockup.png",
+      "role": "source",
+      "bytes": 1444502,
+      "sha256": "27fa1ba3b319cfdb5763fedcb6c94bbb93fe7c2032a5bd2a7abd4da3513190d6",
+      "width": 870,
+      "height": 1808,
+      "mode": "RGB"
     },
     {
       "file": "source/original-color-edit-prompt.md",
@@ -230,8 +239,8 @@
     {
       "file": "source/provenance.md",
       "role": "source",
-      "bytes": 2743,
-      "sha256": "662fc6a090cc9d8f53cad8937242ff9ac01c11206d49a1eb6ebcb1839da04979"
+      "bytes": 3793,
+      "sha256": "8d9f5ce9a099242c95fb802c366e00e5ff4cf6ddad8aa99f9dada5857de124c4"
     },
     {
       "file": "source/widget-focus-edit-prompt.txt",
@@ -242,8 +251,8 @@
     {
       "file": "specification.md",
       "role": "specification.md",
-      "bytes": 20001,
-      "sha256": "79b57b466a230bc0b476cae8d0524c01009088bdf7f63bfacb7e015fde792417"
+      "bytes": 24826,
+      "sha256": "6e907f61bfcf2a98cfc82e4ebb1fff16c8dc1dc13d3cbd6d684a7a82c188a108"
     },
     {
       "file": "textures/plectara-widget-yarn-gentle-focus-v1.png",
@@ -272,14 +281,26 @@
     {
       "file": "verification/contrast-fixtures.json",
       "role": "verification",
-      "bytes": 12215,
-      "sha256": "1655aa08d53cbb63836142804f4d717e0abdeec1edf06d74fe285f2a968660ee"
+      "bytes": 12660,
+      "sha256": "2f1cb8b163ac7f59581cf55fe725360090a3bfc2c663921b9edf88b628a909bc"
     },
     {
       "file": "verification/contrast-report.json",
       "role": "verification",
-      "bytes": 16442,
-      "sha256": "8a9be24b3d3c4f64b6aad3693f3175852bf7f9ac15b452350b48d90b85d13ae2"
+      "bytes": 17234,
+      "sha256": "9d65d24ee0c52021e9629f608b374da3c7164030f82d336346d98029ffe22b59"
+    },
+    {
+      "file": "verification/dark-invariants.json",
+      "role": "verification",
+      "bytes": 4424,
+      "sha256": "c9ff75e38550cf730d77d2c6ba55875ad84e9002e87cab4a359e1069a59c72b2"
+    },
+    {
+      "file": "verification/light-mode-review.json",
+      "role": "verification",
+      "bytes": 10480,
+      "sha256": "b01df1412356c8a0d10510605e5e14234ea942e843b507ea6b80bc5738b07496"
     },
     {
       "file": "verification/offline-review.json",

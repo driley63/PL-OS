@@ -1,9 +1,9 @@
 # Cards
 
-Status: Approved for PL-OS v2.6.0
+Status: Approved for PL-OS v2.7.0
 Owner: Design System Working Group
-Version: 2.6.0
-Last updated: 2026-09-28
+Version: 2.7.0
+Last updated: 2026-10-15
 
 ## Purpose
 
@@ -72,11 +72,13 @@ Cards may define default, hover, active, selected, focused, disabled, loading, e
 
 ## Woven app reading cards
 
-The [App Visual Specification](app-visuals.md) adopts opaque mint `#E9F3EF` light cards and opaque ink `#192D38` dark cards over yarn, with 14-unit padding/radius and a 1-unit decorative copper outline. These are named app-local aliases. Required control outlines and focus indicators use tested roles.
+The [App Visual Specification](app-visuals.md) adopts opaque ivory `#FAF8F4` light cards over yarn, with 14-unit padding/radius, a 1-unit neutral decorative outline `#D8DEDA`, and an optional subtle light-card shadow. Display-only progress tiles use warm gray `#F1F0EC` and neutral `#DDDFDA` edges. Dark retains opaque ink `#192D38` cards and its existing copper outlines and elevation. These are named app-local aliases. Required control outlines and focus indicators use tested roles.
 
 Your Progress is a bounded exception: three display-only metric tiles inside one progress group. Tiles contain their own label/value and may show the existing New indicator; they do not become independent nested tool cards. Timeline uses one reading panel with rows; charts and findings use opaque reading cards. The transparent dark capture-widget group follows its separate visual contract.
 
 ## Version History
+
+- v2.7.0: Apply the approved neutral light appearance; retain the current app spacing and dark styling.
 
 - v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.2.0: Adds card types, anatomy, visual rules, states, and usage limits.

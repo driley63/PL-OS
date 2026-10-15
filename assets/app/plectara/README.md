@@ -1,7 +1,7 @@
 # Plectara app visual kit
 
-Status: Owner-approved design reference; PL-OS v2.6.0 release
-Approval date: 2026-09-28
+Status: Owner-approved design reference; PL-OS v2.7.0 release
+Approval date: 2026-10-15 (original woven reference: 2026-09-28)
 
 The [App Visual Specification](https://pl-os.plectara.com/specs/02-design/app-visuals/) defines the approved woven shell and screenshot-matched Today, Timeline, Charts, and Insights in both themes. [ADR-0014](https://pl-os.plectara.com/adr/0014-adopt-woven-app-visuals/) records the accepted exceptions.
 
@@ -19,11 +19,15 @@ The [App Visual Specification](https://pl-os.plectara.com/specs/02-design/app-vi
 - `source/`: owner approval, provenance, original pattern approval, and edit prompts.
 - `verification/`: browser checks, offline reference checks, and measured app-local color pairs.
 - `manifest.json`: file dimensions, sizes, and SHA-256 checksums.
-- `plectara-app-visuals-v1.zip`: reproducible download containing the kit and manifest.
+- `plectara-app-visuals-v2.zip`: reproducible download containing the current kit and manifest. The released v1 archive remains unchanged for historical use.
 
 ## Reuse
 
-Keep the photo vibrant and reuse the exact saved texture. The shade is horizontal, darker on the left. Light uses opaque mint reading cards; dark uses opaque ink. Copper card/tile edges and horizontal rules are decorative. Required control outlines and state/focus cues use tested roles.
+Keep the photo vibrant and reuse the exact saved texture. The shade is horizontal, darker on the left. Light uses opaque ivory reading cards, warm-gray inset controls, quiet neutral decoration, and ink-filled selections with white foregrounds. Dark retains its opaque ink cards, copper decoration, and existing selected appearance. The copper header rule remains in both themes. Required control outlines and state/focus cues use tested roles.
+
+[ADR-0015](https://pl-os.plectara.com/adr/0015-neutral-light-app-surfaces/) records the light-only amendment. The new selection and attention roles must not leak into dark mode. `source/neutral-light-approved-mockup.png` records the approved concept; production uses native components and the unchanged canonical artwork, not that raster image.
+
+Both reference themes preserve PL-213's approved 12-unit section gap, matching the side gutters. The old HTML/previews still showed 20 units; current previews correct that drift. Dark colors and state styling are unchanged, and the v1 ZIP retains the historical screenshots.
 
 Render real logo artwork, live text, real chart data, and native controls. Do not flatten an app screen into a background image. Foundation tokens remain governed by their own source; these aliases apply to the woven app variant. The capture widget's dark grouping has a separate transparent treatment.
 
@@ -35,4 +39,4 @@ Phone framing and OS decoration are presentation context. Native safe areas, dev
 
 ## Packaging
 
-Run `python tooling/build-app-visual-kit.py` from the repository root. It verifies exact artwork and review-source approval, refreshes adapters/contrast fixtures and bundled specification, writes a deterministic ZIP and checksum manifest, and mirrors the kit to `docs/assets/app/plectara/`. It does not regenerate artwork or screenshots.
+Run `python tooling/build-app-visual-kit.py` from the repository root. It verifies exact artwork, review-source approval, dark invariants, and current light-mode review evidence; refreshes adapters, 60 contrast checks, and bundled specification; writes a deterministic ZIP and checksum manifest; and mirrors the kit to `docs/assets/app/plectara/`. It does not regenerate artwork or screenshots. The September browser/offline reports describe the original reference. `verification/light-mode-review.json` records the October amendment checks.
