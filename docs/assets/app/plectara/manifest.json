@@ -33,7 +33,7 @@
       "file": "app-visual-tokens.json",
       "role": "app-visual-tokens.json",
       "bytes": 3336,
-      "sha256": "c8278b06d9a8ee50d407be4184fd10affc0744d49ed23504e82a5c39082c2748"
+      "sha256": "e61678ae631dfd4cf8df3c6d8af9a6a07ef1dc7fa02076cf088db838d71da270"
     },
     {
       "file": "fonts/Inter-review-subset.woff",
@@ -243,7 +243,7 @@
       "file": "specification.md",
       "role": "specification.md",
       "bytes": 20001,
-      "sha256": "661429babe8e6471a9986136fbd52388e2c605cd7b75bc47ae7e93a450e02a11"
+      "sha256": "79b57b466a230bc0b476cae8d0524c01009088bdf7f63bfacb7e015fde792417"
     },
     {
       "file": "textures/plectara-widget-yarn-gentle-focus-v1.png",
