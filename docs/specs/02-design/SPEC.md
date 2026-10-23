@@ -24,6 +24,8 @@ Defines the visual and interaction system that Plectara product screens inherit.
 
 ## System Boundaries
 
+The approved, unreleased [Wearable Visual Specification](wearable-visuals.md) extends this volume with local watchOS/Wear OS values and three capture compositions. Its scoped appearance, initial-capitals button text and symptom icon do not alter phone/tablet themes, widget assets or foundation tokens. Native controls, transport states and real content remain governed by the consuming product contracts.
+
 Volume 02 covers:
 
 - Spacing, layout, and responsive grid behavior

@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "status": "Unreleased wearable specification",
+  "scope": "watchOS and Wear OS only; no global token override",
+  "source": "Owner-approved visual concepts; exact flat colors are the normative implementation contract",
+  "colors": {
+    "canvas": "#101B22",
+    "surface": "#22313A",
+    "iconContainer": "#192D38",
+    "onPrimary": "#192D38",
+    "text": "#FAF8F4",
+    "textSecondary": "#B8CBCB",
+    "primary": "#76B7A5",
+    "primaryPressed": "#8DC7B7",
+    "surfacePressed": "#264C4B",
+    "supportingAccent": "#287E80",
+    "copper": "#C88764",
+    "focus": "#76B7A5",
+    "success": "#87CBA7",
+    "warning": "#EAC477",
+    "critical": "#FFAAAA",
+    "border": "#8DA4A6"
+  },
+  "units": {
+    "watchOSGeometry": "pt",
+    "wearOSGeometry": "dp",
+    "watchOSType": "pt, scaled with native text styles",
+    "wearOSType": "sp"
+  },
+  "geometryStatus": "Starting implementation targets; validate native safe areas, small displays and large text",
+  "geometry": {
+    "contentGutter": 12,
+    "actionGap": 8,
+    "sectionGap": 12,
+    "actionPaddingHorizontal": 12,
+    "actionPaddingVertical": 8,
+    "iconLabelGap": 8,
+    "iconSize": 24,
+    "iconStroke": 2,
+    "titleRuleGap": 4,
+    "ruleContentGap": 8,
+    "ruleWidth": 28,
+    "ruleHeight": 2,
+    "appleActionRadius": 12,
+    "watchOSMinimumTarget": [
+      44,
+      44
+    ],
+    "wearOSMinimumTarget": [
+      48,
+      48
+    ]
+  },
+  "headerRule": {
+    "colorRole": "copper",
+    "style": "solid straight horizontal",
+    "watchOSAlignment": "leading",
+    "wearOSAlignment": "center",
+    "decorative": true
+  },
+  "typography": {
+    "primaryFamily": "Inter",
+    "fallbacks": {
+      "watchOS": "system",
+      "wearOS": "system"
+    },
+    "heading": {
+      "watchOS": 22,
+      "wearOS": 20,
+      "weight": 600
+    },
+    "actionLabel": {
+      "watchOS": 15,
+      "wearOS": 15,
+      "weight": 600
+    },
+    "supporting": {
+      "watchOS": 12,
+      "wearOS": 12,
+      "weight": 500
+    },
+    "selectedSeverity": {
+      "watchOS": 40,
+      "wearOS": 40,
+      "weight": 600
+    },
+    "neighboringSeverity": {
+      "watchOS": 22,
+      "wearOS": 22,
+      "weight": 500
+    },
+    "range": {
+      "watchOS": 12,
+      "wearOS": 12,
+      "weight": 500
+    }
+  },
+  "buttonCasing": {
+    "english": "Initial capital on every word, including short words",
+    "exceptions": [
+      "Preserve user-authored labels",
+      "Preserve acronyms, medication names, brands and units",
+      "Use locale-appropriate casing",
+      "Do not alter stored data"
+    ],
+    "referenceLabels": [
+      "Water",
+      "Overnight Oats",
+      "Chicken Salad",
+      "More Logs",
+      "More",
+      "Log An Activity",
+      "Duration And Effort",
+      "Log Symptoms",
+      "When You Notice Them",
+      "Log Fatigue"
+    ]
+  },
+  "symptomIcon": {
+    "file": "icons/symptom-check-in.svg",
+    "viewBox": [
+      0,
+      0,
+      24,
+      24
+    ],
+    "foregroundRole": "text",
+    "meaning": "Named symptom capture action; not a clinical state",
+    "accessibleWithinNamedRow": false
+  },
+  "severity": {
+    "minimum": 1,
+    "maximum": 10,
+    "initialNewCaptureValue": 5,
+    "step": 1,
+    "confirmation": "Log {Symptom}",
+    "saveOnPickerChange": false
+  },
+  "referenceImages": {
+    "kind": "Generated design concepts, not implemented app screenshots",
+    "pixelSize": [
+      1254,
+      1254
+    ],
+    "reviewBoardSize": [
+      1644,
+      760
+    ]
+  }
+}

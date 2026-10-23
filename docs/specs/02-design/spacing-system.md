@@ -83,7 +83,13 @@ Defines the spacing scale, gutters, section rhythm, density rules, and review cr
 
 The [woven app variant](app-visuals.md) records 12-unit body gutters, 12-unit section gaps, 14-unit card padding/bottom inset, 10-unit top inset, and compact row/control gaps in its app-local design values. These documented exceptions reproduce the approved reference without changing the foundation scale. Native text and targets reflow, and warnings/evidence retain sufficient spacing. Device safe areas and floating-action clearance take precedence over illustrative preview dimensions.
 
+## Unreleased wearable addition
+
+The [Wearable Visual Specification](wearable-visuals.md#shared-anatomy-and-geometry) sets compact native starting targets: 12-unit gutters/section gaps, 8-unit row gaps and a 28 × 2-unit copper rule. WatchOS uses points and Wear OS uses dp; safe areas, round-screen fit, font scaling and non-overlapping targets take precedence. These local values do not change the phone/tablet PL-213 spacing contract.
+
 ## Version History
+
+- Unreleased: Add scoped wearable geometry targets without changing app spacing.
 
 - v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.2.0: Adds spacing scale, gutters, density rules, and acceptance criteria.

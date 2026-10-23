@@ -11,6 +11,8 @@ Defines design standards for Plectara widgets, shortcuts, wearable surfaces, and
 
 The [Widget Visual Specification](capture-widget-visuals.md) supplies the approved home screen designs, screenshots, texture files, size-specific composition, and theme roles. Use both documents when implementing the component.
 
+For native watchOS and Wear OS app surfaces, use the approved, unreleased [Wearable Visual Specification](wearable-visuals.md). It scopes ink/slate surfaces, a straight copper header accent, a shared symptom icon and initial-capitals action text to watches. Preserve the existing Capture, goal, queue and phone-handoff behavior; home-screen widgets retain their current visual contract.
+
 ## Scope
 
 - Home screen widgets, lock screen widgets, watch complications, shortcut surfaces, and compact launch surfaces

@@ -10,6 +10,8 @@
 
 ## Current accessibility checks
 
+The unreleased wearable standard has 37 scoped opaque-color checks. Run `python tooling/check-component-contrast.py --fixtures docs/assets/wearables/plectara/contrast-fixtures.json`; CI includes this fixture set. These checks cover the documented native roles, not generated-image pixels or device accessibility. Design values, exact approved references and asset checksums are in `docs/assets/wearables/plectara/`.
+
 ```bash
 python tooling/build-plectara-tokens.py
 python tooling/check-component-contrast.py

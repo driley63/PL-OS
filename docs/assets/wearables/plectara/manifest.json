@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "specVersion": "1.0.0",
+  "date": "2026-10-23",
+  "status": "Approved visual references; unreleased specification; native implementation separate",
+  "sourceRevision": 3,
+  "approvalSummary": "Owner approved all six final mockups with straight copper header accents, the person/health-cross Log Symptoms icon and initial capitals in action text, then requested PL-OS specifications.",
+  "imageMethod": "Built-in image generation and editing; review boards composed with unchanged canonical logo",
+  "references": [
+    {
+      "id": "01-apple-quick-log",
+      "platform": "Apple Watch",
+      "screen": "Quick Log",
+      "file": "mockups/01-apple-quick-log.png",
+      "source_generation_id": "exec-198a1828-67da-406a-80d4-db91beabd34a.png",
+      "approval": "Final revision approved in the design conversation on 2026-10-23"
+    },
+    {
+      "id": "02-apple-todays-steps",
+      "platform": "Apple Watch",
+      "screen": "Today's Steps",
+      "file": "mockups/02-apple-todays-steps.png",
+      "source_generation_id": "exec-30a6e0de-7ad2-40de-93db-a37a8ef06f01.png",
+      "approval": "Final revision approved in the design conversation on 2026-10-23"
+    },
+    {
+      "id": "03-apple-severity",
+      "platform": "Apple Watch",
+      "screen": "Symptom severity",
+      "file": "mockups/03-apple-severity.png",
+      "source_generation_id": "exec-c520a50e-c5f1-45be-851b-8ffa09976657.png",
+      "approval": "Final revision approved in the design conversation on 2026-10-23"
+    },
+    {
+      "id": "04-wear-quick-log",
+      "platform": "Wear OS",
+      "screen": "Quick Log",
+      "file": "mockups/04-wear-quick-log.png",
+      "source_generation_id": "exec-a441ce6d-8d41-400e-94bf-e267595cf918.png",
+      "approval": "Final revision approved in the design conversation on 2026-10-23"
+    },
+    {
+      "id": "05-wear-todays-steps",
+      "platform": "Wear OS",
+      "screen": "Today's Steps",
+      "file": "mockups/05-wear-todays-steps.png",
+      "source_generation_id": "exec-261e6a5a-cf7e-4fcb-970f-4c0ea77b8fcd.png",
+      "approval": "Final revision approved in the design conversation on 2026-10-23"
+    },
+    {
+      "id": "06-wear-severity",
+      "platform": "Wear OS",
+      "screen": "Symptom severity",
+      "file": "mockups/06-wear-severity.png",
+      "source_generation_id": "exec-eb1fd148-de08-49fe-be16-07a85f158ea5.png",
+      "approval": "Final revision approved in the design conversation on 2026-10-23"
+    }
+  ],
+  "contrastCheckCount": 37,
+  "files": [
+    {
+      "file": "apple-watch-review.png",
+      "bytes": 1017890,
+      "sha256": "262f6972b3d25026c50caabca48e34d86e2aadd9f551c40d83e08eafc3a034c2",
+      "width": 1644,
+      "height": 760
+    },
+    {
+      "file": "contrast-fixtures.json",
+      "bytes": 8026,
+      "sha256": "85ae88d6b33d39f697762034c6928d7f86abbfc1a5de566855921dac3efd3667"
+    },
+    {
+      "file": "contrast-report.md",
+      "bytes": 3666,
+      "sha256": "698a7edaed0bc0a0c668c25d4ebb9161323b78025da15628eec6371aff384231"
+    },
+    {
+      "file": "design-values.json",
+      "bytes": 3490,
+      "sha256": "e5b8e26e11c5d89aaa74c0bb9e0edfaed0c8298a71a834df0b67485e0536e4ce"
+    },
+    {
+      "file": "icons/symptom-check-in.svg",
+      "bytes": 407,
+      "sha256": "bf9ee511eba27999e6327decdc4ecb1302afbb90a4cee1a6915c3c928243fa92"
+    },
+    {
+      "file": "mockups/01-apple-quick-log.png",
+      "bytes": 1576865,
+      "sha256": "bdb9fe3927da4f2aac676fc7b08827d256d69b9481aa2eab85e33bcbc486a915",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "file": "mockups/02-apple-todays-steps.png",
+      "bytes": 1575068,
+      "sha256": "0f6bd8085cdde029b64d62a2adf41599e93e4a0fc9b069e5258466307f79f319",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "file": "mockups/03-apple-severity.png",
+      "bytes": 1556106,
+      "sha256": "546ee667e4e461c1211e61094cf6c05caa8bf240f6efc2671447de3832dcefa0",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "file": "mockups/04-wear-quick-log.png",
+      "bytes": 1675018,
+      "sha256": "dd52ee92878a3a59ede8ca27e369c15bc230d890ed69563a66218f7c9ca59f3e",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "file": "mockups/05-wear-todays-steps.png",
+      "bytes": 1683437,
+      "sha256": "893249ebdbc6049d843bc4079cdbe5a317d19818237f8f1a731b822c535c2a41",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "file": "mockups/06-wear-severity.png",
+      "bytes": 1665765,
+      "sha256": "aa03da9168bab2ff3a29133de21aa793e9151e5c333da752bf6a8f65f3d019a7",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "file": "wear-os-review.png",
+      "bytes": 1024741,
+      "sha256": "99fb8342c4b3812d50b3918179d1047f393812ac74959942124c2a4b406d9f8b",
+      "width": 1644,
+      "height": 760
+    }
+  ]
+}

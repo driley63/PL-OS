@@ -86,7 +86,13 @@ In light mode, Quick Log uses warm-gray backing, ink content, and a slate outlin
 
 Preserve actual labels, including Log entry in the empty Today reference. The widget title-case shortcut rule does not rewrite log names or app copy. Ask About These Findings is an explicit AI entry point with a labeled sparkle icon and tested teal/jade tone; generated output still requires AI authorship labeling. Preview dialogs do not establish the native Capture, Settings, or deletion flow.
 
+## Unreleased wearable addition
+
+Follow the [Wearable Visual Specification](wearable-visuals.md) for watchOS/Wear OS actions. English button labels and supporting action-card text use initial capitals on every word, including short words (`Log An Activity`, `When You Notice Them`). Preserve user-authored names, acronyms, units and locale-specific casing; never alter stored records. Wearable targets are at least 44 × 44 pt on watchOS and 48 × 48 dp on Wear OS. A row and its trailing plus/chevron form one action. Queued captures must not appear saved before acknowledgment. These rules are scoped to wearable controls and do not recase phone/tablet or widget content.
+
 ## Version History
+
+- Unreleased: Add the scoped wearable action contract.
 
 - v2.7.0: Apply the approved neutral light appearance; retain the current app spacing and dark styling.
 

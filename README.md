@@ -29,6 +29,10 @@ The [App Visual Specification](docs/specs/02-design/app-visuals.md) extends the 
 
 The [October 15 light-mode amendment](docs/releases/v2.7.0/README.md) adds ivory cards, warm-gray insets, neutral decoration, and ink-filled selections while preserving dark appearance. The updated visual kit ships with v2.7.0; native app integration is separate.
 
+## Wearable visual standards
+
+The [Wearable Visual Specification](docs/specs/02-design/wearable-visuals.md) is an approved, unreleased addition covering watchOS and Wear OS. It includes the six reviewed designs, straight copper accents, the symptom icon, button casing, local design values, state handling and native migration requirements. See [Unreleased changes](CHANGELOG.md#unreleased); the published bundle version remains v2.7.0.
+
 ## Repository Map
 
 ```text

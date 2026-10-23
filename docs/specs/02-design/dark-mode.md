@@ -28,6 +28,8 @@ A boundary needs 3:1 when it is required to identify a control or its state. Dec
 
 ## Surfaces and color roles
 
+The approved, unreleased [Wearable Visual Specification](wearable-visuals.md#wearable-color-roles) defines watch-only `canvas` and `surface` overrides with their own measured contrast fixtures. Apply those values locally in native watch components; the global dark roles below and the phone/tablet app contract remain unchanged.
+
 Use `assets/tokens/color.tokens.json` and the generated theme adapters. Color names such as `stateInfo`, `aiPurple`, or `slate` do not guarantee suitability for dark UI: resolve the role for the current theme.
 
 | Role | Dark value | Use |

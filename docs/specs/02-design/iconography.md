@@ -69,7 +69,13 @@ Defines product icon style, sizing, usage, accessibility, and relationship to Br
 - specs/01-brand/iconography.md
 - specs/02-design/accessibility.md
 
+## Unreleased wearable addition
+
+[ADR-0016](../../adr/0016-adopt-wearable-visuals.md) approves the person outline with an inset health cross for `Log Symptoms` on both wearable platforms. Use the [shared vector motif and rendering rules](wearable-visuals.md#symptom-icon), preserve the adjacent label, and hide the icon from accessibility when the row already names its action. This replaces the concept's wave glyph and does not indicate diagnosis, a clinician or clinical risk. It is a product icon, not the Plectara logo.
+
 ## Version History
+
+- Unreleased: Register the approved wearable Log Symptoms motif.
 
 - v1.2.0: Adds product icon style, usage, accessibility, and governance rules.
 - v1.0.0: Initial repository baseline.

@@ -60,6 +60,7 @@ jobs:
         run: |
           python tooling/build-plectara-tokens.py
           python tooling/check-component-contrast.py
+          python tooling/check-component-contrast.py --fixtures docs/assets/wearables/plectara/contrast-fixtures.json
           python -m unittest discover -s tooling -p 'test_component_contrast.py'
           python tooling/validate-brand.py
           python tooling/build-capture-widget-kit.py

@@ -1,0 +1,301 @@
+{
+  "scope": "Opaque wearable role pairs only; not a native or generated-image accessibility audit",
+  "pairs": [
+    {
+      "name": "Primary text on canvas",
+      "foregroundRole": "text",
+      "backgroundRole": "canvas",
+      "foreground": "#FAF8F4",
+      "background": "#101B22",
+      "minimum": 4.5
+    },
+    {
+      "name": "Supporting text on canvas",
+      "foregroundRole": "textSecondary",
+      "backgroundRole": "canvas",
+      "foreground": "#B8CBCB",
+      "background": "#101B22",
+      "minimum": 4.5
+    },
+    {
+      "name": "Saved text on canvas",
+      "foregroundRole": "success",
+      "backgroundRole": "canvas",
+      "foreground": "#87CBA7",
+      "background": "#101B22",
+      "minimum": 4.5
+    },
+    {
+      "name": "Waiting text on canvas",
+      "foregroundRole": "warning",
+      "backgroundRole": "canvas",
+      "foreground": "#EAC477",
+      "background": "#101B22",
+      "minimum": 4.5
+    },
+    {
+      "name": "Error text on canvas",
+      "foregroundRole": "critical",
+      "backgroundRole": "canvas",
+      "foreground": "#FFAAAA",
+      "background": "#101B22",
+      "minimum": 4.5
+    },
+    {
+      "name": "Essential icon on canvas",
+      "foregroundRole": "text",
+      "backgroundRole": "canvas",
+      "foreground": "#FAF8F4",
+      "background": "#101B22",
+      "minimum": 3
+    },
+    {
+      "name": "Primary text on surface",
+      "foregroundRole": "text",
+      "backgroundRole": "surface",
+      "foreground": "#FAF8F4",
+      "background": "#22313A",
+      "minimum": 4.5
+    },
+    {
+      "name": "Supporting text on surface",
+      "foregroundRole": "textSecondary",
+      "backgroundRole": "surface",
+      "foreground": "#B8CBCB",
+      "background": "#22313A",
+      "minimum": 4.5
+    },
+    {
+      "name": "Saved text on surface",
+      "foregroundRole": "success",
+      "backgroundRole": "surface",
+      "foreground": "#87CBA7",
+      "background": "#22313A",
+      "minimum": 4.5
+    },
+    {
+      "name": "Waiting text on surface",
+      "foregroundRole": "warning",
+      "backgroundRole": "surface",
+      "foreground": "#EAC477",
+      "background": "#22313A",
+      "minimum": 4.5
+    },
+    {
+      "name": "Error text on surface",
+      "foregroundRole": "critical",
+      "backgroundRole": "surface",
+      "foreground": "#FFAAAA",
+      "background": "#22313A",
+      "minimum": 4.5
+    },
+    {
+      "name": "Essential icon on surface",
+      "foregroundRole": "text",
+      "backgroundRole": "surface",
+      "foreground": "#FAF8F4",
+      "background": "#22313A",
+      "minimum": 3
+    },
+    {
+      "name": "Primary text on iconContainer",
+      "foregroundRole": "text",
+      "backgroundRole": "iconContainer",
+      "foreground": "#FAF8F4",
+      "background": "#192D38",
+      "minimum": 4.5
+    },
+    {
+      "name": "Supporting text on iconContainer",
+      "foregroundRole": "textSecondary",
+      "backgroundRole": "iconContainer",
+      "foreground": "#B8CBCB",
+      "background": "#192D38",
+      "minimum": 4.5
+    },
+    {
+      "name": "Saved text on iconContainer",
+      "foregroundRole": "success",
+      "backgroundRole": "iconContainer",
+      "foreground": "#87CBA7",
+      "background": "#192D38",
+      "minimum": 4.5
+    },
+    {
+      "name": "Waiting text on iconContainer",
+      "foregroundRole": "warning",
+      "backgroundRole": "iconContainer",
+      "foreground": "#EAC477",
+      "background": "#192D38",
+      "minimum": 4.5
+    },
+    {
+      "name": "Error text on iconContainer",
+      "foregroundRole": "critical",
+      "backgroundRole": "iconContainer",
+      "foreground": "#FFAAAA",
+      "background": "#192D38",
+      "minimum": 4.5
+    },
+    {
+      "name": "Essential icon on iconContainer",
+      "foregroundRole": "text",
+      "backgroundRole": "iconContainer",
+      "foreground": "#FAF8F4",
+      "background": "#192D38",
+      "minimum": 3
+    },
+    {
+      "name": "Primary text on surfacePressed",
+      "foregroundRole": "text",
+      "backgroundRole": "surfacePressed",
+      "foreground": "#FAF8F4",
+      "background": "#264C4B",
+      "minimum": 4.5
+    },
+    {
+      "name": "Supporting text on surfacePressed",
+      "foregroundRole": "textSecondary",
+      "backgroundRole": "surfacePressed",
+      "foreground": "#B8CBCB",
+      "background": "#264C4B",
+      "minimum": 4.5
+    },
+    {
+      "name": "Saved text on surfacePressed",
+      "foregroundRole": "success",
+      "backgroundRole": "surfacePressed",
+      "foreground": "#87CBA7",
+      "background": "#264C4B",
+      "minimum": 4.5
+    },
+    {
+      "name": "Waiting text on surfacePressed",
+      "foregroundRole": "warning",
+      "backgroundRole": "surfacePressed",
+      "foreground": "#EAC477",
+      "background": "#264C4B",
+      "minimum": 4.5
+    },
+    {
+      "name": "Error text on surfacePressed",
+      "foregroundRole": "critical",
+      "backgroundRole": "surfacePressed",
+      "foreground": "#FFAAAA",
+      "background": "#264C4B",
+      "minimum": 4.5
+    },
+    {
+      "name": "Essential icon on surfacePressed",
+      "foregroundRole": "text",
+      "backgroundRole": "surfacePressed",
+      "foreground": "#FAF8F4",
+      "background": "#264C4B",
+      "minimum": 3
+    },
+    {
+      "name": "Action text on primary",
+      "foregroundRole": "onPrimary",
+      "backgroundRole": "primary",
+      "foreground": "#192D38",
+      "background": "#76B7A5",
+      "minimum": 4.5
+    },
+    {
+      "name": "Action icon on primary",
+      "foregroundRole": "onPrimary",
+      "backgroundRole": "primary",
+      "foreground": "#192D38",
+      "background": "#76B7A5",
+      "minimum": 3
+    },
+    {
+      "name": "Action text on primaryPressed",
+      "foregroundRole": "onPrimary",
+      "backgroundRole": "primaryPressed",
+      "foreground": "#192D38",
+      "background": "#8DC7B7",
+      "minimum": 4.5
+    },
+    {
+      "name": "Action icon on primaryPressed",
+      "foregroundRole": "onPrimary",
+      "backgroundRole": "primaryPressed",
+      "foreground": "#192D38",
+      "background": "#8DC7B7",
+      "minimum": 3
+    },
+    {
+      "name": "Focus outline against canvas",
+      "foregroundRole": "focus",
+      "backgroundRole": "canvas",
+      "foreground": "#76B7A5",
+      "background": "#101B22",
+      "minimum": 3
+    },
+    {
+      "name": "Required boundary against canvas",
+      "foregroundRole": "border",
+      "backgroundRole": "canvas",
+      "foreground": "#8DA4A6",
+      "background": "#101B22",
+      "minimum": 3
+    },
+    {
+      "name": "Focus outline against surface",
+      "foregroundRole": "focus",
+      "backgroundRole": "surface",
+      "foreground": "#76B7A5",
+      "background": "#22313A",
+      "minimum": 3
+    },
+    {
+      "name": "Required boundary against surface",
+      "foregroundRole": "border",
+      "backgroundRole": "surface",
+      "foreground": "#8DA4A6",
+      "background": "#22313A",
+      "minimum": 3
+    },
+    {
+      "name": "Focus outline against surfacePressed",
+      "foregroundRole": "focus",
+      "backgroundRole": "surfacePressed",
+      "foreground": "#76B7A5",
+      "background": "#264C4B",
+      "minimum": 3
+    },
+    {
+      "name": "Required boundary against surfacePressed",
+      "foregroundRole": "border",
+      "backgroundRole": "surfacePressed",
+      "foreground": "#8DA4A6",
+      "background": "#264C4B",
+      "minimum": 3
+    },
+    {
+      "name": "Activity icon on badge",
+      "foregroundRole": "primary",
+      "backgroundRole": "iconContainer",
+      "foreground": "#76B7A5",
+      "background": "#192D38",
+      "minimum": 3
+    },
+    {
+      "name": "Picker selection indicators on canvas",
+      "foregroundRole": "primary",
+      "backgroundRole": "canvas",
+      "foreground": "#76B7A5",
+      "background": "#101B22",
+      "minimum": 3
+    },
+    {
+      "name": "Wear plus on supporting accent",
+      "foregroundRole": "text",
+      "backgroundRole": "supportingAccent",
+      "foreground": "#FAF8F4",
+      "background": "#287E80",
+      "minimum": 3
+    }
+  ]
+}

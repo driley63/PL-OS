@@ -4,6 +4,16 @@ All notable changes to PL-OS (formerly LIQ OS) are recorded in this file.
 
 The format follows Keep a Changelog conventions and the project uses semantic versioning for published operating system releases.
 
+## [Unreleased]
+
+### Added
+
+- Owner-approved watchOS and Wear OS visual specification for Quick Log, Today's Steps and symptom severity, with all six final mockups and platform review boards.
+- Scoped wearable design values, a vector symptom icon, measured contrast fixtures, asset checksums, native migration guidance, RFC-0010 and ADR-0016.
+- Straight copper header rules on every composition, initial capitals throughout button text, and the person-outline/health-cross Log Symptoms icon. Preserve real goals, queued/saved states, phone handoffs, severity range, and accessible native controls.
+
+The wearable standard is additive and not yet assigned to a tagged PL-OS bundle release. Phone/tablet themes, widget styling, global tokens and PL-213 app spacing are unchanged. Consuming-app implementation and device review remain separate.
+
 ## [v2.7.0] - 2026-10-15
 
 ### Changed

@@ -23,6 +23,8 @@ ADRs are permanent records of important PL-OS decisions (historically LIQ OS). T
 
 - [ADR-0015: Neutral light-mode app surfaces](0015-neutral-light-app-surfaces.md) — amends the light appearance in ADR-0014; preserves dark mode and canonical artwork
 
+- [ADR-0016: Adopt the Plectara wearable visuals](0016-adopt-wearable-visuals.md) — approved watch direction, symptom icon, button casing and local theme contract; unreleased
+
 ## Rule
 
 Do not delete ADRs. Supersede them with new ADRs.

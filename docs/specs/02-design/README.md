@@ -4,10 +4,11 @@ Volume 02 defines the visual and interaction system that Plectara product screen
 
 ## Status
 
-- Current milestone: v2.6.0 approved woven app visual variant
+- Current released milestone: v2.7.0 neutral light app surfaces, preserving dark appearance
 - Owner: Design System Working Group
 - Dependency: Volume 01 Brand Identity v2.0.0
 - Release type: minor, additive app visual standards over the existing component and capture baselines
+- Unreleased addition: owner-approved [Wearable Visual Specification](wearable-visuals.md), documented 2026-10-23
 
 ## Plectara migration
 
@@ -48,6 +49,7 @@ The Design Language translates Brand Identity into product UI rules. It establis
 - [Capture Widgets](capture-widgets.md): Capture-first widget, shortcut, wearable, and adaptive surface rules
 - [Widget Visual Specification](capture-widget-visuals.md): approved woven backgrounds, family/theme screenshots, local design values, downloadable assets, and native implementation criteria
 - [App Visual Specification](app-visuals.md): approved screenshot-matched app layouts, light/dark surfaces, yarn, header, rules, downloadable assets, and migration requirements
+- [Wearable Visual Specification](wearable-visuals.md): watchOS/Wear OS mockups, scoped colors, straight copper headers, symptom icon, button casing, native geometry and state preservation
 - `app-shell-and-navigation.md`: app shell, navigation, route labels, and wayfinding rules
 - `page-templates.md`: reusable dashboard, detail, form, report, settings, and empty-state templates
 - `lists-and-tables.md`: collection, row, table, and responsive data-display rules

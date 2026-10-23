@@ -26,6 +26,10 @@ The [App Visual Specification](specs/02-design/app-visuals.md) extends the appro
 
 The [v2.7.0 light-mode update](releases/v2.7.0/README.md) introduces ivory cards, warm-gray insets, neutral decoration, and ink-filled selections. It preserves dark styling and PL-213’s 12-unit section spacing.
 
+## Wearable visual standards
+
+The [Wearable Visual Specification](specs/02-design/wearable-visuals.md) is an approved, unreleased addition for watchOS and Wear OS: six reviewed designs, a shared symptom icon, straight copper accents, capitalized button text, scoped values and native implementation guidance. See [ADR-0016](adr/0016-adopt-wearable-visuals.md). It does not change the current v2.7.0 release or the phone/tablet themes.
+
 ## Documentation Source
 
 The canonical Markdown source for the published documentation site lives under `docs/`.
