@@ -16,6 +16,8 @@ The format follows Keep a Changelog conventions and the project uses semantic ve
 
 ### Fixed
 
+- Replace the Insights specification’s embedded review-page screenshot with native component structures and presentation rules; retain the interactive exploration as a supplementary reference.
+
 - Remove the separate visible Apple Watch `1–10` label above symptom confirmation; retain the native picker range and accessible hint.
 
 - Clarify Apple Watch severity layout: keep the heading below native Back/clock controls, show one Severity label, and replace the enclosing green picker outline with compact selection cues while preserving Crown input, accessibility and cancellation.

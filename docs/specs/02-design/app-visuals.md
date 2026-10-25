@@ -213,7 +213,7 @@ Use the Insights title and settings action with the existing canonical theme. Th
 
 Retain source attribution, timestamps, complete accessible evidence and actual rule-derived care state. Use an attention-colored outline/icon/label on an opaque themed backing. A report-level care notice retains that scope when a finding is opened. This visual standard defines no clinical thresholds, diagnoses or treatment recommendations.
 
-The existing digestion and sleep screenshots remain historical review fixtures. The newly approved light/dark [review prototype](../../assets/app/insights-presentation/index.html) establishes the overview/detail direction and state examples; it is not native implementation evidence. All production comparisons require actual values, units, periods, coverage and limitations. Do not fabricate metrics to reproduce a visual.
+The existing digestion and sleep screenshots remain historical review fixtures. The [presentation structure](../03-product/insights-presentation.md#presentation-structure) defines the approved overview/detail composition and adaptive appearance. The supplementary prototype is an exploration aid, not the visual contract or native implementation evidence. All production comparisons require actual values, units, periods, coverage and limitations. Do not fabricate metrics to reproduce a visual.
 
 ## Scope, states, and migration
 

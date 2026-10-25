@@ -8,7 +8,7 @@ Approved: 2026-10-25
 Status: Owner-approved direction and specification; consuming-app implementation pending
 Change type: Product and presentation amendment for a future minor release
 
-The [Insights Presentation specification](../specs/03-product/insights-presentation.md) defines one brief highlighted finding on Today, a browsable Insights inventory, and a detail route for evidence, optional AI explanation and user-controlled next steps. It includes the approved light/dark review prototype, display-field requirements, ranking and freshness rules, plan navigation, consent boundaries, state matrix, and native acceptance criteria.
+The [Insights Presentation specification](../specs/03-product/insights-presentation.md) defines one brief highlighted finding on Today, a browsable Insights inventory, and a detail route for evidence, optional AI explanation and user-controlled next steps. It includes native PL-OS component structures, adaptive light/dark presentation rules, display-field requirements, ranking and freshness rules, plan navigation, consent boundaries, state matrix, and native acceptance criteria.
 
 This amendment supersedes the long-form Today/Insights hierarchy in earlier visual references. Canonical artwork, theme foundations, unrelated Today content, existing clinical rules and cloud exclusions remain governed by their current contracts. New per-finding identity, evidence navigation, display adapters and user-state behavior require implementation; prototype approval does not certify the native app. No application code, deployment or tagged release is included.
 

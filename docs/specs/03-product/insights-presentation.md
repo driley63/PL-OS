@@ -7,17 +7,47 @@ Last updated: 2026-10-25
 
 ## Purpose and authority
 
-Define a brief overview of findings on Today, a browsable inventory on Insights, and a detail route for evidence, optional AI explanation, and user-controlled next steps. The user approved this direction on October 25, 2026. Approval establishes the presentation contract; it does not certify a native implementation or change the clinical rules.
+Define a brief overview of findings on Today, a browsable inventory on Insights, and a detail route for evidence, optional AI explanation, and user-controlled next steps. The approved presentation contract defines the intended experience; native implementation and verification remain required. Clinical rules are unchanged.
 
-This specification supersedes the long-form Today and Insights hierarchy in the v2.6/v2.7 screenshot references. Retain their canonical artwork, theme roles, shell geometry, accessibility requirements, and historical fixtures. Existing capture actions, unrelated Today content, navigation, consent, and analysis eligibility remain governed by their respective contracts. The browser mockup's decorative icons, fixed phone sizes, example dates, extra greeting, and sample logs are illustrative, not new application requirements.
+This specification supersedes the long-form Today and Insights hierarchy in the v2.6/v2.7 screenshot references. Retain their canonical artwork, theme roles, shell geometry, accessibility requirements, and historical fixtures. Existing capture actions, unrelated Today content, navigation, consent, and analysis eligibility remain governed by their respective contracts.
 
-## Approved visual reference
+## Presentation structure
 
-[Interactive review prototype](../../assets/app/insights-presentation/index.html) · [Light overview](../../assets/app/insights-presentation/refined-overview.png) · [Dark overview](../../assets/app/insights-presentation/refined-dark.png) · [AI off example](../../assets/app/insights-presentation/ai-off-state.png)
+Use the existing [app shell and theme](../02-design/app-visuals.md) with opaque reading surfaces. The following component structures define the presentation within PL-OS. They specify information order and behavior rather than a fixed screenshot or device size.
 
-![Approved finding overview and detail direction](../../assets/app/insights-presentation/refined-overview.png)
+### Today insight region
 
-The prototype's Review state selector is a review tool, not a production control. Seeded caffeine/sleep values illustrate the comparison component; goal progress and state wording illustrate layout. Never use fixture values as evidence, thresholds, or user data.
+| Order | Component | Presentation rule |
+| --- | --- | --- |
+| 1 | Applicable care notice | Separate attention surface with icon, full notice and report/finding scope; urgent context leads the region |
+| 2 | Highlight heading | Insights label, actual finding count and freshness context |
+| 3 | Finding preview | Topic, short factual title and one complete takeaway |
+| 4 | Evidence context | Source, analyzed period and material uncertainty adjacent to the claim |
+| 5 | Navigation | Explore opens this finding; View all findings opens the inventory |
+
+Render active-plan status as a separate card, with actual title, day/status, concise step summary and View plan. Preserve the existing capture actions and unrelated Today content. Do not copy review-page headings or sample logs into the app.
+
+### Insights inventory card
+
+| Region | Content | Visual treatment |
+| --- | --- | --- |
+| Inventory header | On-device/source description, analyzed window and last successful analysis | Compact metadata above filters; no full narrative |
+| Attention | Applicable care notice and its scope | Independent attention surface before the list |
+| Filters | All and available topics; optional separate type selection | Clearly selected, accessible controls with result count |
+| Card heading | Topic and factual title | Strongest text hierarchy within the card |
+| Card takeaway | One supported observation or comparison | Short readable text, retaining essential qualifiers |
+| Card context | Type, period and material uncertainty | Secondary text; distinguish type from confidence |
+| Open affordance | Entire card opens the finding | One accessible action with a clear directional cue |
+
+### Finding detail composition
+
+Place the complete claim and evidence context above optional explanations. Present an appropriate comparison only when the analyzer supplies the required values, groups, units and periods. Keep material uncertainty and care context visible before suggested action. Expandable sections contain supporting evidence, optional AI explanation and optional next steps. The [detail anatomy](#finding-detail-anatomy) defines the complete order.
+
+For a connection between caffeine timing and sleep quality, show two explicitly labeled groups on the same sleep-quality scale: days with caffeine after the relevant time, and the comparison days. Populate both values and their coverage from the actual evidence. A missing comparison produces an explanation of missing evidence, not a fabricated chart. This example defines the component's semantics, not a clinical conclusion or fixed numeric fixture.
+
+### Appearance and adaptation
+
+Use ink, teal and restrained semantic accents within existing light/dark reading surfaces. AI Purple identifies the optional AI explanation only. Reserve attention styling for actual care state. The card hierarchy must remain understandable without color, and content must expand for larger text and localization. Device frames, review controls, surrounding presentation copy and specification notes are not interface components.
 
 ## Three levels of disclosure
 
@@ -175,6 +205,12 @@ Implement display adapters and evidence navigation before replacing the existing
 
 The controlling references are [Insights and Correlations](insights-and-correlations.md), [App Visual Specification](../02-design/app-visuals.md), [Progress and Disclosure](../02-design/progress-and-disclosure.md), [Insight Types](../05-ai/insight-types.md), [Confidence and Evidence](../05-ai/confidence-and-evidence.md), and [Hybrid Local Findings](../../adr/0010-hybrid-local-findings-optional-llm.md). This specification introduces no clinical thresholds or new cloud-sharing permissions.
 
+## Supplementary design exploration
+
+The [interactive prototype](../../assets/app/insights-presentation/index.html) is an optional exploration aid. Its scenario selector, scaled phone frames, seeded values and surrounding notes support review only; they are not normative PL-OS content or native implementation evidence. The component structures, behavior rules and acceptance criteria in this specification take precedence. Historical review captures remain archived assets and are not embedded as the specification's visual contract.
+
 ## Version History
+
+- 2026-10-25: Replaces the embedded review-page capture with native PL-OS component structures and presentation rules; separates the supplementary prototype from normative specification content.
 
 - 2026-10-25: Approved three-level presentation, visual references, display contract, state matrix and acceptance criteria; implementation pending.
