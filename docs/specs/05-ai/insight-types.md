@@ -3,7 +3,8 @@
 Status: Released
 Owner: AI Working Group
 Version: 1.6.0
-Last updated: 2026-08-04
+Last updated: 2026-10-25
+Presentation amendment: Approved; unreleased implementation contract in Insights Presentation
 
 ## Purpose
 
@@ -87,6 +88,10 @@ AI insight records should define:
 - Ineligible insights fall back to documented states.
 - Recommendation-like output follows the recommendation policy.
 - Insight behavior is traceable to product, prompt, evaluation, and release records.
+
+## Presentation integration
+
+Apply the approved [Insights Presentation](../03-product/insights-presentation.md) contract to Today, the finding inventory and detail routes. Preserve material limitations and care notices outside optional disclosures. Local findings remain available when AI is off or unavailable; AI attribution applies to the explanation only. Implementation is pending.
 
 ## References
 

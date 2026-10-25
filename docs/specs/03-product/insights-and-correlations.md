@@ -3,7 +3,8 @@
 Status: Approved for PL-OS v2.6.0
 Owner: Product Working Group
 Version: 2.6.0
-Last updated: 2026-09-28
+Last updated: 2026-10-25
+Presentation amendment: Approved; unreleased implementation contract in Insights Presentation
 
 ## Purpose
 
@@ -91,13 +92,15 @@ Every interpretive insight should answer:
 - specs/05-ai/confidence-and-evidence.md
 - specs/05-ai/safety-boundaries.md
 
-## Screenshot-matched visual hierarchy
+## Approved presentation hierarchy
 
-Follow the [App Visual Specification](../02-design/app-visuals.md) for Today excerpts and the Insights detail screen. Preserve the On-Device Pattern Review explanation, Rule-Derived badge, timestamp, attention notice, Correlations/Your Goals hierarchy, and adjacent evidence. The optional Ask About These Findings entry does not change the authorship of the underlying rule-derived finding.
+The [Insights Presentation specification](insights-presentation.md), approved October 25, 2026, governs the next Today and Insights implementation: one brief highlighted finding on Today, a browsable finding inventory on Insights, and a detail route for evidence, optional AI explanation and next steps. It replaces the previous long-form screenshot hierarchy while retaining canonical branding, rule-derived care state, source attribution and complete accessible evidence.
 
-All displayed metrics, comparisons and warnings derive from actual application state. The approved screenshot wording is fixture evidence for visual review, not a clinical threshold or template for unverified advice. Keep source, uncertainty and complete accessible evidence available when an excerpt is shortened.
+Keep source, analyzed period and material uncertainty visible in brief summaries. Detailed evidence may expand; required care context may not be hidden. The optional explanation and chat entry do not change local finding authorship. All metrics derive from actual state; screenshot fixtures define no clinical thresholds. Implementation and native verification are pending.
 
 ## Version History
+
+- 2026-10-25: Adds approved three-level Insights presentation; supersedes long-form screenshot hierarchy for the next implementation.
 
 - v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.7.0: Connects insights to the Capture and Habits product pillars.

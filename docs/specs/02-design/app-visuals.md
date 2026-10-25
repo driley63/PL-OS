@@ -3,7 +3,8 @@
 Status: Approved for PL-OS v2.7.0
 Owner: Design System Working Group
 Version: 2.7.0 (visual kit v2)
-Last updated: 2026-10-15
+Last updated: 2026-10-25
+Presentation amendment: Approved; unreleased implementation contract in Insights Presentation
 Decision: [ADR-0014](../../adr/0014-adopt-woven-app-visuals.md), amended for light mode by [ADR-0015](../../adr/0015-neutral-light-app-surfaces.md)
 
 ## Approved direction
@@ -171,6 +172,8 @@ Progress metric tiles are an approved bounded exception to the general no-nested
 
 ### Today
 
+**Insights hierarchy update, approved October 25, 2026:** use [Insights Presentation](../03-product/insights-presentation.md) for the next implementation of the insight region and active-plan summary. The populated/empty screenshot lists below retain historical fixture context; their long-form insight content is superseded. Preserve unrelated Today content, the canonical shell and capture actions. Navigation follows the consuming app’s current route contract, rather than freezing the older four-tab fixture.
+
 The header uses only the Plectara lockup and settings action. Bottom navigation is **Today, Timeline, Charts, Insights**, in that order. Preserve the actual current state rather than filling the screen with fabricated favorites, sleep summaries, meal cards, or unrelated scores.
 
 For the populated screenshot, the visible order is:
@@ -206,11 +209,11 @@ The symptom line was reconstructed visually from the screenshot; it is not an ex
 
 ### Insights
 
-Use the Insights title and settings action. Preserve **On-Device Pattern Review**, the rule-derived/device explanation, and **Ask About These Findings** above the findings card. The screenshot's explanation refers to optional, labeled OpenAI text; the underlying [local-findings decision](../../adr/0010-hybrid-local-findings-optional-llm.md) continues to define behavior.
+Use the Insights title and settings action with the existing canonical theme. The approved [Insights Presentation specification](../03-product/insights-presentation.md) supersedes the older long-form On-Device Pattern Review / narrative / Correlations hierarchy for the next implementation. Use a compact source/window header, applicable care notices, individual finding cards, topic filters and a dedicated detail route. Keep AI explanation expandable and locally labeled; do not label the entire inventory as AI-generated.
 
-The findings card keeps its timestamp, **Rule-Derived** badge, **Consider Contacting a Clinician** notice, supporting copy, **Correlations**, and **Your Goals** sections. Use an attention-colored outline/icon/label on an opaque themed backing. The notice reflects existing application rule state; this visual standard defines no clinical thresholds, diagnoses, or treatment recommendations.
+Retain source attribution, timestamps, complete accessible evidence and actual rule-derived care state. Use an attention-colored outline/icon/label on an opaque themed backing. A report-level care notice retains that scope when a finding is opened. This visual standard defines no clinical thresholds, diagnoses or treatment recommendations.
 
-Keep the screenshot's digestion and sleep comparisons as review copy. In production, all percentages, units, baselines, and time periods derive from the user's actual evidence and retain source, missing-data, and limitation context. Longer findings expand naturally; warnings and source context must remain visible before or beside the claim they qualify.
+The existing digestion and sleep screenshots remain historical review fixtures. The newly approved light/dark [review prototype](../../assets/app/insights-presentation/index.html) establishes the overview/detail direction and state examples; it is not native implementation evidence. All production comparisons require actual values, units, periods, coverage and limitations. Do not fabricate metrics to reproduce a visual.
 
 ## Scope, states, and migration
 

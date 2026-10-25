@@ -8,6 +8,8 @@ The format follows Keep a Changelog conventions and the project uses semantic ve
 
 ### Added
 
+- Owner-approved Insights presentation standard: a brief Today highlight, individual finding cards, evidence/detail routes, optional AI explanations, active-plan status, and state/accessibility acceptance criteria, with review assets and reconciled product/design/AI references. Implementation and native verification remain pending.
+
 - Owner-approved watchOS and Wear OS visual specification for Quick Log, Today's Steps and symptom severity, with all six final mockups and platform review boards.
 - Scoped wearable design values, a vector symptom icon, measured contrast fixtures, asset checksums, native migration guidance, RFC-0010 and ADR-0016.
 - Straight copper header rules on every composition, initial capitals throughout button text, and the person-outline/health-cross Log Symptoms icon. Preserve real goals, queued/saved states, phone handoffs, severity range, and accessible native controls.

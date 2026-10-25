@@ -3,7 +3,8 @@
 Status: Released
 Owner: Design System Working Group
 Version: 1.5.0
-Last updated: 2026-08-04
+Last updated: 2026-10-25
+Presentation amendment: Approved; unreleased implementation contract in Insights Presentation
 
 ## Purpose
 
@@ -81,6 +82,10 @@ Disclosed content must not be the only place for:
 - Loading states do not shift layout unpredictably.
 - Disclosures are keyboard-operable and screen-reader understandable.
 - Progress and disclosure patterns reduce confusion rather than adding decorative complexity.
+
+## Presentation integration
+
+Apply the approved [Insights Presentation](../03-product/insights-presentation.md) contract to Today, the finding inventory and detail routes. Preserve material limitations and care notices outside optional disclosures. Local findings remain available when AI is off or unavailable; AI attribution applies to the explanation only. Implementation is pending.
 
 ## References
 
