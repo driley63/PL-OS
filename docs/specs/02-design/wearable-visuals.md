@@ -2,7 +2,7 @@
 
 Status: Owner-approved visual direction; implementation specification prepared, unreleased
 Owner: Design System Working Group / Native App Engineering
-Version: 1.0.0
+Version: 1.0.2
 Last updated: 2026-10-23
 Decision: [ADR-0016](../../adr/0016-adopt-wearable-visuals.md), [RFC-0010](../../rfc/0010-wearable-visuals.md)
 
@@ -47,7 +47,7 @@ Expose these as scoped `wearable.*` semantic roles in each native theme. The can
 | `surfacePressed` | `#264C4B` | Pressed secondary row |
 | `supportingAccent` | `#287E80` | Wear OS trailing plus-circle backing; ivory icon only |
 | `copper` | `#C88764` | Decorative straight header rule |
-| `focus` | `#76B7A5` | Focus outline against the dark surround |
+| `focus` | `#76B7A5` | Compact focus cues against the dark surround; no enclosing severity-picker outline |
 | `success` | `#87CBA7` | Acknowledged saved status with check and text |
 | `warning` | `#EAC477` | Waiting status with clock and text |
 | `critical` | `#FFAAAA` | Rejected/unavailable feedback with explanatory text |
@@ -78,6 +78,8 @@ These hit targets are PL-OS requirements for these flows. Wear OS documentation 
 
 Use the platform clock once in its safe position. It is OS-owned, live and locale-aware; `10:09` is only a preview value. Keep the reference's horizontal, unobstructed time treatment. Avoid duplicating it in a custom header or placing it against the rim.
 
+On pushed Apple Watch screens, reserve the native navigation area for Back/cancellation and the clock. Place the custom symptom heading and copper rule below that area using native safe areas and a layout that fits the available height. Do not center an oversized fixed stack so that it overflows into the toolbar, use negative offsets, or solve the collision by removing Back. Long headings and larger text must reflow without covering navigation controls.
+
 ### Header accent
 
 Every main screen/section heading in this visual family uses the same short straight copper rule: left-aligned with the heading on Apple Watch and centered under it on Wear OS. Quick Log, Today's Steps and Fatigue all use it. A long or wrapped title does not stretch the rule across the screen. Hide the rule from accessibility semantics.
@@ -95,7 +97,7 @@ Retain Inter for custom Plectara text, with scalable native text styles and the 
 | Supporting action text | 12 pt | 12 sp | Medium |
 | Selected severity | 40 pt | 40 sp | Semibold |
 | Neighboring values | 22 pt | 22 sp | Medium |
-| Range label | 12 pt | 12 sp | Medium |
+| Range label | Not shown | 12 sp | Medium |
 
 Use a larger selected numeral, not a chart, meter or implied clinical score. Font scaling may enlarge these targets. Wrap labels and allow vertical scrolling before reducing text size or clipping an action. Keep confirmation and Back reachable at the largest supported setting.
 
@@ -142,11 +144,12 @@ Keep the adjacent `Log Symptoms` label. The icon is decorative within that named
 
 ### Symptom severity
 
-- Identify the actual symptom in the heading, followed by the copper rule and `Severity` label. Do not replace the symptom with a generic heading.
-- Preserve the existing integer range **1–10**, starting at **5** for a new capture. Keep the native picker, adjacent values and range label; the number shown in the image is not a saved measurement.
-- Use ivory for the selected value, readable secondary text for neighbors, and jade selection cues. Do not add `Moderate`, risk bands, health-status colors, radial progress or invented clinical interpretation.
+- Identify the actual symptom in the heading, followed by the copper rule and exactly one visible `Severity` label. Do not replace the symptom with a generic heading. On watchOS, hide the picker's redundant visual label while retaining its accessible name.
+- Preserve the existing integer range **1–10**, starting at **5** for a new capture. Keep the native picker and adjacent values. On Apple Watch, omit the separate visible `1–10` label above the confirmation button; the picker communicates the scale. Retain the range in the accessible picker hint/semantics. Wear OS retains its range label. The number shown in the image is not a saved measurement.
+- Use ivory for the selected value, readable secondary text for neighbors, and compact jade selection cues beside the selected row. **Do not enclose the severity picker in a green/jade rounded outline.** Suppress the picker's default decorative focus effect without making it unfocusable; preserve native Crown input, adjustable semantics and assistive-technology focus. Do not add `Moderate`, risk bands, health-status colors, radial progress or invented clinical interpretation.
 - Changing the picker never saves by itself. `Log {Symptom}` is the single confirmation action; native Back cancels without creating a capture.
-- On watchOS support Digital Crown and touch adjustment. On Wear OS support the native picker, rotary input where available, and touch. Expose the symptom, current value, range and adjustable semantics to assistive technology.
+- The Apple Watch severity composition uses a compact 2 pt gap between its heading, picker and confirmation, with a 64 pt picker starting height that scales with text. Reserve 28 pt above the composition for native Back clearance and 8 pt below it. Confirmation-label vertical padding is 6 pt; the complete confirmation target remains at least 44 pt high. Keep the entire confirmation visible at the default text size on the 46 mm layout. Validate smaller displays, longer labels and larger text separately; any overflow treatment must preserve Crown adjustment. This is a severity-specific layout, not a change to repeated action spacing.
+- On watchOS give the native severity picker default input focus when entering this screen. Turning the Crown immediately after entry must change the value, not scroll the surrounding page; do not require an initial tap on the numeral. Keep the normal-sized form non-scrolling when it fits; an overflow container must not take Crown focus from the picker. Preserve touch scrolling outside the picker for long content. Support Digital Crown and touch adjustment. On Wear OS support the native picker, rotary input where available, and touch. Expose the symptom, current value, range and adjustable semantics to assistive technology.
 - Apple Watch uses a wide jade capsule. Wear OS uses a jade confirmation shape that follows the lower circular edge with its label safely inset. This follows the round-screen shape direction in [Material 3 Expressive for Wear OS](https://developer.android.com/design/ui/wear/guides/get-started/apply); a particular library migration is not required by this visual specification.
 - Preserve the existing durable queue, request identity, acknowledgments and deduplication when restyling. Dismissal or a haptic is not evidence that the phone saved the record.
 
@@ -158,7 +161,7 @@ These are required implementation states; the six approved images show default p
 | --- | --- |
 | Default | Available action, legible label, real destination; no saved check merely because a row is jade |
 | Pressed | Use the scoped pressed fill; keep label and geometry stable; restore after release |
-| Focused | Keep platform accessibility focus; an app-drawn focus outline uses jade against the dark surround, not copper |
+| Focused | Keep platform accessibility focus. Severity uses compact jade cues beside the selected row, never an enclosing green outline; other app-drawn focus indicators use jade against the dark surround, not copper |
 | Submitting | Preserve the label and show progress; prevent a duplicate submission of the same in-flight action |
 | Queued | Clock plus `Waiting for iPhone` or `Waiting for phone`; warning tone; preserve pending count and durable queue |
 | Saved | Check plus `Saved` only after acknowledgment; optional platform success haptic; preserve supported repeated captures |
@@ -194,6 +197,7 @@ Source review on 2026-10-23 found both implementations already using Inter, nati
 - Ordinary text must meet 4.5:1 and essential icons/state cues 3:1 against their actual backgrounds. The [contrast fixtures](../../assets/wearables/plectara/contrast-fixtures.json) test the flat role combinations; they do not certify generated-image pixels, native rendering, disabled compositing or device accessibility.
 - Copper is decoration, not focus, selection, a required control boundary or the sole status cue. Quiet card fill differences are grouping; labels and affordances identify actions. Add a tested `border` if a boundary is necessary to identify a control.
 - Ensure each row is one named action. Announce picker value and range, pending/saved/error status, and contextual handoffs in a sensible focus order. Test VoiceOver and TalkBack, touch and rotary input, and repeated actions after acknowledgment.
+- Check the severity screen with the native Back control visible and the picker focused: no heading/navigation overlap, no duplicate `Severity` label, no separate `1–10` label above confirmation on Apple Watch, no enclosing green picker outline, and Crown input changes the value immediately on entry and after reopening the screen. Verify touch adjustment and cancellation remain functional. Back must create no capture.
 - On the smallest supported display and largest supported font setting, no action label, range, numeral or confirmation is clipped. Scrolling is acceptable; tiny type and overlapping targets are not.
 - Sensitive labels belong in the active app under existing privacy rules. This approval does not extend the sample symptom details to complications, ambient mode or public notifications. Ambient/system suspension must not trigger a capture.
 - Review all six compositions, long/user-authored labels, empty data, offline queue/reconnection, errors, reduced motion, and platform back behavior. Confirm data and existing goal/section visibility are preserved.
@@ -219,3 +223,5 @@ This additive standard is recorded under Unreleased in the changelog and has not
 - [Apple watchOS design guidance](https://developer.apple.com/design/human-interface-guidelines/designing-for-watchos/), [Apple accessibility guidance](https://developer.apple.com/design/human-interface-guidelines/accessibility)
 - [Wear OS accessibility](https://developer.android.com/training/wearables/accessibility), [Material 3 Expressive](https://developer.android.com/design/ui/wear/guides/get-started/apply)
 - v1.0.0, 2026-10-23: Capture the owner-approved wearable direction, final icon/casing revisions, scoped design values, state preservation, migration and acceptance requirements. Unreleased PL-OS addition.
+- v1.0.1, 2026-10-23: Owner-requested severity correction: remove the enclosing green picker outline, reserve native navigation space above the custom heading, retain one visible Severity label and preserve accessible adjustment/cancellation.
+- v1.0.2, 2026-10-23: Remove the redundant visible Apple Watch range label above confirmation; preserve the 1–10 picker range and accessible hint.

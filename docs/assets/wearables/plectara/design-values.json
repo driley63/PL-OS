@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.0.2",
   "status": "Unreleased wearable specification",
   "scope": "watchOS and Wear OS only; no global token override",
   "source": "Owner-approved visual concepts; exact flat colors are the normative implementation contract",
@@ -91,7 +91,6 @@
       "weight": 500
     },
     "range": {
-      "watchOS": 12,
       "wearOS": 12,
       "weight": 500
     }
@@ -135,7 +134,20 @@
     "initialNewCaptureValue": 5,
     "step": 1,
     "confirmation": "Log {Symptom}",
-    "saveOnPickerChange": false
+    "saveOnPickerChange": false,
+    "visibleLabelCount": 1,
+    "enclosingFocusOutline": false,
+    "selectionCue": "Compact jade marks beside selected row; preserve native accessibility focus",
+    "watchOSHeaderPlacement": "Below native Back/clock controls with reserved clearance",
+    "retainNativeAdjustment": true,
+    "watchOSComponentGap": 2,
+    "watchOSPickerHeight": 64,
+    "watchOSPickerHeightScalesWithText": true,
+    "watchOSInitialCrownFocus": "severity picker",
+    "watchOSNavigationClearance": 28,
+    "watchOSBottomClearance": 8,
+    "watchOSConfirmationLabelPaddingVertical": 6,
+    "watchOSShowsRangeLabel": false
   },
   "referenceImages": {
     "kind": "Generated design concepts, not implemented app screenshots",

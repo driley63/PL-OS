@@ -22,6 +22,8 @@ The [Wearable Visual Specification](../specs/02-design/wearable-visuals.md) cove
 
 The accepted direction uses quiet ink/slate surfaces, jade actions, ivory type, straight copper header accents, a person outline with an inset health cross for Log Symptoms, and initial capitals for every word of English button text. See [RFC-0010](../rfc/0010-wearable-visuals.md) and [ADR-0016](../adr/0016-adopt-wearable-visuals.md).
 
+The severity-screen correction removes the enclosing green picker outline, retains compact jade selection cues and accessible adjustment, and places the symptom heading below native Back/clock controls. Show `Severity` once and omit the separate visible `1–10` label on Apple Watch. Preserve the picker range, accessible range hint and cancellation without saving.
+
 ## Migration
 
 Apply the values only to native watch surfaces. Preserve real sections/goals, pinned/adaptive ordering, existing queues and acknowledgment-driven save status, supported phone handoffs, and the 1–10 severity contract/default 5. Initial geometry and type sizes require small-device and large-text review. Use a vector icon and scalable native controls; the generated concepts are not app screenshots.

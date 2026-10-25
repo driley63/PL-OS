@@ -19,6 +19,10 @@ Use initial capitals for every word of first-party English wearable button label
 
 Preserve Inter and native scalable text, the 1–10 severity contract/default 5, existing real sections/goals, explicit phone handoffs, durable queued requests and acknowledgment-driven saved states. Use adaptive native layouts rather than scaling raster mockups to fit.
 
+## Implementation clarification — 2026-10-23
+
+Following the owner's review of the native severity screen, prohibit an enclosing green/jade picker outline. Retain compact selected-row cues and native accessibility/Crown operation. Reserve the system navigation area above the custom heading and copper rule, retain Back/cancellation, and render the Severity label only once. The owner requested this correction in both PL-OS and the Apple Watch app; the six approved reference images remain unchanged.
+
 ## Consequences
 
 The wearable canvas and action surfaces become documented local overrides rather than changes to global dark tokens. Phone/tablet themes, widget appearance, canonical artwork and PL-213 app spacing are unaffected.

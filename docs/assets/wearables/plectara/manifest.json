@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "specVersion": "1.0.0",
+  "specVersion": "1.0.2",
   "date": "2026-10-23",
   "status": "Approved visual references; unreleased specification; native implementation separate",
   "sourceRevision": 3,
-  "approvalSummary": "Owner approved all six final mockups with straight copper header accents, the person/health-cross Log Symptoms icon and initial capitals in action text, then requested PL-OS specifications.",
+  "approvalSummary": "Owner approved all six final mockups with straight copper header accents, the person/health-cross Log Symptoms icon and initial capitals in action text, then requested PL-OS specifications. Subsequent native-screen correction removes the enclosing green severity outline and prevents the heading from overlapping Back/clock; approved reference pixels are unchanged. Owner subsequently removed the separate visible Apple Watch 1\u201310 label; the picker scale and accessibility hint remain.",
   "imageMethod": "Built-in image generation and editing; review boards composed with unchanged canonical logo",
   "references": [
     {
@@ -77,8 +77,8 @@
     },
     {
       "file": "design-values.json",
-      "bytes": 3490,
-      "sha256": "e5b8e26e11c5d89aaa74c0bb9e0edfaed0c8298a71a834df0b67485e0536e4ce"
+      "bytes": 4075,
+      "sha256": "8ba0f2466285607053dc1dfe7cb377ce7ca1bdb3f85d637ecd90ed04b4cac109"
     },
     {
       "file": "icons/symptom-check-in.svg",

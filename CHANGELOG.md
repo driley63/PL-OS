@@ -14,6 +14,12 @@ The format follows Keep a Changelog conventions and the project uses semantic ve
 - Scoped wearable design values, a vector symptom icon, measured contrast fixtures, asset checksums, native migration guidance, RFC-0010 and ADR-0016.
 - Straight copper header rules on every composition, initial capitals throughout button text, and the person-outline/health-cross Log Symptoms icon. Preserve real goals, queued/saved states, phone handoffs, severity range, and accessible native controls.
 
+### Fixed
+
+- Remove the separate visible Apple Watch `1–10` label above symptom confirmation; retain the native picker range and accessible hint.
+
+- Clarify Apple Watch severity layout: keep the heading below native Back/clock controls, show one Severity label, and replace the enclosing green picker outline with compact selection cues while preserving Crown input, accessibility and cancellation.
+
 The wearable standard is additive and not yet assigned to a tagged PL-OS bundle release. Phone/tablet themes, widget styling, global tokens and PL-213 app spacing are unchanged. Consuming-app implementation and device review remain separate.
 
 ## [v2.7.0] - 2026-10-15
