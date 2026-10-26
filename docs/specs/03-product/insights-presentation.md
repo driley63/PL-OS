@@ -21,6 +21,7 @@ These are design references, not captures from an implemented native screen. Sta
 | --- | --- | --- |
 | Today highlight | [![Today highlight in light appearance](../../assets/app/insights-presentation/screens/today-light.png){ width="240" }](../../assets/app/insights-presentation/screens/today-light.png) | [![Today highlight in dark appearance](../../assets/app/insights-presentation/screens/today-dark.png){ width="240" }](../../assets/app/insights-presentation/screens/today-dark.png) |
 | Insights inventory | [![Insights inventory in light appearance](../../assets/app/insights-presentation/screens/insights-light.png){ width="240" }](../../assets/app/insights-presentation/screens/insights-light.png) | [![Insights inventory in dark appearance](../../assets/app/insights-presentation/screens/insights-dark.png){ width="240" }](../../assets/app/insights-presentation/screens/insights-dark.png) |
+| More filters sheet | [![More filters in light appearance](../../assets/app/insights-presentation/screens/more-filters-light.png){ width="240" }](../../assets/app/insights-presentation/screens/more-filters-light.png) | [![More filters in dark appearance](../../assets/app/insights-presentation/screens/more-filters-dark.png){ width="240" }](../../assets/app/insights-presentation/screens/more-filters-dark.png) |
 | Finding details | [![Finding details in light appearance](../../assets/app/insights-presentation/screens/finding-light.png){ width="240" }](../../assets/app/insights-presentation/screens/finding-light.png) | [![Finding details in dark appearance](../../assets/app/insights-presentation/screens/finding-dark.png){ width="240" }](../../assets/app/insights-presentation/screens/finding-dark.png) |
 | Today with active plan | [![Today with active plan in light appearance](../../assets/app/insights-presentation/screens/today-plan-light.png){ width="240" }](../../assets/app/insights-presentation/screens/today-plan-light.png) | [![Today with active plan in dark appearance](../../assets/app/insights-presentation/screens/today-plan-dark.png){ width="240" }](../../assets/app/insights-presentation/screens/today-plan-dark.png) |
 | Insights with AI off | [![Insights with AI off in light appearance](../../assets/app/insights-presentation/screens/insights-ai-off-light.png){ width="240" }](../../assets/app/insights-presentation/screens/insights-ai-off-light.png) | [![Insights with AI off in dark appearance](../../assets/app/insights-presentation/screens/insights-ai-off-dark.png){ width="240" }](../../assets/app/insights-presentation/screens/insights-ai-off-dark.png) |
@@ -95,11 +96,23 @@ Do not show an unrelated tracking statistic merely to fill the slot. When there 
 - Keep the Insights title and settings action in the existing shell. Use a compact on-device/source description, actual analyzed window and last-successful-analysis timestamp.
 - Show applicable care notices before the inventory. Preserve the complete accessible notice and its scope.
 - Render one card per eligible finding. Each card contains a topic, type, factual headline, one takeaway, relevant period/coverage qualifier, and a clear open affordance. A card is one accessible action; do not nest unrelated buttons inside it.
-- **All** is selected initially. Offer topic filters only for available findings. If type filtering is offered, keep its selection separate from topic selection and provide **Clear filters** for no matches. Announce selected state and result count.
+- Label the primary filter group **Focus on**. Select **All** initially; use outcome-focused categories rather than log types. Put log-type selection under **More filters**, as defined below. Announce selected state and result count.
 - Do not treat a topic as a diagnosis or a direction as a clinical outcome. Use **Possible connection**, **Recorded trend**, **Observation**, or **Goal progress** as appropriate.
 - Preserve all eligible findings beyond the first screen. Do not hide findings behind a horizontal carousel or silently discard them to fit a card limit. Pagination must preserve ordering and disclose additional results.
 - Preserve filter and scroll state when returning from details. Open a finding by stable identity, not list position.
 - Consolidate equivalent observations by finding identity and evidence fingerprint. Do not display the same finding once as a local result and again as an AI result.
+
+### Focus on and More filters
+
+**Focus on** answers “What would I like to understand or improve?” It is a single-select outcome group, not a requirement to create a goal. Supported categories include **Sleep & rest**, **Energy**, **Digestive comfort**, **Mood & stress**, **Activity & recovery**, and **Hydration**. Show only categories represented by eligible findings before secondary filtering. Keep **All** available so unclassified findings remain reachable. The example inventory offers All, Sleep & rest and Hydration because those are its supported outcomes. A hydration logging trend describes recorded behavior, not proof of improved hydration or health.
+
+Map findings to one or more reviewed outcome IDs from structured finding codes and evidence, independently of log types. For example, a caffeine/sleep connection belongs to Sleep & rest and carries both beverage and sleep evidence types. A finding may support several outcomes but appears only once. An actual user-selected goal may prioritize category order; it is not needed to select an outcome. Keep the selected category stable during refresh; if its findings disappear, show the no-match state rather than silently selecting All. Long labels wrap or flow to another row at larger text sizes; do not truncate essential wording.
+
+**More filters** opens an accessible sheet with a **Log types** multi-select group and concise explanation: “Show findings supported by these logs.” Use the app's actual entry-type catalog and familiar labels; display only supported types represented in eligible evidence. Do not confuse log types with finding kinds such as Recorded trend. Unchecked types mean all types. Selecting several log types matches findings supported by **any** selected type; combine that match with the selected outcome using **AND**. A beverage filter must retain a sleep finding supported by beverage entries. Use structured evidence-type IDs, never a keyword search of the headline or AI narrative.
+
+The sheet shows checkboxes, a live matching-result count, **Reset**, **Cancel**, and **Show N findings**. Selections are drafts until applied. Cancel, swipe dismissal or Back discards drafts and restores focus to More filters; Reset clears draft log types without changing Focus on. Show zero findings remains available so no-match behavior is explicit. On apply, announce the result count, close the sheet and return focus to its trigger. Show **More filters · N** and a visible selected-log-type summary when active. Keep the sheet available with AI off; filtering does not require AI or change consent.
+
+Preserve both applied selections and list position when returning from a finding. A deliberate filter change starts the result list at its first matching card. Preserve applicable care notices outside the filtered list. Distinguish **No findings match these filters** from insufficient data; **Clear filters** resets both Focus on to All and all applied log types. Announce the new count without moving focus unexpectedly. All controls meet native touch-target and Dynamic Type requirements; a modal sheet contains focus until dismissed and exposes selected checkbox state.
 
 ## Finding detail anatomy
 
@@ -136,6 +149,7 @@ The presentation layer must distinguish supplied facts from formatted copy. Each
 | --- | --- |
 | Stable finding identity and evidence fingerprint | Identify the logical finding separately from the analyzed evidence version; do not derive identity from AI wording |
 | Kind, domain/topics and related goal | Use supported taxonomy; a goal association requires an actual user goal |
+| Outcome IDs and supporting log-type IDs | Reviewed many-to-many outcome mapping independent of goals; log-type IDs come from structured evidence and the actual entry catalog; unknown outcomes remain in All |
 | Headline and takeaway | Use reviewed templates populated from structured facts; generated summaries require their own validated output contract |
 | Source/authorship | Distinguish local detection, imported measurements and optional AI explanation |
 | Observation window and generated timestamp | Store and display the actual relevant window, including domain-specific longer lookbacks |
@@ -210,7 +224,7 @@ Each analyzer defines evidence eligibility and stale-after rules. The display la
 4. Every comparison has actual groups/periods, labeled units and supported values. Missing values, unavailable confidence or absent baselines never become zero or fabricated percentages.
 5. Reviewed, changed, unchanged, saved, dismissed and recurrence-suppressed fixtures produce the specified ranking and disclosure behavior.
 6. Every state in the matrix is reviewed in light/dark appearance, default and enlarged text. No card, warning or bottom action is clipped or obscured.
-7. Filters announce selection and result count; Back restores origin, selected filters and scroll position. Evidence disclosures are operable by keyboard and VoiceOver.
+7. Focus on uses outcome categories and works without a saved goal. More filters uses evidence log types with OR within that group and AND with the outcome. Verify a caffeine/sleep finding survives Sleep & rest plus Beverages, several outcome tags never duplicate a card, AI off still permits filtering, sheet Cancel discards drafts, Reset affects only draft log types, and Clear filters resets both groups. Care notices remain visible for zero results. Filters announce selection and result count; Back restores origin, selected filters and scroll position. Evidence disclosures are operable by keyboard and VoiceOver.
 8. Plan preview/start, chat opt-in and feedback remain explicit. No presentation action silently changes logging preferences, consent or clinical rules.
 9. Local findings remain inspectable with AI off or unavailable. Device-only findings and excluded records never enter cloud context through the new detail route.
 10. Approved native screenshots and interaction evidence replace the prototype as implementation verification; browser review alone does not establish native accessibility or production readiness.
@@ -227,6 +241,7 @@ The [interactive prototype](../../assets/app/insights-presentation/index.html) i
 
 ## Version History
 
+- 2026-10-25: Replaces primary log-type chips with outcome-focused Focus on; specifies evidence-based More filters sheet, matching, state and accessibility behavior, and adds light/dark sheet references.
 - 2026-10-25: Adds app-only production-intent renders for Today, Insights, finding details, active-plan and AI-off states in light/dark appearance; includes editable vector sources and full-resolution exports.
 
 - 2026-10-25: Replaces the embedded review-page capture with native PL-OS component structures and presentation rules; separates the supplementary prototype from normative specification content.

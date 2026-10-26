@@ -23,8 +23,18 @@
       "svg": "screens/insights-light.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "410f70205738ef5e1037747306d7596538c9a04c2b64dfa72aea512556a3fa75",
-      "svg_sha256": "0015ce0e8404db691437e07f06a5ebfb3c03da8b44c6f424bf2af6c9a954fbb5"
+      "png_sha256": "dd1f35f861e86903f41597c40ca006df2b6bc547d979c72f1ceb0ac8ef4713de",
+      "svg_sha256": "273dd800e13a3747eeb7b0c0c0ff1f78dcd6538add69229bda12e39c672295bc"
+    },
+    {
+      "screen": "more-filters",
+      "theme": "light",
+      "png": "screens/more-filters-light.png",
+      "svg": "screens/more-filters-light.svg",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "3cd84967ba79b0b13a7f47bda18ad19cec114a0d7c301ebcecd4da2639090f74",
+      "svg_sha256": "453674bf8f0954b53dbf18c654dd6456db80cad21d718c3688a915c7602108a9"
     },
     {
       "screen": "finding",
@@ -53,8 +63,8 @@
       "svg": "screens/insights-ai-off-light.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "787d985fe57a152832227ddc391e26b3519dce8ab52eba950c4d86f075bd5ddc",
-      "svg_sha256": "16836d125ea2031cde9291bc552dab16a1a690e652378b69362ae5f3afda93d1"
+      "png_sha256": "88db1bb6b12f00d1f31efba0d8d01bd86977cdd5944521f6136d058cbf4937dc",
+      "svg_sha256": "f375913943e058af39be6ee3711445ef6d82b838fdccf1194f648efee94b756b"
     },
     {
       "screen": "today",
@@ -73,8 +83,18 @@
       "svg": "screens/insights-dark.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "b4c18d498f22e3eeb1f182f38ab2d3c61da9b440dd788caecee428abbadafc84",
-      "svg_sha256": "9fbd17dea8169cbe49c16a697769f6d4465a32018afebbd02e511757691b8ffb"
+      "png_sha256": "806c3af82695d107a07b7020d020430e333882e9054f4949d8efeda5b6ed9ad7",
+      "svg_sha256": "7f8c0700c5b3bdf253a5ffdf539c548c5c0c5143d12b6982a02e0791c26747ca"
+    },
+    {
+      "screen": "more-filters",
+      "theme": "dark",
+      "png": "screens/more-filters-dark.png",
+      "svg": "screens/more-filters-dark.svg",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "95a01e7582dc1ca7f05710313819e72ad8502c2bf68eca93c520635b9ca8d5f4",
+      "svg_sha256": "976efa9010828ac11a55f815da595c58e3c33778cea8fd5243339521c4a14127"
     },
     {
       "screen": "finding",
@@ -103,8 +123,8 @@
       "svg": "screens/insights-ai-off-dark.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "f2aa4d8303aa184e50b57b22247d24e3791f852534d98768e9e799ae55e1f191",
-      "svg_sha256": "365dd390936bc5a4c77e0eeb8b7cec1587d8e69f111ddfc327ab11e345708afd"
+      "png_sha256": "9b4ab2b5ec220ac98393758c98d00639a2f62b291555d9ada8667594c700541c",
+      "svg_sha256": "5abc2788d416dd8db0b9bdb7406292690073db7a44ac9663208133fdcbc640f8"
     }
   ],
   "background": "One full-opacity approved yarn layer behind the whole shell; centered 55 degree clockwise rotation, cover crop with left/center placement and 32 logical point cover margin; opaque reading surfaces."

@@ -209,7 +209,7 @@ The symptom line was reconstructed visually from the screenshot; it is not an ex
 
 ### Insights
 
-Use the Insights title and settings action with the existing canonical theme. The approved [Insights Presentation specification](../03-product/insights-presentation.md) supersedes the older long-form On-Device Pattern Review / narrative / Correlations hierarchy for the next implementation. Use a compact source/window header, applicable care notices, individual finding cards, topic filters and a dedicated detail route. Keep AI explanation expandable and locally labeled; do not label the entire inventory as AI-generated.
+Use the Insights title and settings action with the existing canonical theme. The approved [Insights Presentation specification](../03-product/insights-presentation.md) supersedes the older long-form On-Device Pattern Review / narrative / Correlations hierarchy for the next implementation. Use a compact source/window header, applicable care notices, individual finding cards, outcome-focused filters labeled **Focus on**, supporting log types under **More filters**, and a dedicated detail route. Keep AI explanation expandable and locally labeled; do not label the entire inventory as AI-generated.
 
 Retain source attribution, timestamps, complete accessible evidence and actual rule-derived care state. Use an attention-colored outline/icon/label on an opaque themed backing. A report-level care notice retains that scope when a finding is opened. This visual standard defines no clinical thresholds, diagnoses or treatment recommendations.
 
