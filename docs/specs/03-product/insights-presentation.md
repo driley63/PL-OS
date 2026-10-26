@@ -28,6 +28,24 @@ These are design references, not captures from an implemented native screen. Sta
 
 [Editable SVGs and reference metadata](../../assets/app/insights-presentation/screens/references.json) list the source paths, dimensions and checksums for each render. The care notice is a report-level fixture; its placement does not mean caffeine alone triggered it.
 
+### Reference styling contract
+
+Apply the named woven app variant from [App Visual Specification](../02-design/app-visuals.md#geometry-and-typography), [Cards](../02-design/cards.md#woven-app-reading-cards), [Spacing System](../02-design/spacing-system.md#approved-app-local-spacing), [Buttons](../02-design/buttons.md), and [Radius and Elevation](../02-design/radius-and-elevation.md). The generic 8-unit card radius and 16-unit mobile gutter do not override the app's approved local 14-unit radius and 12-unit gutter.
+
+| Element | Reference rule |
+| --- | --- |
+| Main reading cards | 12-unit side gutters, 14-unit padding/radius, 1-unit themed decorative outline; zero extra outer card margin |
+| Main section rhythm | 10-unit body top inset below the header; 12-unit gaps between adjacent groups; content continues in the scroll region behind navigation |
+| Card headings and findings | Inter 18/25, weight 500; finding summary 16/25 regular; body 14/23; metadata 13/22; avoid hero-size or bold repeated card titles |
+| Detail surface | One reading panel; evidence, care context and disclosures use unframed internal sections, not nested outlined cards |
+| Inventory controls | Source/window and Focus on form one functional filter group; no separate decorative metadata card; filter controls at least 44 units high with selected check and state |
+| Status labels | Display-only pills; no implication that their small visual height is a touch target |
+| Today capture actions | 54-unit height; Quick Log radius 28, Log radius 12; keep bottom clearance above navigation |
+| Other buttons and sheet | App button radius 9; sheet radius 12 from radius.3, standard 20-unit sheet content inset; no arbitrary 24-unit sheet corners |
+| Attention and selection | Use theme attention backing and icon/text; light neutral outlines and dark copper decoration; dark selected foreground remains link |
+
+The editable renderer is `tooling/build-insights-references.cjs`. It reads the app visual tokens, exports the twelve PNG/SVG fixtures, checks the main group top inset and every adjacent section gap, and records card bounds/checksums in the reference metadata. Its viewport crops a scrolling inventory; native text reflow, internal measurement and interaction validation remain implementation work. The supplementary early exploration is historical and does not override these references or the component specifications.
+
 ## Presentation structure
 
 Use the existing [app shell and theme](../02-design/app-visuals.md) with opaque reading surfaces. The following component structures define the presentation within PL-OS. They specify information order and behavior rather than a fixed screenshot or device size.
@@ -241,6 +259,7 @@ The [interactive prototype](../../assets/app/insights-presentation/index.html) i
 
 ## Version History
 
+- 2026-10-25: Rebuilds all twelve references against app-local cards, spacing, typography and controls; removes nested detail frames and decorative metadata cards; saves reproducible renderer and group-spacing checks.
 - 2026-10-25: Replaces primary log-type chips with outcome-focused Focus on; specifies evidence-based More filters sheet, matching, state and accessibility behavior, and adds light/dark sheet references.
 - 2026-10-25: Adds app-only production-intent renders for Today, Insights, finding details, active-plan and AI-off states in light/dark appearance; includes editable vector sources and full-resolution exports.
 

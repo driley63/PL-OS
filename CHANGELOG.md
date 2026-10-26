@@ -20,6 +20,8 @@ The format follows Keep a Changelog conventions and the project uses semantic ve
 
 ### Fixed
 
+- Rebuilds Insights references using the defined woven card anatomy, spacing, typography, filter/action sizing and unframed detail sections; includes a reproducible renderer with section-gap checks.
+
 - Restores the continuous woven shell background in all ten Insights presentation references, matching the app crop and keeping reading surfaces opaque.
 
 - Replace the Insights specification’s embedded review-page screenshot with native component structures and presentation rules; retain the interactive exploration as a supplementary reference.

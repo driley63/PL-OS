@@ -3,6 +3,8 @@
   "logicalSize": "393 x 852",
   "pixelScale": 3,
   "font": "Inter",
+  "renderer": "tooling/build-insights-references.cjs",
+  "background": "One full-opacity approved yarn layer behind the whole shell; centered 55 degree clockwise rotation, cover crop with left/center placement and 32 logical point cover margin; opaque reading surfaces.",
   "sourceTokens": "docs/assets/app/plectara/app-visual-tokens.json",
   "fixtures": "Illustrative seeded evidence; numeric values are not clinical thresholds",
   "screens": [
@@ -13,8 +15,29 @@
       "svg": "screens/today-light.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "12c6bee6e182440283c7ed66ef4208dd89e7d7b052d520f3e106f941a31cb2d8",
-      "svg_sha256": "e74ac922bbc9da5fbabfc61068c3f6fad8351921040f9c1639fa510dd7e02d17"
+      "card_groups": [
+        {
+          "y": 122,
+          "height": 132
+        },
+        {
+          "y": 266,
+          "height": 218
+        },
+        {
+          "y": 496,
+          "height": 166
+        }
+      ],
+      "checks": {
+        "body_top_inset": 10,
+        "section_gap": 12,
+        "card_padding": 14,
+        "card_radius": 14,
+        "card_border": 1
+      },
+      "png_sha256": "702ed92ec82f79a3a310fa932490bfda6c56c8db1c89c1e3d759b84bf11a9e4b",
+      "svg_sha256": "c2d3c550a8943ff6b5d9baa172ba85127051f252376d1fe841044286d6a21c3a"
     },
     {
       "screen": "insights",
@@ -23,8 +46,37 @@
       "svg": "screens/insights-light.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "dd1f35f861e86903f41597c40ca006df2b6bc547d979c72f1ceb0ac8ef4713de",
-      "svg_sha256": "273dd800e13a3747eeb7b0c0c0ff1f78dcd6538add69229bda12e39c672295bc"
+      "card_groups": [
+        {
+          "y": 122,
+          "height": 132
+        },
+        {
+          "y": 266,
+          "height": 208
+        },
+        {
+          "y": 486,
+          "height": 182
+        },
+        {
+          "y": 680,
+          "height": 158
+        },
+        {
+          "y": 850,
+          "height": 158
+        }
+      ],
+      "checks": {
+        "body_top_inset": 10,
+        "section_gap": 12,
+        "card_padding": 14,
+        "card_radius": 14,
+        "card_border": 1
+      },
+      "png_sha256": "a1a6d3dccb50b4ac694ff2e8acd1cb1c788e075d79eec41254b7fef7c6d7177b",
+      "svg_sha256": "7bb342a5910696d2550e746898ab35fabde81bfee6f43bc7355b157f1797ba4f"
     },
     {
       "screen": "more-filters",
@@ -33,8 +85,37 @@
       "svg": "screens/more-filters-light.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "3cd84967ba79b0b13a7f47bda18ad19cec114a0d7c301ebcecd4da2639090f74",
-      "svg_sha256": "453674bf8f0954b53dbf18c654dd6456db80cad21d718c3688a915c7602108a9"
+      "card_groups": [
+        {
+          "y": 122,
+          "height": 132
+        },
+        {
+          "y": 266,
+          "height": 208
+        },
+        {
+          "y": 486,
+          "height": 182
+        },
+        {
+          "y": 680,
+          "height": 158
+        },
+        {
+          "y": 850,
+          "height": 158
+        }
+      ],
+      "checks": {
+        "body_top_inset": 10,
+        "section_gap": 12,
+        "card_padding": 14,
+        "card_radius": 14,
+        "card_border": 1
+      },
+      "png_sha256": "6cb20adb89fac2188085db61b3910623517942c174d0ce6de5976ab66cc29797",
+      "svg_sha256": "5f244aae695d01946134c91cde8e70ab250742aa35a1d621fca8b48616fda2db"
     },
     {
       "screen": "finding",
@@ -43,8 +124,21 @@
       "svg": "screens/finding-light.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "85f247d8694ea0736d1c1f434739a194d5fd49eebea98ce6e2f4e5ff63b105b6",
-      "svg_sha256": "9fa4d333164c7ab01263bb7bcdc646fa51b486f2190cb658cee7738fc0f58f88"
+      "card_groups": [
+        {
+          "y": 122,
+          "height": 682
+        }
+      ],
+      "checks": {
+        "body_top_inset": 10,
+        "section_gap": 12,
+        "card_padding": 14,
+        "card_radius": 14,
+        "card_border": 1
+      },
+      "png_sha256": "71b9b9945cae2faa8f932d9d07f42651ace674de290b843b8db5a5e8f0f42253",
+      "svg_sha256": "7b6d6944f6ad80895a472c2eec1c9a3b43bd1312246d30615ed2f483951533df"
     },
     {
       "screen": "today-plan",
@@ -53,8 +147,29 @@
       "svg": "screens/today-plan-light.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "6019b2f5293bbb14beb4f1ead1561ca1509c50233f7f44d5cdb27d04e62b02a3",
-      "svg_sha256": "9378e4e84e37d1ebc30f46bef819d0695d41208fff35bd94a8efb333fadb48d1"
+      "card_groups": [
+        {
+          "y": 122,
+          "height": 132
+        },
+        {
+          "y": 266,
+          "height": 140
+        },
+        {
+          "y": 418,
+          "height": 218
+        }
+      ],
+      "checks": {
+        "body_top_inset": 10,
+        "section_gap": 12,
+        "card_padding": 14,
+        "card_radius": 14,
+        "card_border": 1
+      },
+      "png_sha256": "5c1c89120b8ba105d559c98fd87dc2d57638bfa55c7a53a17ceed767bedf388a",
+      "svg_sha256": "26f25975ca6454cc7f3f72ca8068cdce5d0d2f72b9a242f7f1c9a9fa660a5e27"
     },
     {
       "screen": "insights-ai-off",
@@ -63,8 +178,41 @@
       "svg": "screens/insights-ai-off-light.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "88db1bb6b12f00d1f31efba0d8d01bd86977cdd5944521f6136d058cbf4937dc",
-      "svg_sha256": "f375913943e058af39be6ee3711445ef6d82b838fdccf1194f648efee94b756b"
+      "card_groups": [
+        {
+          "y": 122,
+          "height": 132
+        },
+        {
+          "y": 266,
+          "height": 72
+        },
+        {
+          "y": 350,
+          "height": 208
+        },
+        {
+          "y": 570,
+          "height": 182
+        },
+        {
+          "y": 764,
+          "height": 158
+        },
+        {
+          "y": 934,
+          "height": 158
+        }
+      ],
+      "checks": {
+        "body_top_inset": 10,
+        "section_gap": 12,
+        "card_padding": 14,
+        "card_radius": 14,
+        "card_border": 1
+      },
+      "png_sha256": "c5ff386ac5db81fc01e350cc491d87759e994bd9bba576a515d82cb7b8d9aa20",
+      "svg_sha256": "8372ede05b05c53251cc373f1e5290f5e7e9665bbce8d55ea7f18de48571fa6f"
     },
     {
       "screen": "today",
@@ -73,8 +221,29 @@
       "svg": "screens/today-dark.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "856d1fdadcf88678c1fc884cbee44ef81120ec44acaec079d81e6e83ade5b527",
-      "svg_sha256": "b5feb5740283758d01de964879400a95a8ea5c541ff7de616eaef9aa9de9dbad"
+      "card_groups": [
+        {
+          "y": 122,
+          "height": 132
+        },
+        {
+          "y": 266,
+          "height": 218
+        },
+        {
+          "y": 496,
+          "height": 166
+        }
+      ],
+      "checks": {
+        "body_top_inset": 10,
+        "section_gap": 12,
+        "card_padding": 14,
+        "card_radius": 14,
+        "card_border": 1
+      },
+      "png_sha256": "96037d5ed1bc79075783aad3109ee4bb66713d55cfb5f5e9606f68116f6f149e",
+      "svg_sha256": "3a21d4f05eadcd3a8bded678ba5f3250f8bc8d654beb861724eeb36053fe89b4"
     },
     {
       "screen": "insights",
@@ -83,8 +252,37 @@
       "svg": "screens/insights-dark.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "806c3af82695d107a07b7020d020430e333882e9054f4949d8efeda5b6ed9ad7",
-      "svg_sha256": "7f8c0700c5b3bdf253a5ffdf539c548c5c0c5143d12b6982a02e0791c26747ca"
+      "card_groups": [
+        {
+          "y": 122,
+          "height": 132
+        },
+        {
+          "y": 266,
+          "height": 208
+        },
+        {
+          "y": 486,
+          "height": 182
+        },
+        {
+          "y": 680,
+          "height": 158
+        },
+        {
+          "y": 850,
+          "height": 158
+        }
+      ],
+      "checks": {
+        "body_top_inset": 10,
+        "section_gap": 12,
+        "card_padding": 14,
+        "card_radius": 14,
+        "card_border": 1
+      },
+      "png_sha256": "d52c65e2d71166c34a51aacd143b7bf15d6d521cbe91e6b6471fd5793b11028f",
+      "svg_sha256": "63c40aae84b14e7b20ce1275413121b4c2fcfb34cef02cb6406ad72f94ea2798"
     },
     {
       "screen": "more-filters",
@@ -93,8 +291,37 @@
       "svg": "screens/more-filters-dark.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "95a01e7582dc1ca7f05710313819e72ad8502c2bf68eca93c520635b9ca8d5f4",
-      "svg_sha256": "976efa9010828ac11a55f815da595c58e3c33778cea8fd5243339521c4a14127"
+      "card_groups": [
+        {
+          "y": 122,
+          "height": 132
+        },
+        {
+          "y": 266,
+          "height": 208
+        },
+        {
+          "y": 486,
+          "height": 182
+        },
+        {
+          "y": 680,
+          "height": 158
+        },
+        {
+          "y": 850,
+          "height": 158
+        }
+      ],
+      "checks": {
+        "body_top_inset": 10,
+        "section_gap": 12,
+        "card_padding": 14,
+        "card_radius": 14,
+        "card_border": 1
+      },
+      "png_sha256": "d1aad3d2a871b739f7e31c7a2b723f9527e06448910367e045937a3c8d76ead1",
+      "svg_sha256": "49cb0864ae58f45fc6e3c958793ba6968ba8729f5cd06f79df821dd32ad4a907"
     },
     {
       "screen": "finding",
@@ -103,8 +330,21 @@
       "svg": "screens/finding-dark.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "0c726d03fb6e5327a56141f18038a2ee5c64475a057e917103bf11efba38d767",
-      "svg_sha256": "8bddb2d57c705c130a50af95f72025f454aa71de49807c5ff130781a57c591c9"
+      "card_groups": [
+        {
+          "y": 122,
+          "height": 682
+        }
+      ],
+      "checks": {
+        "body_top_inset": 10,
+        "section_gap": 12,
+        "card_padding": 14,
+        "card_radius": 14,
+        "card_border": 1
+      },
+      "png_sha256": "a1b12a99cd3bc5dc3abfb6da91b7d50cf76946f1ae502ce61e3d8ea480ca4764",
+      "svg_sha256": "c06a7f0906ff30094f3208e0617b24e369eb93453c0c9bc2ed127e4f6a7ab095"
     },
     {
       "screen": "today-plan",
@@ -113,8 +353,29 @@
       "svg": "screens/today-plan-dark.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "8b9b7ba1312a3e6a0118ed644868fbc98c00372fb6d8a4c4a88f041eb6611ae2",
-      "svg_sha256": "9e8c0f99e5672c26235e6e0a6b62f8040d9c63cdea1a27a7fa88d60ad2b176aa"
+      "card_groups": [
+        {
+          "y": 122,
+          "height": 132
+        },
+        {
+          "y": 266,
+          "height": 140
+        },
+        {
+          "y": 418,
+          "height": 218
+        }
+      ],
+      "checks": {
+        "body_top_inset": 10,
+        "section_gap": 12,
+        "card_padding": 14,
+        "card_radius": 14,
+        "card_border": 1
+      },
+      "png_sha256": "16b06bee745499983e66735f7939d338b98b3320c842030bbe1d55037fcf5f47",
+      "svg_sha256": "d8efc101c47163a9078aa7c24f245a6758b8c2a32a20bd4cdb41f0970c90c802"
     },
     {
       "screen": "insights-ai-off",
@@ -123,9 +384,41 @@
       "svg": "screens/insights-ai-off-dark.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "9b4ab2b5ec220ac98393758c98d00639a2f62b291555d9ada8667594c700541c",
-      "svg_sha256": "5abc2788d416dd8db0b9bdb7406292690073db7a44ac9663208133fdcbc640f8"
+      "card_groups": [
+        {
+          "y": 122,
+          "height": 132
+        },
+        {
+          "y": 266,
+          "height": 72
+        },
+        {
+          "y": 350,
+          "height": 208
+        },
+        {
+          "y": 570,
+          "height": 182
+        },
+        {
+          "y": 764,
+          "height": 158
+        },
+        {
+          "y": 934,
+          "height": 158
+        }
+      ],
+      "checks": {
+        "body_top_inset": 10,
+        "section_gap": 12,
+        "card_padding": 14,
+        "card_radius": 14,
+        "card_border": 1
+      },
+      "png_sha256": "cc60a21596cfe88a17360eb71094a68fa09e84179c5a0485d4213ff4a6ba3f23",
+      "svg_sha256": "b930e262178994ea9002671ff1340e476f8af6de064191a9267df05e1ea533bf"
     }
-  ],
-  "background": "One full-opacity approved yarn layer behind the whole shell; centered 55 degree clockwise rotation, cover crop with left/center placement and 32 logical point cover margin; opaque reading surfaces."
+  ]
 }
