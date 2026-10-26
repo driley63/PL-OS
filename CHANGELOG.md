@@ -18,6 +18,8 @@ The format follows Keep a Changelog conventions and the project uses semantic ve
 
 ### Fixed
 
+- Restores the continuous woven shell background in all ten Insights presentation references, matching the app crop and keeping reading surfaces opaque.
+
 - Replace the Insights specification’s embedded review-page screenshot with native component structures and presentation rules; retain the interactive exploration as a supplementary reference.
 
 - Remove the separate visible Apple Watch `1–10` label above symptom confirmation; retain the native picker range and accessible hint.

@@ -13,7 +13,7 @@ This specification supersedes the long-form Today and Insights hierarchy in the 
 
 ## Production intent screen references
 
-These app-only design renders show the intended hierarchy at iPhone 16 size: 393 × 852 logical points, exported at 1179 × 2556 pixels. They use Inter, canonical Plectara logo/artwork, app theme roles, vector controls and the current five-tab navigation. They contain no review-page controls, device frames, surrounding chat text or specification notes.
+These app-only design renders show the intended hierarchy at iPhone 16 size: 393 × 852 logical points, exported at 1179 × 2556 pixels. They use Inter, canonical Plectara logo/artwork, app theme roles, vector controls and the current five-tab navigation. The approved woven photo continues behind the entire scrollable region, with the production 55° rotation and cover crop. Text and controls sit on opaque themed reading surfaces. They contain no review-page controls, device frames, surrounding chat text or specification notes.
 
 These are design references, not captures from an implemented native screen. Status-bar values, example entries and findings are fixtures. Native rendering, Dynamic Type, VoiceOver and interaction verification remain required. The written specification controls adaptive behavior; screenshot geometry is not a universal fixed layout. Tap an image to inspect the full-resolution PNG.
 

@@ -13,8 +13,8 @@
       "svg": "screens/today-light.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "ffd633ad76bd5e5997f0b57e096a8ccf07e8c07d8652a799dd088e9df72e9938",
-      "svg_sha256": "9ba2f85bfc0475e9dda408f4a2bce4bea5a051dc78f371db8ddd2fa87d7dc1f8"
+      "png_sha256": "12c6bee6e182440283c7ed66ef4208dd89e7d7b052d520f3e106f941a31cb2d8",
+      "svg_sha256": "e74ac922bbc9da5fbabfc61068c3f6fad8351921040f9c1639fa510dd7e02d17"
     },
     {
       "screen": "insights",
@@ -23,8 +23,8 @@
       "svg": "screens/insights-light.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "84d0a1ebbd76330bd55b9939c3f1da96dc15f9c8a4ed5bad34094954f0eab102",
-      "svg_sha256": "db8edb1dca3dc8a25e98a7409a5630a0c74ca6167bd14cb6624111783ca21dac"
+      "png_sha256": "410f70205738ef5e1037747306d7596538c9a04c2b64dfa72aea512556a3fa75",
+      "svg_sha256": "0015ce0e8404db691437e07f06a5ebfb3c03da8b44c6f424bf2af6c9a954fbb5"
     },
     {
       "screen": "finding",
@@ -33,8 +33,8 @@
       "svg": "screens/finding-light.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "680a1ef99e9b66828729cbdaecc5c03375f4da01056cca3167024a48ee4258ab",
-      "svg_sha256": "bfec75da4ddc2df88349bb2d3d4a706e63eb7f3462fe84462aba018c2e8b0858"
+      "png_sha256": "85f247d8694ea0736d1c1f434739a194d5fd49eebea98ce6e2f4e5ff63b105b6",
+      "svg_sha256": "9fa4d333164c7ab01263bb7bcdc646fa51b486f2190cb658cee7738fc0f58f88"
     },
     {
       "screen": "today-plan",
@@ -43,8 +43,8 @@
       "svg": "screens/today-plan-light.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "d143db8b137ebff31d6f63b121e7ada1f52ff465731dca26de994072d1a2e16a",
-      "svg_sha256": "05814cd0017befce6dd17f5b8b36161b4b43ce1b38ee4768d374b8781f2c40d8"
+      "png_sha256": "6019b2f5293bbb14beb4f1ead1561ca1509c50233f7f44d5cdb27d04e62b02a3",
+      "svg_sha256": "9378e4e84e37d1ebc30f46bef819d0695d41208fff35bd94a8efb333fadb48d1"
     },
     {
       "screen": "insights-ai-off",
@@ -53,8 +53,8 @@
       "svg": "screens/insights-ai-off-light.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "7b85c76dbfe4b65a1509053a4f0488210b1a67cd089fed801406d8b0a26062fb",
-      "svg_sha256": "90dde4a2fff3d678ca5efaa02ac4b2fb9be71da739aff4071879d1f8ff3bd8f7"
+      "png_sha256": "787d985fe57a152832227ddc391e26b3519dce8ab52eba950c4d86f075bd5ddc",
+      "svg_sha256": "16836d125ea2031cde9291bc552dab16a1a690e652378b69362ae5f3afda93d1"
     },
     {
       "screen": "today",
@@ -63,8 +63,8 @@
       "svg": "screens/today-dark.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "31f15c317892da82136f9e2682e8cf38518c06772af19129c92fef2d44cf3abb",
-      "svg_sha256": "6b973bef749b7b980ebcb153e2af8460adf8f989f2c35d430b1e22c26afde800"
+      "png_sha256": "856d1fdadcf88678c1fc884cbee44ef81120ec44acaec079d81e6e83ade5b527",
+      "svg_sha256": "b5feb5740283758d01de964879400a95a8ea5c541ff7de616eaef9aa9de9dbad"
     },
     {
       "screen": "insights",
@@ -73,8 +73,8 @@
       "svg": "screens/insights-dark.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "b499406d89c5da122a34f619627375c9b4db467b4690e5ecb3ed2c2065ef39a7",
-      "svg_sha256": "cdcfce65512bd589af1acde6e2fa0920d026d015240c5f230dae41a3d7e6dd59"
+      "png_sha256": "b4c18d498f22e3eeb1f182f38ab2d3c61da9b440dd788caecee428abbadafc84",
+      "svg_sha256": "9fbd17dea8169cbe49c16a697769f6d4465a32018afebbd02e511757691b8ffb"
     },
     {
       "screen": "finding",
@@ -83,8 +83,8 @@
       "svg": "screens/finding-dark.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "687d72863de7ca16087573f36e434d0f7025bf991579303bc0292cf15313d6ef",
-      "svg_sha256": "0a7beac5e40871d3ffdf10d9af3fb5002d313aa87236e1ea08953a6f9748168d"
+      "png_sha256": "0c726d03fb6e5327a56141f18038a2ee5c64475a057e917103bf11efba38d767",
+      "svg_sha256": "8bddb2d57c705c130a50af95f72025f454aa71de49807c5ff130781a57c591c9"
     },
     {
       "screen": "today-plan",
@@ -93,8 +93,8 @@
       "svg": "screens/today-plan-dark.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "91db5f02e2a952f30b67fab3ff00f35bd450e14f5120784304883621170f1b7c",
-      "svg_sha256": "a4f2519f032b4d759207b642ff36bdb263c35b432213b6127d227026e086c02a"
+      "png_sha256": "8b9b7ba1312a3e6a0118ed644868fbc98c00372fb6d8a4c4a88f041eb6611ae2",
+      "svg_sha256": "9e8c0f99e5672c26235e6e0a6b62f8040d9c63cdea1a27a7fa88d60ad2b176aa"
     },
     {
       "screen": "insights-ai-off",
@@ -103,8 +103,9 @@
       "svg": "screens/insights-ai-off-dark.svg",
       "width": 1179,
       "height": 2556,
-      "png_sha256": "fcc1a76067710a267799d90a842cd181d442a64f8594ab027e0e64190d484f76",
-      "svg_sha256": "a950d24b0223caccb4399993b5342c87852bb667752494951e61a9ba69fc2557"
+      "png_sha256": "f2aa4d8303aa184e50b57b22247d24e3791f852534d98768e9e799ae55e1f191",
+      "svg_sha256": "365dd390936bc5a4c77e0eeb8b7cec1587d8e69f111ddfc327ab11e345708afd"
     }
-  ]
+  ],
+  "background": "One full-opacity approved yarn layer behind the whole shell; centered 55 degree clockwise rotation, cover crop with left/center placement and 32 logical point cover margin; opaque reading surfaces."
 }
