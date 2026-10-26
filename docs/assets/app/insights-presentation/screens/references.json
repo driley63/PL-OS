@@ -1,0 +1,110 @@
+{
+  "kind": "Production-intent design references; not native app captures",
+  "logicalSize": "393 x 852",
+  "pixelScale": 3,
+  "font": "Inter",
+  "sourceTokens": "docs/assets/app/plectara/app-visual-tokens.json",
+  "fixtures": "Illustrative seeded evidence; numeric values are not clinical thresholds",
+  "screens": [
+    {
+      "screen": "today",
+      "theme": "light",
+      "png": "screens/today-light.png",
+      "svg": "screens/today-light.svg",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "ffd633ad76bd5e5997f0b57e096a8ccf07e8c07d8652a799dd088e9df72e9938",
+      "svg_sha256": "9ba2f85bfc0475e9dda408f4a2bce4bea5a051dc78f371db8ddd2fa87d7dc1f8"
+    },
+    {
+      "screen": "insights",
+      "theme": "light",
+      "png": "screens/insights-light.png",
+      "svg": "screens/insights-light.svg",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "84d0a1ebbd76330bd55b9939c3f1da96dc15f9c8a4ed5bad34094954f0eab102",
+      "svg_sha256": "db8edb1dca3dc8a25e98a7409a5630a0c74ca6167bd14cb6624111783ca21dac"
+    },
+    {
+      "screen": "finding",
+      "theme": "light",
+      "png": "screens/finding-light.png",
+      "svg": "screens/finding-light.svg",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "680a1ef99e9b66828729cbdaecc5c03375f4da01056cca3167024a48ee4258ab",
+      "svg_sha256": "bfec75da4ddc2df88349bb2d3d4a706e63eb7f3462fe84462aba018c2e8b0858"
+    },
+    {
+      "screen": "today-plan",
+      "theme": "light",
+      "png": "screens/today-plan-light.png",
+      "svg": "screens/today-plan-light.svg",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "d143db8b137ebff31d6f63b121e7ada1f52ff465731dca26de994072d1a2e16a",
+      "svg_sha256": "05814cd0017befce6dd17f5b8b36161b4b43ce1b38ee4768d374b8781f2c40d8"
+    },
+    {
+      "screen": "insights-ai-off",
+      "theme": "light",
+      "png": "screens/insights-ai-off-light.png",
+      "svg": "screens/insights-ai-off-light.svg",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "7b85c76dbfe4b65a1509053a4f0488210b1a67cd089fed801406d8b0a26062fb",
+      "svg_sha256": "90dde4a2fff3d678ca5efaa02ac4b2fb9be71da739aff4071879d1f8ff3bd8f7"
+    },
+    {
+      "screen": "today",
+      "theme": "dark",
+      "png": "screens/today-dark.png",
+      "svg": "screens/today-dark.svg",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "31f15c317892da82136f9e2682e8cf38518c06772af19129c92fef2d44cf3abb",
+      "svg_sha256": "6b973bef749b7b980ebcb153e2af8460adf8f989f2c35d430b1e22c26afde800"
+    },
+    {
+      "screen": "insights",
+      "theme": "dark",
+      "png": "screens/insights-dark.png",
+      "svg": "screens/insights-dark.svg",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "b499406d89c5da122a34f619627375c9b4db467b4690e5ecb3ed2c2065ef39a7",
+      "svg_sha256": "cdcfce65512bd589af1acde6e2fa0920d026d015240c5f230dae41a3d7e6dd59"
+    },
+    {
+      "screen": "finding",
+      "theme": "dark",
+      "png": "screens/finding-dark.png",
+      "svg": "screens/finding-dark.svg",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "687d72863de7ca16087573f36e434d0f7025bf991579303bc0292cf15313d6ef",
+      "svg_sha256": "0a7beac5e40871d3ffdf10d9af3fb5002d313aa87236e1ea08953a6f9748168d"
+    },
+    {
+      "screen": "today-plan",
+      "theme": "dark",
+      "png": "screens/today-plan-dark.png",
+      "svg": "screens/today-plan-dark.svg",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "91db5f02e2a952f30b67fab3ff00f35bd450e14f5120784304883621170f1b7c",
+      "svg_sha256": "a4f2519f032b4d759207b642ff36bdb263c35b432213b6127d227026e086c02a"
+    },
+    {
+      "screen": "insights-ai-off",
+      "theme": "dark",
+      "png": "screens/insights-ai-off-dark.png",
+      "svg": "screens/insights-ai-off-dark.svg",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "fcc1a76067710a267799d90a842cd181d442a64f8594ab027e0e64190d484f76",
+      "svg_sha256": "a950d24b0223caccb4399993b5342c87852bb667752494951e61a9ba69fc2557"
+    }
+  ]
+}

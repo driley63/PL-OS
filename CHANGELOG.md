@@ -8,6 +8,8 @@ The format follows Keep a Changelog conventions and the project uses semantic ve
 
 ### Added
 
+- Full-resolution app-only Insights design references in light and dark appearance, including Today, inventory, detail, active-plan and AI-off states, with editable SVG sources.
+
 - Owner-approved Insights presentation standard: a brief Today highlight, individual finding cards, evidence/detail routes, optional AI explanations, active-plan status, and state/accessibility acceptance criteria, with review assets and reconciled product/design/AI references. Implementation and native verification remain pending.
 
 - Owner-approved watchOS and Wear OS visual specification for Quick Log, Today's Steps and symptom severity, with all six final mockups and platform review boards.

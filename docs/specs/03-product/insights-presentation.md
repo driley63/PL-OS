@@ -11,6 +11,22 @@ Define a brief overview of findings on Today, a browsable inventory on Insights,
 
 This specification supersedes the long-form Today and Insights hierarchy in the v2.6/v2.7 screenshot references. Retain their canonical artwork, theme roles, shell geometry, accessibility requirements, and historical fixtures. Existing capture actions, unrelated Today content, navigation, consent, and analysis eligibility remain governed by their respective contracts.
 
+## Production intent screen references
+
+These app-only design renders show the intended hierarchy at iPhone 16 size: 393 × 852 logical points, exported at 1179 × 2556 pixels. They use Inter, canonical Plectara logo/artwork, app theme roles, vector controls and the current five-tab navigation. They contain no review-page controls, device frames, surrounding chat text or specification notes.
+
+These are design references, not captures from an implemented native screen. Status-bar values, example entries and findings are fixtures. Native rendering, Dynamic Type, VoiceOver and interaction verification remain required. The written specification controls adaptive behavior; screenshot geometry is not a universal fixed layout. Tap an image to inspect the full-resolution PNG.
+
+| Screen | Light | Dark |
+| --- | --- | --- |
+| Today highlight | [![Today highlight in light appearance](../../assets/app/insights-presentation/screens/today-light.png){ width="240" }](../../assets/app/insights-presentation/screens/today-light.png) | [![Today highlight in dark appearance](../../assets/app/insights-presentation/screens/today-dark.png){ width="240" }](../../assets/app/insights-presentation/screens/today-dark.png) |
+| Insights inventory | [![Insights inventory in light appearance](../../assets/app/insights-presentation/screens/insights-light.png){ width="240" }](../../assets/app/insights-presentation/screens/insights-light.png) | [![Insights inventory in dark appearance](../../assets/app/insights-presentation/screens/insights-dark.png){ width="240" }](../../assets/app/insights-presentation/screens/insights-dark.png) |
+| Finding details | [![Finding details in light appearance](../../assets/app/insights-presentation/screens/finding-light.png){ width="240" }](../../assets/app/insights-presentation/screens/finding-light.png) | [![Finding details in dark appearance](../../assets/app/insights-presentation/screens/finding-dark.png){ width="240" }](../../assets/app/insights-presentation/screens/finding-dark.png) |
+| Today with active plan | [![Today with active plan in light appearance](../../assets/app/insights-presentation/screens/today-plan-light.png){ width="240" }](../../assets/app/insights-presentation/screens/today-plan-light.png) | [![Today with active plan in dark appearance](../../assets/app/insights-presentation/screens/today-plan-dark.png){ width="240" }](../../assets/app/insights-presentation/screens/today-plan-dark.png) |
+| Insights with AI off | [![Insights with AI off in light appearance](../../assets/app/insights-presentation/screens/insights-ai-off-light.png){ width="240" }](../../assets/app/insights-presentation/screens/insights-ai-off-light.png) | [![Insights with AI off in dark appearance](../../assets/app/insights-presentation/screens/insights-ai-off-dark.png){ width="240" }](../../assets/app/insights-presentation/screens/insights-ai-off-dark.png) |
+
+[Editable SVGs and reference metadata](../../assets/app/insights-presentation/screens/references.json) list the source paths, dimensions and checksums for each render. The care notice is a report-level fixture; its placement does not mean caffeine alone triggered it.
+
 ## Presentation structure
 
 Use the existing [app shell and theme](../02-design/app-visuals.md) with opaque reading surfaces. The following component structures define the presentation within PL-OS. They specify information order and behavior rather than a fixed screenshot or device size.
@@ -210,6 +226,8 @@ The controlling references are [Insights and Correlations](insights-and-correlat
 The [interactive prototype](../../assets/app/insights-presentation/index.html) is an optional exploration aid. Its scenario selector, scaled phone frames, seeded values and surrounding notes support review only; they are not normative PL-OS content or native implementation evidence. The component structures, behavior rules and acceptance criteria in this specification take precedence. Historical review captures remain archived assets and are not embedded as the specification's visual contract.
 
 ## Version History
+
+- 2026-10-25: Adds app-only production-intent renders for Today, Insights, finding details, active-plan and AI-off states in light/dark appearance; includes editable vector sources and full-resolution exports.
 
 - 2026-10-25: Replaces the embedded review-page capture with native PL-OS component structures and presentation rules; separates the supplementary prototype from normative specification content.
 
