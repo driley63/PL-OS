@@ -50,7 +50,7 @@ Render active-plan status as a separate card, with actual title, day/status, con
 | --- | --- | --- |
 | Inventory header | On-device/source description, analyzed window and last successful analysis | Compact metadata above filters; no full narrative |
 | Attention | Applicable care notice and its scope | Independent attention surface before the list |
-| Filters | All and available topics; optional separate type selection | Clearly selected, accessible controls with result count |
+| Filters | Focus on: All and supported outcomes; More filters: supporting log types | Clearly selected, accessible controls with result count |
 | Card heading | Topic and factual title | Strongest text hierarchy within the card |
 | Card takeaway | One supported observation or comparison | Short readable text, retaining essential qualifiers |
 | Card context | Type, period and material uncertainty | Secondary text; distinguish type from confidence |
