@@ -183,12 +183,14 @@ nav:
       - ADR-0014: adr/0014-adopt-woven-app-visuals.md
       - ADR-0015: adr/0015-neutral-light-app-surfaces.md
       - ADR-0016: adr/0016-adopt-wearable-visuals.md
+      - ADR-0017: adr/0017-adopt-goal-led-insights-presentation.md
   - RFCs:
       - Overview: rfc/README.md
       - Capture Widget Visuals: rfc/0007-capture-widget-visuals.md
       - Woven App Visuals: rfc/0008-woven-app-visuals.md
       - Neutral Light App Surfaces: rfc/0009-neutral-light-app-surfaces.md
       - Wearable Visuals: rfc/0010-wearable-visuals.md
+      - Goal-Led Insights: rfc/0011-goal-led-insights-presentation.md
   - Playbook:
       - Overview: playbook/README.md
   - Releases:

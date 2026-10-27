@@ -25,6 +25,8 @@ ADRs are permanent records of important PL-OS decisions (historically LIQ OS). T
 
 - [ADR-0016: Adopt the Plectara wearable visuals](0016-adopt-wearable-visuals.md) — approved watch direction, symptom icon, button casing and local theme contract; unreleased
 
+- [ADR-0017: Adopt goal-led Insights presentation](0017-adopt-goal-led-insights-presentation.md) — fixed goal navigation, progressive disclosure, automatic plan tracking, and paired theme references; unreleased.
+
 ## Rule
 
 Do not delete ADRs. Supersede them with new ADRs.

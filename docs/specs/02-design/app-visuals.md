@@ -3,8 +3,8 @@
 Status: Approved for PL-OS v2.7.0
 Owner: Design System Working Group
 Version: 2.7.0 (visual kit v2)
-Last updated: 2026-10-25
-Presentation amendment: Approved; unreleased implementation contract in Insights Presentation
+Last updated: 2026-10-27
+Presentation amendment: Approved design; unreleased specification in local review in [Insights Presentation](../03-product/insights-presentation.md) and [ADR-0017](../../adr/0017-adopt-goal-led-insights-presentation.md)
 Decision: [ADR-0014](../../adr/0014-adopt-woven-app-visuals.md), amended for light mode by [ADR-0015](../../adr/0015-neutral-light-app-surfaces.md)
 
 ## Approved direction
@@ -172,7 +172,7 @@ Progress metric tiles are an approved bounded exception to the general no-nested
 
 ### Today
 
-**Insights hierarchy update, approved October 25, 2026:** use [Insights Presentation](../03-product/insights-presentation.md) for the next implementation of the insight region and active-plan summary. The populated/empty screenshot lists below retain historical fixture context; their long-form insight content is superseded. Preserve unrelated Today content, the canonical shell and capture actions. Navigation follows the consuming app’s current route contract, rather than freezing the older four-tab fixture.
+**Insights hierarchy update, approved October 27, 2026:** use [Insights Presentation](../03-product/insights-presentation.md) for the next implementation of the insight region and active-plan summary. The populated/empty screenshot lists below retain historical fixture context; their long-form insight content is superseded. Preserve unrelated Today content, the canonical shell and capture actions. Navigation follows the consuming app’s current route contract, rather than freezing the older four-tab fixture.
 
 The header uses only the Plectara lockup and settings action. Bottom navigation is **Today, Timeline, Charts, Insights**, in that order. Preserve the actual current state rather than filling the screen with fabricated favorites, sleep summaries, meal cards, or unrelated scores.
 
@@ -209,11 +209,11 @@ The symptom line was reconstructed visually from the screenshot; it is not an ex
 
 ### Insights
 
-Use the Insights title and settings action with the existing canonical theme. The approved [Insights Presentation specification](../03-product/insights-presentation.md) supersedes the older long-form On-Device Pattern Review / narrative / Correlations hierarchy for the next implementation. Use a compact source/window header, applicable care notices, individual finding cards, outcome-focused filters labeled **Focus on**, supporting log types under **More filters**, and a dedicated detail route. Keep AI explanation expandable and locally labeled; do not label the entire inventory as AI-generated.
+Use the Insights title and settings action with the existing canonical theme. The approved [Insights Presentation specification](../03-product/insights-presentation.md) supersedes the older long-form On-Device Pattern Review / narrative / Correlations hierarchy for the next implementation. Use applicable care notices, one horizontally scrolling **Filter Insights** row containing All Goals and the saved/available fixed catalog goals, takeaway-first goal summaries, and complete selected-goal comparisons. Preserve exact goal labels and the approved stomach icon for Better Digestion. Every summary footer reads **Explore more about [Goal Name]**. Connections open separate evidence; AI Review presents linked takeaways before expandable explanation and contextual chat. No custom-goal entry, More Filters step, or log-type filter row belongs in this approved presentation. Plan statuses derive from records; Pause/Resume and End Plan are framed buttons. The detailed specification supplies the scoped hierarchy, type sizes, roles, state behavior, and paired high-fidelity references; do not label all findings as AI-generated.
 
 Retain source attribution, timestamps, complete accessible evidence and actual rule-derived care state. Use an attention-colored outline/icon/label on an opaque themed backing. A report-level care notice retains that scope when a finding is opened. This visual standard defines no clinical thresholds, diagnoses or treatment recommendations.
 
-The existing digestion and sleep screenshots remain historical review fixtures. The [presentation structure](../03-product/insights-presentation.md#presentation-structure) defines the approved overview/detail composition and adaptive appearance. The supplementary prototype is an exploration aid, not the visual contract or native implementation evidence. All production comparisons require actual values, units, periods, coverage and limitations. Do not fabricate metrics to reproduce a visual.
+The existing digestion and sleep screenshots remain historical review fixtures. The [presentation structure](../03-product/insights-presentation.md#presentation-structure) defines the approved overview/detail composition and adaptive appearance. The October 27 browser-rendered references record the approved design; the written specification defines adaptive behavior, and native implementation evidence remains a separate requirement. All production comparisons require actual values, units, periods, coverage and limitations. Do not fabricate metrics to reproduce a visual.
 
 ## Scope, states, and migration
 

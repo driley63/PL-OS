@@ -3,7 +3,7 @@
 Status: Released
 Owner: Design System Working Group
 Version: 1.5.0
-Last updated: 2026-10-25
+Last updated: 2026-10-27
 Presentation amendment: Approved; unreleased implementation contract in Insights Presentation
 
 ## Purpose
@@ -85,7 +85,7 @@ Disclosed content must not be the only place for:
 
 ## Presentation integration
 
-Apply the approved [Insights Presentation](../03-product/insights-presentation.md) contract to Today, the finding inventory and detail routes. Preserve material limitations and care notices outside optional disclosures. Local findings remain available when AI is off or unavailable; AI attribution applies to the explanation only. Implementation is pending.
+Apply the approved [Insights Presentation](../03-product/insights-presentation.md) contract, refined October 27, to Today, fixed-goal summaries, selected-goal comparisons, connection evidence, AI Review, and contextual chat. Preserve material limitations and care notices outside optional disclosures. Local findings remain available when AI is off or unavailable; AI attribution applies to the explanation only. Plan checkmarks indicate automatically derived record completeness, not manual task completion or a health outcome. AI Review leads with up to three linked takeaways; fuller explanation and context scope expand on demand. Implementation is pending.
 
 ## References
 

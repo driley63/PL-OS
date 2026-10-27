@@ -8,17 +8,21 @@ The format follows Keep a Changelog conventions and the project uses semantic ve
 
 ### Added
 
-- Outcome-focused Insights filters labeled Focus on, with evidence log types under More filters; updated inventory references and added light/dark filter-sheet renders.
+- October 27 approved Insights journey: fixed goal names/icons in one Filter Insights row, takeaway-first goal summaries, Explore more about [Goal Name] footers, complete goal comparisons, connection evidence, concise AI Review and contextual follow-up chat. Earlier custom-goal and log-type filter studies are superseded.
 
-- Full-resolution app-only Insights design references in light and dark appearance, including Today, inventory, detail, active-plan and AI-off states, with editable SVG sources.
+- Detailed Insights presentation contracts for information hierarchy, automatic record-derived plan statuses, Pause/Resume and End buttons, confirmation/assessment states, evidence versions, AI sharing exclusions, accessibility, and implementation acceptance. Approved after local review; implementation and native verification remain pending.
 
-- Owner-approved Insights presentation standard: a brief Today highlight, individual finding cards, evidence/detail routes, optional AI explanations, active-plan status, and state/accessibility acceptance criteria, with review assets and reconciled product/design/AI references. Implementation and native verification remain pending.
+- 38 high-fidelity app-only PNG references (19 views in both themes), captured from the approved browser design at 1179 × 2556 pixels, with editable sources, an offline reference gallery, source/capture manifests, and retained earlier Flutter studies.
 
 - Owner-approved watchOS and Wear OS visual specification for Quick Log, Today's Steps and symptom severity, with all six final mockups and platform review boards.
 - Scoped wearable design values, a vector symptom icon, measured contrast fixtures, asset checksums, native migration guidance, RFC-0010 and ADR-0016.
 - Straight copper header rules on every composition, initial capitals throughout button text, and the person-outline/health-cross Log Symptoms icon. Preserve real goals, queued/saved states, phone handoffs, severity range, and accessible native controls.
 
 ### Fixed
+
+- Replaces the default Insights reference gallery with the approved October 27 paired screenshots; preserves the earlier Flutter gallery and exploration as historical references.
+
+- Replaces the twelve Insights SVG approximations with Flutter component captures and versioned local gallery links; retains editable Flutter preview sources and capture provenance.
 
 - Rebuilds Insights references using the defined woven card anatomy, spacing, typography, filter/action sizing and unframed detail sections; includes a reproducible renderer with section-gap checks.
 

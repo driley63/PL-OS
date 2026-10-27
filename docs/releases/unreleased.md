@@ -4,13 +4,15 @@ The current released bundle remains [PL-OS v2.7.0](v2.7.0/README.md).
 
 ## Insights presentation
 
-Approved: 2026-10-25
-Status: Owner-approved direction and specification; consuming-app implementation pending
+Approved design: 2026-10-27
+Status: Owner-approved design and detailed specification; consuming-app implementation pending
 Change type: Product and presentation amendment for a future minor release
 
-The [Insights Presentation specification](../specs/03-product/insights-presentation.md) defines one brief highlighted finding on Today, a browsable Insights inventory, and a detail route for evidence, optional AI explanation and user-controlled next steps. It includes native PL-OS component structures, adaptive light/dark presentation rules, display-field requirements, ranking and freshness rules, plan navigation, consent boundaries, state matrix, and native acceptance criteria.
+The [Insights Presentation specification](../specs/03-product/insights-presentation.md) defines compact plan tracking and one highlighted finding on Today; a single horizontally scrolling **Filter Insights** row drawn from the app's fixed goal catalog; concise goal cards with **Explore more about [Goal Name]** footers; and connected routes for comparisons, evidence, AI review, chat, and plans. It documents automatic plan statuses, outlined management buttons, missing data, display fields, consent boundaries, a state matrix, precise light/dark visual roles, and 18 native acceptance criteria.
 
-This amendment supersedes the long-form Today/Insights hierarchy in earlier visual references. Canonical artwork, theme foundations, unrelated Today content, existing clinical rules and cloud exclusions remain governed by their current contracts. New per-finding identity, evidence navigation, display adapters and user-state behavior require implementation; prototype approval does not certify the native app. No application code, deployment or tagged release is included.
+The accompanying gallery contains 38 app-only references: 19 matched views per theme at 1179 × 2556 pixels, with source provenance and checksums. These are high-fidelity browser-rendered design references. See [RFC-0011](../rfc/0011-goal-led-insights-presentation.md) and [ADR-0017](../adr/0017-adopt-goal-led-insights-presentation.md).
+
+This amendment supersedes the long-form Today/Insights hierarchy and October 25 custom-goal/log-filter studies. Implementers must map existing goal identities, eligibility, evidence versions, record-driven plan states, and consent to the display contract, then complete the native acceptance criteria. Canonical artwork, theme foundations, unrelated Today content, clinical rules and cloud exclusions remain governed by their current contracts. The owner approved publication of this documentation amendment on October 27, 2026. Application implementation, application deployment, and a tagged release remain pending.
 
 ## Wearable visual specification
 

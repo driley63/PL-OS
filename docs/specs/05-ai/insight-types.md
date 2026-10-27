@@ -3,7 +3,7 @@
 Status: Released
 Owner: AI Working Group
 Version: 1.6.0
-Last updated: 2026-10-25
+Last updated: 2026-10-27
 Presentation amendment: Approved; unreleased implementation contract in Insights Presentation
 
 ## Purpose
@@ -91,7 +91,7 @@ AI insight records should define:
 
 ## Presentation integration
 
-Apply the approved [Insights Presentation](../03-product/insights-presentation.md) contract to Today, the finding inventory and detail routes. Preserve material limitations and care notices outside optional disclosures. Local findings remain available when AI is off or unavailable; AI attribution applies to the explanation only. Implementation is pending.
+Apply the approved [Insights Presentation](../03-product/insights-presentation.md) contract, refined October 27, to Today, fixed-goal summaries, selected-goal comparisons, connection evidence, AI Review, and contextual chat. Preserve material limitations and care notices outside optional disclosures. Local findings remain available when AI is off or unavailable; AI attribution applies to the explanation only. Implementation is pending.
 
 ## References
 

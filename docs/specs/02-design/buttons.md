@@ -92,6 +92,8 @@ Follow the [Wearable Visual Specification](wearable-visuals.md) for watchOS/Wear
 
 ## Version History
 
+- Unreleased: [Insights plan controls](../03-product/insights-presentation.md#manage-this-plan) use full-width outlined Pause/Resume and attention-styled End buttons. Generic filled actions retain primary/onPrimary; selected filter colors do not become button colors.
+
 - Unreleased: Add the scoped wearable action contract.
 
 - v2.7.0: Apply the approved neutral light appearance; retain the current app spacing and dark styling.

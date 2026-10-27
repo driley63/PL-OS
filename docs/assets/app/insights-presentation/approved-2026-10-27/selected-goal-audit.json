@@ -1,0 +1,62 @@
+[
+  {
+    "scene": "goal-activity",
+    "theme": "light",
+    "fullyVisible": true,
+    "label": "✓ Be More Active"
+  },
+  {
+    "scene": "goal-activity",
+    "theme": "dark",
+    "fullyVisible": true,
+    "label": "✓ Be More Active"
+  },
+  {
+    "scene": "goal-digestion",
+    "theme": "light",
+    "fullyVisible": true,
+    "label": "✓ Better Digestion"
+  },
+  {
+    "scene": "goal-digestion",
+    "theme": "dark",
+    "fullyVisible": true,
+    "label": "✓ Better Digestion"
+  },
+  {
+    "scene": "goal-energy",
+    "theme": "light",
+    "fullyVisible": true,
+    "label": "✓ More Energy"
+  },
+  {
+    "scene": "goal-energy",
+    "theme": "dark",
+    "fullyVisible": true,
+    "label": "✓ More Energy"
+  },
+  {
+    "scene": "goal-sleep",
+    "theme": "light",
+    "fullyVisible": true,
+    "label": "✓ Better Sleep"
+  },
+  {
+    "scene": "goal-sleep",
+    "theme": "dark",
+    "fullyVisible": true,
+    "label": "✓ Better Sleep"
+  },
+  {
+    "scene": "goal-waiting",
+    "theme": "light",
+    "fullyVisible": true,
+    "label": "✓ See If a Treatment Is Working"
+  },
+  {
+    "scene": "goal-waiting",
+    "theme": "dark",
+    "fullyVisible": true,
+    "label": "✓ See If a Treatment Is Working"
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "scene": "today",
+    "theme": "light",
+    "count": 12,
+    "small": []
+  },
+  {
+    "scene": "today",
+    "theme": "dark",
+    "count": 12,
+    "small": []
+  },
+  {
+    "scene": "insights",
+    "theme": "light",
+    "count": 27,
+    "small": []
+  },
+  {
+    "scene": "insights",
+    "theme": "dark",
+    "count": 27,
+    "small": []
+  },
+  {
+    "scene": "insights-lower",
+    "theme": "light",
+    "count": 27,
+    "small": []
+  },
+  {
+    "scene": "insights-lower",
+    "theme": "dark",
+    "count": 27,
+    "small": []
+  },
+  {
+    "scene": "goal-activity",
+    "theme": "light",
+    "count": 21,
+    "small": []
+  },
+  {
+    "scene": "goal-activity",
+    "theme": "dark",
+    "count": 21,
+    "small": []
+  },
+  {
+    "scene": "goal-digestion",
+    "theme": "light",
+    "count": 19,
+    "small": []
+  },
+  {
+    "scene": "goal-digestion",
+    "theme": "dark",
+    "count": 19,
+    "small": []
+  },
+  {
+    "scene": "goal-energy",
+    "theme": "light",
+    "count": 18,
+    "small": []
+  },
+  {
+    "scene": "goal-energy",
+    "theme": "dark",
+    "count": 18,
+    "small": []
+  },
+  {
+    "scene": "goal-sleep",
+    "theme": "light",
+    "count": 19,
+    "small": []
+  },
+  {
+    "scene": "goal-sleep",
+    "theme": "dark",
+    "count": 19,
+    "small": []
+  },
+  {
+    "scene": "connection",
+    "theme": "light",
+    "count": 11,
+    "small": []
+  },
+  {
+    "scene": "connection",
+    "theme": "dark",
+    "count": 11,
+    "small": []
+  },
+  {
+    "scene": "plan",
+    "theme": "light",
+    "count": 15,
+    "small": []
+  },
+  {
+    "scene": "plan",
+    "theme": "dark",
+    "count": 15,
+    "small": []
+  },
+  {
+    "scene": "plan-manage",
+    "theme": "light",
+    "count": 15,
+    "small": []
+  },
+  {
+    "scene": "plan-manage",
+    "theme": "dark",
+    "count": 15,
+    "small": []
+  },
+  {
+    "scene": "ai-review",
+    "theme": "light",
+    "count": 14,
+    "small": []
+  },
+  {
+    "scene": "ai-review",
+    "theme": "dark",
+    "count": 14,
+    "small": []
+  },
+  {
+    "scene": "ai-review-more",
+    "theme": "light",
+    "count": 14,
+    "small": []
+  },
+  {
+    "scene": "ai-review-more",
+    "theme": "dark",
+    "count": 14,
+    "small": []
+  },
+  {
+    "scene": "chat",
+    "theme": "light",
+    "count": 10,
+    "small": []
+  },
+  {
+    "scene": "chat",
+    "theme": "dark",
+    "count": 10,
+    "small": []
+  },
+  {
+    "scene": "goal-waiting",
+    "theme": "light",
+    "count": 17,
+    "small": []
+  },
+  {
+    "scene": "goal-waiting",
+    "theme": "dark",
+    "count": 17,
+    "small": []
+  },
+  {
+    "scene": "plan-paused",
+    "theme": "light",
+    "count": 15,
+    "small": []
+  },
+  {
+    "scene": "plan-paused",
+    "theme": "dark",
+    "count": 15,
+    "small": []
+  },
+  {
+    "scene": "plan-assessment",
+    "theme": "light",
+    "count": 9,
+    "small": []
+  },
+  {
+    "scene": "plan-assessment",
+    "theme": "dark",
+    "count": 9,
+    "small": []
+  },
+  {
+    "scene": "insights-ai-off",
+    "theme": "light",
+    "count": 27,
+    "small": []
+  },
+  {
+    "scene": "insights-ai-off",
+    "theme": "dark",
+    "count": 27,
+    "small": []
+  },
+  {
+    "scene": "insights-early",
+    "theme": "light",
+    "count": 24,
+    "small": []
+  },
+  {
+    "scene": "insights-early",
+    "theme": "dark",
+    "count": 24,
+    "small": []
+  },
+  {
+    "scene": "care",
+    "theme": "light",
+    "count": 28,
+    "small": []
+  },
+  {
+    "scene": "care",
+    "theme": "dark",
+    "count": 28,
+    "small": []
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "kind": "Local goal-driven composition proposal; profile goals supply labels and IDs; no application change",
+  "font": "Inter",
+  "renderer": "tooling/render-insights-flutter.py --review-only",
+  "screens": [
+    {
+      "screen": "insights-refined",
+      "theme": "light",
+      "png": "screens/insights-refined-light.png",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "78014790929d1d092de51d71dda5153734e3113d61d97d863ad4b501840fa16c"
+    },
+    {
+      "screen": "insights-refined",
+      "theme": "dark",
+      "png": "screens/insights-refined-dark.png",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "cffaee5be7121335a597758d0cc81caf4985c93bf558cefc7a4b51ba6783003f"
+    },
+    {
+      "screen": "insights-goals",
+      "theme": "light",
+      "png": "screens/insights-goals-light.png",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "62e6d23d4084143fe3e710c747f4aaca633c4aefd7a2ff4796ea7ef3bc95259a"
+    },
+    {
+      "screen": "insights-goals",
+      "theme": "dark",
+      "png": "screens/insights-goals-dark.png",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "384cbe5482101a8979b0a70c3957ab1e877959a11588815aa349758bb8c4a2c4"
+    }
+  ]
+}

@@ -1,424 +1,121 @@
 {
-  "kind": "Production-intent design references; not native app captures",
+  "kind": "Flutter-engine component captures from an isolated preview; not iOS simulator captures",
   "logicalSize": "393 x 852",
   "pixelScale": 3,
   "font": "Inter",
-  "renderer": "tooling/build-insights-references.cjs",
-  "background": "One full-opacity approved yarn layer behind the whole shell; centered 55 degree clockwise rotation, cover crop with left/center placement and 32 logical point cover margin; opaque reading surfaces.",
-  "sourceTokens": "docs/assets/app/plectara/app-visual-tokens.json",
-  "fixtures": "Illustrative seeded evidence; numeric values are not clinical thresholds",
+  "renderer": "tooling/render-insights-flutter.py",
+  "source_project": "Plectara working tree; no application source modified by this renderer",
+  "source_components": {
+    "theme/app_theme.dart": "bd828381257409ce5557fca11db9a6e91b8e61434093e97ce7f8cfa709517434",
+    "theme/plectara_app_visuals.dart": "8f5d3327155f8c92df14c7f8bbd84098b3e2b66742c1e15a020dc17ff3f66766",
+    "widgets/woven/reading_card.dart": "962fd3d9f79ee4c34c486446b479ce6967c8f0868b2862fac1314e6509f93de1",
+    "widgets/woven/woven_backdrop.dart": "c37e0df1c9750f9a2dd75f4cb20532b9c33d0ff0fbf514b97ebb25b9d99c4b8e",
+    "widgets/today_insights_region.dart": "f91020904e01915652b0b4cbc053c1afa3aef59da5d815db4e664c9d283079ec",
+    "widgets/finding_summary_card.dart": "fe7edf750468c55aaa779d6b3344a51c465b1312f3b9c202cde340d52c33d140",
+    "widgets/insights_care_notice.dart": "3b89f2215da2724111d7f8f651fb86c8a3b18c0cfceb03439b3673ad2086f89a",
+    "screens/finding_detail_screen.dart": "e8591c80a1ff91b1f3cd41656440372e15eee95052b6c232e01a1ffc7c5108fb",
+    "widgets/select_chip.dart": "9aeeab030bd37e4764a1f2d8004e1a2f95c6a7428e33e8a6fdb23223f2c6768a"
+  },
+  "preview_source": "tooling/flutter-insights-reference/reference_scene.dart",
+  "fixtures": "Illustrative seeded findings; local preview providers only; no cloud calls or real health data",
+  "system_chrome": "System status and home indicators are omitted; actual iOS safe-area insets retained in the preview",
+  "scope": "Today highlight, care, findings, detail, theme and backdrop reuse app components. Focus on/More filters and compact plan/log fixtures are preview compositions built with Flutter and shared app components.",
   "screens": [
     {
       "screen": "today",
       "theme": "light",
       "png": "screens/today-light.png",
-      "svg": "screens/today-light.svg",
       "width": 1179,
       "height": 2556,
-      "card_groups": [
-        {
-          "y": 122,
-          "height": 132
-        },
-        {
-          "y": 266,
-          "height": 218
-        },
-        {
-          "y": 496,
-          "height": 166
-        }
-      ],
-      "checks": {
-        "body_top_inset": 10,
-        "section_gap": 12,
-        "card_padding": 14,
-        "card_radius": 14,
-        "card_border": 1
-      },
-      "png_sha256": "702ed92ec82f79a3a310fa932490bfda6c56c8db1c89c1e3d759b84bf11a9e4b",
-      "svg_sha256": "c2d3c550a8943ff6b5d9baa172ba85127051f252376d1fe841044286d6a21c3a"
+      "png_sha256": "1a1e345ba90e945d83aafe23fba0c989cb2061b3c1158869c55f0ca65a297f41"
     },
     {
       "screen": "insights",
       "theme": "light",
       "png": "screens/insights-light.png",
-      "svg": "screens/insights-light.svg",
       "width": 1179,
       "height": 2556,
-      "card_groups": [
-        {
-          "y": 122,
-          "height": 132
-        },
-        {
-          "y": 266,
-          "height": 208
-        },
-        {
-          "y": 486,
-          "height": 182
-        },
-        {
-          "y": 680,
-          "height": 158
-        },
-        {
-          "y": 850,
-          "height": 158
-        }
-      ],
-      "checks": {
-        "body_top_inset": 10,
-        "section_gap": 12,
-        "card_padding": 14,
-        "card_radius": 14,
-        "card_border": 1
-      },
-      "png_sha256": "a1a6d3dccb50b4ac694ff2e8acd1cb1c788e075d79eec41254b7fef7c6d7177b",
-      "svg_sha256": "7bb342a5910696d2550e746898ab35fabde81bfee6f43bc7355b157f1797ba4f"
-    },
-    {
-      "screen": "more-filters",
-      "theme": "light",
-      "png": "screens/more-filters-light.png",
-      "svg": "screens/more-filters-light.svg",
-      "width": 1179,
-      "height": 2556,
-      "card_groups": [
-        {
-          "y": 122,
-          "height": 132
-        },
-        {
-          "y": 266,
-          "height": 208
-        },
-        {
-          "y": 486,
-          "height": 182
-        },
-        {
-          "y": 680,
-          "height": 158
-        },
-        {
-          "y": 850,
-          "height": 158
-        }
-      ],
-      "checks": {
-        "body_top_inset": 10,
-        "section_gap": 12,
-        "card_padding": 14,
-        "card_radius": 14,
-        "card_border": 1
-      },
-      "png_sha256": "6cb20adb89fac2188085db61b3910623517942c174d0ce6de5976ab66cc29797",
-      "svg_sha256": "5f244aae695d01946134c91cde8e70ab250742aa35a1d621fca8b48616fda2db"
+      "png_sha256": "26380dc8cb4017345399d14b485fbbcfcd3978f291c55f373e5611edf7f0125c"
     },
     {
       "screen": "finding",
       "theme": "light",
       "png": "screens/finding-light.png",
-      "svg": "screens/finding-light.svg",
       "width": 1179,
       "height": 2556,
-      "card_groups": [
-        {
-          "y": 122,
-          "height": 682
-        }
-      ],
-      "checks": {
-        "body_top_inset": 10,
-        "section_gap": 12,
-        "card_padding": 14,
-        "card_radius": 14,
-        "card_border": 1
-      },
-      "png_sha256": "71b9b9945cae2faa8f932d9d07f42651ace674de290b843b8db5a5e8f0f42253",
-      "svg_sha256": "7b6d6944f6ad80895a472c2eec1c9a3b43bd1312246d30615ed2f483951533df"
+      "png_sha256": "d9b184c688e424a0b28d62fcc8c1c100d1a4e1ec2782970c0eb736b5a277e02b"
     },
     {
       "screen": "today-plan",
       "theme": "light",
       "png": "screens/today-plan-light.png",
-      "svg": "screens/today-plan-light.svg",
       "width": 1179,
       "height": 2556,
-      "card_groups": [
-        {
-          "y": 122,
-          "height": 132
-        },
-        {
-          "y": 266,
-          "height": 140
-        },
-        {
-          "y": 418,
-          "height": 218
-        }
-      ],
-      "checks": {
-        "body_top_inset": 10,
-        "section_gap": 12,
-        "card_padding": 14,
-        "card_radius": 14,
-        "card_border": 1
-      },
-      "png_sha256": "5c1c89120b8ba105d559c98fd87dc2d57638bfa55c7a53a17ceed767bedf388a",
-      "svg_sha256": "26f25975ca6454cc7f3f72ca8068cdce5d0d2f72b9a242f7f1c9a9fa660a5e27"
+      "png_sha256": "223476e7cf53d040a56ab010faa205eb621112c39799de2eb661c08084a01df5"
     },
     {
       "screen": "insights-ai-off",
       "theme": "light",
       "png": "screens/insights-ai-off-light.png",
-      "svg": "screens/insights-ai-off-light.svg",
       "width": 1179,
       "height": 2556,
-      "card_groups": [
-        {
-          "y": 122,
-          "height": 132
-        },
-        {
-          "y": 266,
-          "height": 72
-        },
-        {
-          "y": 350,
-          "height": 208
-        },
-        {
-          "y": 570,
-          "height": 182
-        },
-        {
-          "y": 764,
-          "height": 158
-        },
-        {
-          "y": 934,
-          "height": 158
-        }
-      ],
-      "checks": {
-        "body_top_inset": 10,
-        "section_gap": 12,
-        "card_padding": 14,
-        "card_radius": 14,
-        "card_border": 1
-      },
-      "png_sha256": "c5ff386ac5db81fc01e350cc491d87759e994bd9bba576a515d82cb7b8d9aa20",
-      "svg_sha256": "8372ede05b05c53251cc373f1e5290f5e7e9665bbce8d55ea7f18de48571fa6f"
+      "png_sha256": "326a7ad7688aa444c02d0442f492c5e3e6b33b52924792c821ae2063d55bf3b4"
+    },
+    {
+      "screen": "more-filters",
+      "theme": "light",
+      "png": "screens/more-filters-light.png",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "dc76f86f2d6429fb2d477c7ec9b75a1edb6f9a672564ea6de46f124c106521eb"
     },
     {
       "screen": "today",
       "theme": "dark",
       "png": "screens/today-dark.png",
-      "svg": "screens/today-dark.svg",
       "width": 1179,
       "height": 2556,
-      "card_groups": [
-        {
-          "y": 122,
-          "height": 132
-        },
-        {
-          "y": 266,
-          "height": 218
-        },
-        {
-          "y": 496,
-          "height": 166
-        }
-      ],
-      "checks": {
-        "body_top_inset": 10,
-        "section_gap": 12,
-        "card_padding": 14,
-        "card_radius": 14,
-        "card_border": 1
-      },
-      "png_sha256": "96037d5ed1bc79075783aad3109ee4bb66713d55cfb5f5e9606f68116f6f149e",
-      "svg_sha256": "3a21d4f05eadcd3a8bded678ba5f3250f8bc8d654beb861724eeb36053fe89b4"
+      "png_sha256": "202d16458b5378a4600b0deb2d25dbe487a01cede403c2714bf68da981ce5d59"
     },
     {
       "screen": "insights",
       "theme": "dark",
       "png": "screens/insights-dark.png",
-      "svg": "screens/insights-dark.svg",
       "width": 1179,
       "height": 2556,
-      "card_groups": [
-        {
-          "y": 122,
-          "height": 132
-        },
-        {
-          "y": 266,
-          "height": 208
-        },
-        {
-          "y": 486,
-          "height": 182
-        },
-        {
-          "y": 680,
-          "height": 158
-        },
-        {
-          "y": 850,
-          "height": 158
-        }
-      ],
-      "checks": {
-        "body_top_inset": 10,
-        "section_gap": 12,
-        "card_padding": 14,
-        "card_radius": 14,
-        "card_border": 1
-      },
-      "png_sha256": "d52c65e2d71166c34a51aacd143b7bf15d6d521cbe91e6b6471fd5793b11028f",
-      "svg_sha256": "63c40aae84b14e7b20ce1275413121b4c2fcfb34cef02cb6406ad72f94ea2798"
-    },
-    {
-      "screen": "more-filters",
-      "theme": "dark",
-      "png": "screens/more-filters-dark.png",
-      "svg": "screens/more-filters-dark.svg",
-      "width": 1179,
-      "height": 2556,
-      "card_groups": [
-        {
-          "y": 122,
-          "height": 132
-        },
-        {
-          "y": 266,
-          "height": 208
-        },
-        {
-          "y": 486,
-          "height": 182
-        },
-        {
-          "y": 680,
-          "height": 158
-        },
-        {
-          "y": 850,
-          "height": 158
-        }
-      ],
-      "checks": {
-        "body_top_inset": 10,
-        "section_gap": 12,
-        "card_padding": 14,
-        "card_radius": 14,
-        "card_border": 1
-      },
-      "png_sha256": "d1aad3d2a871b739f7e31c7a2b723f9527e06448910367e045937a3c8d76ead1",
-      "svg_sha256": "49cb0864ae58f45fc6e3c958793ba6968ba8729f5cd06f79df821dd32ad4a907"
+      "png_sha256": "e1bc246031eec6eea47444bebbc3f1ef53ae22358dfc7c0d4c393b0583cbea99"
     },
     {
       "screen": "finding",
       "theme": "dark",
       "png": "screens/finding-dark.png",
-      "svg": "screens/finding-dark.svg",
       "width": 1179,
       "height": 2556,
-      "card_groups": [
-        {
-          "y": 122,
-          "height": 682
-        }
-      ],
-      "checks": {
-        "body_top_inset": 10,
-        "section_gap": 12,
-        "card_padding": 14,
-        "card_radius": 14,
-        "card_border": 1
-      },
-      "png_sha256": "a1b12a99cd3bc5dc3abfb6da91b7d50cf76946f1ae502ce61e3d8ea480ca4764",
-      "svg_sha256": "c06a7f0906ff30094f3208e0617b24e369eb93453c0c9bc2ed127e4f6a7ab095"
+      "png_sha256": "90d0c7a5e89b45c283c0fecc646ce24272bd7b2af9a3a54ee104aad826c0d973"
     },
     {
       "screen": "today-plan",
       "theme": "dark",
       "png": "screens/today-plan-dark.png",
-      "svg": "screens/today-plan-dark.svg",
       "width": 1179,
       "height": 2556,
-      "card_groups": [
-        {
-          "y": 122,
-          "height": 132
-        },
-        {
-          "y": 266,
-          "height": 140
-        },
-        {
-          "y": 418,
-          "height": 218
-        }
-      ],
-      "checks": {
-        "body_top_inset": 10,
-        "section_gap": 12,
-        "card_padding": 14,
-        "card_radius": 14,
-        "card_border": 1
-      },
-      "png_sha256": "16b06bee745499983e66735f7939d338b98b3320c842030bbe1d55037fcf5f47",
-      "svg_sha256": "d8efc101c47163a9078aa7c24f245a6758b8c2a32a20bd4cdb41f0970c90c802"
+      "png_sha256": "71fb735cd3bddcaa10cdec9b2f320fe1fd25a8ad238e89ba88b9c7119edbbdbb"
     },
     {
       "screen": "insights-ai-off",
       "theme": "dark",
       "png": "screens/insights-ai-off-dark.png",
-      "svg": "screens/insights-ai-off-dark.svg",
       "width": 1179,
       "height": 2556,
-      "card_groups": [
-        {
-          "y": 122,
-          "height": 132
-        },
-        {
-          "y": 266,
-          "height": 72
-        },
-        {
-          "y": 350,
-          "height": 208
-        },
-        {
-          "y": 570,
-          "height": 182
-        },
-        {
-          "y": 764,
-          "height": 158
-        },
-        {
-          "y": 934,
-          "height": 158
-        }
-      ],
-      "checks": {
-        "body_top_inset": 10,
-        "section_gap": 12,
-        "card_padding": 14,
-        "card_radius": 14,
-        "card_border": 1
-      },
-      "png_sha256": "cc60a21596cfe88a17360eb71094a68fa09e84179c5a0485d4213ff4a6ba3f23",
-      "svg_sha256": "b930e262178994ea9002671ff1340e476f8af6de064191a9267df05e1ea533bf"
+      "png_sha256": "da9e63bf68c099d72772395ae58bcde4a4d737c8989f4278470931514f790329"
+    },
+    {
+      "screen": "more-filters",
+      "theme": "dark",
+      "png": "screens/more-filters-dark.png",
+      "width": 1179,
+      "height": 2556,
+      "png_sha256": "5590d1bb9af017fbd4c1b5c91d6fa903a397b3d46d354fb74bd297f370fb3382"
     }
   ]
 }

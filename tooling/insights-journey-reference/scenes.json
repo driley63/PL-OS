@@ -1,0 +1,21 @@
+[
+  {"id":"today","label":"Today","screen":"today","description":"Compact automatic plan tracking, one new finding, and the existing progress section."},
+  {"id":"insights","label":"Insights · Overview","screen":"overview","description":"Saved fixed goals in one Filter Insights row, optional AI review, and takeaway-first goal cards."},
+  {"id":"insights-lower","label":"Insights · More Goal Cards","screen":"overview","y":610,"description":"Activity and energy summaries use the same Explore more about [Goal Name] footer."},
+  {"id":"goal-activity","label":"Be More Active","screen":"overview","goal":"activity","description":"A complete period comparison with sample context, followed by a possible connection."},
+  {"id":"goal-digestion","label":"Better Digestion","screen":"overview","goal":"digestion","description":"The approved stomach icon, supported percentages, and explicit missing sample context."},
+  {"id":"goal-energy","label":"More Energy","screen":"overview","goal":"energy","description":"Local energy comparison; device-only information is supporting text, never a navigation label."},
+  {"id":"goal-sleep","label":"Better Sleep","screen":"overview","goal":"sleep","description":"A missing direct comparison can coexist with a relevant connection and plan."},
+  {"id":"connection","label":"Connection Evidence","screen":"connection","description":"Sleep and activity linked without a causal arrow; explicit comparison groups and counts."},
+  {"id":"plan","label":"Plan · Today’s Records","screen":"plan","description":"Automatic statuses derive from required log fields, with Add Entry and View Entry actions."},
+  {"id":"plan-manage","label":"Plan · Manage","screen":"plan","open":["Manage This Plan"],"y":10000,"description":"Pause Plan and End Plan are full-width outlined buttons with distinct icons and emphasis."},
+  {"id":"ai-review","label":"AI Review · Takeaways","screen":"review","description":"Three short takeaways link back to the underlying goal comparison or connection evidence."},
+  {"id":"ai-review-more","label":"AI Review · Explanation","screen":"review","open":["Read the Fuller Explanation","What This Review Includes"],"y":10000,"description":"Expanded explanation, explicit sharing scope, and suggested follow-up questions."},
+  {"id":"chat","label":"Contextual Follow-Up Chat","screen":"chat","chatKey":"sleep-activity","conversation":true,"description":"Visible finding context, a sample exchange, and an editable follow-up composer."},
+  {"id":"goal-waiting","label":"Goal · Gathering Context","screen":"overview","goal":"treatment","description":"The exact fixed goal name and the specific missing evidence; no invented progress score."},
+  {"id":"plan-paused","label":"Plan · Paused","screen":"plan","config":{"plan":"Paused"},"open":["Manage This Plan"],"y":10000,"description":"Resume Plan replaces Pause Plan; diary records remain available."},
+  {"id":"plan-assessment","label":"Plan · Assessment","screen":"plan","config":{"plan":"Not Enough Records"},"description":"Insufficient comparable records are an assessment outcome, not success or failure."},
+  {"id":"insights-ai-off","label":"Insights · AI Off","screen":"overview","config":{"review":"Off","chat":"Off"},"description":"Local goal summaries and plans remain available when AI features are off."},
+  {"id":"insights-early","label":"Insights · Early Records","screen":"overview","config":{"example":"Early records"},"description":"Saved goals remain discoverable while comparisons are still taking shape."},
+  {"id":"care","label":"Insights · Care Notice","screen":"overview","config":{"care":"Contact a Clinician"},"description":"A report-level care notice remains above filtered content; this does not define a clinical trigger."}
+]

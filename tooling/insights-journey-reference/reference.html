@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plectara Design Reference</title>
+  <link rel="stylesheet" href="source/styles.css">
+  <style>
+    html,body{margin:0;padding:0;width:1179px;min-height:2556px;background:#192d38}
+    #plectara-refined-journey{width:393px;zoom:3}
+    #plectara-refined-journey .phone{margin:0;border-radius:0;box-shadow:none}
+    #plectara-refined-journey .main{scrollbar-width:none}
+    #plectara-refined-journey .main::-webkit-scrollbar{display:none}
+  </style>
+  <script src="source/lucide.js"></script>
+</head>
+<body>
+  <div id="plectara-refined-journey"><div class="phone" data-entry="today" data-theme="light" aria-label="Plectara app design reference"></div></div>
+  <script>
+    const query=new URLSearchParams(location.search);
+    document.querySelector('.phone').dataset.theme=query.get('theme')==='dark'?'dark':'light';
+    if(query.get('scale')==='1'){
+      document.querySelector('#plectara-refined-journey').style.zoom='1';
+      document.documentElement.style.width=document.body.style.width='393px';
+      document.documentElement.style.minHeight=document.body.style.minHeight='852px';
+    }
+  </script>
+  <script src="source/journey.js"></script>
+  <script>
+    Promise.all([document.fonts.ready,...Array.from(document.images).map(i=>i.decode().catch(()=>{}))]).then(()=>{
+      requestAnimationFrame(()=>requestAnimationFrame(()=>document.documentElement.dataset.captureReady='true'));
+    });
+  </script>
+</body>
+</html>

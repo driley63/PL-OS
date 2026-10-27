@@ -3,7 +3,7 @@
 Status: Approved for PL-OS v2.6.0
 Owner: Product Working Group
 Version: 2.6.0
-Last updated: 2026-10-25
+Last updated: 2026-10-27
 Presentation amendment: Approved; unreleased implementation contract in Insights Presentation
 
 ## Purpose
@@ -94,11 +94,13 @@ Every interpretive insight should answer:
 
 ## Approved presentation hierarchy
 
-The [Insights Presentation specification](insights-presentation.md), approved October 25, 2026, governs the next Today and Insights implementation: one brief highlighted finding on Today, a browsable finding inventory on Insights, and a detail route for evidence, optional AI explanation and next steps. It replaces the previous long-form screenshot hierarchy while retaining canonical branding, rule-derived care state, source attribution and complete accessible evidence.
+The [Insights Presentation specification](insights-presentation.md), refined and approved October 27, 2026, governs the next Today and Insights implementation: one brief finding and automatic plan status on Today; fixed-goal summaries under one Filter Insights row; full comparisons within selected goals; separate connection evidence; optional AI Review and contextual follow-up chat. Goal-summary footers consistently read Explore more about [Goal Name]. Plan checkmarks are derived from qualifying records, while Pause/Resume and End are explicit buttons. The specification includes paired high-fidelity light/dark references and detailed interaction, state, data, and accessibility acceptance criteria. It retains canonical branding, rule-derived care state, attribution, and complete accessible evidence.
 
 Keep source, analyzed period and material uncertainty visible in brief summaries. Detailed evidence may expand; required care context may not be hidden. The optional explanation and chat entry do not change local finding authorship. All metrics derive from actual state; screenshot fixtures define no clinical thresholds. Implementation and native verification are pending.
 
 ## Version History
+
+- 2026-10-27: Integrates the approved fixed-goal journey, automatic plan tracking, AI review/chat, and full-resolution paired references; local review before release.
 
 - 2026-10-25: Adds approved three-level Insights presentation; supersedes long-form screenshot hierarchy for the next implementation.
 

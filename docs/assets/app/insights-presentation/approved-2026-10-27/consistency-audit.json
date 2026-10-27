@@ -1,0 +1,588 @@
+{
+  "date": "2026-10-27",
+  "scope": "Reference design consistency; current working-tree app source, not native runtime certification",
+  "native_source_sha256": {
+    "lib/theme/plectara_app_visuals.dart": "8f5d3327155f8c92df14c7f8bbd84098b3e2b66742c1e15a020dc17ff3f66766",
+    "lib/theme/app_theme.dart": "bd828381257409ce5557fca11db9a6e91b8e61434093e97ce7f8cfa709517434",
+    "lib/theme/plectara_tokens.dart": "1fdb0ead18550b94e46cc24a8934f17b1fbe76c62488de149891ced3d3f91d0d",
+    "lib/screens/app_shell.dart": "1a11722703edb4717d5038c9604d01a3c34ebecbb86911fd4604dfafad8129b2",
+    "lib/widgets/woven/reading_card.dart": "962fd3d9f79ee4c34c486446b479ce6967c8f0868b2862fac1314e6509f93de1",
+    "lib/widgets/woven/woven_backdrop.dart": "c37e0df1c9750f9a2dd75f4cb20532b9c33d0ff0fbf514b97ebb25b9d99c4b8e",
+    "lib/widgets/woven/copper_rule.dart": "002dcf54743693844e3c2b25a3695cabefb5a1fbcd5b74e923071dfa9f3feec7",
+    "lib/widgets/preferences_button.dart": "6297aff17d16a7046e346f690803388eba9cf38cb089deca1cbe32d6050adc06",
+    "lib/models/onboarding_options.dart": "924096491fb30f1c75f6ba00b9e76b46cfa689d5abd60a771fa33ccae9a61d3e",
+    "lib/widgets/rewards_card.dart": "1202617dbd876a173fe2f2e6b707f86c731d8ce24f6d1b31845156e9e72dcb90",
+    "lib/widgets/badge_detail.dart": "0f5621b5c0a854c86e348a35310c384253d2345c70fc452a506ef726881e2fb6"
+  },
+  "alias_checks": [
+    {
+      "theme": "light",
+      "reference": "surface",
+      "pl_os": "card",
+      "value": "#faf8f4"
+    },
+    {
+      "theme": "light",
+      "reference": "ink",
+      "pl_os": "text",
+      "value": "#192d38"
+    },
+    {
+      "theme": "light",
+      "reference": "meta",
+      "pl_os": "textSecondary",
+      "value": "#506f7e"
+    },
+    {
+      "theme": "light",
+      "reference": "control",
+      "pl_os": "control",
+      "value": "#f1f0ec"
+    },
+    {
+      "theme": "light",
+      "reference": "selected",
+      "pl_os": "soft",
+      "value": "#192d38"
+    },
+    {
+      "theme": "light",
+      "reference": "primary",
+      "pl_os": "primary",
+      "value": "#287e80"
+    },
+    {
+      "theme": "light",
+      "reference": "on-primary",
+      "pl_os": "onPrimary",
+      "value": "#ffffff"
+    },
+    {
+      "theme": "light",
+      "reference": "link",
+      "pl_os": "link",
+      "value": "#206668"
+    },
+    {
+      "theme": "light",
+      "reference": "input",
+      "pl_os": "controlOutline",
+      "value": "#567788"
+    },
+    {
+      "theme": "light",
+      "reference": "edge",
+      "pl_os": "decorativeOutline",
+      "value": "#d8deda"
+    },
+    {
+      "theme": "light",
+      "reference": "nav-selected",
+      "pl_os": "navigationSelected",
+      "value": "#192d38"
+    },
+    {
+      "theme": "light",
+      "reference": "nav-label",
+      "pl_os": "selectedLabel",
+      "value": "#192d38"
+    },
+    {
+      "theme": "light",
+      "reference": "tile-edge",
+      "pl_os": "tileOutline",
+      "value": "#dddfda"
+    },
+    {
+      "theme": "light",
+      "reference": "attention",
+      "pl_os": "attention",
+      "value": "#845800"
+    },
+    {
+      "theme": "light",
+      "reference": "attention-fill",
+      "pl_os": "attentionBacking",
+      "value": "#faf8f4"
+    },
+    {
+      "theme": "light",
+      "reference": "on-selected",
+      "pl_os": "onSelected",
+      "value": "#ffffff"
+    },
+    {
+      "theme": "dark",
+      "reference": "surface",
+      "pl_os": "card",
+      "value": "#192d38"
+    },
+    {
+      "theme": "dark",
+      "reference": "ink",
+      "pl_os": "text",
+      "value": "#faf8f4"
+    },
+    {
+      "theme": "dark",
+      "reference": "meta",
+      "pl_os": "textSecondary",
+      "value": "#b8cbcb"
+    },
+    {
+      "theme": "dark",
+      "reference": "control",
+      "pl_os": "control",
+      "value": "#264c4b"
+    },
+    {
+      "theme": "dark",
+      "reference": "selected",
+      "pl_os": "soft",
+      "value": "#223d49"
+    },
+    {
+      "theme": "dark",
+      "reference": "primary",
+      "pl_os": "primary",
+      "value": "#76b7a5"
+    },
+    {
+      "theme": "dark",
+      "reference": "on-primary",
+      "pl_os": "onPrimary",
+      "value": "#192d38"
+    },
+    {
+      "theme": "dark",
+      "reference": "link",
+      "pl_os": "link",
+      "value": "#8dc7b7"
+    },
+    {
+      "theme": "dark",
+      "reference": "input",
+      "pl_os": "controlOutline",
+      "value": "#8da4a6"
+    },
+    {
+      "theme": "dark",
+      "reference": "edge",
+      "pl_os": "decorativeOutline",
+      "value": "#c88764"
+    },
+    {
+      "theme": "dark",
+      "reference": "nav-selected",
+      "pl_os": "navigationSelected",
+      "value": "#264c4b"
+    },
+    {
+      "theme": "dark",
+      "reference": "nav-label",
+      "pl_os": "selectedLabel",
+      "value": "#8dc7b7"
+    },
+    {
+      "theme": "dark",
+      "reference": "tile-edge",
+      "pl_os": "tileOutline",
+      "value": "#c88764"
+    },
+    {
+      "theme": "dark",
+      "reference": "attention",
+      "pl_os": "attention",
+      "value": "#e5b86a"
+    },
+    {
+      "theme": "dark",
+      "reference": "attention-fill",
+      "pl_os": "attentionBacking",
+      "value": "#223d49"
+    },
+    {
+      "theme": "dark",
+      "reference": "on-selected",
+      "pl_os": "onSelected",
+      "value": "#8dc7b7"
+    }
+  ],
+  "goal_labels_checked": 11,
+  "native_geometry_checked": {
+    "logoWidth": 124,
+    "bodyGutter": 12,
+    "bodyTopInset": 10,
+    "bodyBottomInset": 14,
+    "sectionGap": 12,
+    "cardPadding": 14,
+    "cardRadius": 14,
+    "cardBorder": 1,
+    "buttonRadius": 9,
+    "floatingActionHeight": 54,
+    "headerToolbarHeight": 60
+  },
+  "contrast_checks": [
+    {
+      "theme": "light",
+      "name": "Body",
+      "foreground": "#192d38",
+      "background": "#faf8f4",
+      "minimum": 4.5,
+      "ratio": 13.433419149271415,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "Metadata",
+      "foreground": "#506f7e",
+      "background": "#faf8f4",
+      "minimum": 4.5,
+      "ratio": 5.055508605712886,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "Footer and secondary action",
+      "foreground": "#206668",
+      "background": "#faf8f4",
+      "minimum": 4.5,
+      "ratio": 6.261534884436405,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "Secondary action on control",
+      "foreground": "#206668",
+      "background": "#f1f0ec",
+      "minimum": 4.5,
+      "ratio": 5.824236877309216,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "Primary action",
+      "foreground": "#ffffff",
+      "background": "#287e80",
+      "minimum": 4.5,
+      "ratio": 4.78766960606243,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "Selected filter",
+      "foreground": "#ffffff",
+      "background": "#192d38",
+      "minimum": 4.5,
+      "ratio": 14.24894021592975,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "Selected navigation icon",
+      "foreground": "#ffffff",
+      "background": "#192d38",
+      "minimum": 3,
+      "ratio": 14.24894021592975,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "Selected navigation label",
+      "foreground": "#192d38",
+      "background": "#faf8f4",
+      "minimum": 4.5,
+      "ratio": 13.433419149271415,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "Control labels",
+      "foreground": "#192d38",
+      "background": "#f1f0ec",
+      "minimum": 4.5,
+      "ratio": 12.495245437665663,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "Control metadata",
+      "foreground": "#506f7e",
+      "background": "#f1f0ec",
+      "minimum": 4.5,
+      "ratio": 4.702438012145222,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "Attention",
+      "foreground": "#845800",
+      "background": "#faf8f4",
+      "minimum": 4.5,
+      "ratio": 5.862633390254852,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "End Plan",
+      "foreground": "#845800",
+      "background": "#faf8f4",
+      "minimum": 4.5,
+      "ratio": 5.862633390254852,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "AI text",
+      "foreground": "#6748d8",
+      "background": "#faf8f4",
+      "minimum": 4.5,
+      "ratio": 5.664312877135852,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "AI icon",
+      "foreground": "#6748d8",
+      "background": "#f0ecf8",
+      "minimum": 3,
+      "ratio": 5.1666653303509,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "Goal icon",
+      "foreground": "#206668",
+      "background": "#e9f1ed",
+      "minimum": 3,
+      "ratio": 5.778161406026391,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "Input border",
+      "foreground": "#567788",
+      "background": "#faf8f4",
+      "minimum": 3,
+      "ratio": 4.509885627872557,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "Control border",
+      "foreground": "#567788",
+      "background": "#f1f0ec",
+      "minimum": 3,
+      "ratio": 4.1949206817629054,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "Current chart mark",
+      "foreground": "#206668",
+      "background": "#f1f0ec",
+      "minimum": 3,
+      "ratio": 5.824236877309216,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "name": "Prior chart mark",
+      "foreground": "#567788",
+      "background": "#f1f0ec",
+      "minimum": 3,
+      "ratio": 4.1949206817629054,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "Body",
+      "foreground": "#faf8f4",
+      "background": "#192d38",
+      "minimum": 4.5,
+      "ratio": 13.433419149271415,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "Metadata",
+      "foreground": "#b8cbcb",
+      "background": "#192d38",
+      "minimum": 4.5,
+      "ratio": 8.442702793075464,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "Footer and secondary action",
+      "foreground": "#8dc7b7",
+      "background": "#192d38",
+      "minimum": 4.5,
+      "ratio": 7.454023039229175,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "Secondary action on control",
+      "foreground": "#8dc7b7",
+      "background": "#264c4b",
+      "minimum": 4.5,
+      "ratio": 4.953440786718341,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "Primary action",
+      "foreground": "#192d38",
+      "background": "#76b7a5",
+      "minimum": 4.5,
+      "ratio": 6.165738574480531,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "Selected filter",
+      "foreground": "#8dc7b7",
+      "background": "#223d49",
+      "minimum": 4.5,
+      "ratio": 5.99746912080913,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "Selected navigation icon",
+      "foreground": "#8dc7b7",
+      "background": "#264c4b",
+      "minimum": 3,
+      "ratio": 4.953440786718341,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "Selected navigation label",
+      "foreground": "#8dc7b7",
+      "background": "#192d38",
+      "minimum": 4.5,
+      "ratio": 7.454023039229175,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "Control labels",
+      "foreground": "#faf8f4",
+      "background": "#264c4b",
+      "minimum": 4.5,
+      "ratio": 8.926944009816923,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "Control metadata",
+      "foreground": "#b8cbcb",
+      "background": "#264c4b",
+      "minimum": 4.5,
+      "ratio": 5.610450644607282,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "Attention",
+      "foreground": "#e5b86a",
+      "background": "#223d49",
+      "minimum": 4.5,
+      "ratio": 6.221426218070997,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "End Plan",
+      "foreground": "#e5b86a",
+      "background": "#192d38",
+      "minimum": 4.5,
+      "ratio": 7.7323706770680545,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "AI text",
+      "foreground": "#b7a7ff",
+      "background": "#192d38",
+      "minimum": 4.5,
+      "ratio": 6.774992826082708,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "AI icon",
+      "foreground": "#b7a7ff",
+      "background": "#263146",
+      "minimum": 3,
+      "ratio": 6.201141302821793,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "Goal icon",
+      "foreground": "#8dc7b7",
+      "background": "#24423f",
+      "minimum": 3,
+      "ratio": 5.703666169697073,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "Input border",
+      "foreground": "#8da4a6",
+      "background": "#192d38",
+      "minimum": 3,
+      "ratio": 5.423664068378137,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "Control border",
+      "foreground": "#8da4a6",
+      "background": "#264c4b",
+      "minimum": 3,
+      "ratio": 3.604201203614901,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "Current chart mark",
+      "foreground": "#8dc7b7",
+      "background": "#264c4b",
+      "minimum": 3,
+      "ratio": 4.953440786718341,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "name": "Prior chart mark",
+      "foreground": "#8da4a6",
+      "background": "#264c4b",
+      "minimum": 3,
+      "ratio": 3.604201203614901,
+      "passed": true
+    },
+    {
+      "name": "Header controls over brightest possible yarn",
+      "foreground": "#FAF8F4",
+      "background": "#FFFFFF",
+      "backgroundLayers": [
+        {
+          "color": "#192D38",
+          "alpha": 0.92
+        }
+      ],
+      "minimum": 4.5,
+      "ratio": 10.516743308502376,
+      "passed": true
+    }
+  ],
+  "exclusions": [
+    "No native accessibility workflow certification",
+    "No analyzer or clinical policy validation",
+    "No app implementation or deployment"
+  ]
+}

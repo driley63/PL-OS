@@ -1,0 +1,97 @@
+{
+  "source": "/Users/dustin/Repos/Plectara/lib/models/onboarding_options.dart:310",
+  "verified": "2026-10-27",
+  "goals": [
+    {
+      "id": "symptoms",
+      "key": "resolveSymptoms",
+      "label": "Fewer, Milder Symptoms",
+      "icon": "heart-pulse",
+      "rationale": "General health and symptom cue; distinct from the pressure gauge."
+    },
+    {
+      "id": "digestion",
+      "key": "betterDigestion",
+      "label": "Better Digestion",
+      "icon": "healthicons-stomach",
+      "rationale": "User-approved stomach outline distinguishes the digestion goal from meal-log cutlery.",
+      "icon_status": "Approved and applied to the current mockup variants.",
+      "asset": {
+        "library": "Health Icons",
+        "name": "stomach",
+        "style": "outline, standard 48px source",
+        "source": "https://healthicons.org/icon/outline/body/stomach",
+        "svg": "https://healthicons.org/icons/svg/outline/body/stomach.svg",
+        "status": "Approved and integrated.",
+        "rationale": "Recognizable stomach silhouette distinguishes digestion from meal logging cutlery. Keep product teal, backing and optical size when integrating.",
+        "source_file": "healthicons-stomach-outline.svg",
+        "render_file": "healthicons-stomach-outline-ui.svg",
+        "rendering": "26px box in the existing 38px backing. Original path coordinates retained; 1.4 source-unit edge stroke matches the visual weight of adjacent icons. Theme color inherited."
+      }
+    },
+    {
+      "id": "sleep",
+      "key": "betterSleep",
+      "label": "Better Sleep",
+      "icon": "moon",
+      "rationale": "Recognizable sleep cue."
+    },
+    {
+      "id": "activity",
+      "key": "beMoreActive",
+      "label": "Be More Active",
+      "icon": "footprints",
+      "rationale": "Everyday movement; does not restrict the goal to a particular workout."
+    },
+    {
+      "id": "pressure",
+      "key": "improveBloodPressure",
+      "label": "Improve Blood Pressure",
+      "icon": "gauge",
+      "rationale": "Pressure measurement; avoids confusing blood pressure with heart rate."
+    },
+    {
+      "id": "medication",
+      "key": "medicationConsistency",
+      "label": "Take Medications Consistently",
+      "icon": "pill",
+      "rationale": "Medication identity; does not imply a dose has been taken."
+    },
+    {
+      "id": "treatment",
+      "key": "seeTreatmentWorking",
+      "label": "See If a Treatment Is Working",
+      "icon": "clipboard-list",
+      "rationale": "Monitoring and assessment; avoids implying that a treatment already worked."
+    },
+    {
+      "id": "cycle",
+      "key": "understandCycle",
+      "label": "Understand My Cycle",
+      "icon": "calendar-days",
+      "rationale": "Cycle tracking through dates; no fertility or pregnancy implication.",
+      "availability": "Shown only when available for the profile, per HealthGoal.availableFor."
+    },
+    {
+      "id": "energy",
+      "key": "moreEnergy",
+      "label": "More Energy",
+      "icon": "zap",
+      "rationale": "Recognizable energy cue."
+    },
+    {
+      "id": "mood",
+      "key": "betterMood",
+      "label": "Better Mood",
+      "icon": "smile",
+      "rationale": "Recognizable mood cue; not the current measured mood."
+    },
+    {
+      "id": "stress",
+      "key": "lessStress",
+      "label": "Less Stress",
+      "icon": "wind",
+      "rationale": "Breath and calm cue; not an instruction to use a specific treatment."
+    }
+  ]
+}

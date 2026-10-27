@@ -75,6 +75,8 @@ Defines product icon style, sizing, usage, accessibility, and relationship to Br
 
 ## Version History
 
+- Unreleased: Register the [approved fixed-goal icon set](../03-product/insights-presentation.md#goal-labels-and-icons), including the Health Icons stomach outline for Better Digestion. Existing native navigation and header icons remain unchanged by the goal-card redesign.
+
 - Unreleased: Register the approved wearable Log Symptoms motif.
 
 - v1.2.0: Adds product icon style, usage, accessibility, and governance rules.

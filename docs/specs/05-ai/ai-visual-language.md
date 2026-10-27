@@ -111,6 +111,8 @@ Use standard attention roles for actual rule-derived clinical notices. Purple re
 
 ## Version History
 
+- Unreleased: [Goal-led Insights](../03-product/insights-presentation.md) places shared Rule-Derived attribution in the Filter Insights region, explicit source context on Today/evidence, and separate AI-Assisted labeling on review/chat. Semantic purple remains scoped to AI meaning.
+
 - v2.6.0: Integrates the approved screenshot-matched woven app visual contract.
 - v1.6.0: Adds AI labeling, visual hierarchy, AI Purple usage, confidence display, and accessibility standards.
 - v1.0.0: Initial repository baseline.
