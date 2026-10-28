@@ -8,6 +8,7 @@ import hashlib
 import importlib.util
 import json
 import re
+from component_color_tokens import bind_component_colors
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -16,7 +17,7 @@ parser.add_argument('--app', type=Path, required=True)
 args = parser.parse_args()
 source = ROOT / 'tooling/insights-journey-reference'
 dest = ROOT / 'docs/assets/app/insights-presentation/approved-2026-10-27'
-css = (source / 'styles.css').read_text()
+css = bind_component_colors((source / 'styles.css').read_text(), ROOT)
 app = (args.app / 'lib/theme/plectara_app_visuals.dart').read_text()
 goals = (args.app / 'lib/models/onboarding_options.dart').read_text()
 tokens = json.loads((ROOT / 'assets/app/plectara/app-visual-tokens.json').read_text())

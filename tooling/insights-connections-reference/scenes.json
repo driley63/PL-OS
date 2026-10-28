@@ -1,0 +1,8 @@
+[
+  {"id":"insights","label":"Insights Overview","description":"Potential habit/outcome links lead; fixed goals filter the overview. Counts and comparisons are in details."},
+  {"id":"today","label":"Today","description":"Existing domain-based meal/symptom plan and one local activity/energy finding. Plan status comes from logs."},
+  {"id":"details","label":"Better Digestion · Evidence","description":"Logged meal/bloating co-occurrence with honest bidirectional timing, denominators and missing-observation limits."},
+  {"id":"energy","label":"More Energy · Evidence","description":"Same-day activity/energy averages on the actual /10 scale, with rated-day counts. Device-only; no AI follow-up."},
+  {"id":"gathering","label":"Still Gathering Context","description":"The selected fixed goal has no eligible relationship yet. No promise that additional logs guarantee one."},
+  {"id":"plan","label":"Domain Plan · Management","description":"Current meal/symptom plan, conditional symptom logging, automatic status, and outlined Pause/End controls."}
+]

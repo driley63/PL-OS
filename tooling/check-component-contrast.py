@@ -75,6 +75,13 @@ def component_pairs(tokens):
                            roles=f'{role} / {surface}',
                            foreground=palette[role], background=palette[surface],
                            minimum=minimum)
+        for background, foregrounds in [('iconBacking', ('text', 'textSecondary', 'link')),
+                                         ('aiBacking', ('text', 'textSecondary', 'ai'))]:
+            for foreground in foregrounds:
+                yield dict(theme=mode, name=f'{foreground} on shared {background}',
+                           roles=f'{foreground} / component.{background}',
+                           foreground=palette[foreground],
+                           background=tokens['component'][background][mode], minimum=4.5)
         for name, role in [('Primary button', 'primary'),
                            ('Hovered or pressed primary button', 'primaryHover'),
                            ('Secondary filled action', 'link'),

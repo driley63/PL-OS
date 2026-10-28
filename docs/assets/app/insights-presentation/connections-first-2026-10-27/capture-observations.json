@@ -1,0 +1,1214 @@
+{
+  "sourceHashes": {
+    "tooling/insights-connections-reference/README.md": "739eb2bfea3be862b739a65bc55abeaf0c31e9e0339a852e03bdf42944b06e28",
+    "tooling/insights-connections-reference/direction.css": "767a916d6e55e663923939104a890a3fc29f85eb64d7793b59f7c7a6aa857afa",
+    "tooling/insights-connections-reference/index.html": "d8e0c2aefc7b8ebded1447f0215b4fe4b1702814909bbdf9e28e35b93cc547f6",
+    "tooling/insights-connections-reference/scenes.json": "fa1ec4c013520bf65313bd604826dbcc94924f3ac3f326807b1eb5b8e3d7e708",
+    "tooling/insights-connections-reference/screens.js": "6722dfb676f085a8b4abc874f92eaaa22530c3e19a4faf54beb81a88be3e9100",
+    "tooling/insights-journey-reference/styles.css": "ca8fb4b1595f47ed31ce9499fed7c972212cd71683c3fb74f2f39fe786cbb5f9",
+    "assets/tokens/color.tokens.json": "3bd4fa89a6b4517ade6d547de0471d205c8e18ac6b94f0aff56e0cd942a25a32",
+    "tooling/component_color_tokens.py": "f282c24f18347045aec5be322ab949c8635364ed61bbd596fc241a4cd1741a28"
+  },
+  "observations": [
+    {
+      "scene": "insights",
+      "theme": "light",
+      "contrasts": [
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(25, 45, 56)",
+          "ratio": 13.43,
+          "role": "goal-name"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 6.26,
+          "role": "pattern-state possible"
+        },
+        {
+          "background": "rgb(233, 241, 237)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 5.78,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(233, 241, 237)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 5.78,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(25, 45, 56)",
+          "ratio": 13.43,
+          "role": "pattern-headline"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 6.26,
+          "role": "summary-foot"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(25, 45, 56)",
+          "ratio": 13.43,
+          "role": "goal-name"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 6.26,
+          "role": "pattern-state possible"
+        },
+        {
+          "background": "rgb(233, 241, 237)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 5.78,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(233, 241, 237)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 5.78,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(25, 45, 56)",
+          "ratio": 13.43,
+          "role": "pattern-headline"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 6.26,
+          "role": "summary-foot"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(25, 45, 56)",
+          "ratio": 13.43,
+          "role": "goal-name"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "status-copy meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        }
+      ],
+      "icons": 18,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179
+      },
+      "ready": true,
+      "scroll": 0,
+      "selectedChip": "✓ All Goals",
+      "text": "9:41\nInsights\n\n\n\nFilter Insights\n\nUpdated Today · 9:41 AM\n\n✓ All Goals\nFewer, Milder Symptoms\nBetter Digestion\nMore Energy\nLess Stress\n\nRule-Derived · On Your Device\n\nBetter Digestion\n\nPossible Connection\nDairy-tagged meals\nBloating\nBloating was logged near dairy-tagged meals.\n\nSeen in the past 14 days. Unlogged symptoms could affect this pattern.\n\nExplore more about Better Digestion\n\nMore Energy\n\nPossible Connection\nLogged activity\nEnergy ratings\nEnergy ratings were higher on days with logged activity.\n\nSeen in recent rated days. Missing activity logs can affect the comparison.\n\nExplore more about More Energy\n\nLess Stress\n\nStill Gathering Context\n\nStress ratings alongside daily habits can help reveal possible connections. More records do not guarantee a finding.\n\nA Closer Look With AI\n\nReview your eligible meal and symptom findings\n\nToday's Plan\n\nDay 6 of 14\n\nTwo-Week Meal and Symptom Check\n\nBuild a clearer record of meals and symptoms.\n\nMeals\n\nRecorded Today\n\nSymptoms\n\nWhen Noticed\nTracked from your logs\nView Plan\n\nToday\n\nTimeline\n\nCharts\n\nChat\n\nInsights",
+      "unrendered": 0
+    },
+    {
+      "scene": "insights",
+      "theme": "dark",
+      "contrasts": [
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(250, 248, 244)",
+          "ratio": 13.43,
+          "role": "goal-name"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 7.45,
+          "role": "pattern-state possible"
+        },
+        {
+          "background": "rgb(36, 66, 63)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 5.7,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(36, 66, 63)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 5.7,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(250, 248, 244)",
+          "ratio": 13.43,
+          "role": "pattern-headline"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 7.45,
+          "role": "summary-foot"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(250, 248, 244)",
+          "ratio": 13.43,
+          "role": "goal-name"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 7.45,
+          "role": "pattern-state possible"
+        },
+        {
+          "background": "rgb(36, 66, 63)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 5.7,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(36, 66, 63)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 5.7,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(250, 248, 244)",
+          "ratio": 13.43,
+          "role": "pattern-headline"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 7.45,
+          "role": "summary-foot"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(250, 248, 244)",
+          "ratio": 13.43,
+          "role": "goal-name"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "status-copy meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        }
+      ],
+      "icons": 18,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179
+      },
+      "ready": true,
+      "scroll": 0,
+      "selectedChip": "✓ All Goals",
+      "text": "9:41\nInsights\n\n\n\nFilter Insights\n\nUpdated Today · 9:41 AM\n\n✓ All Goals\nFewer, Milder Symptoms\nBetter Digestion\nMore Energy\nLess Stress\n\nRule-Derived · On Your Device\n\nBetter Digestion\n\nPossible Connection\nDairy-tagged meals\nBloating\nBloating was logged near dairy-tagged meals.\n\nSeen in the past 14 days. Unlogged symptoms could affect this pattern.\n\nExplore more about Better Digestion\n\nMore Energy\n\nPossible Connection\nLogged activity\nEnergy ratings\nEnergy ratings were higher on days with logged activity.\n\nSeen in recent rated days. Missing activity logs can affect the comparison.\n\nExplore more about More Energy\n\nLess Stress\n\nStill Gathering Context\n\nStress ratings alongside daily habits can help reveal possible connections. More records do not guarantee a finding.\n\nA Closer Look With AI\n\nReview your eligible meal and symptom findings\n\nToday's Plan\n\nDay 6 of 14\n\nTwo-Week Meal and Symptom Check\n\nBuild a clearer record of meals and symptoms.\n\nMeals\n\nRecorded Today\n\nSymptoms\n\nWhen Noticed\nTracked from your logs\nView Plan\n\nToday\n\nTimeline\n\nCharts\n\nChat\n\nInsights",
+      "unrendered": 0
+    },
+    {
+      "scene": "today",
+      "theme": "light",
+      "contrasts": [
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "status-copy meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(25, 45, 56)",
+          "ratio": 13.43,
+          "role": "goal-name"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 6.26,
+          "role": "pattern-state possible"
+        },
+        {
+          "background": "rgb(233, 241, 237)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 5.78,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(233, 241, 237)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 5.78,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(25, 45, 56)",
+          "ratio": 13.43,
+          "role": "pattern-headline"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 6.26,
+          "role": "summary-foot"
+        }
+      ],
+      "icons": 15,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179
+      },
+      "ready": true,
+      "scroll": 0,
+      "selectedChip": null,
+      "text": "9:41\n\n\nToday's Plan\n\nDay 6 of 14\n\nTwo-Week Meal and Symptom Check\n\nBuild a clearer record of meals and symptoms.\n\nMeals\n\nRecorded Today\n\nSymptoms\n\nWhen Noticed\nTracked from your logs\nView Plan\nNew Finding · Rule-Derived\nOn Your Device\n\nMore Energy\n\nPossible Connection\nLogged activity\nEnergy ratings\nEnergy ratings were higher on days with logged activity.\n\nSeen in recent rated days. Missing activity logs can affect the comparison.\n\nExplore more about More Energy\n\nYour Progress\n\nBadges\n\n󰚡\n8\n\nStreak\n\n\n90d\n\nPoints\n\n\n12.3K\nSee All Insights\nQuick Log\nLog\n\nToday\n\nTimeline\n\nCharts\n\nChat\n\nInsights",
+      "unrendered": 0
+    },
+    {
+      "scene": "today",
+      "theme": "dark",
+      "contrasts": [
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "status-copy meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(250, 248, 244)",
+          "ratio": 13.43,
+          "role": "goal-name"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 7.45,
+          "role": "pattern-state possible"
+        },
+        {
+          "background": "rgb(36, 66, 63)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 5.7,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(36, 66, 63)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 5.7,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(250, 248, 244)",
+          "ratio": 13.43,
+          "role": "pattern-headline"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 7.45,
+          "role": "summary-foot"
+        }
+      ],
+      "icons": 15,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179
+      },
+      "ready": true,
+      "scroll": 0,
+      "selectedChip": null,
+      "text": "9:41\n\n\nToday's Plan\n\nDay 6 of 14\n\nTwo-Week Meal and Symptom Check\n\nBuild a clearer record of meals and symptoms.\n\nMeals\n\nRecorded Today\n\nSymptoms\n\nWhen Noticed\nTracked from your logs\nView Plan\nNew Finding · Rule-Derived\nOn Your Device\n\nMore Energy\n\nPossible Connection\nLogged activity\nEnergy ratings\nEnergy ratings were higher on days with logged activity.\n\nSeen in recent rated days. Missing activity logs can affect the comparison.\n\nExplore more about More Energy\n\nYour Progress\n\nBadges\n\n󰚡\n8\n\nStreak\n\n\n90d\n\nPoints\n\n\n12.3K\nSee All Insights\nQuick Log\nLog\n\nToday\n\nTimeline\n\nCharts\n\nChat\n\nInsights",
+      "unrendered": 0
+    },
+    {
+      "scene": "details",
+      "theme": "light",
+      "contrasts": [
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(25, 45, 56)",
+          "ratio": 13.43,
+          "role": "goal-name"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 6.26,
+          "role": "pattern-state possible"
+        },
+        {
+          "background": "rgb(233, 241, 237)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 5.78,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(233, 241, 237)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 5.78,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(25, 45, 56)",
+          "ratio": 13.43,
+          "role": "pattern-headline"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 6.26,
+          "role": "measure"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(25, 45, 56)",
+          "ratio": 13.43,
+          "role": "measure"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "evidence-note"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 6.26,
+          "role": "record-link link-button"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "evidence-note"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "pattern-context"
+        }
+      ],
+      "icons": 9,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179
+      },
+      "ready": true,
+      "scroll": 0,
+      "selectedChip": null,
+      "text": "9:41\n\nBetter Digestion\n\n\nRule-Derived · On Your Device\n\nBetter Digestion\n\nPossible Connection\nDairy-tagged meals\nBloating\nBloating was logged near dairy-tagged meals.\n\nBloating was logged within four hours of some meals, before or after eating.\n\nWhat the Records Show\n\nOct 12–25 · Within four hours, before or after\n\nDairy-tagged Meals\n\n38% with nearby logged bloating\n\n3 of 8\n\nMeals Without a Dairy Tag\n\n25% with nearby logged bloating\n\n3 of 12\n\nCounts include all tagged or untagged meals. No symptom log means unknown, not symptom-free.\n\nBrowse the Supporting Records\nHow to Read This Pattern\n\nMeal size, other ingredients, and timing may also matter. This finding also relates to Fewer, Milder Symptoms.\n\nThis is an association, not proof of a cause.\n\nAsk About This Pattern\n\nYour Active Plan\n\nTwo-Week Meal and Symptom Check\n\nRecord meals near eating and symptoms when noticed. This plan follows your meal and symptom records.\n\nView Plan\n\nToday\n\nTimeline\n\nCharts\n\nChat\n\nInsights",
+      "unrendered": 0
+    },
+    {
+      "scene": "details",
+      "theme": "dark",
+      "contrasts": [
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(250, 248, 244)",
+          "ratio": 13.43,
+          "role": "goal-name"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 7.45,
+          "role": "pattern-state possible"
+        },
+        {
+          "background": "rgb(36, 66, 63)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 5.7,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(36, 66, 63)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 5.7,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(250, 248, 244)",
+          "ratio": 13.43,
+          "role": "pattern-headline"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 7.45,
+          "role": "measure"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(250, 248, 244)",
+          "ratio": 13.43,
+          "role": "measure"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "evidence-note"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 7.45,
+          "role": "record-link link-button"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "evidence-note"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "pattern-context"
+        }
+      ],
+      "icons": 9,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179
+      },
+      "ready": true,
+      "scroll": 0,
+      "selectedChip": null,
+      "text": "9:41\n\nBetter Digestion\n\n\nRule-Derived · On Your Device\n\nBetter Digestion\n\nPossible Connection\nDairy-tagged meals\nBloating\nBloating was logged near dairy-tagged meals.\n\nBloating was logged within four hours of some meals, before or after eating.\n\nWhat the Records Show\n\nOct 12–25 · Within four hours, before or after\n\nDairy-tagged Meals\n\n38% with nearby logged bloating\n\n3 of 8\n\nMeals Without a Dairy Tag\n\n25% with nearby logged bloating\n\n3 of 12\n\nCounts include all tagged or untagged meals. No symptom log means unknown, not symptom-free.\n\nBrowse the Supporting Records\nHow to Read This Pattern\n\nMeal size, other ingredients, and timing may also matter. This finding also relates to Fewer, Milder Symptoms.\n\nThis is an association, not proof of a cause.\n\nAsk About This Pattern\n\nYour Active Plan\n\nTwo-Week Meal and Symptom Check\n\nRecord meals near eating and symptoms when noticed. This plan follows your meal and symptom records.\n\nView Plan\n\nToday\n\nTimeline\n\nCharts\n\nChat\n\nInsights",
+      "unrendered": 0
+    },
+    {
+      "scene": "energy",
+      "theme": "light",
+      "contrasts": [
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(25, 45, 56)",
+          "ratio": 13.43,
+          "role": "goal-name"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 6.26,
+          "role": "pattern-state possible"
+        },
+        {
+          "background": "rgb(233, 241, 237)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 5.78,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(233, 241, 237)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 5.78,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(25, 45, 56)",
+          "ratio": 13.43,
+          "role": "pattern-headline"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 6.26,
+          "role": "measure"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(25, 45, 56)",
+          "ratio": 13.43,
+          "role": "measure"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "evidence-note"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(32, 102, 104)",
+          "ratio": 6.26,
+          "role": "record-link link-button"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "evidence-note"
+        }
+      ],
+      "icons": 8,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179
+      },
+      "ready": true,
+      "scroll": 0,
+      "selectedChip": null,
+      "text": "9:41\n\nMore Energy\n\n\nRule-Derived · On Your Device\n\nMore Energy\n\nPossible Connection\nLogged activity\nEnergy ratings\nEnergy ratings were higher on days with logged activity.\n\nA same-day association in your recorded check-ins. It does not show which came first.\n\nAverage Energy Ratings\n\nOct 12–25 · Same-day energy ratings\n\nDays With Logged Activity\n\n7 days with energy ratings\n\n7.2 / 10\n\nDays Without an Activity Log\n\n6 days with energy ratings\n\n5.1 / 10\n\nOnly days with an energy rating are compared. No activity log does not mean no activity.\n\nBrowse the Supporting Records\nHow to Read This Pattern\n\nSleep, other routines, and which days you log may affect this comparison. This finding stays on your device.\n\nThis is an association, not proof of a cause.\n\n\nToday\n\nTimeline\n\nCharts\n\nChat\n\nInsights",
+      "unrendered": 0
+    },
+    {
+      "scene": "energy",
+      "theme": "dark",
+      "contrasts": [
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(250, 248, 244)",
+          "ratio": 13.43,
+          "role": "goal-name"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 7.45,
+          "role": "pattern-state possible"
+        },
+        {
+          "background": "rgb(36, 66, 63)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 5.7,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(36, 66, 63)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 5.7,
+          "role": "relation-end"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(250, 248, 244)",
+          "ratio": 13.43,
+          "role": "pattern-headline"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 7.45,
+          "role": "measure"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(250, 248, 244)",
+          "ratio": 13.43,
+          "role": "measure"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "evidence-note"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(141, 199, 183)",
+          "ratio": 7.45,
+          "role": "record-link link-button"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "evidence-note"
+        }
+      ],
+      "icons": 8,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179
+      },
+      "ready": true,
+      "scroll": 0,
+      "selectedChip": null,
+      "text": "9:41\n\nMore Energy\n\n\nRule-Derived · On Your Device\n\nMore Energy\n\nPossible Connection\nLogged activity\nEnergy ratings\nEnergy ratings were higher on days with logged activity.\n\nA same-day association in your recorded check-ins. It does not show which came first.\n\nAverage Energy Ratings\n\nOct 12–25 · Same-day energy ratings\n\nDays With Logged Activity\n\n7 days with energy ratings\n\n7.2 / 10\n\nDays Without an Activity Log\n\n6 days with energy ratings\n\n5.1 / 10\n\nOnly days with an energy rating are compared. No activity log does not mean no activity.\n\nBrowse the Supporting Records\nHow to Read This Pattern\n\nSleep, other routines, and which days you log may affect this comparison. This finding stays on your device.\n\nThis is an association, not proof of a cause.\n\n\nToday\n\nTimeline\n\nCharts\n\nChat\n\nInsights",
+      "unrendered": 0
+    },
+    {
+      "scene": "gathering",
+      "theme": "light",
+      "contrasts": [
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(25, 45, 56)",
+          "ratio": 13.43,
+          "role": "goal-name"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "evidence-note"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "status-copy meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        }
+      ],
+      "icons": 6,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179
+      },
+      "ready": true,
+      "scroll": 0,
+      "selectedChip": "✓ Less Stress",
+      "text": "9:41\nInsights\n\n\n\nFilter Insights\n\nUpdated Today · 9:41 AM\n\nAll Goals\nFewer, Milder Symptoms\nBetter Digestion\nMore Energy\n✓ Less Stress\n\nRule-Derived · On Your Device\n\nLess Stress\n\nStill Gathering Context\n\nStress ratings alongside daily habits can help reveal possible connections. More records do not guarantee a finding.\n\nKeep Building Context\n\nRecord a stress rating in your daily check-in. Log the habits you want to understand alongside it.\n\nYour check-in findings stay on your device.\n\nToday's Plan\n\nDay 6 of 14\n\nTwo-Week Meal and Symptom Check\n\nBuild a clearer record of meals and symptoms.\n\nMeals\n\nRecorded Today\n\nSymptoms\n\nWhen Noticed\nTracked from your logs\nView Plan\n\nToday\n\nTimeline\n\nCharts\n\nChat\n\nInsights",
+      "unrendered": 0
+    },
+    {
+      "scene": "gathering",
+      "theme": "dark",
+      "contrasts": [
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(250, 248, 244)",
+          "ratio": 13.43,
+          "role": "goal-name"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "evidence-note"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "status-copy meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        }
+      ],
+      "icons": 6,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179
+      },
+      "ready": true,
+      "scroll": 0,
+      "selectedChip": "✓ Less Stress",
+      "text": "9:41\nInsights\n\n\n\nFilter Insights\n\nUpdated Today · 9:41 AM\n\nAll Goals\nFewer, Milder Symptoms\nBetter Digestion\nMore Energy\n✓ Less Stress\n\nRule-Derived · On Your Device\n\nLess Stress\n\nStill Gathering Context\n\nStress ratings alongside daily habits can help reveal possible connections. More records do not guarantee a finding.\n\nKeep Building Context\n\nRecord a stress rating in your daily check-in. Log the habits you want to understand alongside it.\n\nYour check-in findings stay on your device.\n\nToday's Plan\n\nDay 6 of 14\n\nTwo-Week Meal and Symptom Check\n\nBuild a clearer record of meals and symptoms.\n\nMeals\n\nRecorded Today\n\nSymptoms\n\nWhen Noticed\nTracked from your logs\nView Plan\n\nToday\n\nTimeline\n\nCharts\n\nChat\n\nInsights",
+      "unrendered": 0
+    },
+    {
+      "scene": "plan",
+      "theme": "light",
+      "contrasts": [
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "status-copy meta"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "evidence-note"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "evidence-note"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(80, 111, 126)",
+          "ratio": 5.06,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(241, 240, 236)",
+          "foreground": "rgb(25, 45, 56)",
+          "ratio": 12.5,
+          "role": "manage-button link-button"
+        },
+        {
+          "background": "rgb(250, 248, 244)",
+          "foreground": "rgb(132, 88, 0)",
+          "ratio": 5.86,
+          "role": "manage-button end-button link-button"
+        }
+      ],
+      "icons": 6,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179
+      },
+      "ready": true,
+      "scroll": 0,
+      "selectedChip": null,
+      "text": "9:41\n\nYour Plan\n\n\nToday's Plan\n\nDay 6 of 14\n\nTwo-Week Meal and Symptom Check\n\nBuild a clearer record of meals and symptoms.\n\nMeals\n\nRecorded Today\n\nSymptoms\n\nWhen Noticed\n\nTracked automatically from your logs\n\nWhat This Plan Follows\n\nMeals and symptoms over two weeks. Add meal details near eating, and record symptoms with severity when you notice them.\n\nA missing symptom log does not count as a symptom-free day.\n\nManage This Plan\n\nPause tracking or end the plan. Your logs remain available.\n\nPause Plan\nEnd Plan\n\nToday\n\nTimeline\n\nCharts\n\nChat\n\nInsights",
+      "unrendered": 0
+    },
+    {
+      "scene": "plan",
+      "theme": "dark",
+      "contrasts": [
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "status-copy meta"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "evidence-note"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "evidence-note"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(184, 203, 203)",
+          "ratio": 8.44,
+          "role": "pattern-context"
+        },
+        {
+          "background": "rgb(38, 76, 75)",
+          "foreground": "rgb(250, 248, 244)",
+          "ratio": 8.93,
+          "role": "manage-button link-button"
+        },
+        {
+          "background": "rgb(25, 45, 56)",
+          "foreground": "rgb(229, 184, 106)",
+          "ratio": 7.73,
+          "role": "manage-button end-button link-button"
+        }
+      ],
+      "icons": 6,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179
+      },
+      "ready": true,
+      "scroll": 0,
+      "selectedChip": null,
+      "text": "9:41\n\nYour Plan\n\n\nToday's Plan\n\nDay 6 of 14\n\nTwo-Week Meal and Symptom Check\n\nBuild a clearer record of meals and symptoms.\n\nMeals\n\nRecorded Today\n\nSymptoms\n\nWhen Noticed\n\nTracked automatically from your logs\n\nWhat This Plan Follows\n\nMeals and symptoms over two weeks. Add meal details near eating, and record symptoms with severity when you notice them.\n\nA missing symptom log does not count as a symptom-free day.\n\nManage This Plan\n\nPause tracking or end the plan. Your logs remain available.\n\nPause Plan\nEnd Plan\n\nToday\n\nTimeline\n\nCharts\n\nChat\n\nInsights",
+      "unrendered": 0
+    }
+  ]
+}

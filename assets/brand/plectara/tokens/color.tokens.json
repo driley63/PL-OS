@@ -271,5 +271,22 @@
         }
       ]
     }
+  },
+  "component": {
+    "iconBacking": {
+      "description": "Quiet backing for goal/section icons and non-causal relationship bands. Use theme text or link foregrounds.",
+      "light": "#E9F1ED",
+      "dark": "#24423F"
+    },
+    "aiBacking": {
+      "description": "Soft backing reserved for AI labels and icons. Use the theme AI foreground; never generic feature emphasis.",
+      "light": "#F0ECF8",
+      "dark": "#263146"
+    },
+    "quietDivider": {
+      "description": "Decorative internal separator on opaque reading surfaces. Not a required control outline or focus indicator.",
+      "light": "#D8DEDA",
+      "dark": "#45616A"
+    }
   }
 }

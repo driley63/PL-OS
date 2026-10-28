@@ -64,10 +64,14 @@ if '<!-- APPROVED_GALLERY -->' in text:
     text=text.replace('<!-- APPROVED_GALLERY -->',block)
 else:
     text=re.sub(r'<!-- APPROVED_GALLERY_START -->.*?<!-- APPROVED_GALLERY_END -->',lambda _:block,text,flags=re.S)
-spec.write_text(text)
+if '<!-- CONNECTIONS_GALLERY_START -->' not in text:
+    spec.write_text(text)
 
 options='\n'.join(f'<option value="{s["id"]}">{escape(s["label"])}</option>' for s in SCENES)
 viewer=(ROOT/'tooling/insights-journey-reference/gallery.html').read_text()
 viewer=viewer.replace('__SCENE_OPTIONS__',options).replace('__SCENE_DATA__',json.dumps(SCENES,ensure_ascii=False)).replace('__FILE_DATA__',json.dumps(files))
-(ASSETS/'index.html').write_text(viewer)
+destination = 'previous-goal-comparison-gallery.html' if '<!-- CONNECTIONS_GALLERY_START -->' in text else 'index.html'
+if destination != 'index.html':
+    viewer = viewer.replace('<body>', '<body><aside style="padding:16px;background:#faf8f4;color:#192d38">Historical comparison-first references. See the <a href="index.html">current connection-led gallery</a>.</aside>', 1)
+(ASSETS/destination).write_text(viewer)
 print(f'Validated and packaged {len(files)} full-resolution screenshots; generated gallery and specification image links.')

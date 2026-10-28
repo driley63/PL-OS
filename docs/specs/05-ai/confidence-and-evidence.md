@@ -94,7 +94,7 @@ AI output should be withheld or downgraded when:
 
 ## Presentation integration
 
-Apply the approved [Insights Presentation](../03-product/insights-presentation.md) contract, refined October 27, to Today, fixed-goal summaries, selected-goal comparisons, connection evidence, AI Review, and contextual chat. Preserve material limitations and care notices outside optional disclosures. Local findings remain available when AI is off or unavailable; AI attribution applies to the explanation only. Implementation is pending.
+Apply the approved [Insights Presentation](../03-product/insights-presentation.md) contract, refined October 27, to Today, connection-led fixed-goal summaries, detailed evidence and secondary comparisons, AI Review, and contextual chat. Preserve material limitations and care notices outside optional disclosures. Local findings remain available when AI is off or unavailable; AI attribution applies to the explanation only. Implementation is pending.
 
 ## References
 
@@ -108,3 +108,7 @@ Apply the approved [Insights Presentation](../03-product/insights-presentation.m
 
 - v1.6.0: Adds confidence labels, evidence model, limitation language, and withholding rules.
 - v1.0.0: Initial repository baseline.
+
+## Local relationship maturity amendment
+
+[Insights Presentation](../03-product/insights-presentation.md) and its [capability decisions](../03-product/insights-findings-capabilities.md) add evaluated Developing Pattern / Consistent Pattern states for local relationships. These are independent of AI confidence, AI wording, and care urgency. Until an evaluated result exists, use neutral Possible Connection. Require comparable coverage, distinct-period support, conflict/staleness handling, a criteria version and a concise visible reason. Duplicated logs or overlapping refreshes cannot promote maturity; edited/deleted support can downgrade it. Do not translate AI High/Medium/Low labels or analyzer care flags into this status. The assessment can improve clarity about recurring associations, never establish causation.

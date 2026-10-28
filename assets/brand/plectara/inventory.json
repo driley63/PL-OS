@@ -21,8 +21,8 @@
     },
     {
       "path": "flutter/plectara_colors.dart",
-      "bytes": 2470,
-      "sha256": "2b19b021446ed0a56f2f1d0c88a44bde71b69e653ae96f5434674dbd8938156f"
+      "bytes": 2918,
+      "sha256": "f2fe420eb6c0ebd081905df097741ebda75565103486ca9577a854c04892eb17"
     },
     {
       "path": "fonts/Inter-variable.ttf",
@@ -1131,8 +1131,8 @@
     },
     {
       "path": "tokens/color.tokens.json",
-      "bytes": 4569,
-      "sha256": "48d65eebc2c08837de0774540c932f02466e6e325bb368638880c94745bc12ff"
+      "bytes": 5220,
+      "sha256": "3bd4fa89a6b4517ade6d547de0471d205c8e18ac6b94f0aff56e0cd942a25a32"
     },
     {
       "path": "tokens/radius.tokens.json",
@@ -1156,8 +1156,8 @@
     },
     {
       "path": "web/plectara-tokens.css",
-      "bytes": 4348,
-      "sha256": "4d9727fdc60354bddfa6960c3a62b6408ea08ae3f96d5d458c8c0532e461bac8"
+      "bytes": 4622,
+      "sha256": "de7be132938004ed3a0ee4e1b19b3da163eeaa854161e19de4ebb52dfcc75fd6"
     }
   ]
 }

@@ -6,6 +6,7 @@ through the browser, at scene/theme query parameters. See the adjacent README.
 from pathlib import Path
 import hashlib
 import json
+from component_color_tokens import bind_component_colors
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "tooling/insights-journey-reference"
@@ -27,6 +28,7 @@ for key in ('__INTER_REGULAR__','__INTER_MEDIUM__','__INTER_SEMIBOLD__','__INTER
     filename = replacements[key]
     replacements[key] += '?v=' + hashlib.sha256((PUBLIC/filename).read_bytes()).hexdigest()[:12]
 styles = (SOURCE / "styles.css").read_text()
+styles = bind_component_colors(styles, ROOT)
 script = (SOURCE / "journey.js").read_text()
 for key, value in replacements.items():
     styles = styles.replace(key, value)
@@ -60,5 +62,7 @@ hashes = {}
 for path in sorted(SOURCE.glob('*')):
     if path.is_file():
         hashes[str(path.relative_to(ROOT))] = hashlib.sha256(path.read_bytes()).hexdigest()
+for dependency in ['assets/tokens/color.tokens.json', 'tooling/component_color_tokens.py']:
+    hashes[dependency] = hashlib.sha256((ROOT / dependency).read_bytes()).hexdigest()
 (DEST / "source-hashes.json").write_text(json.dumps(hashes, indent=2)+"\n")
 print(f"Packaged {len(scenes)} scenes in {DEST.relative_to(ROOT)}")

@@ -1,0 +1,10 @@
+{
+  "tooling/insights-connections-reference/README.md": "739eb2bfea3be862b739a65bc55abeaf0c31e9e0339a852e03bdf42944b06e28",
+  "tooling/insights-connections-reference/direction.css": "767a916d6e55e663923939104a890a3fc29f85eb64d7793b59f7c7a6aa857afa",
+  "tooling/insights-connections-reference/index.html": "d8e0c2aefc7b8ebded1447f0215b4fe4b1702814909bbdf9e28e35b93cc547f6",
+  "tooling/insights-connections-reference/scenes.json": "fa1ec4c013520bf65313bd604826dbcc94924f3ac3f326807b1eb5b8e3d7e708",
+  "tooling/insights-connections-reference/screens.js": "6722dfb676f085a8b4abc874f92eaaa22530c3e19a4faf54beb81a88be3e9100",
+  "tooling/insights-journey-reference/styles.css": "ca8fb4b1595f47ed31ce9499fed7c972212cd71683c3fb74f2f39fe786cbb5f9",
+  "assets/tokens/color.tokens.json": "3bd4fa89a6b4517ade6d547de0471d205c8e18ac6b94f0aff56e0cd942a25a32",
+  "tooling/component_color_tokens.py": "f282c24f18347045aec5be322ab949c8635364ed61bbd596fc241a4cd1741a28"
+}

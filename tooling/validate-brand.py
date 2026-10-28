@@ -234,6 +234,11 @@ with zipfile.ZipFile(BASE/'plectara-android-icons.zip') as archive:
         assert archive.read(filename) == (android/filename).read_bytes()
 assert (BASE/'plectara-android-icons.zip').read_bytes() == (ROOT/'docs/assets/brand/plectara-android-icons.zip').read_bytes()
 
+# Shared token exports in the downloadable kit must match their canonical sources.
+for folder, filename in [('tokens', 'color.tokens.json'), ('web', 'plectara-tokens.css'),
+                         ('flutter', 'plectara_colors.dart')]:
+    assert (BASE/folder/filename).read_bytes() == (ROOT/'assets'/folder/filename).read_bytes()
+
 inventory = json.loads((BASE/'inventory.json').read_text())
 for entry in inventory['files']:
     assert hashlib.sha256((BASE/entry['path']).read_bytes()).hexdigest() == entry['sha256']

@@ -45,6 +45,9 @@
   --plectara-color-critical: #B53E3E;
   --plectara-color-info: #286A8A;
   --plectara-color-ai: #6748D8;
+  --plectara-component-icon-backing: #E9F1ED;
+  --plectara-component-ai-backing: #F0ECF8;
+  --plectara-component-quiet-divider: #D8DEDA;
   --plectara-button-primary-background: var(--plectara-color-primary);
   --plectara-button-primary-label: var(--plectara-color-on-primary);
   --plectara-button-primary-hover: var(--plectara-color-primary-hover);
@@ -80,6 +83,9 @@
   --plectara-color-critical: #FFAAAA;
   --plectara-color-info: #8BCDE4;
   --plectara-color-ai: #B7A7FF;
+  --plectara-component-icon-backing: #24423F;
+  --plectara-component-ai-backing: #263146;
+  --plectara-component-quiet-divider: #45616A;
   --plectara-button-primary-background: var(--plectara-color-primary);
   --plectara-button-primary-label: var(--plectara-color-on-primary);
   --plectara-button-primary-hover: var(--plectara-color-primary-hover);

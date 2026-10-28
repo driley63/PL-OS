@@ -7,5 +7,7 @@
   "tooling/preferences-reference/provenance.json": "d63b18f1b6aef0da978d4b47f3c3d1cb39a1f8e7af62ba73916db44e7e71300a",
   "tooling/preferences-reference/reference.html": "90845c10685ac2dd34ab37821cac67a411df124ab3045075e7dc1c8bd607f337",
   "tooling/preferences-reference/scenes.json": "092a87c3cf08ed38eace2c8547e44aeeb8254756a7ebb2ce170afae04cfa2eb2",
-  "tooling/preferences-reference/styles.css": "1954972e9351080b2685a48bc650ffeb2db9031f18c52965b3f50f94643196b5"
+  "tooling/preferences-reference/styles.css": "7473e39327b39bf27f28a46e102d94d6db64a8f4159e8ed5ffdfc07d1af38ecd",
+  "assets/tokens/color.tokens.json": "3bd4fa89a6b4517ade6d547de0471d205c8e18ac6b94f0aff56e0cd942a25a32",
+  "tooling/component_color_tokens.py": "f282c24f18347045aec5be322ab949c8635364ed61bbd596fc241a4cd1741a28"
 }

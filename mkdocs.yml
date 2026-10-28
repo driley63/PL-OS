@@ -127,6 +127,7 @@ nav:
           - Health Timeline: specs/03-product/health-timeline.md
           - Insights and Correlations: specs/03-product/insights-and-correlations.md
           - Insights Presentation: specs/03-product/insights-presentation.md
+          - Insights Findings Capabilities: specs/03-product/insights-findings-capabilities.md
           - Reports: specs/03-product/reports.md
           - Onboarding: specs/03-product/onboarding.md
           - Settings and Consent: specs/03-product/settings-and-consent.md

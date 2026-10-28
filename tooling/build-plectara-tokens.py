@@ -1,6 +1,9 @@
 """Generate PL-OS color adapters and verify declared contrast pairs."""
 import json
 import re
+import hashlib
+import shutil
+import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -36,6 +39,8 @@ for mode, selector in [('light', ':root'), ('dark', '[data-theme="dark"], [data-
     css += selector + ' {\n'
     for name, value in data[mode].items():
         css += f'  --plectara-color-{kebab(name)}: {value};\n'
+    for name, values in data.get('component', {}).items():
+        css += f'  --plectara-component-{kebab(name)}: {values[mode]};\n'
     for name, role in components.items():
         css += f'  --plectara-{name}: var(--plectara-color-{kebab(role)});\n'
     css += '}\n'
@@ -49,6 +54,11 @@ for cls, values in [('PlectaraColors', {k:v['hex'] for group in ('brand','accent
     dart += f'class {cls} {{\n  const {cls}._();\n'
     for key, value in values.items():
         dart += f'  static const {key} = Color(0xFF{value[1:]});\n'
+    dart += '}\n\n'
+for mode in ('light', 'dark'):
+    dart += f'class Plectara{mode.title()}ComponentColors {{\n  const Plectara{mode.title()}ComponentColors._();\n'
+    for name, values in data.get('component', {}).items():
+        dart += f'  static const {name} = Color(0xFF{values[mode][1:]});\n'
     dart += '}\n\n'
 write('assets/flutter/plectara_colors.dart', dart.rstrip() + '\n')
 old = "// Deprecated import path; use plectara_colors.dart.\nimport 'plectara_colors.dart';\nexport 'plectara_colors.dart';\n\n@Deprecated('Use PlectaraColors and theme-specific semantic colors')\nclass LifestyleIQColors {\n  const LifestyleIQColors._();\n"
@@ -84,3 +94,30 @@ report = '# Plectara color contrast checks\n\nGenerated from color.tokens.json. 
 write('assets/brand/plectara/contrast-report.md', report)
 write('docs/specs/02-design/plectara-contrast-report.md', report)
 print(f'Generated CSS/Flutter adapters; {len(rows)} contrast checks passed.')
+
+# Keep downloadable token exports synchronized without re-rendering brand artwork.
+brand = ROOT / 'assets/brand/plectara'
+changed = False
+for folder, names in {'tokens':['color.tokens.json'], 'web':['plectara-tokens.css'],
+                      'flutter':['plectara_colors.dart']}.items():
+    for name in names:
+        source, target = ROOT / 'assets' / folder / name, brand / folder / name
+        if not target.exists() or target.read_bytes() != source.read_bytes():
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source, target)
+            changed = True
+if changed and (brand / 'inventory.json').exists():
+    inventory_path = brand / 'inventory.json'
+    inventory = json.loads(inventory_path.read_text())
+    for entry in inventory['files']:
+        path = brand / entry['path']
+        entry.update(bytes=path.stat().st_size, sha256=hashlib.sha256(path.read_bytes()).hexdigest())
+    inventory_path.write_text(json.dumps(inventory, indent=2) + '\n')
+    archive = brand / 'plectara-brand-kit.zip'
+    replacement = archive.with_suffix('.tmp.zip')
+    with zipfile.ZipFile(archive) as previous, zipfile.ZipFile(replacement, 'w') as updated:
+        for entry in previous.infolist():
+            updated.writestr(entry, (brand / entry.filename).read_bytes())
+    replacement.replace(archive)
+    shutil.copy2(archive, ROOT / 'docs/assets/brand/plectara-brand-kit.zip')
+    print('Synchronized brand-kit token exports, inventory and downloadable ZIP.')

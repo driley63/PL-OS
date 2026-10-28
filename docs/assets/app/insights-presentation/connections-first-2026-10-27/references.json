@@ -1,0 +1,196 @@
+{
+  "version": "connections-first-2026-10-27",
+  "status": "Approved design, capability scope and documentation publication; native implementation pending",
+  "method": "Browser rasterization at 3x CSS zoom; full app region; original JPEG bytes, no resampling",
+  "logical_size": [
+    393,
+    852
+  ],
+  "pixel_size": [
+    1179,
+    2556
+  ],
+  "screenshots": 12,
+  "fixture_provenance": "Illustrative fixture values shaped to existing meal-tag and wellbeing analyzer families. Not real user data or end-to-end analyzer verification.",
+  "maturity": "Neutral Possible Connection until evaluated G2/G3-lite support is implemented.",
+  "source_audit": "Plectara 3044e87, reviewed 2026-10-27; owner decisions retained in the capability specification",
+  "sources": {
+    "tooling/insights-connections-reference/README.md": "739eb2bfea3be862b739a65bc55abeaf0c31e9e0339a852e03bdf42944b06e28",
+    "tooling/insights-connections-reference/direction.css": "767a916d6e55e663923939104a890a3fc29f85eb64d7793b59f7c7a6aa857afa",
+    "tooling/insights-connections-reference/index.html": "d8e0c2aefc7b8ebded1447f0215b4fe4b1702814909bbdf9e28e35b93cc547f6",
+    "tooling/insights-connections-reference/scenes.json": "fa1ec4c013520bf65313bd604826dbcc94924f3ac3f326807b1eb5b8e3d7e708",
+    "tooling/insights-connections-reference/screens.js": "6722dfb676f085a8b4abc874f92eaaa22530c3e19a4faf54beb81a88be3e9100",
+    "tooling/insights-journey-reference/styles.css": "ca8fb4b1595f47ed31ce9499fed7c972212cd71683c3fb74f2f39fe786cbb5f9",
+    "assets/tokens/color.tokens.json": "3bd4fa89a6b4517ade6d547de0471d205c8e18ac6b94f0aff56e0cd942a25a32",
+    "tooling/component_color_tokens.py": "f282c24f18347045aec5be322ab949c8635364ed61bbd596fc241a4cd1741a28"
+  },
+  "runtime_asset_sha256": {
+    "direction.css": "767a916d6e55e663923939104a890a3fc29f85eb64d7793b59f7c7a6aa857afa",
+    "reference.html": "37b615b1a7c561b4a3b6b90bdd58de4baed4a4671dd48b029ddf320ec1bf76d7",
+    "screens.js": "6722dfb676f085a8b4abc874f92eaaa22530c3e19a4faf54beb81a88be3e9100",
+    "source/base.css": "fc02cea920309442cc3fb6478d5d0e35fdd8ec19c9ae3ace002f2856dd1349fa",
+    "source/inter-bold.woff": "2b69ab4ed190a00fd72b2b72bb29fc83171c97c00173042723a35eab8d0359ea",
+    "source/inter-medium.woff": "61b621781a2c8d0c73053ad2624768d54faa88200b9cb10a397d06cd4023a0f9",
+    "source/inter-regular.woff": "77f7dedf28c3227c649e700779431bc9e6958482f7a71d7f6ba2ce06ec65667c",
+    "source/inter-semibold.woff": "366aa53ef677ca3675bb8e550c139330d839a4a1e63826aee1325eec7c4ae4b9",
+    "source/logo.svg": "4a1f60aaf2ab6ad41962cf654489013899f2e67cd1c7cc3100be9b2b5e25521b",
+    "source/lucide.js": "fde878a4f7aebe548b071eaaf343d898f66d275e93970abe95d8ca5fda290b51",
+    "source/material-chrome.woff": "aa1e611a89b6ad3cf7ff04217a8e2af046f3ffba5f40b65521593345b328772d",
+    "source/stomach.svg": "4957a1748046f716ab29a7f982b959676f796184c78e10a426802823ef7fef88",
+    "source/yarn.webp": "4b120ecb20b0796acde86072bf3cda04a9fe5cb2ac239ccb3a644c3e5d458b93"
+  },
+  "scenes": [
+    {
+      "id": "insights",
+      "label": "Insights Overview",
+      "description": "Potential habit/outcome links lead; fixed goals filter the overview. Counts and comparisons are in details."
+    },
+    {
+      "id": "today",
+      "label": "Today",
+      "description": "Existing domain-based meal/symptom plan and one local activity/energy finding. Plan status comes from logs."
+    },
+    {
+      "id": "details",
+      "label": "Better Digestion · Evidence",
+      "description": "Logged meal/bloating co-occurrence with honest bidirectional timing, denominators and missing-observation limits."
+    },
+    {
+      "id": "energy",
+      "label": "More Energy · Evidence",
+      "description": "Same-day activity/energy averages on the actual /10 scale, with rated-day counts. Device-only; no AI follow-up."
+    },
+    {
+      "id": "gathering",
+      "label": "Still Gathering Context",
+      "description": "The selected fixed goal has no eligible relationship yet. No promise that additional logs guarantee one."
+    },
+    {
+      "id": "plan",
+      "label": "Domain Plan · Management",
+      "description": "Current meal/symptom plan, conditional symptom logging, automatic status, and outlined Pause/End controls."
+    }
+  ],
+  "files": [
+    {
+      "scene": "insights",
+      "theme": "light",
+      "path": "screens/insights-light.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 265418,
+      "sha256": "15070eee405da294a9b3d2850bb4d33b124d68bd2513834487e4d5d6f7dba28a",
+      "scroll_top": 0
+    },
+    {
+      "scene": "insights",
+      "theme": "dark",
+      "path": "screens/insights-dark.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 267698,
+      "sha256": "fcbc5b0167086e7751f2644191681fed867a36368e1f2f9554fd7e841904a559",
+      "scroll_top": 0
+    },
+    {
+      "scene": "today",
+      "theme": "light",
+      "path": "screens/today-light.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 242990,
+      "sha256": "50a5d1becd9e3e3dcb7cecdef481b3cb5b235f745859ebf02735b8ddcc5c2964",
+      "scroll_top": 0
+    },
+    {
+      "scene": "today",
+      "theme": "dark",
+      "path": "screens/today-dark.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 249106,
+      "sha256": "dcc62267f7aa994d9d3f9201ccb923085268aac145c0a7a95a1c550e666e14d5",
+      "scroll_top": 0
+    },
+    {
+      "scene": "details",
+      "theme": "light",
+      "path": "screens/details-light.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 255993,
+      "sha256": "473e515da51c9e39fe1d0565ece18a937a59e90ee9efb0a53eb76143320a12d6",
+      "scroll_top": 0
+    },
+    {
+      "scene": "details",
+      "theme": "dark",
+      "path": "screens/details-dark.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 263093,
+      "sha256": "1754b34c0816867bfd6569196e256f15c34ddbf2572783cce4efadc8fae9fb33",
+      "scroll_top": 0
+    },
+    {
+      "scene": "energy",
+      "theme": "light",
+      "path": "screens/energy-light.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 263591,
+      "sha256": "90c8b16f9faf16c89c7ca5f603e685ffbcfa3c7a1f57c7964845677a94297e6a",
+      "scroll_top": 0
+    },
+    {
+      "scene": "energy",
+      "theme": "dark",
+      "path": "screens/energy-dark.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 269765,
+      "sha256": "f5a2d6e9ae36040c90e4506176df6e3d1511e431fa0d0a5ba9179884299783ce",
+      "scroll_top": 0
+    },
+    {
+      "scene": "gathering",
+      "theme": "light",
+      "path": "screens/gathering-light.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 258439,
+      "sha256": "500dca845dec0d54f85a561d440ded4b80ad457770687e25f07182019f1d8523",
+      "scroll_top": 0
+    },
+    {
+      "scene": "gathering",
+      "theme": "dark",
+      "path": "screens/gathering-dark.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 261852,
+      "sha256": "a54c259d392b27afff539e1a551396702f0368ad2aa429c912bea507f97ed1c6",
+      "scroll_top": 0
+    },
+    {
+      "scene": "plan",
+      "theme": "light",
+      "path": "screens/plan-light.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 243104,
+      "sha256": "3f9b63d780e3a998d4e3fe7bb0bc03833aac0e58806ca60bb14dce84766d24c1",
+      "scroll_top": 0
+    },
+    {
+      "scene": "plan",
+      "theme": "dark",
+      "path": "screens/plan-dark.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 247022,
+      "sha256": "6743feffda8771410960040b5218f5d139b0244d309a9dfde7250cb05ae2e3b2",
+      "scroll_top": 0
+    }
+  ]
+}

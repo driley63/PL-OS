@@ -62,3 +62,17 @@ class PlectaraDarkColors {
   static const info = Color(0xFF8BCDE4);
   static const ai = Color(0xFFB7A7FF);
 }
+
+class PlectaraLightComponentColors {
+  const PlectaraLightComponentColors._();
+  static const iconBacking = Color(0xFFE9F1ED);
+  static const aiBacking = Color(0xFFF0ECF8);
+  static const quietDivider = Color(0xFFD8DEDA);
+}
+
+class PlectaraDarkComponentColors {
+  const PlectaraDarkComponentColors._();
+  static const iconBacking = Color(0xFF24423F);
+  static const aiBacking = Color(0xFF263146);
+  static const quietDivider = Color(0xFF45616A);
+}

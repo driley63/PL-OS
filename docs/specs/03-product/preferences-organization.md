@@ -298,7 +298,7 @@ The approved references extend the current woven app language without redefining
 | AI backing / icon | `#F0ECF8` / `#6748D8` | `#263146` / `#B7A7FF` |
 | Attention foreground | `#845800` | `#E5B86A` |
 
-Reuse existing native token adapters where available. The quiet separator and icon backing are local component roles shared with the approved Insights direction, not new global brand colors. The reference uses consistent Lucide outline metaphors; native implementation maps them through the app's shared icon layer, preserving recognizability, weight, and optical size. Header/status glyphs and simulated home indicator are reference chrome, not replacements for OS UI.
+Reuse existing native token adapters where available. Icon backing, AI backing and the quiet separator now resolve through the shared `component.iconBacking`, `component.aiBacking`, and `component.quietDivider` registry and its generated CSS/Flutter exports. These are the same approved shades used by Insights; consuming-app adoption remains pending. The reference uses consistent Lucide outline metaphors; native implementation maps them through the app's shared icon layer, preserving recognizability, weight, and optical size. Header/status glyphs and simulated home indicator are reference chrome, not replacements for OS UI.
 
 ## Accessibility and adaptive behavior
 

@@ -6,6 +6,17 @@ The format follows Keep a Changelog conventions and the project uses semantic ve
 
 ## [Unreleased]
 
+### Shared component color registration
+
+- Registers the approved icon/relationship backgrounds, AI backgrounds and decorative divider as three shared light/dark component roles. Generates CSS/Flutter exports, synchronizes downloadable brand-kit copies, and binds Insights/Preferences references to the central registry without changing their rendered colors.
+- Adds 12 backing/foreground contrast checks, bringing the component suite to 152 passing checks.
+
+### Approved connection-led Insights amendment
+
+- Makes habit/symptom and wellbeing relationships the lead on Today and Insights, with named signals and succinct context; counts and period comparisons move into goal details. Goal chips filter the overview, and consistent card footers open the evidence.
+- Incorporates owner feasibility decisions: goal mapping, evaluated maturity with reasons, distinct-period recurrence, truthful timing/coverage, and evidence adapters for surfaced families. Retains current domain-based plans and defers the walking/sleep analyzer, new negative-outcome capture, and relationship-native plans.
+- Adds 12 scope-corrected high-fidelity references across six light/dark views, with exact evidence labels, /10 energy scale, neutral Possible Connection, source hashes and capture checks. The earlier 38-image comparison-first package remains historical. The documentation amendment and shared color registration are approved for publication; native implementation remains pending.
+
 ### Approved Preferences design
 
 - Adds the owner-selected Preferences Section Hub with Your Health, Settings, and Connections & Account, mapping all existing destinations into nine root entries.

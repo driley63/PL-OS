@@ -2,7 +2,8 @@
 
 Status: Approved for PL-OS v2.6.0
 Owner: Brand Working Group
-Last updated: 2026-09-28
+Last updated: 2026-10-27
+Shared component registration: Approved; unreleased
 
 ## Palette
 
@@ -35,10 +36,24 @@ Do not use purple for generic premium styling, navigation, or unrelated chart se
 
 The build checks 64 declared text/control pairs. See [contrast results](../02-design/plectara-contrast-report.md). This is not a complete accessibility audit of a consuming app.
 
-An additional [140 component checks](../02-design/plectara-component-contrast-report.md) cover enabled states, hints, chart strokes, selected surfaces, and filled actions. Added surfaces and composited treatments require separate measurements.
+An additional [152 component checks](../02-design/plectara-component-contrast-report.md) cover enabled states, hints, chart strokes, selected surfaces, and filled actions. Added surfaces and composited treatments require separate measurements.
 
 Change colors in the JSON source, regenerate adapters, check the preview in both themes, and update migration notes. [ADR-0011](../../adr/0011-adopt-plectara.md) supersedes the previous palette. Historical release records preserve the old values.
 
 ## Woven app component aliases
 
 The [App Visual Specification](../02-design/app-visuals.md) reuses the approved palette and saved yarn through local reading-card, navigation, chart, attention, and control-outline roles. [App design values](../../assets/app/plectara/app-visual-tokens.json) and measured fixtures define those variants without changing foundation primitives. Horizontal ink shading protects header content; it is not a new logo fill or replacement signature gradient.
+
+## Shared component colors
+
+The owner approved central registration of the existing Insights and Preferences supporting colors on October 27, 2026. They live in `component` within `assets/tokens/color.tokens.json`, alongside the foundation themes. This registers five previously unregistered shades; the light divider already used an approved app color. It does not recolor the approved designs or add brand primitives.
+
+| Shared role | Light | Dark | Permitted use |
+| --- | --- | --- | --- |
+| `component.iconBacking` | `#E9F1ED` | `#24423F` | Small goal/section icon containers and non-causal relationship bands; pair with theme text or link foregrounds |
+| `component.aiBacking` | `#F0ECF8` | `#263146` | Soft AI-specific backing; pair with the semantic AI foreground; never generic feature emphasis |
+| `component.quietDivider` | `#D8DEDA` | `#45616A` | Decorative internal separators on opaque reading surfaces; never a required control boundary or focus indicator |
+
+Use the generated `--plectara-component-icon-backing`, `--plectara-component-ai-backing`, and `--plectara-component-quiet-divider` variables, or the corresponding properties on `PlectaraLightComponentColors` / `PlectaraDarkComponentColors`. Insights and Preferences reference builders resolve the same registry. Consuming-app adoption remains implementation work.
+
+The component contrast report includes 12 additional checks for text, supporting text, links and AI foregrounds on these backings across both themes. The divider remains decorative and has no claim of meeting control-boundary contrast.

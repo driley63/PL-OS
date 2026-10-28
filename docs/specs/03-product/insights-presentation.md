@@ -1,6 +1,6 @@
 # Insights Presentation
 
-Status: Design and specification approved; implementation pending
+Status: Connection-led design, capability scope, and documentation approved for publication; implementation pending
 
 Owner: Product, Design System, and AI Working Groups
 
@@ -12,172 +12,95 @@ Decision: [ADR-0017](../../adr/0017-adopt-goal-led-insights-presentation.md), pr
 
 ## Purpose and authority
 
-Make findings easy to scan, understand, and act on without requiring the user to read a long narrative. Today answers **what deserves my attention now?** Insights answers **what are my records showing about my goals?** A selected goal explains its comparison, a connection opens its evidence, and optional AI review and chat help the user ask follow-up questions.
+Make findings easy to scan, understand, and act on. **Today** answers “what deserves my attention now?” **Insights** answers “what connections are appearing between my habits, symptoms, and wellbeing?” A goal card leads with a useful association and a short explanation; detailed evidence and ordinary period comparisons follow in the drilldown.
 
-The October 27 approved design governs this next presentation. This document specifies the information architecture, content, visual hierarchy, interaction, data requirements, and state behavior. The references show the approved appearance; the written contract defines behavior beyond a single screenshot. The design and detailed specification were approved for publication on October 27, 2026. Consuming-app implementation and a tagged release remain pending.
+This amendment carries the approved connection-led visual direction into PL-OS using the owner's [capability decisions](insights-findings-capabilities.md). It supersedes the earlier October 27 comparison-first landing page. Fixed goal names, **Filter Insights**, the stomach icon, automatic plan statuses, outlined plan buttons, and **Explore more about [Goal Name]** footers remain part of the design. Clinical rules, consent, cloud exclusions, and other app features retain their governing contracts.
 
-The earlier October 25 custom-goal, log-type filter, caffeine/sleep, and Flutter composition studies are superseded. The fixed goal catalog, one **Filter Insights** goal row, stomach icon, automatic plan statuses, outlined plan-management buttons, and **Explore more about [Goal Name]** footers below replace those studies. Existing clinical rules, record eligibility, consent, cloud exclusions, and unrelated app features retain their governing contracts.
+Goal mapping, evidence-based maturity assessment, and distinct-period recurrence are approved implementation requirements, **not claims about the shipping model**. The current reference uses **Possible Connection** until evaluated maturity criteria exist. It does not depict a walking/sleep analyzer, verified symptom-free meal follow-ups, or a plan that tracks a specific pair of signals. Those capabilities are deferred.
 
-The [final consistency review](insights-presentation-review.md) checks this design against the released PL-OS component contracts and the current consuming-app source. It records corrections to shared chrome and controls, intentional Insights-specific extensions, and the remaining native validation boundary.
+Sustained logging can improve the chance of identifying useful connections and understanding how consistently they appear. It never guarantees a finding, a symptom-free conclusion, or proof of causation. The [consistency review](insights-presentation-review.md) separates this amendment's checks from historical capture validation. The owner approved this documentation amendment for publication on 2026-10-27.
 
 ## Production intent screen references
 
 [Open the full-resolution reference gallery](../../assets/app/insights-presentation/index.html){ .md-button }
 
-The gallery contains **38 app-only PNGs: 19 views in each theme**, rendered directly from the approved design at **393 × 852 logical units and 1179 × 2556 pixels**. Fonts, icons, charts, and layout are rendered at 3×; these are not enlarged thumbnails. The canonical woven artwork continues behind the scrollable area. Both themes use opaque reading surfaces and the approved app geometry.
+The current gallery contains **12 app-only JPEGs: six views in each theme**, rendered at **393 × 852 logical units / 1179 × 2556 pixels**. Fonts, icons, charts, and layout are rasterized directly at 3×, without resizing a thumbnail. The canonical woven artwork continues behind the scroll area; reading surfaces stay opaque. Light and dark show identical fixture evidence.
 
-These are high-fidelity **browser-rendered design references**, not screenshots of a shipping app or native Flutter implementation. The capture contains no chat transcript, design-review caption, variant selector, browser chrome, or documentation page. The status bar and home indicator are illustrative. Scrolled references deliberately show the lower part of a screen with the header and navigation retained; they are not cropped substitutes for a complete screen.
+These are high-fidelity **browser-rendered design references**, not shipping Flutter screenshots or analyzer-verified personal records. Status bars, dates, records, and plan state are illustrative. No chat transcript, browser chrome, or review caption is embedded in the app images. Details and longer pages scroll naturally; an image does not imply the entire page must fit one viewport.
 
-Click an image to inspect its original pixels. The gallery pairs each light image with the same dark state and explains the pictured scroll position. [Reference manifest](../../assets/app/insights-presentation/approved-2026-10-27/references.json) records dimensions, hashes, scene state, source provenance, and capture method. A [single-screen reference](../../assets/app/insights-presentation/approved-2026-10-27/reference.html?scene=insights&theme=light&scale=1) preserves the inspectable layout. Numerical examples are review fixtures, not production defaults or clinical thresholds.
+[Manifest and source hashes](../../assets/app/insights-presentation/connections-first-2026-10-27/references.json) record capture dimensions, state, and provenance. [Inspectable reference](../../assets/app/insights-presentation/connections-first-2026-10-27/reference.html?scene=insights&theme=light&scale=1) supports the principal navigation for design review. Individual diary records and AI responses are not implemented by this reference.
 
-<!-- APPROVED_GALLERY_START -->
-### Today and Insights
+<!-- CONNECTIONS_GALLERY_START -->
+### Insights Overview
 
-**Today** — Compact automatic plan tracking, one new finding, and the existing progress section.
-
-| Light | Dark |
-| --- | --- |
-| [![Today in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/today-light.png?v=7bcd65ccb042){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/today-light.png?v=7bcd65ccb042) | [![Today in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/today-dark.png?v=307fa920ee51){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/today-dark.png?v=307fa920ee51) |
-
-**Insights · Overview** — Saved fixed goals in one Filter Insights row, optional AI review, and takeaway-first goal cards.
+Potential habit/outcome links lead; fixed goals filter the overview. Counts and comparisons are in details.
 
 | Light | Dark |
 | --- | --- |
-| [![Insights · Overview in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/insights-light.png?v=7dd484c2fe80){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/insights-light.png?v=7dd484c2fe80) | [![Insights · Overview in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/insights-dark.png?v=f05fc2a7110d){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/insights-dark.png?v=f05fc2a7110d) |
+| [![Insights Overview — light](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/insights-light.jpg?v=15070eee405d){ width="280" loading="lazy" }](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/insights-light.jpg?v=15070eee405d) | [![Insights Overview — dark](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/insights-dark.jpg?v=fcbc5b016708){ width="280" loading="lazy" }](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/insights-dark.jpg?v=fcbc5b016708) |
 
+### Today
 
-??? example "Goal summaries and comparisons — light and dark references"
+Existing domain-based meal/symptom plan and one local activity/energy finding. Plan status comes from logs.
 
-    **Insights · More Goal Cards** — Activity and energy summaries use the same Explore more about [Goal Name] footer.
+| Light | Dark |
+| --- | --- |
+| [![Today — light](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/today-light.jpg?v=50a5d1becd9e){ width="280" loading="lazy" }](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/today-light.jpg?v=50a5d1becd9e) | [![Today — dark](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/today-dark.jpg?v=dcc62267f7aa){ width="280" loading="lazy" }](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/today-dark.jpg?v=dcc62267f7aa) |
 
-    | Light | Dark |
-    | --- | --- |
-    | [![Insights · More Goal Cards in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/insights-lower-light.png?v=670f79e19434){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/insights-lower-light.png?v=670f79e19434) | [![Insights · More Goal Cards in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/insights-lower-dark.png?v=b72c019c700e){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/insights-lower-dark.png?v=b72c019c700e) |
+### Better Digestion · Evidence
 
-    **Be More Active** — A complete period comparison with sample context, followed by a possible connection.
+Logged meal/bloating co-occurrence with honest bidirectional timing, denominators and missing-observation limits.
 
-    | Light | Dark |
-    | --- | --- |
-    | [![Be More Active in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-activity-light.png?v=386878615198){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-activity-light.png?v=386878615198) | [![Be More Active in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-activity-dark.png?v=b458da546ddc){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-activity-dark.png?v=b458da546ddc) |
+| Light | Dark |
+| --- | --- |
+| [![Better Digestion · Evidence — light](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/details-light.jpg?v=473e515da51c){ width="280" loading="lazy" }](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/details-light.jpg?v=473e515da51c) | [![Better Digestion · Evidence — dark](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/details-dark.jpg?v=1754b34c0816){ width="280" loading="lazy" }](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/details-dark.jpg?v=1754b34c0816) |
 
-    **Better Digestion** — The approved stomach icon, supported percentages, and explicit missing sample context.
+### More Energy · Evidence
 
-    | Light | Dark |
-    | --- | --- |
-    | [![Better Digestion in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-digestion-light.png?v=334d2506c781){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-digestion-light.png?v=334d2506c781) | [![Better Digestion in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-digestion-dark.png?v=7691f34d6645){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-digestion-dark.png?v=7691f34d6645) |
+Same-day activity/energy averages on the actual /10 scale, with rated-day counts. Device-only; no AI follow-up.
 
-    **More Energy** — Local energy comparison; device-only information is supporting text, never a navigation label.
+| Light | Dark |
+| --- | --- |
+| [![More Energy · Evidence — light](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/energy-light.jpg?v=90c8b16f9faf){ width="280" loading="lazy" }](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/energy-light.jpg?v=90c8b16f9faf) | [![More Energy · Evidence — dark](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/energy-dark.jpg?v=f5a2d6e9ae36){ width="280" loading="lazy" }](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/energy-dark.jpg?v=f5a2d6e9ae36) |
 
-    | Light | Dark |
-    | --- | --- |
-    | [![More Energy in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-energy-light.png?v=def61dc5d770){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-energy-light.png?v=def61dc5d770) | [![More Energy in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-energy-dark.png?v=8ab81c19ebe1){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-energy-dark.png?v=8ab81c19ebe1) |
+### Still Gathering Context
 
-    **Better Sleep** — A missing direct comparison can coexist with a relevant connection and plan.
+The selected fixed goal has no eligible relationship yet. No promise that additional logs guarantee one.
 
-    | Light | Dark |
-    | --- | --- |
-    | [![Better Sleep in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-sleep-light.png?v=dcb463a8730f){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-sleep-light.png?v=dcb463a8730f) | [![Better Sleep in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-sleep-dark.png?v=184d735d0db4){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-sleep-dark.png?v=184d735d0db4) |
+| Light | Dark |
+| --- | --- |
+| [![Still Gathering Context — light](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/gathering-light.jpg?v=500dca845dec){ width="280" loading="lazy" }](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/gathering-light.jpg?v=500dca845dec) | [![Still Gathering Context — dark](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/gathering-dark.jpg?v=a54c259d392b){ width="280" loading="lazy" }](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/gathering-dark.jpg?v=a54c259d392b) |
 
+### Domain Plan · Management
 
-??? example "Evidence, plans, AI review, and chat — light and dark references"
+Current meal/symptom plan, conditional symptom logging, automatic status, and outlined Pause/End controls.
 
-    **Connection Evidence** — Sleep and activity linked without a causal arrow; explicit comparison groups and counts.
+| Light | Dark |
+| --- | --- |
+| [![Domain Plan · Management — light](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/plan-light.jpg?v=3f9b63d780e3){ width="280" loading="lazy" }](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/plan-light.jpg?v=3f9b63d780e3) | [![Domain Plan · Management — dark](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/plan-dark.jpg?v=6743feffda87){ width="280" loading="lazy" }](../../assets/app/insights-presentation/connections-first-2026-10-27/screens/plan-dark.jpg?v=6743feffda87) |
 
-    | Light | Dark |
-    | --- | --- |
-    | [![Connection Evidence in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/connection-light.png?v=a88cb99b6eaf){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/connection-light.png?v=a88cb99b6eaf) | [![Connection Evidence in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/connection-dark.png?v=301ce71d7a2c){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/connection-dark.png?v=301ce71d7a2c) |
+<!-- CONNECTIONS_GALLERY_END -->
 
-    **Plan · Today’s Records** — Automatic statuses derive from required log fields, with Add Entry and View Entry actions.
+The [previous comparison-first gallery](../../assets/app/insights-presentation/previous-goal-comparison-gallery.html) remains historical. Its 38 captures do not override the new hierarchy, fixtures, maturity requirements, or plan scope. The written AI, care, and plan-state requirements below continue to govern states not pictured in the current six-view gallery.
 
-    | Light | Dark |
-    | --- | --- |
-    | [![Plan · Today’s Records in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/plan-light.png?v=c90f76b679aa){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/plan-light.png?v=c90f76b679aa) | [![Plan · Today’s Records in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/plan-dark.png?v=8f62dd724004){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/plan-dark.png?v=8f62dd724004) |
+## Information architecture
 
-    **Plan · Manage** — Pause Plan and End Plan are full-width outlined buttons with distinct icons and emphasis.
-
-    | Light | Dark |
-    | --- | --- |
-    | [![Plan · Manage in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/plan-manage-light.png?v=b4a12db85634){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/plan-manage-light.png?v=b4a12db85634) | [![Plan · Manage in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/plan-manage-dark.png?v=80dbe0988d30){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/plan-manage-dark.png?v=80dbe0988d30) |
-
-    **AI Review · Takeaways** — Three short takeaways link back to the underlying goal comparison or connection evidence.
-
-    | Light | Dark |
-    | --- | --- |
-    | [![AI Review · Takeaways in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/ai-review-light.png?v=ecbaac60feb4){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/ai-review-light.png?v=ecbaac60feb4) | [![AI Review · Takeaways in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/ai-review-dark.png?v=55f09d8f5b0a){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/ai-review-dark.png?v=55f09d8f5b0a) |
-
-    **AI Review · Explanation** — Expanded explanation, explicit sharing scope, and suggested follow-up questions.
-
-    | Light | Dark |
-    | --- | --- |
-    | [![AI Review · Explanation in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/ai-review-more-light.png?v=2d71257f9243){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/ai-review-more-light.png?v=2d71257f9243) | [![AI Review · Explanation in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/ai-review-more-dark.png?v=ca105998a9f7){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/ai-review-more-dark.png?v=ca105998a9f7) |
-
-    **Contextual Follow-Up Chat** — Visible finding context, a sample exchange, and an editable follow-up composer.
-
-    | Light | Dark |
-    | --- | --- |
-    | [![Contextual Follow-Up Chat in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/chat-light.png?v=e9dca23b0b9e){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/chat-light.png?v=e9dca23b0b9e) | [![Contextual Follow-Up Chat in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/chat-dark.png?v=939fd54e120e){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/chat-dark.png?v=939fd54e120e) |
-
-
-??? example "Empty, unavailable, and alternate states — light and dark references"
-
-    **Goal · Gathering Context** — The exact fixed goal name and the specific missing evidence; no invented progress score.
-
-    | Light | Dark |
-    | --- | --- |
-    | [![Goal · Gathering Context in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-waiting-light.png?v=03e36b0d8471){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-waiting-light.png?v=03e36b0d8471) | [![Goal · Gathering Context in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-waiting-dark.png?v=356c583a8491){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/goal-waiting-dark.png?v=356c583a8491) |
-
-    **Plan · Paused** — Resume Plan replaces Pause Plan; diary records remain available.
-
-    | Light | Dark |
-    | --- | --- |
-    | [![Plan · Paused in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/plan-paused-light.png?v=678760cc3b29){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/plan-paused-light.png?v=678760cc3b29) | [![Plan · Paused in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/plan-paused-dark.png?v=4407f28a1eb7){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/plan-paused-dark.png?v=4407f28a1eb7) |
-
-    **Plan · Assessment** — Insufficient comparable records are an assessment outcome, not success or failure.
-
-    | Light | Dark |
-    | --- | --- |
-    | [![Plan · Assessment in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/plan-assessment-light.png?v=25def0e702e5){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/plan-assessment-light.png?v=25def0e702e5) | [![Plan · Assessment in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/plan-assessment-dark.png?v=9053b3342de9){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/plan-assessment-dark.png?v=9053b3342de9) |
-
-    **Insights · AI Off** — Local goal summaries and plans remain available when AI features are off.
-
-    | Light | Dark |
-    | --- | --- |
-    | [![Insights · AI Off in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/insights-ai-off-light.png?v=9a74172d5f5e){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/insights-ai-off-light.png?v=9a74172d5f5e) | [![Insights · AI Off in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/insights-ai-off-dark.png?v=ad04fa3be7f3){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/insights-ai-off-dark.png?v=ad04fa3be7f3) |
-
-    **Insights · Early Records** — Saved goals remain discoverable while comparisons are still taking shape.
-
-    | Light | Dark |
-    | --- | --- |
-    | [![Insights · Early Records in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/insights-early-light.png?v=aaee09a0ec1a){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/insights-early-light.png?v=aaee09a0ec1a) | [![Insights · Early Records in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/insights-early-dark.png?v=82c3514baf7c){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/insights-early-dark.png?v=82c3514baf7c) |
-
-    **Insights · Care Notice** — A report-level care notice remains above filtered content; this does not define a clinical trigger.
-
-    | Light | Dark |
-    | --- | --- |
-    | [![Insights · Care Notice in light appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/care-light.png?v=53fdf59a3bcf){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/care-light.png?v=53fdf59a3bcf) | [![Insights · Care Notice in dark appearance](../../assets/app/insights-presentation/approved-2026-10-27/screens/care-dark.png?v=c9934e02ae82){ width="280" loading="lazy" }](../../assets/app/insights-presentation/approved-2026-10-27/screens/care-dark.png?v=c9934e02ae82) |
-
-
-<!-- APPROVED_GALLERY_END -->
-
-## Presentation structure
-
-| Surface | Primary job | Content and destination |
+| Surface | User question | Content order |
 | --- | --- | --- |
-| Today | Brief daily orientation | Applicable care notice, compact active plan, one new/useful finding, existing Your Progress; See All Insights opens All Goals |
-| Insights · All Goals | Compare what matters across saved goals | Filter Insights, optional overall AI entry, one summary per goal with findings, Still Gathering Context, Other Findings, active plan |
-| Selected goal | Explain the result for this goal | Complete direct comparison where supported, missing-evidence state otherwise; relevant connections, relevant plan, eligible follow-up action |
-| Connection evidence | Explain a possible relationship | Named signals and cohorts, common-scale values, counts, limitations, source records, optional scoped chat and plan |
-| AI Review | Provide a brief overall interpretation | Up to three linked takeaways, expandable explanation and context scope, suggested follow-up questions |
-| Chat | Ask follow-up questions | Explicit overall/finding context, permitted evidence scope, conversation, editable question, explicit Send |
-| Plan | Collect and assess relevant records | Source finding, question, observation period, automatic record status, scope disclosures, Pause/Resume and End, eventual assessment |
+| Today | What is useful today? | Applicable care notice, compact current plan, one useful relationship or meaningful-change fallback, existing Your Progress and logging |
+| Insights overview | What links are appearing for my goals? | Care context, Filter Insights and freshness, connection-led summaries, gathering-context goals, optional eligible AI entry, Other Findings, active plan |
+| Goal details | What supports this finding? | Leading relationship and short context, actual evidence and limitations, supporting records, secondary findings and period comparisons, permitted follow-up |
+| Additional finding details | What supports another result? | Same evidence anatomy, with a distinct stable relationship identity and evidence version |
+| AI Review / chat | What questions could I explore? | Independently attributed, eligible context and optional explanation; never needed to read local evidence |
+| Plan | What records does this plan follow? | Existing domain-based local plan, automatic record status, scope, management, supported assessment |
 
-A simple goal comparison is fully explained in the selected-goal view. Do not add another page that only repeats the same comparison. A relationship that needs cohort interpretation has its own connection-evidence route. AI review and chat are separate optional destinations, not additional layers required to understand local evidence.
+The first goal-detail view explains its leading finding directly. Do not introduce a second required tap to reveal the same evidence. A secondary finding can open its own detail. Optional AI prose does not displace local findings.
 
 ### Navigation and return behavior
 
 - Preserve the current five app tabs: **Today, Timeline, Charts, Chat, Insights**. Use the existing routes; this design does not reinstate the older four-tab shell.
 - Preserve the app's Material navigation icons and their selected variants. Keep the existing **Preferences** gear on Today and Insights, with its protected ink backing. The new **Insights Options** overflow is a separate action for saved/hidden findings and related options; it does not replace Preferences. Prototype handoffs do not implement the existing Preferences screen.
-- Selecting a goal chip or its summary opens the same selected-goal view. Preserve goal identity, finding identity, and evidence version across these entry points.
+- Selecting a goal chip filters the overview in place; it does not open a detail page. Selecting the summary (including its footer) opens that goal’s leading finding and detail. Preserve selected goal, relationship identity, and evidence version through navigation.
 - The whole summary card is one accessible action. Its footer describes that action; do not nest a separate competing link inside the card.
 - Returning from evidence, plan, or contextual chat restores the originating goal, scroll offset, and expanded disclosures. Returning to All Goals restores the originating card position when navigation came from that list.
 - The chosen goal persists during refresh. If it loses findings, keep the selection and explain the data gap. If the goal is no longer saved/available, return to All Goals and explain the change without inventing a replacement goal.
@@ -192,9 +115,9 @@ A simple goal comparison is fully explained in the selected-goal view. Do not ad
 
 Use each exact catalog label in Capital Case, including punctuation and the lowercase **a** in **See If a Treatment Is Working**. Do not apply automatic title casing or derive identity from visible text. Profile selection determines which fixed labels appear; it does not supply arbitrary wording. **Fewer, Milder Symptoms** is always included by the current app profile contract. An uninitialized/invalid goal selection still leaves All Goals usable.
 
-Selection updates immediately, with a check and an accessible selected state. Keep the full label; let the row scroll rather than abbreviating it or opening another step. Reveal the selected chip when needed. At larger text sizes, the row remains horizontally scrollable, while content below reflows vertically. A result count, if announced, counts the displayed goal summaries rather than misleadingly counting the same multi-goal finding twice.
+Selection updates immediately, with a check and an accessible selected state. Keep the full label; let the row scroll rather than abbreviating it or opening another step. Reveal the selected chip when needed. At larger text sizes, the row remains horizontally scrollable, while content below reflows vertically. A result count, if announced, counts distinct displayed relationships, not duplicate goal mappings. Changes and gathering-context states are not counted as new relationships.
 
-The filter panel includes **Rule-Derived · On Your Device** as a shared source label for the local comparisons and connections below. The separately labeled AI entry opens an independently attributed review. Today includes **New Finding · Rule-Derived** on its highlight; connection detail includes **Rule-Derived · Possible Connection** and its period/device context. Source attribution must remain visible without forcing every summary to repeat a large badge.
+The filter panel includes **Rule-Derived · On Your Device** as a shared source label for the local comparisons and connections below. The separately labeled AI entry opens an independently attributed review. Today includes **New Finding · Rule-Derived** on its highlight; connection detail includes **Rule-Derived · On Your Device**, a separate **Possible Connection** or evaluated maturity label, and its actual observation period. Source attribution must remain visible without forcing every summary to repeat a large badge.
 
 ### Goal labels and icons
 
@@ -223,8 +146,8 @@ Cycle availability follows `HealthGoal.availableFor`; this presentation does not
 ### Order and density
 
 1. **Applicable care notice.** Rule-derived urgent context leads the region and keeps its required wording and scope.
-2. **Today's Plan**, when relevant. Show actual plan title, day/status, concise automatic record rows, and View Plan. The sample is Sleep and Activity Check, Day 6 of 14.
-3. **One new/useful finding.** Goal icon and exact label, New Finding when justified, factual takeaway, values and periods, sample context, relevant connection count, and the standard goal footer.
+2. **Today's Plan**, when relevant. Show actual plan title, day/status, concise automatic record rows, and View Plan. The sample is Two-Week Meal and Symptom Check, Day 6 of 14, using the existing meal/symptom domain template.
+3. **One new/useful finding.** Goal icon and exact label, New Finding when justified, connection status, named signal pair, factual takeaway, short context/limitation, and the standard goal footer. Period totals and log counts are supporting detail, not the highlight’s main message.
 4. **Your Progress** and other existing Today content. Preserve actual rewards and logging controls; do not convert rewards into a health score.
 5. **See All Insights**, opening Insights with All Goals.
 
@@ -238,86 +161,90 @@ If there is no newly useful finding, show **You're Up to Date** with access to e
 
 ### Compact plan rows
 
-Rows show a status icon, record type, and derived status text. They are **not editable checkboxes**. In the compact Today card, View Plan is the route to the record controls. Show **Tracked from your logs** to explain the automatic behavior. A check means the required record information exists for the applicable day; it never means a health outcome was achieved.
+Rows show a status icon, record type, and derived status text. They are **not editable checkboxes**. In the compact Today card, View Plan is the route to the record controls. Show **Tracked from your logs** to explain the automatic behavior. A check means the required record information exists for the applicable day; it never means a health outcome was achieved. Conditional symptom logging says **When Noticed** rather than showing an overdue daily symptom task. The absence of a symptom log is unknown.
 
 ## Insights overview
 
-### All Goals order
+### All Goals order and selection
 
-| Order | Region | Required behavior |
-| --- | --- | --- |
-| 1 | Care context | Remains visible regardless of goal selection or AI state |
-| 2 | Filter Insights and freshness | One functional group; timestamp is the actual successful local analysis, not the last attempt or AI refresh |
-| 3 | A Closer Look With AI | Compact purple-accent entry when the optional overall review is available; concise scope-specific subtitle |
-| 4 | Goal summaries | One summary for each saved goal with eligible comparison or connection evidence |
-| 5 | Still Gathering Context | Compact rows for saved goals without an eligible finding; exact labels and relevant missing-data destinations |
-| 6 | Other Findings | Access to supported observations outside saved goals; never force an unrelated finding into a goal |
-| 7 | Your Active Plan | Global access to the existing plan, preserving actual state |
+1. Required care context, independently of filter or AI state.
+2. **Filter Insights**, actual successful local analysis timestamp, and **Rule-Derived · On Your Device**.
+3. Connection-led summaries. Prefer eligible relationships over simple progress comparisons, even when a direct goal comparison is available.
+4. **Still Gathering Context** for selected goals without supported findings.
+5. **A Closer Look With AI**, when available and scoped to eligible findings. It follows local findings and does not summarize excluded wellbeing goals.
+6. **Other Findings** for useful results outside selected goals, followed by global active-plan access.
 
-Keep goal order stable using the product's saved/catalog order. Do not reshuffle on every AI generation. A supported comparison leads a goal card; a relevant connection can lead when no direct comparison is available. The Better Sleep example explicitly says that its sleep progress comparison is not yet available while still exposing the sleep–activity connection.
+Use reviewed mappings from finding code, outcome/measure, factor, and timing to the fixed goal keys. Do not infer goal identity from AI prose. For example, meal/bloating evidence can serve Better Digestion and Fewer, Milder Symptoms; an activity/energy association serves More Energy and remains device-only. Unrelated findings must not be forced into a goal.
 
-All Goals is organized by goal, not one card for every raw analyzer output. The same relationship may be relevant to Better Sleep and Be More Active, but retains **one finding identity and evidence version**. Do not count it as two independent discoveries or duplicate it inside a selected goal. All eligible results must remain reachable; a concise overview must not silently discard secondary evidence.
+Preserve stable goal/catalog ordering. Within a goal, prefer an eligible relationship using evidence adequacy, goal relevance, freshness, and material change. Do not rank solely by log volume, dramatic wording, or a high AI confidence label. Care notices have separate precedence. If several relationships qualify, show one lead and expose the remainder in details.
+
+**Shared relationships:** All Goals displays a relationship once, under its most specific eligible selected goal; use a deterministic mapping priority and catalog order for ties. Every other mapped goal still exposes that same relationship when selected. The detail identifies other related goals. Shared mappings retain one identity, evidence version, and review state. This is deduplication of presentation, not suppression of evidence. The reference shows the meal/bloating finding under Better Digestion in All Goals and under Fewer, Milder Symptoms when that chip is selected.
 
 ### Summary-card anatomy
 
-| Region | Required content | Hierarchy |
+| Region | Content and hierarchy |
+| --- | --- |
+| Identity | Exact goal label and its icon; stable anchor |
+| Status | Possible Connection until assessment is available; evaluated Developing Pattern or Consistent Pattern with a concise reason when supported |
+| Signal relationship | Named habit/factor and symptom/outcome linked without a directional arrow; iconography reinforces both endpoints |
+| Takeaway | Strongest prose: one factual association, typically one or two lines at default size; never force a line clamp |
+| Context | One short sentence naming the time/quality basis or important limitation; no unsupported causal or recurrence claims |
+| Footer | **Explore more about [Goal Name]**, divider and chevron; entire card is one action |
+
+**Examples:** “Bloating was logged near dairy-tagged meals.” / “Seen in the past 14 days. Unlogged symptoms could affect this pattern.” And “Energy ratings were higher on days with logged activity.” / “Seen in recent rated days. Missing activity logs can affect the comparison.”
+
+Do not put two weeks of entry counts and the previous two weeks of counts at the center of a relationship card. Counts, scales, and chart denominators remain essential evidence and are visible in details. When no relationship qualifies, a supported meaningful change can lead with **Change Observed**, a specific outcome, and “No clear connection yet” when accurate. Do not manufacture a relationship to fill space. Logging activity alone is not health improvement.
+
+An empty goal uses **Still Gathering Context** and a specific record suggestion without a promise that N more logs will create a finding. Keep its exact goal identity. Larger text expands cards and footers vertically; goal names are never truncated. Device-only text is a non-interactive detail note, never a footer label.
+
+## Goal details and evidence
+
+### Detail order
+
+1. Exact goal, local source, connection status, named signal pair, complete takeaway, and short context.
+2. Actual observation window, named comparison groups, values/units, numerator/denominator or rated-day counts, and a common scale where the adapter supplies them.
+3. Essential limitations beside that evidence. **How to Read This Pattern** explains timing, eligibility, missing records, and other plausible influences. Extra methodology may expand; limitations cannot be hidden behind a disclosure.
+4. **Browse the Supporting Records**, only when structured references or a reproducible, versioned selection identify the actual supporting set. Otherwise use **View Logs From This Period** and state that the broader period is not the exact evidence set.
+5. Other mapped goals, additional findings, and secondary direct goal comparisons. Do not repeat the leading finding as another discovery.
+6. Optional **Ask About This Pattern**, subject to shareability and consent. More Energy has a local-device note and no finding-specific AI action.
+7. An existing related domain plan, or eligible domain-plan preview. A global unrelated plan stays on Today/overview, not under this detail.
+
+### Surfaced evidence adapters and corrected fixtures
+
+Only families actually surfaced need the first adapters. Required fields must come from structured evidence, never generated prose. When an analyzer has only a supported text observation, show it honestly without inventing averages or bars.
+
+| Family | Current reference | Calculation meaning and limitation |
 | --- | --- | --- |
-| Goal identity | Fixed goal icon and exact label | Stable semantic anchor; label at medium weight |
-| Takeaway | One concrete observation | Strongest prose in the card; e.g. You logged 120 more active minutes |
-| Comparison | Current value, unit, previous value when supported | Current value emphasized; previous period remains readable |
-| Time and coverage | Actual windows, counts, unknown prior coverage, essential qualifier | Visible supporting text, never fabricated or tooltips only |
-| Connection context | Actual count or brief relevance statement when present | Supporting content above the footer, not the navigation label |
-| Footer | **Explore more about [Goal Name]** + trailing chevron | Consistent wording, alignment, color, and divider across all goal summaries |
+| Meal-tag / symptom co-occurrence | Dairy-tagged meals: **3 of 8 (38% rounded)**. Meals without a dairy tag: **3 of 12 (25%)**. Oct 12–25. | Denominators are all eligible tagged/untagged logged meals. Numerators are meals with logged bloating within **four hours before or after**. The first bar uses the exact 37.5%, rounded only in text. No symptom log is unknown, not an observed symptom-free follow-up. |
+| Wellbeing / activity association | Average energy **7.2/10** on **7 rated days with logged activity**, versus **5.1/10** on **6 rated days without an activity log**. Oct 12–25. | Same-day rated-day groups; missing energy ratings are excluded, not zero. No activity log is not verified inactivity. No claim about walking, same-night sleep quality, or causal order. Device-only. |
 
-Examples: **Explore more about Better Digestion**, **Explore more about Be More Active**, and **Explore more about More Energy**. Use the exact goal text after the prefix, even when it forms a less conversational phrase. Do not substitute View comparison, 1 possible connection, Explore this connection, or Stays on this device for this footer.
+The values are illustrative fixtures shaped to existing analyzer families, not an end-to-end analyzer test. The meal example's 12.5 percentage-point gap does not meet the currently audited 25-point care-gap condition; production always consumes the analyzer's actual urgency. Do not change fixtures to bypass a real notice. The earlier 4-of-6 versus 2-of-12 fixture would require the applicable care treatment and cannot offer an otherwise ineligible plan preview.
 
-Device-only attribution is a non-interactive note in the selected-goal view. It is not an action label. Footer text wraps for long goal names and larger text without truncating meaning; the chevron remains visible. A screen-reader announcement includes the goal, takeaway, period, and destination without reading decorative glyphs.
+Use “near” or “within four hours, before or after” for current bidirectional meal matching. “After” is permitted only after the calculation actually enforces an explicit directional lag, including boundary and overlapping-meal attribution rules. One symptom can be near multiple meals; matched-meal counts are not unique symptom episodes. A meal without a dairy tag is not verified dairy-free.
 
-## Selected-goal view
+Bars share a zero baseline. Percentages use 0–100%; energy and sleep quality use the actual **0–10** scale. Include both group labels, units and counts in accessible text. Do not use “Other Recorded Days,” “No Walk Reported,” “Healthy Days,” or “No Symptoms” as unsupported comparator labels. A two-group aggregate cannot be rendered as an invented time series or target ring.
 
-Keep the Filter Insights row and selected goal visible at the start of the view. Below it, show the following in order:
+### Evidence identity, recurrence, and maturity
 
-1. Goal icon and exact label, with **Change in Your Records** when a comparison exists.
-2. Concrete takeaway and the **complete supported comparison**.
-3. **About This Comparison**, an expandable plain-language explanation of measurement, periods, coverage, and local calculation.
-4. **View Logs From This Period**, opening Timeline with relevant record types and dates. These are period records and can include entries outside the calculation; do not label them all as supporting evidence.
-5. Device-only note when applicable.
-6. Relevant **Possible Connection** cards, then the related plan if one exists.
-7. **Ask About This Finding**, only when the finding is shareable and chat eligibility/consent permits that route.
+**G1, G2, and G3-lite are required implementation work.** Full scope and deferred work are recorded in [Findings Capabilities](insights-findings-capabilities.md).
 
-The comparison and any material limitation are visible by default. Methodological detail may expand. Do not make the user open a second page solely to see the same two values. Do not show the sleep/activity plan under Better Digestion or More Energy solely because it is the account's active plan.
+A relationship key identifies its signals, outcome, timing/lag and calculation definition, independent of generated wording, current metrics, and refresh time. A separate evidence version records the actual observations, period and method version. Dairy/bloating and dairy/headache are distinct; correcting a source entry updates the evidence version without creating a new relationship identity unless the relationship definition changes.
 
-### Comparison rules
-
-| Example | Rendered evidence | Required interpretation |
+| Display state | Required basis | UI behavior |
 | --- | --- | --- |
-| Be More Active | 560 min vs 440 min; 10 active days in each period | Recorded duration increased by 120 minutes; active-day count did not increase |
-| Better Digestion | 20% vs 67%; 2 of 10 recent logs; earlier count unavailable | Percentages describe logged bowel movements; the earlier denominator remains unknown |
-| More Energy | 5.9/10 vs 3.8/10; 12 rated days; earlier count unavailable | Recorded average ratings changed; missing ratings are not zero; device-only |
-| Better Sleep | No direct progress comparison; sleep–activity relationship exists | Distinguish a missing comparison from absence of all relevant evidence |
+| Possible Connection | Eligible analyzer association; no evaluated shared maturity result yet | Neutral link icon and the actual limitation; no implied consistency grade |
+| Developing Pattern | Evaluated comparable evidence supports an exploratory association, but a documented coverage/recurrence limitation remains | Status plus short reason, such as a limited comparison period; reason must be supplied by the assessment |
+| Consistent Pattern | Documented assessment finds adequate comparable coverage and repeatable direction across distinct periods, with conflicts and staleness accounted for | Status plus concise explanation of the assessed basis; not proof of cause |
+| Conflicting / no longer supported | Assessed contradictory, removed, or inadequate evidence | Explain the changed basis; downgrade or withdraw the claim and chart as appropriate |
+| Stale | Assessment says evidence is no longer current | Actual dates, clear stale qualifier, and refresh path; never retain an unqualified Consistent Pattern label |
 
-Use two horizontal bars with a common zero baseline and scale, explicit period labels, values, units, and counts. Percentage scales end at 100%; rating scales use the actual scale endpoint; totals share a meaningful common maximum. Do not invent a time series from two aggregates or a progress ring without a real target. Earlier values use the secondary comparison role, not an arbitrary success/failure color.
+A maturity result includes status, short reason, evaluated criteria version, comparable coverage, assessed distinct periods, consistency, conflicts, and freshness. Define and validate family-appropriate thresholds before enabling labels; this design does not invent a universal number of entries or weeks. Duplicates and overlapping refreshes cannot promote maturity. AI prose and a care-related analyzer `strong` flag cannot assign maturity. Care urgency and evidence maturity remain separate.
 
-If the comparator or required value is absent, explain the unavailable comparison rather than substituting zero. If a supplied percentage is valid but its historical sample count is unavailable, show the percentage with that explicit limitation. Use **recorded**, **logged**, or **rated** to avoid claiming complete knowledge of daily life. The screenshot's Bristol grouping and time periods are fixtures; production definitions come from the analyzer.
+G3-lite stores or reproducibly reconstructs the actual distinct periods assessed, their support/contradiction, and evidence versions. Three reruns of the same fortnight are not three independent weeks. A numerical recurrence sentence appears only when those distinct periods support it. The rich per-week panel and general long-horizon evidence warehouse are deferred. Editing/deleting records must invalidate affected assessments and allow downgrades.
 
-## Connection evidence and source records
+### Supporting records and return behavior
 
-### Finding detail anatomy
-
-A connection card uses signal icons and names separated by a thin non-directional link: **Sleep — link — Activity**. Do not use a causal arrow, decorative correlation network, or confidence ring. The card states the association in plain language and exposes **Explore the evidence**; this differs from a goal footer because it opens a different destination.
-
-The evidence screen presents source/type and observation period, the signal relationship, complete claim, two named comparison groups, values and counts, a visible limitation, **How to Read This Comparison**, **Browse Sleep and Activity Logs**, optional AI follow-up, and the related plan or eligible plan preview.
-
-The reviewed example compares **After short or poor sleep** with **No short/poor-sleep flag**. Activity was logged on **1 of 5 days (20%)** in the first group and **9 of 9 days (100%)** in the second. These labels describe the analyzer's flag, not proof that the second group slept well. Retain that explanation. Do not rename the second group Other Recorded Days, Healthy Sleep, or No Sleep Problems.
-
-The visible limitation is **This is an association, not evidence that sleep caused the difference.** Supporting explanation notes that missing records, symptoms, and other routines may affect the apparent relationship. Absence of an activity log is not proof of inactivity. No symptom record is not proof of being symptom-free.
-
-### Evidence navigation
-
-- Open by stable finding ID plus evidence version. A refresh cannot silently change the basis of a detail already being read; disclose when newer evidence exists.
-- Browse actions open the existing Timeline with an explicit period/type filter and a clear exit. A general period query is distinct from the exact supporting-entry set.
-- Use actual evidence references for an action labeled as supporting evidence. If entries have been deleted or become inaccessible, explain the gap and reevaluate the finding's eligibility.
-- Do not parse numbers, dates, or entry IDs out of generated prose. A missing structured link changes the available action.
+Open details by relationship key plus evidence version. Refresh must not silently replace evidence while it is being read; disclose newer evidence. Links to deleted/inaccessible records explain the gap and trigger reassessment. Preserve the originating goal filter, scroll position and disclosures on return. Browsing the overview does not mark all evidence reviewed. AI rewording alone is not a new finding.
 
 ## AI Review and chat
 
@@ -344,19 +271,21 @@ An earlier review begins with **Newer Records Are Available** and keeps its orig
 
 AI Review and AI Chat are separate preferences. Turning either off does not remove local comparisons, connections, plans, or logging. A disabled or unavailable service provides its state and the appropriate preferences/retry destination; it does not insert filler explanation.
 
-Only eligible structured findings permitted by the user enter AI context. The presentation does not grant new sharing permission for full diary records, notes, photos, excluded entries, or device-only domains. Energy, mood, stress, and cycle remain excluded, including indirectly through profile goal names, overall summaries, saved items, and suggested questions. More Energy therefore has local comparison details and a device-only note, but no finding-specific AI action. These rules also apply to deep links and restored navigation state.
+Only eligible structured findings permitted by the user enter AI context. The presentation does not grant new sharing permission for full diary records, notes, photos, excluded entries, or device-only domains. Energy, mood, stress, and cycle remain excluded, including indirectly through profile goal names, overall summaries, saved items, and suggested questions. More Energy therefore has local relationship and comparison details and a device-only note, but no finding-specific AI action. These rules also apply to deep links and restored navigation state.
 
 ## Plans and automatic record tracking
 
 ### Plan purpose and placement
 
-A plan is a user-chosen observation process tied to a finding and a question. It is not a promise to confirm a cause, a prescribed treatment, or a health score. The review fixture is **Sleep and Activity Check**, asking **Does the sleep–activity pattern keep appearing?** Its 14-day duration and Day 6 display are examples, not universal plan policy.
+Retain the app's **existing domain-based local plans** and care eligibility. G8 relationship-native plans are deferred. A source finding can provide context, but the plan does not automatically become a test of its precise signal pair or share its new recurrence/maturity model.
 
-Show the plan globally on Today and All Goals, and only under its related goals (Better Sleep and Be More Active in the fixture). Preserve its stable identity if reached from more than one goal. **View Plan** opens that plan, not a generic Insights page.
+The reference uses **Two-Week Meal and Symptom Check**, Day 6 of 14: log meals near eating and symptoms with severity when noticed. It follows meal/symptom records, without promising a controlled dairy/bloating test or verified symptom-free days. The previous “Sleep and Activity Check” fixture is superseded. Existing activity, sleep, and check-in domain templates retain their own requirements; do not add a walking/sleep plan for the visual example.
+
+Show the plan globally on Today and the overview, and within a goal only when the existing domain/focus association warrants it. **View Plan** opens the existing plan instance. Preserve its identity and device/cloud exclusions; the new relationship identity is not a claim that legacy plan matching already uses it.
 
 ### Preview and start
 
-**Preview a Plan** opens the source finding, question, observation period, required record details, what can be assessed, and important limitations. **Start This Plan** is explicit. Opening evidence, asking a question, or reading a preview never starts a plan. Existing safety/eligibility policy controls whether a new plan may be offered. No action changes medications or treatment preferences.
+**Preview a Plan** opens the source finding, domain-specific purpose, observation period, required record details, what the existing template can assess, and important limitations. **Start This Plan** is explicit. Opening evidence, asking a question, or reading a preview never starts a plan. Existing safety/eligibility policy controls whether a new plan may be offered. No action changes medications or treatment preferences.
 
 ### Plan detail order
 
@@ -364,17 +293,18 @@ Show the plan globally on Today and All Goals, and only under its related goals 
 | --- | --- |
 | 1 | Related goal names, plan title, actual phase/day, question |
 | 2 | **Today's Records** and **Tracked Automatically**, or assessment state when the observation period ends |
-| 3 | **Source Finding** link to the original evidence |
-| 4 | **What This Plan Will Assess**: variables, comparison basis, and limits |
+| 3 | **Source Finding** link using the existing focus snapshot; disclose if exact historical support is unavailable |
+| 4 | **What This Plan Follows**: existing template record requirements, supported assessment and limits |
 | 5 | **If You Notice Symptoms**: optional contextual logging, never a daily symptom-free task |
 | 6 | **Manage This Plan** with full-width Pause/Resume and End buttons |
 
 ### Deriving row status
 
-For the example, Sleep requires **duration and quality**; Activity requires **duration and effort**. A valid entry with missing required fields is partial. Imported entries count only if they meet the same field, validity, and date rules. The UI consumes the plan's explicit qualifying-record rules rather than assuming that any log of that type is enough.
+For the example, use the meal/symptom template’s actual qualifying fields: meal details and symptom severity when symptoms are noticed. Symptom logging remains conditional, not a daily completion requirement. A valid entry with missing required fields is partial. Imported entries count only if they meet the same field, validity, and date rules. The UI consumes the plan's explicit qualifying-record rules rather than assuming that any log of that type is enough.
 
 | State | Appearance and meaning | Action |
 | --- | --- | --- |
+| When Noticed | Conditional symptom row; no qualifying symptom entry and no inference of absence | Optional symptom entry |
 | Not Recorded | Open circle and visible label; no qualifying entry for the applicable day | Add Entry |
 | Details Needed | Partial/attention cue and label; relevant entry exists but required fields are incomplete | Complete the existing entry |
 | Recorded Today | Check-circle plus label; required valid fields are present | View Entry |
@@ -395,7 +325,7 @@ End opens **End This Plan?** with **Stop this plan's tracking? Your logs remain 
 
 ### Assessment outcomes
 
-End of the observation period produces **Ready to Assess**, not automatic success. **Assess the Available Records** evaluates supported comparable records according to the existing plan/analyzer contract.
+End of the observation period produces **Ready to Assess**, not automatic success. **Assess the Available Records** evaluates supported records according to the existing domain-plan/analyzer contract. It does not claim a new relationship-native experiment or inherit G2/G3-lite maturity automatically.
 
 | Outcome | Required presentation |
 | --- | --- |
@@ -417,13 +347,13 @@ Elapsed days are not adherence, efficacy, or health improvement. Assessment neve
 | Windows and timestamps | Actual period boundaries, local analysis success time, and separate AI generation time; disclose stale evidence |
 | Metrics | Typed value, unit, scale, aggregation, null/missing state; no unsupported conversions |
 | Comparison | Named periods/cohorts, matching denominator and numerator, coverage, eligibility basis, common scale |
-| Limitations and confidence | Material caveats visible beside the claim; confidence only if a documented evaluated method supplies it |
+| Limitations and maturity | Visible material caveats; evaluated status/reason, criteria version, coverage, distinct periods, conflict and freshness; neutral Possible Connection when no assessment exists |
 | Care scope and urgency | Rule-derived report/finding association and required wording; independent of filters and dismissals |
-| Plan association | Stable plan ID, related finding/version/goals, question, phase, duration, record requirements and derived status |
+| Plan association | Existing stable plan ID and focus snapshot, domain/template, phase, duration, qualifying-record rules and derived status; no new relationship-native plan selection |
 | AI sharing eligibility | Domain exclusions, user consent, review snapshot, context scope; enforced beyond the visible button |
 | Viewed/saved/hidden | Separate user states; AI rewording alone does not create new evidence |
 
-Some fields require an adapter from the existing `LocalFinding` contract. Unsupported evidence changes the display; do not recover missing values by parsing AI narrative. **Possible Connection** is a type, not a confidence grade. Do not invent high/medium/low badges or confidence percentages.
+Implement evidence adapters for the surfaced families first; a universal schema for all analyzers is deferred. Some fields require an adapter or new assessment support beyond the existing `LocalFinding` contract. Unsupported evidence changes the display; do not recover missing values by parsing AI narrative. **Possible Connection** is the neutral association label, not an evaluated maturity grade. Developing Pattern and Consistent Pattern require the assessed contract above. Do not invent high/medium/low badges or confidence percentages.
 
 Saving bookmarks a finding independently of review state. Hiding removes the selected evidence version from routine display and offers restoration; it cannot remove applicable care notices. Stronger recurrence suppression, if exposed by existing controls, must be explicitly labeled and reversible. Materially changed evidence may reappear after ordinary hiding, but not merely because an AI sentence changed. Feedback distinguishes usefulness, accuracy, and safety concerns without rewriting evidence or clinical rules.
 
@@ -435,13 +365,14 @@ Saving bookmarks a finding independently of review state. Hiding removes the sel
 | Early or insufficient records | Still Gathering Context; identify the relevant data gap without an arbitrary entry-count promise | Open that goal and relevant records |
 | Complete analysis with no eligible findings | Explain that no supported finding is available for the window; distinguish from failure and not-yet-analyzed | Existing history/logging |
 | No new findings | You're Up to Date on Today; existing goal results remain on Insights | See All Insights |
-| Goal has no direct comparison | Explain that comparison's missing basis; show relevant connections separately if available | Goal records and connection evidence |
+| Goal has a supported relationship but no progress comparison | Lead with the relationship; do not make the absent secondary comparison the headline | Relationship details |
 | No clear connection | Explicit absence of a supported connection; retain a valid direct comparison | Compare records |
 | AI review off | Compact preferences route; local summaries and plans unaffected | AI Preferences |
 | AI unavailable/offline | Preserve local facts and separately dated prior review if available | Explicit retry; retain draft |
 | Earlier AI snapshot | Newer Records Are Available before the old review; retain original timestamp and evidence scope | Current local findings |
 | Local analysis failed | Failure state distinct from empty/healthy; dated last-successful results may remain | Retry |
-| Stale evidence | Actual period and original successful date; analyzer-supplied stale state | Refresh permitted analysis |
+| Stale evidence | Actual period and original date, assessed stale state; no unqualified Consistent Pattern badge | Refresh permitted analysis |
+| Conflicting / withdrawn support | Explain the changed evidence and downgrade or withdraw the relationship; never promote it by entry count | Current evidence and records |
 | Hidden finding | Hidden/restore state rather than claiming no data exists | Restore Hidden Findings |
 | Evidence deleted/inaccessible | Explain unavailable support; re-evaluate eligibility and suppress unsupported chart/action | Current findings/records |
 | Care notice | Required message, scope, and urgency remain above relevant content in every filter/AI state | Existing care destination |
@@ -462,13 +393,13 @@ Use [App Visual Specification](../02-design/app-visuals.md), [Cards](../02-desig
 | Existing shell header | 124-unit Today logo; 60-unit toolbar below the platform status area; 44-unit iOS header controls with 12 radius and protected ink backing |
 | Body top / bottom inset | 10 / 14, plus safe-area and capture-action clearance |
 | Reading card | Opaque surface; 14 padding, 14 radius, 1 decorative outline; no extra outer margin |
-| Goal identity | 38 × 38 tinted backing, 11 radius; 22-unit outline icon; stomach 26-unit optical box |
-| Goal header | Icon/label gap 10; label 16/22.4, weight 500 |
-| Summary takeaway | 18/25.2, weight 500; 12 above, 9 below; no fixed line count |
-| Summary current value | 20/30, weight 500; unit and previous value remain explicit |
+| Goal identity | 32 × 32 tinted backing, 9 radius; 21-unit outline icon; retain stomach silhouette and optical balance |
+| Goal header | Icon/label gap 9; label 15/21, weight 500; status 11/16 with a 12-unit icon |
+| Summary takeaway | 18/25, weight 500; relationship band precedes it; context 13/19 with 5 above; no fixed line count |
+| Signal relationship | Unbordered tinted band, 8 radius, 7 vertical / 9 horizontal padding; 17-unit icons, 12-unit labels; thin non-directional link |
 | Body / metadata | 14/22.4 regular / 12/18 regular; material limitations may use 13/20.8 |
-| Detail takeaway / evidence value | 22/29.7 medium / 24/31.2 medium; use these to prioritize evidence, not every card heading |
-| Summary footer | 1-unit separator; 11 top gap, 9 top padding; 12/18 text and trailing chevron |
+| Detail takeaway / evidence value | 20/27 medium / 22 medium; use these to prioritize evidence, not every card heading |
+| Summary footer | 1-unit separator; 8 top gap, 8 top padding; 12/18 text and trailing chevron |
 | Filters | 44-unit minimum target; 9 radius; 8 gap; complete labels in a horizontal scroll row |
 | Disclosures | 44-unit minimum trigger; label and plus/minus or equivalent expanded cue; 14 above separator |
 | Evidence bars | 8 height, 3 radius, shared zero baseline; no decorative outline on quantitative marks |
@@ -504,7 +435,7 @@ Use Inter 400/500 for the approved Insights content hierarchy and Inter 600 for 
 | Goal icon backing | `#E9F1ED` | `#24423F` |
 | Previous-period bar | `#567788` | `#8DA4A6` |
 
-Reuse existing native tokens/adapters for shared shell, controls, text, attention, and semantic AI foregrounds. Goal-icon backing, AI soft backing, the restrained internal divider, and previous-period evidence marks are named Insights-specific component roles; they are not claims that those aliases already exist in the shipping app. Register those local aliases during implementation rather than scattering literal colors across widgets. Decorative outlines do not substitute for required control boundaries. Purple indicates AI meaning, not the whole Insights feature. Selection, record completeness, and care urgency each retain a text/icon cue.
+Reuse existing native tokens/adapters for shared shell, controls, text, attention, and semantic AI foregrounds. Goal/relationship backing, AI soft backing, and the restrained internal divider now resolve through the shared `component.iconBacking`, `component.aiBacking`, and `component.quietDivider` registry in `assets/tokens/color.tokens.json`. Use the generated CSS or theme-specific Flutter component exports; the registration preserves the approved shades. Previous-period evidence marks use existing slate/border values. Consuming-app adoption is still pending; do not scatter literal colors across widgets. Decorative outlines do not substitute for required control boundaries. Purple indicates AI meaning, not the whole Insights feature. Selection, record completeness, and care urgency each retain a text/icon cue.
 
 Retain the exact yarn texture, crop treatment, protected header ink shading, canonical logo, and copper header rule. The rule fades from transparent at 0% to full copper at 16–84% and transparent at 100%; dark navigation retains that soft rule while light navigation uses the neutral separator. Header actions use the existing 92%-ink backing; illustrative status icons receive protection too. Reading surfaces stay opaque over the artwork in both themes. A quiet/reduced-transparency appearance removes the decorative texture without removing content or contrast. Test text and controls against their resolved backgrounds rather than assuming a token's name guarantees contrast.
 
@@ -523,12 +454,12 @@ Retain the exact yarn texture, crop treatment, protected header ink shading, can
 | --- | --- |
 | IP-01 | Today has at most one brief new/useful finding, automatic plan summary when applicable, and existing progress/logging access; no full AI narrative |
 | IP-02 | Filter Insights uses only All Goals plus saved/available fixed goal keys, exact labels, and the approved icons; no custom goals, log-type row, or More Filters step |
-| IP-03 | Every goal summary uses Explore more about [Goal Name], wraps safely, and opens the same selected-goal destination as its chip |
+| IP-03 | Every goal summary uses Explore more about [Goal Name], wraps safely, and opens goal details; its chip filters the overview in place |
 | IP-04 | More Energy's device-only statement is non-interactive detail context; it is never a footer link or shared AI context |
 | IP-05 | All Goals preserves meaningful goal order, gathering-context access, Other Findings, and global plan access without duplicating evidence identity |
-| IP-06 | Selected-goal comparisons show exact values, units, windows, and counts; missing baselines/coverage stay explicitly unavailable |
-| IP-07 | Sleep's missing direct comparison does not suppress its supported connection; unrelated goals do not show the sleep/activity plan |
-| IP-08 | Connection groups explicitly describe the flag; bars use one scale; no causal arrow or Other Recorded Days label |
+| IP-06 | Eligible relationships lead over period comparisons; details show exact values, units, groups, windows, and counts; missing evidence stays unknown |
+| IP-07 | Activity/energy evidence maps to More Energy and stays device-only; unsupported walking/sleep examples and relationship-native plans are absent |
+| IP-08 | Meal evidence uses honest ±4-hour timing and logged-meal denominators; energy uses rated days and /10; bars share a scale and never imply verified absence |
 | IP-09 | Goal/connection/source-record routes preserve stable IDs, evidence versions, originating filters, scroll, and expanded disclosures |
 | IP-10 | AI review exposes up to three linked takeaways, fuller explanation, context scope, and independent review time; earlier reviews are clearly stale |
 | IP-11 | Suggested questions open editable drafts; Send is explicit; context is visible, consent enforced, exclusions maintained, drafts survive failure |
@@ -538,19 +469,25 @@ Retain the exact yarn texture, crop treatment, protected header ink shading, can
 | IP-15 | Required care context survives selection, hiding, AI-off/unavailable, stale, and empty states; original urgency and scope remain intact |
 | IP-16 | Light/dark match the approved backdrop, card geometry, hierarchy, and exact icons; values and behavior are identical across themes |
 | IP-17 | Test 320-unit width and enlarged text, long fixed goal labels, footer wrapping, keyboard focus, VoiceOver/TalkBack, modal dismissal, and safe-area clearance |
+| IP-19 | Maturity has evaluated criteria and a visible reason; duplicate logs, overlapping windows, AI wording and care flags cannot promote it |
+| IP-20 | Stable relationship keys and separate evidence versions support distinct-period recurrence; changes/deletions can downgrade evidence; no fabricated weekly repetition |
+| IP-21 | Only surfaced families require initial evidence adapters; sparse observations omit unsupported charts and exact-record actions |
+| IP-22 | Plans retain existing domain templates, eligibility and conditional symptom logging; deferred capabilities are not implied by copy or screenshot fixtures |
 | IP-18 | Native implementation replaces simulated reference records, clocks, AI responses, and assessment outcomes with actual data; browser references alone are not release evidence |
 
 ## Integration and migration
 
-Implement the finding/goal/evidence adapters before replacing the long-form UI. Reuse the fixed `HealthGoal` keys and profile availability rules. Translate icon metaphors to the app's shared icon components while retaining the approved stomach asset. Preserve existing log entry, Timeline, Charts, rewards, consent, care, and analysis services.
+Implement G1 goal mappings and relationship-first lead selection; then G2 evaluated maturity and G3-lite stable identity/distinct-period recurrence. Add G7 evidence adapters for the surfaced families with G5 honest timing and G6 unknown/denominator disclosure. Neutral Possible Connection supports the first presentation slice; evaluated labels must remain disabled until their criteria are implemented and validated. The [capability scope](insights-findings-capabilities.md) is controlling for deferred work.
 
-Resolve the following against the actual consuming-app contracts during implementation: stable evidence-version storage; historical AI review snapshots; plan date/aggregation and pause-clock rules; multiple-active-plan policy if supported; complete supporting-entry routes; persistence of hidden/saved state; actual AI context enforcement; native accessibility. The visual prototype does not implement these services and must not be used as an analyzer or health-data source.
+Reuse the app's fixed goals, native icons, stomach asset, logging, Timeline, Charts, rewards, consent, care and analysis services. Existing local plans retain their templates and eligibility. Native implementation must resolve evidence snapshots, record routing, saved/hidden state, timezone/aggregation rules, plan persistence, cloud exclusions, and accessibility. This documentation does not implement those services.
 
-The new default [reference gallery](../../assets/app/insights-presentation/index.html) is the October 27 design. The [previous Flutter gallery](../../assets/app/insights-presentation/previous-flutter-gallery.html) and earlier assets remain historical; their custom-goal/filter structures and numerical examples do not override this specification. The editable source and capture scene definitions are in `tooling/insights-journey-reference/`. This approved documentation amendment does not implement or deploy the consuming app.
+The default [reference gallery](../../assets/app/insights-presentation/index.html) now shows the scoped connection-led direction. Editable source is in `tooling/insights-connections-reference/`; `tooling/build-insights-connections-reference.py` builds assets and `tooling/package-insights-connections-reference.py` validates captures and updates the gallery. The earlier comparison-first and Flutter galleries are historical; their hierarchy and numerical examples do not override this specification.
 
 Controlling references: [Insights and Correlations](insights-and-correlations.md), [App Visual Specification](../02-design/app-visuals.md), [Progress and Disclosure](../02-design/progress-and-disclosure.md), [Insight Types](../05-ai/insight-types.md), [Confidence and Evidence](../05-ai/confidence-and-evidence.md), and [Hybrid Local Findings](../../adr/0010-hybrid-local-findings-optional-llm.md).
 
 ## Version History
+
+- 2026-10-27 (approved connection-led amendment): Incorporates G1–G3-lite, honest timing/coverage, surfaced-family adapters and deferred analyzer/plan scope. Replaces count-first summaries and unsupported fixtures with paired connection-led references; approved for publication after local review.
 
 - 2026-10-27: Integrates the approved refined journey, fixed goal catalog/icons, consistent goal-specific footers, automatic plan tracking, outlined plan management, brief AI review and contextual chat. Adds 38 high-fidelity app-only references, detailed display/state/interaction contracts, and implementation acceptance criteria. Approved for publication after local review.
 - 2026-10-25: Earlier overview/detail and filter experiments, including Flutter captures. Retained as historical references and superseded by the October 27 design.
