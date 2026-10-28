@@ -4,6 +4,8 @@ RFCs are proposals under review. Accepted RFCs may become ADRs and specification
 
 ## Accepted for implementation
 
+- [RFC-0012: Preferences organization](0012-preferences-organization.md) — approved Section Hub design and detailed specification; unreleased.
+
 - [RFC-0011: Goal-led Insights presentation](0011-goal-led-insights-presentation.md) — approved Today/Insights journey in both themes; detailed specification approved, unreleased.
 
 - [RFC-0010: Wearable visual specification](0010-wearable-visuals.md) — owner-approved watchOS/Wear OS direction and final icon/casing revision; unreleased addition.

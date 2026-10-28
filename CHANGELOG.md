@@ -6,6 +6,11 @@ The format follows Keep a Changelog conventions and the project uses semantic ve
 
 ## [Unreleased]
 
+### Approved Preferences design
+
+- Adds the owner-selected Preferences Section Hub with Your Health, Settings, and Connections & Account, mapping all existing destinations into nine root entries.
+- Adds detailed navigation, conditional visibility, shared reminders, consent/account preservation, visual and accessibility requirements, and 28 light/dark design references. The detailed specification and documentation publication are approved after local review; native implementation remains pending.
+
 ### Added
 
 - October 27 approved Insights journey: fixed goal names/icons in one Filter Insights row, takeaway-first goal summaries, Explore more about [Goal Name] footers, complete goal comparisons, connection evidence, concise AI Review and contextual follow-up chat. Earlier custom-goal and log-type filter studies are superseded.

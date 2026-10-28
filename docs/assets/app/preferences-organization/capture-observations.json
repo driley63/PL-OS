@@ -1,0 +1,1124 @@
+[
+  {
+    "scene": "preferences",
+    "theme": "light",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 21,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Close Preferences preview",
+        "width": 44
+      },
+      {
+        "height": 66.75,
+        "label": "Health ProfileGoals, personal details, and medications",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Tracking & RoutinesLog types, symptoms, and daily routines",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Quick Log & WidgetsSaved items, widget pins, and habits",
+        "width": 339
+      },
+      {
+        "height": 66.75,
+        "label": "AI Insights & ChatOptional AI and what you share",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "RemindersSleep, medications, and check-ins",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "AppearanceLight, dark, or your device settingSystem",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Your ProgressPoints, streaks, and badges",
+        "width": 339
+      },
+      {
+        "height": 66.75,
+        "label": "Health ConnectionsApple Health or Health Connect",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Account & PrivacySign-in, data export, and policies",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "preferences",
+    "theme": "dark",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 21,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Close Preferences preview",
+        "width": 44
+      },
+      {
+        "height": 66.75,
+        "label": "Health ProfileGoals, personal details, and medications",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Tracking & RoutinesLog types, symptoms, and daily routines",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Quick Log & WidgetsSaved items, widget pins, and habits",
+        "width": 339
+      },
+      {
+        "height": 66.75,
+        "label": "AI Insights & ChatOptional AI and what you share",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "RemindersSleep, medications, and check-ins",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "AppearanceLight, dark, or your device settingSystem",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Your ProgressPoints, streaks, and badges",
+        "width": 339
+      },
+      {
+        "height": 66.75,
+        "label": "Health ConnectionsApple Health or Health Connect",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Account & PrivacySign-in, data export, and policies",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "preferences-lower",
+    "theme": "light",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 21,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 61.83333206176758,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Close Preferences preview",
+        "width": 44
+      },
+      {
+        "height": 66.75,
+        "label": "Health ProfileGoals, personal details, and medications",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Tracking & RoutinesLog types, symptoms, and daily routines",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Quick Log & WidgetsSaved items, widget pins, and habits",
+        "width": 339
+      },
+      {
+        "height": 66.75,
+        "label": "AI Insights & ChatOptional AI and what you share",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "RemindersSleep, medications, and check-ins",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "AppearanceLight, dark, or your device settingSystem",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Your ProgressPoints, streaks, and badges",
+        "width": 339
+      },
+      {
+        "height": 66.75,
+        "label": "Health ConnectionsApple Health or Health Connect",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Account & PrivacySign-in, data export, and policies",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "preferences-lower",
+    "theme": "dark",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 21,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 61.83333206176758,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Close Preferences preview",
+        "width": 44
+      },
+      {
+        "height": 66.75,
+        "label": "Health ProfileGoals, personal details, and medications",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Tracking & RoutinesLog types, symptoms, and daily routines",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Quick Log & WidgetsSaved items, widget pins, and habits",
+        "width": 339
+      },
+      {
+        "height": 66.75,
+        "label": "AI Insights & ChatOptional AI and what you share",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "RemindersSleep, medications, and check-ins",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "AppearanceLight, dark, or your device settingSystem",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Your ProgressPoints, streaks, and badges",
+        "width": 339
+      },
+      {
+        "height": 66.75,
+        "label": "Health ConnectionsApple Health or Health Connect",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Account & PrivacySign-in, data export, and policies",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "health-profile",
+    "theme": "light",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 12,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "health-profile",
+    "theme": "dark",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 12,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "tracking",
+    "theme": "light",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 18,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 58,
+        "label": "Reminders",
+        "width": 337
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "tracking",
+    "theme": "dark",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 18,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 58,
+        "label": "Reminders",
+        "width": 337
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "tracking-cycle",
+    "theme": "light",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 20,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 138,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 58,
+        "label": "Reminders",
+        "width": 337
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "tracking-cycle",
+    "theme": "dark",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 20,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 138,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 58,
+        "label": "Reminders",
+        "width": 337
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "quick-log",
+    "theme": "light",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 12,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "quick-log",
+    "theme": "dark",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 12,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "ai",
+    "theme": "light",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 3,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 66.75,
+        "label": "Explanations & PlansDaily explanations and AI-drafted plans.",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Chat About InsightsFollow-up questions and structured findings.",
+        "width": 339
+      },
+      {
+        "height": 84.75,
+        "label": "Include Alcohol in AI InsightsOff by default. When off, alcohol findings stay on this device.",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "What Is Shared",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "What Stays on This Device",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "Your Choices",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "ai",
+    "theme": "dark",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 3,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 66.75,
+        "label": "Explanations & PlansDaily explanations and AI-drafted plans.",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Chat About InsightsFollow-up questions and structured findings.",
+        "width": 339
+      },
+      {
+        "height": 84.75,
+        "label": "Include Alcohol in AI InsightsOff by default. When off, alcohol findings stay on this device.",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "What Is Shared",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "What Stays on This Device",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "Your Choices",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "ai-details",
+    "theme": "light",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 3,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 212.6666717529297,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 66.75,
+        "label": "Explanations & PlansDaily explanations and AI-drafted plans.",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Chat About InsightsFollow-up questions and structured findings.",
+        "width": 339
+      },
+      {
+        "height": 84.75,
+        "label": "Include Alcohol in AI InsightsOff by default. When off, alcohol findings stay on this device.",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "What Is Shared",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "What Stays on This Device",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "Your Choices",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "ai-details",
+    "theme": "dark",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 3,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 212.6666717529297,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 66.75,
+        "label": "Explanations & PlansDaily explanations and AI-drafted plans.",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Chat About InsightsFollow-up questions and structured findings.",
+        "width": 339
+      },
+      {
+        "height": 84.75,
+        "label": "Include Alcohol in AI InsightsOff by default. When off, alcohol findings stay on this device.",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "What Is Shared",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "What Stays on This Device",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "Your Choices",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "reminders",
+    "theme": "light",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 9,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 66.75,
+        "label": "Allow RemindersSleep, medication, and check-in notifications.",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "reminders",
+    "theme": "dark",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 9,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 66.75,
+        "label": "Allow RemindersSleep, medication, and check-in notifications.",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "appearance",
+    "theme": "light",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 3,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 62.75,
+        "label": "SystemMatch your device",
+        "width": 339
+      },
+      {
+        "height": 63.75,
+        "label": "LightAlways use light appearance",
+        "width": 339
+      },
+      {
+        "height": 63.75,
+        "label": "DarkAlways use dark appearance",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "appearance",
+    "theme": "dark",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 3,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 62.75,
+        "label": "SystemMatch your device",
+        "width": 339
+      },
+      {
+        "height": 63.75,
+        "label": "LightAlways use light appearance",
+        "width": 339
+      },
+      {
+        "height": 63.75,
+        "label": "DarkAlways use dark appearance",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "progress",
+    "theme": "light",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 3,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 84.75,
+        "label": "Your ProgressShow your progress and award points as you log.",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "progress",
+    "theme": "dark",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 3,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 84.75,
+        "label": "Your ProgressShow your progress and award points as you log.",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "connections",
+    "theme": "light",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 3,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "connections",
+    "theme": "dark",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 3,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "account",
+    "theme": "light",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 18,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 66.75,
+        "label": "AI Insights & ChatOptional AI and what you share",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Health ConnectionsApple Health or Health Connect",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "Log Out",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "Delete Account",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "account",
+    "theme": "dark",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 18,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 0,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 66.75,
+        "label": "AI Insights & ChatOptional AI and what you share",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Health ConnectionsApple Health or Health Connect",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "Log Out",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "Delete Account",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "account-actions",
+    "theme": "light",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 18,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 211,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 66.75,
+        "label": "AI Insights & ChatOptional AI and what you share",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Health ConnectionsApple Health or Health Connect",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "Log Out",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "Delete Account",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  },
+  {
+    "scene": "account-actions",
+    "theme": "dark",
+    "bounds": {
+      "height": 2556,
+      "width": 1179,
+      "x": 0,
+      "y": 0
+    },
+    "fonts": true,
+    "icons": 18,
+    "images": true,
+    "missingIcons": 0,
+    "overflow": false,
+    "scroll": 211,
+    "targets": [
+      {
+        "height": 44,
+        "label": "Back",
+        "width": 44
+      },
+      {
+        "height": 66.75,
+        "label": "AI Insights & ChatOptional AI and what you share",
+        "width": 339
+      },
+      {
+        "height": 67.75,
+        "label": "Health ConnectionsApple Health or Health Connect",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "Log Out",
+        "width": 339
+      },
+      {
+        "height": 48,
+        "label": "Delete Account",
+        "width": 339
+      }
+    ],
+    "themeTextParity": true
+  }
+]

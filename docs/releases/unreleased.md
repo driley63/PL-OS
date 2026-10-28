@@ -2,6 +2,14 @@
 
 The current released bundle remains [PL-OS v2.7.0](v2.7.0/README.md).
 
+## Preferences organization
+
+Status: Owner-approved design, detailed specification, and documentation publication; native implementation pending.
+
+The owner selected **Section Hub** and the **Settings** heading. [Preferences Organization](../specs/03-product/preferences-organization.md) groups nine root destinations under Your Health, Settings, and Connections & Account, with a complete mapping of the 22 existing root destinations and nested controls. It defines native return behavior, shared schedules, conditional visibility, separate AI consents, account-action boundaries, visual roles, accessibility, and acceptance criteria.
+
+The paired gallery contains 28 app-only design references: 14 views in each theme at 1179 × 2556 pixels. Existing-editor rows are placement references, and full permission/connection states still require detailed design. [RFC-0012](../rfc/0012-preferences-organization.md) and [ADR-0018](../adr/0018-adopt-preferences-section-hub.md) record the selected direction. The owner approved the detailed specification after local review on October 27, 2026. The owner also approved publication to main on October 27, 2026. This documentation amendment does not implement the app or create a tagged release.
+
 ## Insights presentation
 
 Approved design: 2026-10-27

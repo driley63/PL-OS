@@ -93,7 +93,13 @@ Apply the [App Visual Specification](app-visuals.md) to the reviewed app: one ya
 
 The current bottom destinations are Today, Timeline, Charts, Insights, in that order. Use app-local navigation/link roles, a selected icon backing and non-color cue, visible labels, and programmatic selected state. Preserve native safe areas and System/Light/Dark preference. Keep floating Log/Quick Log controls clear of navigation and reserve content inset so they cannot cover evidence or warnings. Preview phone framing and OS status decoration are not product components.
 
+### Preferences utility screen
+
+The selected [Preferences Section Hub](../03-product/preferences-organization.md) opens from the existing settings entry point as a pushed utility screen. Preserve native Back to the caller, scroll/focus restoration, and the canonical continuous woven shell. Do not add a fifth main tab or place the main tab bar below Preferences section pages. The exact group headings are Your Health, Settings, and Connections & Account. Its detailed navigation amendment is approved and unreleased.
+
 ## Version History
+
+- Unreleased: Adds the selected Preferences Section Hub navigation scope and return behavior.
 
 - v2.7.0: Apply the approved neutral light appearance; retain the current app spacing and dark styling.
 

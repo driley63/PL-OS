@@ -108,7 +108,13 @@ Follow the [App Visual Specification](app-visuals.md): one opaque themed collect
 
 Preserve the app's actual deletion confirmation, edit behavior, and recovery path. The review's local dialog is illustrative. Owner-supplied screenshot content may be retained in an explicitly approved visual reference; record that approval and identify it as a review fixture. Do not assert synthetic/anonymized provenance without evidence or use fixture records in production accounts.
 
+### Preferences grouped lists
+
+Use the [Preferences Organization specification](../03-product/preferences-organization.md) for the selected Section Hub. Present a group inside one opaque panel, with a heading and whole-row navigation controls separated by quiet rules. Each root row has a leading icon, concise title and summary, and trailing chevron; avoid individual framed cards within the panel. Rows grow with text and preserve native hit targets. The paired references describe this scoped list treatment; existing editors and permission flows retain their own contracts.
+
 ## Version History
+
+- Unreleased: Adds the selected Preferences grouped-list treatment and scoped reference link.
 
 - v2.7.0: Apply the approved neutral light appearance; retain the current app spacing and dark styling.
 

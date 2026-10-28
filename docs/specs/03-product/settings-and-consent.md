@@ -36,6 +36,10 @@ Defines settings, consent, permission, privacy, export, deletion, and user-contr
 | Export | Preview scope and format before export |
 | Deletion | Explain impact, reversibility, and timing |
 
+## Preferences navigation amendment
+
+For the selected mobile organization, use [Preferences Organization](preferences-organization.md) and [ADR-0018](../../adr/0018-adopt-preferences-section-hub.md). Preferences uses nine Section Hub destinations under **Your Health**, **Settings**, and **Connections & Account**. The detailed specification maps every existing destination, preserves conditional tracking choices, and keeps shared reminder schedules and independent AI consents intact. It is an approved, unreleased navigation amendment; the released consent, export, deletion, and permission requirements in this document remain authoritative.
+
 ## Consent Records
 
 Consent-sensitive actions should capture:
@@ -80,5 +84,6 @@ Consent-sensitive actions should capture:
 
 ## Version History
 
+- Unreleased: Links the owner-selected Section Hub organization and complete destination mapping; does not replace the released consent policy.
 - v1.3.0: Adds settings areas, consent records, revocation, deletion, and acceptance criteria.
 - v1.0.0: Initial repository baseline.

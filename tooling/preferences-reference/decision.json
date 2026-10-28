@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-27",
+  "selected": "Section Hub",
+  "layout": "hub",
+  "headings": [
+    "Your Health",
+    "Settings",
+    "Connections & Account"
+  ],
+  "root_destinations": 9,
+  "alternative": "Direct List: considered, not selected",
+  "status": "Design, detailed specification, and documentation publication approved; native implementation pending",
+  "specification_approved": "2026-10-27",
+  "publication_approved": "2026-10-27"
+}

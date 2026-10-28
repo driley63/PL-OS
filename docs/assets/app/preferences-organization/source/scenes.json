@@ -1,0 +1,108 @@
+[
+  {
+    "id": "preferences",
+    "label": "Preferences \u00b7 Section Hub",
+    "route": "home",
+    "description": "Approved nine-destination hub. Your Health and Settings appear first; Connections & Account continues below.",
+    "layout": "hub"
+  },
+  {
+    "id": "preferences-lower",
+    "label": "Preferences \u00b7 Lower Groups",
+    "route": "home",
+    "scroll": "bottom",
+    "description": "The same hub scrolled to show Settings and Connections & Account.",
+    "layout": "hub"
+  },
+  {
+    "id": "health-profile",
+    "label": "Health Profile",
+    "route": "profile",
+    "description": "Your Goals, About You, Conditions, and Medications share one predictable destination. Existing editor rows are placement references.",
+    "layout": "hub"
+  },
+  {
+    "id": "tracking",
+    "label": "Tracking & Routines",
+    "route": "tracking",
+    "description": "What to Track, Symptoms, logging preferences, and a contextual route to the shared reminder overview.",
+    "layout": "hub"
+  },
+  {
+    "id": "tracking-cycle",
+    "label": "Tracking \u00b7 Cycle Available",
+    "route": "tracking",
+    "scroll": "bottom",
+    "config": {
+      "cycle": true
+    },
+    "description": "Cycle Settings is shown only when available and enabled. This example does not extend eligibility or cloud sharing.",
+    "layout": "hub"
+  },
+  {
+    "id": "quick-log",
+    "label": "Quick Log & Widgets",
+    "route": "quick",
+    "description": "Saved reusable entries are separated from Quick Capture, which continues to widget pins, learned habits, and suggestions.",
+    "layout": "hub"
+  },
+  {
+    "id": "ai",
+    "label": "AI Insights & Chat",
+    "route": "ai",
+    "description": "Separate cloud explanation/plan, chat, and alcohol-sharing controls. Example values are not production defaults; native opt-in still requires complete consent disclosure.",
+    "layout": "hub"
+  },
+  {
+    "id": "ai-details",
+    "label": "AI \u00b7 Sharing Details",
+    "route": "ai",
+    "scroll": "bottom",
+    "openDetails": true,
+    "description": "Expanded sharing information illustrates disclosure grouping. Final consent wording and native authorization flows retain their existing governing contracts.",
+    "layout": "hub"
+  },
+  {
+    "id": "reminders",
+    "label": "Reminders",
+    "route": "reminders",
+    "description": "One master preference with routes to the existing Sleep, medication, and Daily Check-In schedules. Permission-state and editor details require further design.",
+    "layout": "hub"
+  },
+  {
+    "id": "appearance",
+    "label": "Appearance",
+    "route": "appearance",
+    "description": "System, Light, and Dark remain separate choices. Both references show the same illustrative System selection.",
+    "layout": "hub"
+  },
+  {
+    "id": "progress",
+    "label": "Your Progress",
+    "route": "progress",
+    "description": "Logging points, streaks, and badges remain separate from health findings and AI.",
+    "layout": "hub"
+  },
+  {
+    "id": "connections",
+    "label": "Health Connections",
+    "route": "connections",
+    "description": "iPhone organization example. Existing connection, consent, permission, and disconnection controls must remain in the complete native flow.",
+    "layout": "hub"
+  },
+  {
+    "id": "account",
+    "label": "Account & Privacy",
+    "route": "account",
+    "description": "Account identity, provider-managed security, export, and policy routes. This is a navigation reference, not a replacement account form.",
+    "layout": "hub"
+  },
+  {
+    "id": "account-actions",
+    "label": "Account \u00b7 Privacy & Actions",
+    "route": "account",
+    "scroll": "bottom",
+    "description": "Contextual privacy links plus explicit Log Out and Delete Account buttons. Existing confirmation and deletion boundaries remain mandatory.",
+    "layout": "hub"
+  }
+]

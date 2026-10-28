@@ -1,0 +1,6 @@
+{
+  "approved_study_sha256": "dfd22d0f1480669b5be607596b032b89a4b6fe23a3ae0738687fec32806519f1",
+  "source_review": "Current Plectara screen source; simulator connection unavailable",
+  "scope": "Organization and reference layouts; native forms, consent, OS permission flows and implementation remain separate",
+  "canonical_yarn_sha256": "4b120ecb20b0796acde86072bf3cda04a9fe5cb2ac239ccb3a644c3e5d458b93"
+}

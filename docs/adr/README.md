@@ -27,6 +27,8 @@ ADRs are permanent records of important PL-OS decisions (historically LIQ OS). T
 
 - [ADR-0017: Adopt goal-led Insights presentation](0017-adopt-goal-led-insights-presentation.md) — fixed goal navigation, progressive disclosure, automatic plan tracking, and paired theme references; unreleased.
 
+- [ADR-0018: Adopt the Preferences Section Hub](0018-adopt-preferences-section-hub.md) — approved Section Hub design and detailed specification; unreleased.
+
 ## Rule
 
 Do not delete ADRs. Supersede them with new ADRs.

@@ -1,0 +1,41 @@
+{
+  "review_date": "2026-10-27",
+  "source": "lib/screens/preferences_screen.dart",
+  "source_sha256": "fe94534105e8fc1596b0675fdfcb6dbe788ae11718a3ad4eaf8618658ababaab",
+  "runtime_review": "Simulator connection timed out; source inspection only",
+  "hub_destinations": [
+    "Saved Meals",
+    "Saved Activities",
+    "Saved Bowel Movements",
+    "Quick Capture",
+    "Your Goals",
+    "What to Track",
+    "Medications",
+    "Conditions",
+    "Symptoms",
+    "Beverages",
+    "Activity Types",
+    "Sleep",
+    "Daily Check-In",
+    "Account",
+    "About You",
+    "Your Progress",
+    "Light/Dark Modes",
+    "AI Insights",
+    "Notifications",
+    "Health Apps",
+    "Privacy Policy",
+    "Terms of Use"
+  ],
+  "conditional": [
+    "Saved Bowel Movements: bowel movement logging enabled",
+    "Beverages: at least one beverage tracked"
+  ],
+  "nested": [
+    "Cycle Settings under What to Track when available/enabled",
+    "Export My Data, Log Out, Delete Account under Account",
+    "Seed Data and AI Scenario Import are debug-only",
+    "AI explanations/plans, chat, and alcohol sharing are independent controls",
+    "Quick Capture includes medication-name privacy, cycle tile, pins, habits, and hidden suggestions"
+  ]
+}

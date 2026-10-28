@@ -130,6 +130,7 @@ nav:
           - Reports: specs/03-product/reports.md
           - Onboarding: specs/03-product/onboarding.md
           - Settings and Consent: specs/03-product/settings-and-consent.md
+          - Preferences Organization: specs/03-product/preferences-organization.md
           - Health Language: specs/03-product/health-language.md
           - Notification Guidance: specs/03-product/notification-guidance.md
           - User Research: specs/03-product/user-research.md
@@ -184,6 +185,7 @@ nav:
       - ADR-0015: adr/0015-neutral-light-app-surfaces.md
       - ADR-0016: adr/0016-adopt-wearable-visuals.md
       - ADR-0017: adr/0017-adopt-goal-led-insights-presentation.md
+      - ADR-0018: adr/0018-adopt-preferences-section-hub.md
   - RFCs:
       - Overview: rfc/README.md
       - Capture Widget Visuals: rfc/0007-capture-widget-visuals.md
@@ -191,6 +193,7 @@ nav:
       - Neutral Light App Surfaces: rfc/0009-neutral-light-app-surfaces.md
       - Wearable Visuals: rfc/0010-wearable-visuals.md
       - Goal-Led Insights: rfc/0011-goal-led-insights-presentation.md
+      - Preferences Organization: rfc/0012-preferences-organization.md
   - Playbook:
       - Overview: playbook/README.md
   - Releases:

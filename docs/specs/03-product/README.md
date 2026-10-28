@@ -41,6 +41,7 @@ Capture feeds the system, Habits personalize the experience, and Insights delive
 - `health-timeline.md`: longitudinal events, summaries, filters, and evidence context
 - `insights-and-correlations.md`: insight criteria, correlation language, confidence, and review gates
 - `insights-presentation.md`: approved Today overview, finding inventory, detail/evidence routes, state matrix, and implementation acceptance criteria
+- `preferences-organization.md`: selected Section Hub, complete settings migration, navigation and consent boundaries, and paired theme references; detailed specification approved, unreleased
 - `reports.md`: report structure, export behavior, summaries, and sharing boundaries
 - `onboarding.md`: first-run experience, permission sequencing, and expectation setting
 - `settings-and-consent.md`: user control, privacy settings, consent records, and revocation behavior

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Plectara Preferences — Design Reference</title>
+<link rel="stylesheet" href="source/styles.css">
+<style>
+html,body{margin:0;padding:0;width:1179px;min-height:2556px;background:#192d38}
+#plectara-preferences-study{width:393px;zoom:3}
+#plectara-preferences-study .phone{margin:0;border-radius:0;box-shadow:none}
+#plectara-preferences-study .main{scrollbar-width:none}
+#plectara-preferences-study .main::-webkit-scrollbar{display:none}
+</style>
+<script src="source/lucide.js"></script>
+</head>
+<body>
+<div id="plectara-preferences-study"><div class="phone" data-theme="light" data-layout="hub" aria-label="Plectara Preferences design reference"></div></div>
+<script>
+const params=new URLSearchParams(location.search);
+const scenes=__SCENES__;
+window.referenceScene=scenes.find(s=>s.id===params.get('scene'))||scenes[0];
+const phone=document.querySelector('.phone');
+phone.dataset.theme=params.get('theme')==='dark'?'dark':'light';
+phone.dataset.layout=window.referenceScene.layout;
+document.title=window.referenceScene.label+' — Plectara Preferences';
+if(params.get('scale')==='1'){
+ document.querySelector('#plectara-preferences-study').style.zoom='1';
+ document.documentElement.style.width=document.body.style.width='393px';
+ document.documentElement.style.minHeight=document.body.style.minHeight='852px';
+}
+</script>
+<script src="source/preferences.js"></script>
+<script>
+Promise.all([document.fonts.ready,...Array.from(document.images).map(i=>i.decode())]).then(()=>{
+ requestAnimationFrame(()=>requestAnimationFrame(()=>{
+  const main=document.querySelector('.main'),scene=window.referenceScene;
+  if(scene.openDetails)main.querySelectorAll('details').forEach(d=>d.open=true);
+  main.scrollTop=scene.scroll==='bottom'?main.scrollHeight:(scene.scroll||0);
+  document.documentElement.dataset.captureReady='true';
+ }));
+});
+</script>
+</body>
+</html>
