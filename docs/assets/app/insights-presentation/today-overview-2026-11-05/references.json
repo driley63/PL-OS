@@ -1,0 +1,280 @@
+{
+  "version": "today-overview-2026-11-05",
+  "status": "Design and documentation approved; native implementation and publication pending",
+  "method": "Browser app-only crop at native 3x CSS raster size; original JPEG bytes",
+  "logical_size": [
+    393,
+    852
+  ],
+  "pixel_size": [
+    1179,
+    2556
+  ],
+  "screenshots": 14,
+  "fixture_provenance": "Illustrative relationships, coverage states and meaningful revisions. Not personal records or end-to-end analyzer validation.",
+  "reference_scope": "Today overview and finding-review navigation. Existing full evidence, source, limitations and care contracts remain required.",
+  "source_audit": "Local Plectara 9e4fb3d on 2026-11-05; support and remaining production contracts in Insights Findings Capabilities.",
+  "sources": {
+    "assets/tokens/color.tokens.json": "3bd4fa89a6b4517ade6d547de0471d205c8e18ac6b94f0aff56e0cd942a25a32",
+    "tooling/build-today-insights-reference.py": "15863398f6031a8ca800d762c9abc009295aaf64ff66585f145c61c443bcf9f2",
+    "tooling/today-insights-reference/README.md": "5a1c2c287d6da11603448e1c47d9d0a85ea095d4e743885661889a7761943900",
+    "tooling/today-insights-reference/approved-fragment.html": "950ba9b419b808889ee6bd525f133b8f973a303c9c78edce0783cd6eacc423fc",
+    "tooling/today-insights-reference/scenes.json": "e57b454cc7ce292a702d25dae96a70d8ad622916b3eb2ddcc4c6ef8409b5d8e1"
+  },
+  "runtime_asset_sha256": {
+    "lucide.js": "fde878a4f7aebe548b071eaaf343d898f66d275e93970abe95d8ca5fda290b51",
+    "reference.html": "73dffef18e4405f70dad9da71b192452deca791d0495213053db4cbf1d13941e",
+    "reference.js": "1ee63a262b66af09f044daf57b738b570e7025222c7fa358238ee6c14d5ae611",
+    "styles.css": "d6e93b26aaed05dc07f616927a426c59cb43cda4e46045fbd79f6730f104cf64"
+  },
+  "scenes": [
+    {
+      "id": "today-new",
+      "label": "Today · Unread and Goal States",
+      "description": "All eight selected goals; four distinct unread findings, two shared across goals. Known missing input, no clear pattern, and gathering context remain distinct.",
+      "state": {
+        "screen": "today",
+        "seen": {}
+      }
+    },
+    {
+      "id": "today-partial",
+      "label": "Today · One Finding Reviewed",
+      "description": "Dairy/bloating is reviewed. The total drops from four to three once; the other finding remains unread under every related goal.",
+      "state": {
+        "screen": "today",
+        "seen": {
+          "dairy": 1
+        }
+      }
+    },
+    {
+      "id": "today-reviewed",
+      "label": "Today · All Findings Reviewed",
+      "description": "Useful previews remain after review. The three no-finding states do not change when unrelated findings are read.",
+      "state": {
+        "screen": "today",
+        "seen": {
+          "dairy": 1,
+          "bowel": 1,
+          "sleep": 1,
+          "energy": 2
+        }
+      }
+    },
+    {
+      "id": "goal-unread",
+      "label": "Goal · Two Unread Findings",
+      "description": "Opening a goal with multiple findings does not review them. The list exposes each actual finding.",
+      "state": {
+        "screen": "goal",
+        "selected": "symptoms",
+        "seen": {},
+        "history": [
+          {
+            "screen": "today",
+            "selected": "symptoms",
+            "finding": "dairy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "goal-partial",
+      "label": "Goal · One Finding Still Unread",
+      "description": "Only the opened dairy/bloating finding is reviewed. Activity/bowel remains unread and is prioritized in the list.",
+      "state": {
+        "screen": "goal",
+        "selected": "symptoms",
+        "seen": {
+          "dairy": 1
+        },
+        "history": [
+          {
+            "screen": "today",
+            "selected": "symptoms",
+            "finding": "dairy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unread-list",
+      "label": "Unread Insights · Distinct Findings",
+      "description": "One row per unread finding with its related goals. Opening this list does not mark anything reviewed.",
+      "state": {
+        "screen": "unread",
+        "seen": {},
+        "history": [
+          {
+            "screen": "today",
+            "selected": "symptoms",
+            "finding": "dairy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "updated-finding",
+      "label": "Finding · What Changed",
+      "description": "A meaningful update explains the changed evidence. This focused navigation reference supplements the full evidence-detail requirements.",
+      "state": {
+        "screen": "detail",
+        "selected": "energy",
+        "finding": "energy",
+        "seen": {
+          "energy": 2
+        },
+        "history": [
+          {
+            "screen": "today",
+            "selected": "energy",
+            "finding": "energy"
+          }
+        ]
+      }
+    }
+  ],
+  "files": [
+    {
+      "scene": "today-new",
+      "theme": "light",
+      "path": "screens/today-new-light.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 242965,
+      "sha256": "0df0abe5ce610c814d0d281d0a9458ba57fa4ccecc9baa1ceb55e56f3aac1a09",
+      "scroll_top": 0
+    },
+    {
+      "scene": "today-new",
+      "theme": "dark",
+      "path": "screens/today-new-dark.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 253876,
+      "sha256": "6c69cfd7616038261fd52d25b9f47c2a2077c450cb338e79639638830ea49e5a",
+      "scroll_top": 0
+    },
+    {
+      "scene": "today-partial",
+      "theme": "light",
+      "path": "screens/today-partial-light.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 240920,
+      "sha256": "c581c500b7da38f3dbeb7bf03e12c1db5a5946c555dbd58cd6fd9c22fcee12c3",
+      "scroll_top": 0
+    },
+    {
+      "scene": "today-partial",
+      "theme": "dark",
+      "path": "screens/today-partial-dark.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 251963,
+      "sha256": "c9ef505f9499fd684681e690bcaf6a70663a3a1b8115384db7f1d71c979ba423",
+      "scroll_top": 0
+    },
+    {
+      "scene": "today-reviewed",
+      "theme": "light",
+      "path": "screens/today-reviewed-light.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 232851,
+      "sha256": "6b08d06503465b86177cebc62d20e44f9120f36bb2dd0ce4e3e15c1b30e43edb",
+      "scroll_top": 0
+    },
+    {
+      "scene": "today-reviewed",
+      "theme": "dark",
+      "path": "screens/today-reviewed-dark.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 238252,
+      "sha256": "f894db941bfd3d700e57ee90e22a7ad7e51a32bbecaa434420f870962808b20e",
+      "scroll_top": 0
+    },
+    {
+      "scene": "goal-unread",
+      "theme": "light",
+      "path": "screens/goal-unread-light.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 164540,
+      "sha256": "87d0d2e68e2d0e32a5709feee9bebda77a16089794275130f7abc7260a9fc1e7",
+      "scroll_top": 0
+    },
+    {
+      "scene": "goal-unread",
+      "theme": "dark",
+      "path": "screens/goal-unread-dark.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 170010,
+      "sha256": "d88e189faad9f2d97286bde8f3420d2951b4e5d8bf399a3f9c34f0df516fc3a7",
+      "scroll_top": 0
+    },
+    {
+      "scene": "goal-partial",
+      "theme": "light",
+      "path": "screens/goal-partial-light.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 164362,
+      "sha256": "1ec1d46c42e715d902675765c3b7f59794160552094e4e3ddacbc8f563324581",
+      "scroll_top": 0
+    },
+    {
+      "scene": "goal-partial",
+      "theme": "dark",
+      "path": "screens/goal-partial-dark.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 168809,
+      "sha256": "108165ede3896fdf3beacc3ac56beb50eb1ee169cee54dcac2a49d52cbca9018",
+      "scroll_top": 0
+    },
+    {
+      "scene": "unread-list",
+      "theme": "light",
+      "path": "screens/unread-list-light.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 198308,
+      "sha256": "31abd9419a240f8af3a4bb23658ccf3595cb88dc2d5b8ea25532cebc27956d09",
+      "scroll_top": 0
+    },
+    {
+      "scene": "unread-list",
+      "theme": "dark",
+      "path": "screens/unread-list-dark.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 209096,
+      "sha256": "824c428ea1cd1792e30d374e3b44943c004251aa5932a633c06ace2fa086447c",
+      "scroll_top": 0
+    },
+    {
+      "scene": "updated-finding",
+      "theme": "light",
+      "path": "screens/updated-finding-light.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 212455,
+      "sha256": "cae55a297af33022d5e066634940e0de054840bc2045f2fa9bcbf538841083f9",
+      "scroll_top": 0
+    },
+    {
+      "scene": "updated-finding",
+      "theme": "dark",
+      "path": "screens/updated-finding-dark.jpg",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 217424,
+      "sha256": "aac7906119186b1776f362d784291e6588ecd778083c9ef60f8e50d072e51c18",
+      "scroll_top": 0
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "scope": "Unread component colors only; not native accessibility certification",
+  "checks": [
+    {
+      "theme": "light",
+      "role": "text",
+      "foreground": "#192D38",
+      "background": "#76B7A5",
+      "minimum": 4.5,
+      "ratio": 6.165738574480531,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "role": "marker",
+      "foreground": "#264C4B",
+      "background": "#76B7A5",
+      "minimum": 3,
+      "ratio": 4.097333852382724,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "role": "icon",
+      "foreground": "#264C4B",
+      "background": "#76B7A5",
+      "minimum": 3,
+      "ratio": 4.097333852382724,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "role": "badge text",
+      "foreground": "#FAF8F4",
+      "background": "#264C4B",
+      "minimum": 4.5,
+      "ratio": 8.926944009816923,
+      "passed": true
+    },
+    {
+      "theme": "light",
+      "role": "badge boundary",
+      "foreground": "#264C4B",
+      "background": "#76B7A5",
+      "minimum": 3,
+      "ratio": 4.097333852382724,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "role": "text",
+      "foreground": "#FAF8F4",
+      "background": "#264C4B",
+      "minimum": 4.5,
+      "ratio": 8.926944009816923,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "role": "marker",
+      "foreground": "#76B7A5",
+      "background": "#264C4B",
+      "minimum": 3,
+      "ratio": 4.097333852382724,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "role": "icon",
+      "foreground": "#8DC7B7",
+      "background": "#264C4B",
+      "minimum": 3,
+      "ratio": 4.953440786718341,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "role": "badge text",
+      "foreground": "#192D38",
+      "background": "#76B7A5",
+      "minimum": 4.5,
+      "ratio": 6.165738574480531,
+      "passed": true
+    },
+    {
+      "theme": "dark",
+      "role": "badge boundary",
+      "foreground": "#76B7A5",
+      "background": "#264C4B",
+      "minimum": 3,
+      "ratio": 4.097333852382724,
+      "passed": true
+    }
+  ]
+}

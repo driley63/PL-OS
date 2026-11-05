@@ -1,0 +1,675 @@
+{
+  "capturedOn": "2026-11-05",
+  "method": "Browser app-only crop at native 3x CSS raster size; original JPEG bytes",
+  "sourceHashes": {
+    "assets/tokens/color.tokens.json": "3bd4fa89a6b4517ade6d547de0471d205c8e18ac6b94f0aff56e0cd942a25a32",
+    "tooling/build-today-insights-reference.py": "15863398f6031a8ca800d762c9abc009295aaf64ff66585f145c61c443bcf9f2",
+    "tooling/today-insights-reference/README.md": "5a1c2c287d6da11603448e1c47d9d0a85ea095d4e743885661889a7761943900",
+    "tooling/today-insights-reference/approved-fragment.html": "950ba9b419b808889ee6bd525f133b8f973a303c9c78edce0783cd6eacc423fc",
+    "tooling/today-insights-reference/scenes.json": "e57b454cc7ce292a702d25dae96a70d8ad622916b3eb2ddcc4c6ef8409b5d8e1"
+  },
+  "observations": [
+    {
+      "fonts": "loaded",
+      "icons": 24,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179,
+        "x": 0,
+        "y": 0
+      },
+      "ready": true,
+      "scene": "today-new",
+      "scroll": 0,
+      "text": "\nInsights\n4 Unread\nReduce Symptoms\n2 Unread\nPossible dairy–bloating link\nImproved Digestion\n2 Unread\nPossible dairy–bloating link\nImproved Sleep\nNew\nLess activity after poor sleep\nBe More Active\nNew\nPossible activity–bowel link\nImprove Blood Pressure\nNo clear pattern yet\nSee If a Treatment Is Working\nAdd symptom logs\nMore Energy\nUpdated\nHigher energy on active days\nLess Stress\nGathering context\nExplore Insights\nYour Plan\n\nTwo-Week Activity Check\n\nDay 6 of 14\nToday’s Logs\n\nActivity · Walking\n\n12:15 PM",
+      "theme": "light",
+      "unreadRows": [
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "Reduce Symptoms. 2 Unread. Possible dairy–bloating link. Open goal findings.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "Improved Digestion. 2 Unread. Possible dairy–bloating link. Open goal findings.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "Improved Sleep. New. Less activity after poor sleep. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "Be More Active. New. Possible activity–bowel link. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Improve Blood Pressure. No clear pattern yet. Open goal status.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "See If a Treatment Is Working. Add symptom logs. Open goal status.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "false"
+        },
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "More Energy. Updated. Higher energy on active days. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Less Stress. Gathering context. Open goal status.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "false"
+        }
+      ],
+      "unrendered": 0
+    },
+    {
+      "fonts": "loaded",
+      "icons": 24,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179,
+        "x": 0,
+        "y": 0
+      },
+      "ready": true,
+      "scene": "today-new",
+      "scroll": 0,
+      "text": "\nInsights\n4 Unread\nReduce Symptoms\n2 Unread\nPossible dairy–bloating link\nImproved Digestion\n2 Unread\nPossible dairy–bloating link\nImproved Sleep\nNew\nLess activity after poor sleep\nBe More Active\nNew\nPossible activity–bowel link\nImprove Blood Pressure\nNo clear pattern yet\nSee If a Treatment Is Working\nAdd symptom logs\nMore Energy\nUpdated\nHigher energy on active days\nLess Stress\nGathering context\nExplore Insights\nYour Plan\n\nTwo-Week Activity Check\n\nDay 6 of 14\nToday’s Logs\n\nActivity · Walking\n\n12:15 PM",
+      "theme": "dark",
+      "unreadRows": [
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "Reduce Symptoms. 2 Unread. Possible dairy–bloating link. Open goal findings.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "Improved Digestion. 2 Unread. Possible dairy–bloating link. Open goal findings.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "Improved Sleep. New. Less activity after poor sleep. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "Be More Active. New. Possible activity–bowel link. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Improve Blood Pressure. No clear pattern yet. Open goal status.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "See If a Treatment Is Working. Add symptom logs. Open goal status.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "false"
+        },
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "More Energy. Updated. Higher energy on active days. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Less Stress. Gathering context. Open goal status.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "false"
+        }
+      ],
+      "unrendered": 0
+    },
+    {
+      "fonts": "loaded",
+      "icons": 24,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179,
+        "x": 0,
+        "y": 0
+      },
+      "ready": true,
+      "scene": "today-partial",
+      "scroll": 0,
+      "text": "\nInsights\n3 Unread\nReduce Symptoms\nNew\nPossible activity–bowel link\nImproved Digestion\nNew\nPossible activity–bowel link\nImproved Sleep\nNew\nLess activity after poor sleep\nBe More Active\nNew\nPossible activity–bowel link\nImprove Blood Pressure\nNo clear pattern yet\nSee If a Treatment Is Working\nAdd symptom logs\nMore Energy\nUpdated\nHigher energy on active days\nLess Stress\nGathering context\nExplore Insights\nYour Plan\n\nTwo-Week Activity Check\n\nDay 6 of 14\nToday’s Logs\n\nActivity · Walking\n\n12:15 PM",
+      "theme": "light",
+      "unreadRows": [
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "Reduce Symptoms. New. Possible activity–bowel link. Open goal findings.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "Improved Digestion. New. Possible activity–bowel link. Open goal findings.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "Improved Sleep. New. Less activity after poor sleep. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "Be More Active. New. Possible activity–bowel link. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Improve Blood Pressure. No clear pattern yet. Open goal status.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "See If a Treatment Is Working. Add symptom logs. Open goal status.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "false"
+        },
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "More Energy. Updated. Higher energy on active days. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Less Stress. Gathering context. Open goal status.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "false"
+        }
+      ],
+      "unrendered": 0
+    },
+    {
+      "fonts": "loaded",
+      "icons": 24,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179,
+        "x": 0,
+        "y": 0
+      },
+      "ready": true,
+      "scene": "today-partial",
+      "scroll": 0,
+      "text": "\nInsights\n3 Unread\nReduce Symptoms\nNew\nPossible activity–bowel link\nImproved Digestion\nNew\nPossible activity–bowel link\nImproved Sleep\nNew\nLess activity after poor sleep\nBe More Active\nNew\nPossible activity–bowel link\nImprove Blood Pressure\nNo clear pattern yet\nSee If a Treatment Is Working\nAdd symptom logs\nMore Energy\nUpdated\nHigher energy on active days\nLess Stress\nGathering context\nExplore Insights\nYour Plan\n\nTwo-Week Activity Check\n\nDay 6 of 14\nToday’s Logs\n\nActivity · Walking\n\n12:15 PM",
+      "theme": "dark",
+      "unreadRows": [
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "Reduce Symptoms. New. Possible activity–bowel link. Open goal findings.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "Improved Digestion. New. Possible activity–bowel link. Open goal findings.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "Improved Sleep. New. Less activity after poor sleep. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "Be More Active. New. Possible activity–bowel link. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Improve Blood Pressure. No clear pattern yet. Open goal status.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "See If a Treatment Is Working. Add symptom logs. Open goal status.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "false"
+        },
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "More Energy. Updated. Higher energy on active days. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Less Stress. Gathering context. Open goal status.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "false"
+        }
+      ],
+      "unrendered": 0
+    },
+    {
+      "fonts": "loaded",
+      "icons": 23,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179,
+        "x": 0,
+        "y": 0
+      },
+      "ready": true,
+      "scene": "today-reviewed",
+      "scroll": 0,
+      "text": "\nInsights\nAll reviewed\nReduce Symptoms\nPossible dairy–bloating link\nImproved Digestion\nPossible dairy–bloating link\nImproved Sleep\nLess activity after poor sleep\nBe More Active\nPossible activity–bowel link\nImprove Blood Pressure\nNo clear pattern yet\nSee If a Treatment Is Working\nAdd symptom logs\nMore Energy\nHigher energy on active days\nLess Stress\nGathering context\nExplore Insights\nYour Plan\n\nTwo-Week Activity Check\n\nDay 6 of 14\nToday’s Logs\n\nActivity · Walking\n\n12:15 PM",
+      "theme": "light",
+      "unreadRows": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Reduce Symptoms. Possible dairy–bloating link. Open goal findings.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Improved Digestion. Possible dairy–bloating link. Open goal findings.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Improved Sleep. Less activity after poor sleep. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Be More Active. Possible activity–bowel link. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Improve Blood Pressure. No clear pattern yet. Open goal status.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "See If a Treatment Is Working. Add symptom logs. Open goal status.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "More Energy. Higher energy on active days. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Less Stress. Gathering context. Open goal status.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "false"
+        }
+      ],
+      "unrendered": 0
+    },
+    {
+      "fonts": "loaded",
+      "icons": 23,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179,
+        "x": 0,
+        "y": 0
+      },
+      "ready": true,
+      "scene": "today-reviewed",
+      "scroll": 0,
+      "text": "\nInsights\nAll reviewed\nReduce Symptoms\nPossible dairy–bloating link\nImproved Digestion\nPossible dairy–bloating link\nImproved Sleep\nLess activity after poor sleep\nBe More Active\nPossible activity–bowel link\nImprove Blood Pressure\nNo clear pattern yet\nSee If a Treatment Is Working\nAdd symptom logs\nMore Energy\nHigher energy on active days\nLess Stress\nGathering context\nExplore Insights\nYour Plan\n\nTwo-Week Activity Check\n\nDay 6 of 14\nToday’s Logs\n\nActivity · Walking\n\n12:15 PM",
+      "theme": "dark",
+      "unreadRows": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Reduce Symptoms. Possible dairy–bloating link. Open goal findings.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Improved Digestion. Possible dairy–bloating link. Open goal findings.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Improved Sleep. Less activity after poor sleep. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Be More Active. Possible activity–bowel link. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Improve Blood Pressure. No clear pattern yet. Open goal status.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "See If a Treatment Is Working. Add symptom logs. Open goal status.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "More Energy. Higher energy on active days. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "false"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Less Stress. Gathering context. Open goal status.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "false"
+        }
+      ],
+      "unrendered": 0
+    },
+    {
+      "fonts": "loaded",
+      "icons": 9,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179,
+        "x": 0,
+        "y": 0
+      },
+      "ready": true,
+      "scene": "goal-unread",
+      "scroll": 0,
+      "text": "Today\nYour Goal\nReduce Symptoms\n2 unread findings\nDairy meals and bloating\nNew\nDeveloping Pattern\nActivity and bowel changes\nNew\nPossible Connection",
+      "theme": "light",
+      "unreadRows": [
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "Dairy meals and bloating. New, unread. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "Activity and bowel changes. New, unread. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        }
+      ],
+      "unrendered": 0
+    },
+    {
+      "fonts": "loaded",
+      "icons": 9,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179,
+        "x": 0,
+        "y": 0
+      },
+      "ready": true,
+      "scene": "goal-unread",
+      "scroll": 0,
+      "text": "Today\nYour Goal\nReduce Symptoms\n2 unread findings\nDairy meals and bloating\nNew\nDeveloping Pattern\nActivity and bowel changes\nNew\nPossible Connection",
+      "theme": "dark",
+      "unreadRows": [
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "Dairy meals and bloating. New, unread. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "Activity and bowel changes. New, unread. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        }
+      ],
+      "unrendered": 0
+    },
+    {
+      "fonts": "loaded",
+      "icons": 9,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179,
+        "x": 0,
+        "y": 0
+      },
+      "ready": true,
+      "scene": "goal-partial",
+      "scroll": 0,
+      "text": "Today\nYour Goal\nReduce Symptoms\n1 unread finding\nActivity and bowel changes\nNew\nPossible Connection\nDairy meals and bloating\nReviewed\nDeveloping Pattern",
+      "theme": "light",
+      "unreadRows": [
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "Activity and bowel changes. New, unread. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Dairy meals and bloating. Reviewed. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "false"
+        }
+      ],
+      "unrendered": 0
+    },
+    {
+      "fonts": "loaded",
+      "icons": 9,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179,
+        "x": 0,
+        "y": 0
+      },
+      "ready": true,
+      "scene": "goal-partial",
+      "scroll": 0,
+      "text": "Today\nYour Goal\nReduce Symptoms\n1 unread finding\nActivity and bowel changes\nNew\nPossible Connection\nDairy meals and bloating\nReviewed\nDeveloping Pattern",
+      "theme": "dark",
+      "unreadRows": [
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "Activity and bowel changes. New, unread. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "label": "Dairy meals and bloating. Reviewed. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "false"
+        }
+      ],
+      "unrendered": 0
+    },
+    {
+      "fonts": "loaded",
+      "icons": 10,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179,
+        "x": 0,
+        "y": 0
+      },
+      "ready": true,
+      "scene": "unread-list",
+      "scroll": 0,
+      "text": "Today\nUnread Insights\n4 findings to explore\nDairy meals and bloating\nNew\nReduce Symptoms · Improved Digestion\nActivity and bowel changes\nNew\nReduce Symptoms · Improved Digestion · Be More Active\nLess activity after poor sleep\nNew\nImproved Sleep\nHigher energy on active days\nUpdated\nMore Energy",
+      "theme": "light",
+      "unreadRows": [
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "Dairy meals and bloating. New, unread. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "Activity and bowel changes. New, unread. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "Less activity after poor sleep. New, unread. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(118, 183, 165)",
+          "label": "Higher energy on active days. Updated, unread. Open finding.",
+          "text": "rgb(25, 45, 56)",
+          "unread": "true"
+        }
+      ],
+      "unrendered": 0
+    },
+    {
+      "fonts": "loaded",
+      "icons": 10,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179,
+        "x": 0,
+        "y": 0
+      },
+      "ready": true,
+      "scene": "unread-list",
+      "scroll": 0,
+      "text": "Today\nUnread Insights\n4 findings to explore\nDairy meals and bloating\nNew\nReduce Symptoms · Improved Digestion\nActivity and bowel changes\nNew\nReduce Symptoms · Improved Digestion · Be More Active\nLess activity after poor sleep\nNew\nImproved Sleep\nHigher energy on active days\nUpdated\nMore Energy",
+      "theme": "dark",
+      "unreadRows": [
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "Dairy meals and bloating. New, unread. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "Activity and bowel changes. New, unread. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "Less activity after poor sleep. New, unread. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        },
+        {
+          "background": "rgb(38, 76, 75)",
+          "label": "Higher energy on active days. Updated, unread. Open finding.",
+          "text": "rgb(250, 248, 244)",
+          "unread": "true"
+        }
+      ],
+      "unrendered": 0
+    },
+    {
+      "fonts": "loaded",
+      "icons": 7,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179,
+        "x": 0,
+        "y": 0
+      },
+      "ready": true,
+      "scene": "updated-finding",
+      "scroll": 0,
+      "text": "Today\nMore Energy\nHigher energy on active days\nDeveloping Pattern\n\nYour energy ratings were higher on days with activity recorded.\n\nWhat changed\n\nEarlier records were mixed. Recent records show a more consistent relationship between recorded activity and higher energy ratings.\n\nExplore the evidence\nEnergy findings stay on this device.",
+      "theme": "light",
+      "unreadRows": [],
+      "unrendered": 0
+    },
+    {
+      "fonts": "loaded",
+      "icons": 7,
+      "images": true,
+      "overflow": false,
+      "phone": {
+        "height": 2556,
+        "width": 1179,
+        "x": 0,
+        "y": 0
+      },
+      "ready": true,
+      "scene": "updated-finding",
+      "scroll": 0,
+      "text": "Today\nMore Energy\nHigher energy on active days\nDeveloping Pattern\n\nYour energy ratings were higher on days with activity recorded.\n\nWhat changed\n\nEarlier records were mixed. Recent records show a more consistent relationship between recorded activity and higher energy ratings.\n\nExplore the evidence\nEnergy findings stay on this device.",
+      "theme": "dark",
+      "unreadRows": [],
+      "unrendered": 0
+    }
+  ]
+}

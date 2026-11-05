@@ -8,6 +8,8 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / 'docs/assets/app/insights-presentation'
+if (ASSETS / 'today-overview-2026-11-05/references.json').exists():
+    raise SystemExit('The November 5 Today package owns the current gallery. Use tooling/package-today-insights-reference.py; retain this packager for the historical October 27 package.')
 REF = ASSETS / 'connections-first-2026-10-27'
 SCENES = json.loads((ROOT / 'tooling/insights-connections-reference/scenes.json').read_text())
 CAPTURE = json.loads((REF / 'capture-observations.json').read_text())

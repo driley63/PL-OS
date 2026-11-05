@@ -6,6 +6,13 @@ The format follows Keep a Changelog conventions and the project uses semantic ve
 
 ## [Unreleased]
 
+### Approved Today Insights overview — November 5
+
+- Replaces the single Today finding with one compact card covering all selected fixed goals, placed after care context and before routine plan content. Brief previews show what is worth opening; full evidence stays in Insights.
+- Defines distinct unread counts, New/Updated cues, individual meaningful-revision review, shared-finding deduplication, partial/all-reviewed transitions and honest no-finding states. Adds current-source capability notes without treating fixtures as implemented behavior.
+- Adds 14 high-resolution app-only references across seven light/dark scenes, scoped unread roles using existing palette values, contrast checks, capture provenance and a combined reference gallery. Archives the superseded Today reference and retains the other dated Insights/evidence views.
+- Records ADR-0019/RFC-0013 and synchronized product, design and evidence guidance. The design and detailed documentation are approved after local review. No native app implementation or publication is included.
+
 ### Shared component color registration
 
 - Registers the approved icon/relationship backgrounds, AI backgrounds and decorative divider as three shared light/dark component roles. Generates CSS/Flutter exports, synchronizes downloadable brand-kit copies, and binds Insights/Preferences references to the central registry without changing their rendered colors.

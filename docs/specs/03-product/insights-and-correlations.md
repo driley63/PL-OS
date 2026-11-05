@@ -3,7 +3,7 @@
 Status: Approved for PL-OS v2.6.0
 Owner: Product Working Group
 Version: 2.6.0
-Last updated: 2026-10-27
+Last updated: 2026-11-05
 Presentation amendment: Approved; unreleased implementation contract in Insights Presentation
 
 ## Purpose
@@ -94,11 +94,15 @@ Every interpretive insight should answer:
 
 ## Approved presentation hierarchy
 
-The [Insights Presentation specification](insights-presentation.md) governs the next Today and Insights implementation. Lead with potential habit/symptom or wellbeing relationships and short context under the fixed-goal **Filter Insights** row; put period counts and full evidence in details. Chips filter the overview; **Explore more about [Goal Name]** opens goal details. One relationship can serve several goals without being several discoveries. Evaluated maturity and distinct-period recurrence follow the approved [capability scope](insights-findings-capabilities.md); unassessed references use Possible Connection. Current domain-based plans retain automatic statuses and outlined management buttons. AI Review and contextual chat remain optional with existing exclusions. Paired high-fidelity light/dark references and detailed acceptance criteria define the design; this documentation amendment is approved for publication, with native app implementation pending.
+The [Insights Presentation specification](insights-presentation.md) governs the next Today and Insights implementation. The November 5 Today amendment places one compact Insights card after care context and before the plan, with all selected goals, concise previews, distinct no-finding states and strong unread cues. Counts deduplicate shared relationships; only opening an actual finding reviews its meaningful revision. Lists and routine evidence refreshes do not clear or create unread state. The detailed source audit separates existing capabilities from remaining implementation work.
+
+On the Insights overview, lead with potential habit/symptom or wellbeing relationships and short context under the fixed-goal **Filter Insights** row; put period counts and full evidence in details. Chips filter the overview; **Explore more about [Goal Name]** opens goal details. One relationship can serve several goals without being several discoveries. Evaluated maturity and distinct-period recurrence follow the approved [capability scope](insights-findings-capabilities.md); unassessed references use Possible Connection. Current domain-based plans retain automatic statuses and outlined management buttons. AI Review and contextual chat remain optional with existing exclusions. Paired high-fidelity light/dark references and detailed acceptance criteria define the design; the October 27 amendment was approved for publication; the November 5 detailed documentation is approved after local review, with publication and native implementation pending.
 
 Keep source, analyzed period and material uncertainty visible in brief summaries. Detailed evidence may expand; required care context may not be hidden. The optional explanation and chat entry do not change local finding authorship. All metrics derive from actual state; screenshot fixtures define no clinical thresholds. Implementation and native verification are pending.
 
 ## Version History
+
+- 2026-11-05: Adds the approved compact Today overview and meaningful per-finding review contract; detailed documentation approved after local review.
 
 - 2026-10-27: Integrates the approved fixed-goal journey, automatic plan tracking, AI review/chat, and full-resolution paired references; local review before release.
 

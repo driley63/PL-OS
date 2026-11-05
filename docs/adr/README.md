@@ -4,6 +4,8 @@ ADRs are permanent records of important PL-OS decisions (historically LIQ OS). T
 
 ## Index
 
+- [ADR-0019: Adopt the compact Today Insights overview](0019-adopt-today-insights-overview.md) — approved all-selected-goal card, meaningful unread/review states and paired themes; detailed documentation approved after local review.
+
 - ADR-0001: Adopt LifestyleIQ as the product name
 - ADR-0002: Establish the brand philosophy
 - ADR-0003: Reserve purple for AI-generated insights

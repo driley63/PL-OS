@@ -3,7 +3,7 @@
 Status: Released
 Owner: Design System Working Group
 Version: 1.5.0
-Last updated: 2026-10-27
+Last updated: 2026-11-05
 Presentation amendment: Approved; unreleased implementation contract in Insights Presentation
 
 ## Purpose
@@ -85,7 +85,7 @@ Disclosed content must not be the only place for:
 
 ## Presentation integration
 
-Apply the approved [Insights Presentation](../03-product/insights-presentation.md) contract, refined October 27, to Today, fixed-goal summaries, selected-goal comparisons, connection evidence, AI Review, and contextual chat. Preserve material limitations and care notices outside optional disclosures. Local findings remain available when AI is off or unavailable; AI attribution applies to the explanation only. Plan checkmarks indicate automatically derived record completeness, not manual task completion or a health outcome. AI Review leads with up to three linked takeaways; fuller explanation and context scope expand on demand. Implementation is pending.
+Apply the approved [Insights Presentation](../03-product/insights-presentation.md) contract, amended November 5, to Today, fixed-goal summaries, selected-goal comparisons, connection evidence, AI Review, and contextual chat. Preserve material limitations and care notices outside optional disclosures. Local findings remain available when AI is off or unavailable; AI attribution applies to the explanation only. Plan checkmarks indicate automatically derived record completeness, not manual task completion or a health outcome. AI Review leads with up to three linked takeaways; fuller explanation and context scope expand on demand. Implementation is pending.
 
 ## References
 
@@ -99,3 +99,10 @@ Apply the approved [Insights Presentation](../03-product/insights-presentation.m
 ## Version History
 
 - v1.5.0: Adds progress, loading, stepper, skeleton, and disclosure standards.
+
+
+## Today overview and review state — November 5
+
+Today uses one compact Insights card with every selected fixed goal, a useful short preview or honest no-finding state, and explicit unread cues. Full evidence remains in Insights. Only successfully opening an actual finding reviews its displayed meaningful revision; a goal list, overview, or raw evidence refresh is not a review/update event. Shared findings have one identity and review state across goals. Updated explains a substantive change; it is not a maturity grade or an AI-confidence label.
+
+No clear pattern yet requires a successful, adequately covered assessment. A specific missing-input request requires a known gap; otherwise show Gathering context or the appropriate pending/failure state. Missing symptom logs are unknown. All reviewed describes reading state only. Existing care, material limitations, local-only domains and consent remain in force. See the detailed [Today contract](../03-product/insights-presentation.md#today-insight-region) and [source audit](../03-product/insights-findings-capabilities.md#november-5-source-audit-and-today-contracts). The design and detailed documentation are approved after local review; publication remains separate.

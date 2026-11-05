@@ -187,6 +187,7 @@ nav:
       - ADR-0016: adr/0016-adopt-wearable-visuals.md
       - ADR-0017: adr/0017-adopt-goal-led-insights-presentation.md
       - ADR-0018: adr/0018-adopt-preferences-section-hub.md
+      - ADR-0019: adr/0019-adopt-today-insights-overview.md
   - RFCs:
       - Overview: rfc/README.md
       - Capture Widget Visuals: rfc/0007-capture-widget-visuals.md
@@ -195,6 +196,7 @@ nav:
       - Wearable Visuals: rfc/0010-wearable-visuals.md
       - Goal-Led Insights: rfc/0011-goal-led-insights-presentation.md
       - Preferences Organization: rfc/0012-preferences-organization.md
+      - Today Insights Overview: rfc/0013-today-insights-overview.md
   - Playbook:
       - Overview: playbook/README.md
   - Releases:

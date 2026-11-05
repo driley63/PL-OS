@@ -4,6 +4,9 @@ Status: Connection-led design and capability scope accepted; documentation appro
 Owner: Product, Design System, and AI Working Groups
 Date: 2026-10-27
 
+
+**November 5 amendment:** [RFC-0013](0013-today-insights-overview.md) supersedes the single-finding Today highlight, plan-first placement and raw-evidence-version review rule. The October 27 text below remains the historical decision. The current presentation specification governs exact goal labels, all-goal Today rows and meaningful-revision review. The broader Insights, evidence, AI and plan scope remains in effect.
+
 ## Problem and approved proposal
 
 Today and Insights expose too much narrative before users can understand what their records show. Earlier exploration also separated findings by log type and introduced custom-goal labels that do not match the app's fixed goal catalog. The owner requested a new approach based on the running app, reviewed the complete journey in both themes, and approved the detailed PL-OS specification after local review.

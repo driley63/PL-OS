@@ -1,0 +1,32 @@
+{
+  "unreadBackground": {
+    "light": "#76B7A5",
+    "dark": "#264C4B",
+    "source": "primitive.jade / dark.selected"
+  },
+  "unreadForeground": {
+    "light": "#192D38",
+    "dark": "#FAF8F4",
+    "source": "primitive.ink / neutral.background"
+  },
+  "unreadMarker": {
+    "light": "#264C4B",
+    "dark": "#76B7A5",
+    "source": "dark.selected / primitive.jade"
+  },
+  "unreadIcon": {
+    "light": "#264C4B",
+    "dark": "#8DC7B7",
+    "source": "dark.selected / dark.link"
+  },
+  "unreadBadgeBackground": {
+    "light": "#264C4B",
+    "dark": "#76B7A5",
+    "source": "dark.selected / primitive.jade"
+  },
+  "unreadBadgeForeground": {
+    "light": "#FAF8F4",
+    "dark": "#192D38",
+    "source": "neutral.background / primitive.ink"
+  }
+}

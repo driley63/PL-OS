@@ -5,6 +5,9 @@ Date: 2026-10-27
 Owner: Product, Design System, and AI Working Groups
 Proposal: [RFC-0011](../rfc/0011-goal-led-insights-presentation.md)
 
+
+**November 5 amendment:** [ADR-0019](0019-adopt-today-insights-overview.md) supersedes the single-finding Today highlight, plan-first placement and raw-evidence-version review rule. The October 27 text below remains the historical decision. The current presentation specification governs exact goal labels, all-goal Today rows and meaningful-revision review. The broader Insights, evidence, AI and plan scope remains in effect.
+
 ## Context
 
 The owner approved the redesigned Today and Insights journey after reviewing the existing app, light and dark mockups, meaningful goal iconography, automatically tracked plan statuses, button treatment, and consistent card navigation. The previous October 25 studies no longer represent the approved information architecture.
